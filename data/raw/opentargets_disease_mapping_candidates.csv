@@ -1,0 +1,166 @@
+local_disease,rank,open_targets_id,open_targets_name
+AIDS,1.0,MONDO_0012268,AIDS
+AIDS,2.0,MONDO_0005639,AIDS related complex
+AIDS,3.0,EFO_0009720,able to hear with hearing aids
+AIDS,4.0,EFO_1001365,"Lymphoma, AIDS-Related"
+AIDS,5.0,MONDO_0020689,AIDS dementia complex
+Acne,1.0,MONDO_0011438,acne
+Acne,2.0,MONDO_0007728,"acne inversa, familial, 1"
+Acne,3.0,MONDO_0013398,"acne inversa, familial, 3"
+Acne,4.0,MONDO_0006521,acneiform dermatitis
+Acne,5.0,MONDO_0006604,rosacea
+Alcoholic Hepatitis,1.0,MONDO_0001505,alcoholic hepatitis
+Allergy,1.0,HP_0012393,Allergy
+Allergy,2.0,MONDO_0005271,allergic disease
+Allergy,3.0,EFO_0007008,allergy measurement
+Allergy,4.0,EFO_0007248,egg allergy
+Allergy,5.0,EFO_0007016,food allergy measurement
+Arthritis,1.0,HP_0001369,Arthritis
+Arthritis,2.0,MONDO_0005578,arthritic joint disease
+Arthritis,3.0,MONDO_0011429,juvenile idiopathic arthritis
+Arthritis,4.0,MONDO_0019437,enthesitis-related juvenile idiopathic arthritis
+Arthritis,5.0,EFO_0009460,ACPA-negative rheumatoid arthritis
+Bronchial Asthma,1.0,MONDO_0004979,asthma
+Bronchial Asthma,2.0,MONDO_0004784,allergic asthma
+Bronchial Asthma,3.0,MONDO_0005405,childhood onset asthma
+Bronchial Asthma,4.0,EFO_0010049,asthma symptoms measurement
+Bronchial Asthma,5.0,EFO_0007614,asthma exacerbation measurement
+Cervical Spondylosis,1.0,MONDO_0008481,"spondylosis, cervical"
+Cervical Spondylosis,2.0,EFO_1001846,Spinal Osteophytosis
+Chickenpox,1.0,MONDO_0005700,chickenpox
+Chickenpox,2.0,MONDO_0009595,cartilage-hair hypoplasia
+Chickenpox,3.0,EFO_0008400,susceptibility to chickenpox measurement
+Chronic Cholestasis,1.0,MONDO_0019008,benign recurrent intrahepatic cholestasis
+Chronic Cholestasis,2.0,Orphanet_1414,Cholestasis-lymphedema syndrome
+Chronic Cholestasis,3.0,MONDO_0008966,Aagenaes syndrome
+Chronic Cholestasis,4.0,MONDO_0030360,"cholestasis, progressive familial intrahepatic, 6"
+Chronic Cholestasis,5.0,MONDO_0030800,"cholestasis, progressive familial intrahepatic, 9"
+Common Cold,1.0,MONDO_0005709,common cold
+Common Cold,2.0,MONDO_0013766,familial cold autoinflammatory syndrome 3
+Common Cold,3.0,MONDO_0018768,familial cold autoinflammatory syndrome
+Common Cold,4.0,MONDO_0016450,"autoimmune hemolytic anemia, cold type"
+Common Cold,5.0,EFO_0006997,response to cold medicine
+Dengue,1.0,MONDO_0005502,dengue disease
+Dengue,2.0,MONDO_0005358,Dengue hemorrhagic fever
+Dengue,3.0,EFO_0802152,transmembrane protein 132C measurement
+Dengue,4.0,EFO_0801935,protein C-ets-2 measurement
+Dengue,5.0,EFO_0802585,guanine deaminase measurement
+Diabetes,1.0,MONDO_0005015,diabetes mellitus
+Diabetes,2.0,MONDO_0005148,type 2 diabetes mellitus
+Diabetes,3.0,MONDO_0012480,"diabetes mellitus, transient neonatal, 2"
+Diabetes,4.0,MONDO_0007450,neurohypophyseal diabetes insipidus
+Diabetes,5.0,MONDO_0011668,maturity-onset diabetes of the young type 6
+Dimorphic Hemmorhoids (piles),,,
+Drug Reaction,1.0,MONDO_0005594,severe cutaneous adverse reaction
+Drug Reaction,2.0,MONDO_0019535,drug-induced autoimmune hemolytic anemia
+Drug Reaction,3.0,EFO_0008607,drug-induced pemphigus
+Drug Reaction,4.0,MONDO_0000775,drug allergy
+Drug Reaction,5.0,EFO_1002004,drug hypersensitivity syndrome
+Fungal Infection,1.0,MONDO_0002041,fungal infectious disease
+Fungal Infection,2.0,MONDO_0020944,fungal infection of eye
+Fungal Infection,3.0,MONDO_0005766,fungal lung infectious disease
+Fungal Infection,4.0,MONDO_0021201,skin infection
+Fungal Infection,5.0,MONDO_0006764,fungal meningitis
+GERD,1.0,MONDO_0007186,gastroesophageal reflux disease
+Gastroenteritis,1.0,MONDO_0002269,gastroenteritis
+Gastroenteritis,2.0,MONDO_0016129,eosinophilic gastroenteritis
+Gastroenteritis,3.0,MONDO_0005950,Salmonella gastroenteritis
+Gastroenteritis,4.0,MONDO_0005658,Astroviridae infectious disease
+Gastroenteritis,5.0,MONDO_0011614,3-hydroxy-3-methylglutaryl-CoA synthase deficiency
+Heart Attack,1.0,MONDO_0005068,myocardial infarction
+Heart Attack,2.0,EFO_0003046,heart transplant rejection
+Heart Attack,3.0,MONDO_0006955,rheumatic heart disease
+Heart Attack,4.0,MONDO_0019100,neuromyelitis optica
+Heart Attack,5.0,HP_0001700,Myocardial necrosis
+Hepatitis A,1.0,MONDO_0005790,hepatitis A virus infection
+Hepatitis B,1.0,MONDO_0005344,hepatitis B virus infection
+Hepatitis C,,,
+Hepatitis D,1.0,MONDO_0005789,hepatitis D virus infection
+Hepatitis E,,,
+Hypertension,1.0,HP_0000822,Hypertension
+Hypertension,2.0,MONDO_0005044,hypertensive disorder
+Hypertension,3.0,MONDO_0007781,"essential hypertension, genetic"
+Hypertension,4.0,MONDO_0015924,pulmonary arterial hypertension
+Hypertension,5.0,MONDO_0001134,essential hypertension
+Hyperthyroidism,1.0,MONDO_0004425,hyperthyroidism
+Hyperthyroidism,2.0,MONDO_1060200,primary hyperthyroidism
+Hyperthyroidism,3.0,MONDO_0012203,familial hyperthyroidism due to mutations in TSH receptor
+Hyperthyroidism,4.0,MONDO_1060201,secondary hyperthyroidism
+Hyperthyroidism,5.0,MONDO_0011309,familial gestational hyperthyroidism
+Hypoglycemia,1.0,HP_0001943,Hypoglycemia
+Hypoglycemia,2.0,MONDO_0011153,"hyperinsulinemic hypoglycemia, familial, 2"
+Hypoglycemia,3.0,EFO_0006856,leucine-induced hypoglycemia
+Hypoglycemia,4.0,MONDO_0009734,"hyperinsulinemic hypoglycemia, familial, 1"
+Hypoglycemia,5.0,MONDO_0012382,"hyperinsulinemic hypoglycemia, familial, 4"
+Hypothyroidism,1.0,MONDO_0005420,hypothyroidism
+Hypothyroidism,2.0,MONDO_0016410,central congenital hypothyroidism
+Hypothyroidism,3.0,MONDO_0010142,hypothyroidism due to TSH receptor mutations
+Hypothyroidism,4.0,MONDO_0016408,permanent congenital hypothyroidism
+Hypothyroidism,5.0,Orphanet_95711,Congenital hypothyroidism due to developmental anomaly
+Impetigo,1.0,EFO_1000714,impetigo
+Impetigo,2.0,EFO_1000715,impetigo herpetiformis
+Impetigo,3.0,MONDO_0021201,skin infection
+Impetigo,4.0,EFO_1001489,skin and soft tissue Staphylococcus aureus infection
+Impetigo,5.0,EFO_1000689,ecthyma
+Jaundice,1.0,HP_0000952,Jaundice
+Jaundice,2.0,HP_0006579,Prolonged neonatal jaundice
+Jaundice,3.0,MONDO_0006874,obstructive jaundice
+Jaundice,4.0,HP_0006575,Intrahepatic cholestasis with episodic jaundice
+Jaundice,5.0,EFO_1000739,neonatal jaundice
+Malaria,1.0,MONDO_0005136,malaria
+Malaria,2.0,MONDO_0005920,Plasmodium falciparum malaria
+Malaria,3.0,MONDO_0005921,Plasmodium vivax malaria
+Malaria,4.0,EFO_0010970,severe malarial anemia
+Malaria,5.0,MONDO_0005625,cerebral malaria
+Migraine,1.0,MONDO_0005277,migraine disorder
+Migraine,2.0,MONDO_0018925,familial or sporadic hemiplegic migraine
+Migraine,3.0,MONDO_0100539,hemiplegic migraine-developmental and epileptic encephalopathy spectrum
+Migraine,4.0,OBA_2001027,age of onset of migraine with aura
+Migraine,5.0,OBA_2001026,age of onset of migraine disorder
+Osteoarthritis,1.0,MONDO_0005178,osteoarthritis
+Osteoarthritis,2.0,MONDO_0006632,"osteoarthritis, hand"
+Osteoarthritis,3.0,EFO_0007942,hip osteoarthritis symptom severity measurement
+Osteoarthritis,4.0,EFO_0005890,osteoarthritis biomarker measurement
+Osteoarthritis,5.0,MONDO_0011496,mild spondyloepiphyseal dysplasia due to COL2A1 mutation with early-onset osteoarthritis
+Paralysis (brain hemorrhage),1.0,MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies
+Paralysis (brain hemorrhage),2.0,MONDO_0975837,"neurodegeneration, infantile-onset, with optic atrophy and brain abnormalities"
+Paralysis (brain hemorrhage),3.0,MONDO_0031037,famililal cerebral cavernous malformations
+Paralysis (brain hemorrhage),4.0,MONDO_0010161,tyrosinemia type I
+Paralysis (brain hemorrhage),5.0,Orphanet_882,Tyrosinemia type 1
+Peptic Ulcer Disease,1.0,MONDO_0004247,peptic ulcer disease
+Peptic Ulcer Disease,2.0,EFO_0009923,Peptic ulcer and gastro-oesophageal reflux disease (GORD) drug use measurement
+Peptic Ulcer Disease,3.0,MONDO_0001126,gastric ulcer
+Peptic Ulcer Disease,4.0,MONDO_0006781,Helicobacter pylori infectious disease
+Peptic Ulcer Disease,5.0,MONDO_0019610,Zollinger-Ellison syndrome
+Pneumonia,1.0,MONDO_0005249,pneumonia
+Pneumonia,2.0,MONDO_0005867,Mycoplasma pneumoniae pneumonia
+Pneumonia,3.0,MONDO_0004652,bacterial pneumonia
+Pneumonia,4.0,MONDO_0015264,cryptogenic organizing pneumonia
+Pneumonia,5.0,MONDO_0005749,eosinophilic pneumonia
+Psoriasis,1.0,MONDO_0005083,psoriasis
+Psoriasis,2.0,HP_0003765,Psoriasiform dermatitis
+Psoriasis,3.0,EFO_1001494,psoriasis vulgaris
+Psoriasis,4.0,MONDO_0100491,generalized pustular psoriasis
+Psoriasis,5.0,MONDO_0013626,"psoriasis 14, pustular"
+Tuberculosis,1.0,MONDO_0018076,tuberculosis
+Tuberculosis,2.0,MONDO_0006052,pulmonary tuberculosis
+Tuberculosis,3.0,MONDO_0005848,miliary tuberculosis
+Tuberculosis,4.0,MONDO_0005768,gastrointestinal tuberculosis
+Tuberculosis,5.0,MONDO_0041806,drug-resistant tuberculosis
+Typhoid,1.0,MONDO_0005619,typhoid fever
+Typhoid,2.0,MONDO_0018626,paratyphoid fever
+Urinary Tract Infection,1.0,MONDO_0100338,urinary tract infection
+Urinary Tract Infection,2.0,MONDO_0005247,bacterial urinary tract infection
+Urinary Tract Infection,3.0,HP_0000010,Recurrent urinary tract infections
+Urinary Tract Infection,4.0,OBA_2045258,susceptibility to urinary tract infection
+Urinary Tract Infection,5.0,MONDO_0008630,"urinary bladder, atony of"
+Varicose Veins,1.0,HP_0002619,Varicose veins
+Varicose Veins,2.0,MONDO_0008638,varicose disease
+Varicose Veins,3.0,MONDO_0001221,esophageal varices
+Varicose Veins,4.0,MONDO_0001498,varicocele
+Varicose Veins,5.0,MONDO_0010748,torticollis-keloids-cryptorchidism-renal dysplasia syndrome
+Vertigo,1.0,HP_0002321,Vertigo
+Vertigo,2.0,MONDO_0002317,central nervous system origin vertigo
+Vertigo,3.0,MONDO_0004900,peripheral vertigo
+Vertigo,4.0,MONDO_0007972,Meniere disease
+Vertigo,5.0,MONDO_0011682,episodic ataxia type 3
