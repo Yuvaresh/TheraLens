@@ -1,0 +1,35 @@
+
+===============================================================================
+THERALENS DATA PIPELINE — VALIDATION & DATA QUALITY REPORT
+===============================================================================
+
+1. FDA TIMELINE RECORDS PROCESSED:
+   - Total FDA Records Processed:     12243
+   - Unique Active Ingredients:       3142
+   - Duplicate Approval Records:      0
+   - Missing First Approval Years:    749
+
+2. CHEMBL MOLECULE MATCHING RESULTS:
+   - Successful ChEMBL Matches:       3059 (97.4%)
+   - Multiple ChEMBL Candidates:      0
+   - Unmatched Active Ingredients:    83
+   - Total Unique ChEMBL Molecule IDs: 2589
+
+3. CHEMBL DRUG INDICATIONS DATASET:
+   - Total Indication Records:        30663
+   - Unique Indication Molecules:     2190
+
+4. FINAL THERAPEUTIC DEVELOPMENT TIMELINE:
+   - Total Disease-Indication Records: 555323
+   - Unique Disease/Indication Terms:  2378
+   - Missing Disease Identifiers:     0
+
+5. PROCESSED OUTPUT FILES GENERATED:
+   - data\processed\fda_chembl_molecule_mapping.csv
+   - data\processed\chembl_drug_indications.csv
+   - data\processed\fda_chembl_match_audit.csv
+   - data\processed\therapeutic_development_timeline.csv
+
+===============================================================================
+DEFINITION: First approval year represents the 'historical therapeutic solution milestone'.
+===============================================================================
