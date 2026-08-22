@@ -1,0 +1,285 @@
+local_disease,disease_id,open_targets_disease_name,target_id,target_symbol,target_name,association_score
+AIDS,MONDO_0012268,AIDS,ENSG00000131747,TOP2A,DNA topoisomerase II alpha,0.4421509655948728
+AIDS,MONDO_0012268,AIDS,ENSG00000082175,PGR,progesterone receptor,0.3695798546847018
+AIDS,MONDO_0012268,AIDS,ENSG00000134460,IL2RA,interleukin 2 receptor subunit alpha,0.3432241637799659
+AIDS,MONDO_0012268,AIDS,ENSG00000147168,IL2RG,interleukin 2 receptor subunit gamma,0.3381113557057766
+AIDS,MONDO_0012268,AIDS,ENSG00000100385,IL2RB,interleukin 2 receptor subunit beta,0.337741775851092
+AIDS,MONDO_0012268,AIDS,ENSG00000196230,TUBB,tubulin beta class I,0.3304916519982572
+AIDS,MONDO_0012268,AIDS,ENSG00000167552,TUBA1A,tubulin alpha 1a,0.3297986897707234
+AIDS,MONDO_0012268,AIDS,ENSG00000101162,TUBB1,tubulin beta 1 class VI,0.3297986897707234
+AIDS,MONDO_0012268,AIDS,ENSG00000152086,TUBA3E,tubulin alpha 3e,0.3297986897707234
+AIDS,MONDO_0012268,AIDS,ENSG00000188229,TUBB4B,tubulin beta 4B class IVb,0.3297986897707234
+Acne,MONDO_0011438,acne,ENSG00000196611,MMP1,matrix metallopeptidase 1,0.6150188939317107
+Acne,MONDO_0011438,acne,ENSG00000091831,ESR1,estrogen receptor 1,0.6105452552312747
+Acne,MONDO_0011438,acne,ENSG00000172819,RARG,retinoic acid receptor gamma,0.6096416593313517
+Acne,MONDO_0011438,acne,ENSG00000131759,RARA,retinoic acid receptor alpha,0.6080936692192328
+Acne,MONDO_0011438,acne,ENSG00000077092,RARB,retinoic acid receptor beta,0.6066031331330752
+Acne,MONDO_0011438,acne,ENSG00000137745,MMP13,matrix metallopeptidase 13,0.604830158998537
+Acne,MONDO_0011438,acne,ENSG00000137673,MMP7,matrix metallopeptidase 7,0.6032183801878287
+Acne,MONDO_0011438,acne,ENSG00000118113,MMP8,matrix metallopeptidase 8,0.6032183801878287
+Acne,MONDO_0011438,acne,ENSG00000169083,AR,androgen receptor,0.5904704391873098
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000113580,NR3C1,nuclear receptor subfamily 3 group C member 1,0.4102015463197387
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000119535,CSF3R,colony stimulating factor 3 receptor,0.3582154976190552
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000170425,ADORA2B,adenosine A2b receptor,0.3483228533760866
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000065989,PDE4A,phosphodiesterase 4A,0.3470293238846902
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000123360,PDE1B,phosphodiesterase 1B,0.3464749541026632
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000156973,PDE6D,phosphodiesterase 6D,0.3464749541026632
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000171408,PDE7B,phosphodiesterase 7B,0.3464749541026632
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000112541,PDE10A,phosphodiesterase 10A,0.3464749541026632
+Alcoholic Hepatitis,MONDO_0001505,alcoholic hepatitis,ENSG00000115252,PDE1A,phosphodiesterase 1A,0.3464749541026632
+Allergy,HP_0012393,Allergy,ENSG00000196639,HRH1,histamine receptor H1,0.5319187815755084
+Allergy,HP_0012393,Allergy,ENSG00000143631,FLG,filaggrin,0.4382744602537976
+Allergy,HP_0012393,Allergy,ENSG00000169252,ADRB2,adrenoceptor beta 2,0.3802877636772311
+Allergy,HP_0012393,Allergy,ENSG00000171873,ADRA1D,adrenoceptor alpha 1D,0.3788193510518193
+Allergy,HP_0012393,Allergy,ENSG00000274286,ADRA2B,adrenoceptor alpha 2B,0.3788193510518193
+Allergy,HP_0012393,Allergy,ENSG00000043591,ADRB1,adrenoceptor beta 1,0.3788193510518193
+Allergy,HP_0012393,Allergy,ENSG00000188778,ADRB3,adrenoceptor beta 3,0.3788193510518193
+Allergy,HP_0012393,Allergy,ENSG00000184160,ADRA2C,adrenoceptor alpha 2C,0.3788193510518193
+Allergy,HP_0012393,Allergy,ENSG00000120907,ADRA1A,adrenoceptor alpha 1A,0.3788193510518193
+Allergy,HP_0012393,Allergy,ENSG00000150594,ADRA2A,adrenoceptor alpha 2A,0.3788193510518193
+Arthritis,HP_0001369,Arthritis,ENSG00000197891,SLC22A12,solute carrier family 22 member 12,0.789923151942447
+Arthritis,HP_0001369,Arthritis,ENSG00000105397,TYK2,tyrosine kinase 2,0.758265871442419
+Arthritis,HP_0001369,Arthritis,ENSG00000160712,IL6R,interleukin 6 receptor,0.750686288124584
+Arthritis,HP_0001369,Arthritis,ENSG00000113302,IL12B,interleukin 12B,0.7427270127967613
+Arthritis,HP_0001369,Arthritis,ENSG00000096968,JAK2,Janus kinase 2,0.7175827328780332
+Arthritis,HP_0001369,Arthritis,ENSG00000232810,TNF,tumor necrosis factor,0.7164103421734879
+Arthritis,HP_0001369,Arthritis,ENSG00000162434,JAK1,Janus kinase 1,0.7148219516611706
+Arthritis,HP_0001369,Arthritis,ENSG00000056972,TRAF3IP2,TRAF3 interacting protein 2,0.7109411203719518
+Arthritis,HP_0001369,Arthritis,ENSG00000118777,ABCG2,ATP binding cassette subfamily G member 2 (JR blood group),0.7085147791442334
+Arthritis,HP_0001369,Arthritis,ENSG00000112115,IL17A,interleukin 17A,0.7067095613397488
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000077238,IL4R,interleukin 4 receptor,0.743645092476791
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000163485,ADORA1,adenosine A1 receptor,0.7226049513464061
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000137033,IL33,interleukin 33,0.7213803928330167
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000145777,TSLP,thymic stromal lymphopoietin,0.7183914467397707
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000113525,IL5,interleukin 5,0.7105581617328595
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000169194,IL13,interleukin 13,0.6963094766469521
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000113448,PDE4D,phosphodiesterase 4D,0.6842517354699087
+Bronchial Asthma,MONDO_0004979,asthma,ENSG00000181072,CHRM2,cholinergic receptor muscarinic 2,0.6388104563077198
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000113722,CDX1,caudal type homeobox 1,0.0906862319163071
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000188095,MESP2,mesoderm posterior bHLH transcription factor 2,0.0876528369755988
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000125813,PAX1,paired box 1,0.0869415605296947
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000134686,PHC2,polyhomeotic homolog 2,0.0865346891528016
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000135903,PAX3,paired box 3,0.0840091429722922
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000158055,GRHL3,grainyhead like transcription factor 3,0.0826685263997983
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000077782,FGFR1,fibroblast growth factor receptor 1,0.0819892056130259
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000182742,HOXB4,homeobox B4,0.0779990481070686
+Cervical Spondylosis,MONDO_0008481,"spondylosis, cervical",ENSG00000128713,HOXD11,homeobox D11,0.0776453170161075
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000183032,SLC25A21,solute carrier family 25 member 21,0.1025833584722439
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000198807,PAX9,paired box 9,0.0360289128428784
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000102245,CD40LG,CD40 ligand,0.0323625430778729
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000163631,ALB,albumin,0.0267972086524802
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000136327,NKX2-8,NK2 homeobox 8,0.0239059845017354
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000010610,CD4,CD4 molecule,0.0209377014032763
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000211891,IGHE,immunoglobulin heavy constant epsilon,0.0201328616864511
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000153563,CD8A,CD8 subunit alpha,0.0200715250627413
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000105369,CD79A,CD79a molecule,0.0192760775896667
+Chickenpox,MONDO_0005700,chickenpox,ENSG00000111537,IFNG,interferon gamma,0.0188953848262688
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000073734,ABCB11,ATP binding cassette subfamily B member 11,0.8629402862440695
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000081923,ATP8B1,ATPase phospholipid transporting 8B1,0.82535974810262
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000119139,TJP2,tight junction protein 2,0.5274494827507483
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000125255,SLC10A2,solute carrier family 10 member 2,0.2756489956731758
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000005471,ABCB4,ATP binding cassette subfamily B member 4,0.1013568978414948
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000023839,ABCC2,ATP binding cassette subfamily C member 2,0.0979771890382861
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000140798,ABCC12,ATP binding cassette subfamily C member 12,0.0870382366797154
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000170927,PKHD1,PKHD1 ciliary IPT domain containing fibrocystin/polyductin,0.0852175263094711
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000164736,SOX17,SRY-box transcription factor 17,0.0831824092711224
+Chronic Cholestasis,MONDO_0019008,benign recurrent intrahepatic cholestasis,ENSG00000103876,FAH,fumarylacetoacetate hydrolase,0.0825681011044812
+Common Cold,MONDO_0005709,common cold,ENSG00000170214,ADRA1B,adrenoceptor alpha 1B,0.6045522171566023
+Common Cold,MONDO_0005709,common cold,ENSG00000095303,PTGS1,prostaglandin-endoperoxide synthase 1,0.6045329930735837
+Common Cold,MONDO_0005709,common cold,ENSG00000147955,SIGMAR1,sigma non-opioid intracellular receptor 1,0.6040236319519341
+Common Cold,MONDO_0005709,common cold,ENSG00000183454,GRIN2A,glutamate ionotropic receptor NMDA type subunit 2A,0.6040236319519341
+Common Cold,MONDO_0005709,common cold,ENSG00000073756,PTGS2,prostaglandin-endoperoxide synthase 2,0.6036603739722447
+Common Cold,MONDO_0005709,common cold,ENSG00000117480,FAAH,fatty acid amide hydrolase,0.6020459291808598
+Common Cold,MONDO_0005709,common cold,ENSG00000196689,TRPV1,transient receptor potential cation channel subfamily V member 1,0.6020459291808598
+Dengue,MONDO_0005502,dengue disease,ENSG00000118137,APOA1,apolipoprotein A1,0.58066719453917
+Dengue,MONDO_0005502,dengue disease,ENSG00000113249,HAVCR1,hepatitis A virus cellular receptor 1,0.5442191686570667
+Dengue,MONDO_0005502,dengue disease,ENSG00000065978,YBX1,Y-box binding protein 1,0.5409211817593593
+Dengue,MONDO_0005502,dengue disease,ENSG00000090659,CD209,CD209 molecule,0.5255245193445559
+Dengue,MONDO_0005502,dengue disease,ENSG00000184500,PROS1,protein S,0.5132923560491462
+Dengue,MONDO_0005502,dengue disease,ENSG00000044574,HSPA5,heat shock protein family A (Hsp70) member 5,0.5103358458138167
+Dengue,MONDO_0005502,dengue disease,ENSG00000026025,VIM,vimentin,0.5052364693346525
+Dengue,MONDO_0005502,dengue disease,ENSG00000183087,GAS6,growth arrest specific 6,0.5051181333367789
+Dengue,MONDO_0005502,dengue disease,ENSG00000109971,HSPA8,heat shock protein family A (Hsp70) member 8,0.5050257383731077
+Dengue,MONDO_0005502,dengue disease,ENSG00000134910,STT3A,STT3 oligosaccharyltransferase complex catalytic subunit A,0.5048871459276009
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000187486,KCNJ11,potassium inwardly rectifying channel subfamily J member 11,0.9250049356133636
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000006071,ABCC8,ATP binding cassette subfamily C member 8,0.920565965264698
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000106633,GCK,glucokinase,0.91969971027123
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000171105,INSR,insulin receptor,0.8981318281974141
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000135100,HNF1A,HNF1 homeobox A,0.890403187831652
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000254647,INS,insulin,0.8814190168213274
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000101076,HNF4A,hepatocyte nuclear factor 4 alpha,0.8808612021673886
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000275410,HNF1B,HNF1 homeobox B,0.8771249037569137
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000132170,PPARG,peroxisome proliferator activated receptor gamma,0.8602638274285969
+Diabetes,MONDO_0005015,diabetes mellitus,ENSG00000162992,NEUROD1,neuronal differentiation 1,0.8232932186583048
+Drug Reaction,MONDO_0005594,severe cutaneous adverse reaction,ENSG00000132639,SNAP25,synaptosome associated protein 25,0.203268920076586
+Drug Reaction,MONDO_0005594,severe cutaneous adverse reaction,ENSG00000159640,ACE,angiotensin I converting enzyme,0.1847899273423509
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000140718,FTO,FTO alpha-ketoglutarate dependent dioxygenase,0.5622984511161747
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000187796,CARD9,caspase recruitment domain family member 9,0.5201885364659619
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000167656,LY6D,lymphocyte antigen 6 family member D,0.503688904736844
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000151006,PRSS53,serine protease 53,0.5004919326557009
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000138821,SLC39A8,solute carrier family 39 member 8,0.4919581460565778
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000148737,TCF7L2,transcription factor 7 like 2,0.475413004498829
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000228716,DHFR,dihydrofolate reductase,0.4662858379327259
+Fungal Infection,MONDO_0002041,fungal infectious disease,ENSG00000134249,ADAM30,ADAM metallopeptidase domain 30,0.4486454498785697
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000105675,ATP4A,ATPase H+/K+ transporting subunit alpha,0.6098649233248105
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000186009,ATP4B,ATPase H+/K+ transporting subunit beta,0.607662261902236
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000113749,HRH2,histamine receptor H2,0.5807300606666647
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000130203,APOE,apolipoprotein E,0.5326260514224935
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000117594,HSD11B1,hydroxysteroid 11-beta dehydrogenase 1,0.5030392466541774
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000176387,HSD11B2,hydroxysteroid 11-beta dehydrogenase 2,0.5030392466541774
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000184588,PDE4B,phosphodiesterase 4B,0.496016090559556
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000149294,NCAM1,neural cell adhesion molecule 1,0.4950316158892167
+GERD,MONDO_0007186,gastroesophageal reflux disease,ENSG00000111252,SH2B3,SH2B adaptor protein 3,0.489844392997583
+Gastroenteritis,MONDO_0002269,gastroenteritis,ENSG00000105639,JAK3,Janus kinase 3,0.6529338667327133
+Gastroenteritis,MONDO_0002269,gastroenteritis,ENSG00000110944,IL23A,interleukin 23 subunit alpha,0.6237289044340486
+Gastroenteritis,MONDO_0002269,gastroenteritis,ENSG00000012779,ALOX5,arachidonate 5-lipoxygenase,0.6142858514503942
+Heart Attack,MONDO_0005068,myocardial infarction,ENSG00000164116,GUCY1A1,guanylate cyclase 1 soluble subunit alpha 1,0.6947257008201548
+Heart Attack,MONDO_0005068,myocardial infarction,ENSG00000130164,LDLR,low density lipoprotein receptor,0.6893673194111676
+Heart Attack,MONDO_0005068,myocardial infarction,ENSG00000169174,PCSK9,proprotein convertase subtilisin/kexin type 9,0.6698456077077791
+Heart Attack,MONDO_0005068,myocardial infarction,ENSG00000169313,P2RY12,purinergic receptor P2Y12,0.6199304562079931
+Heart Attack,MONDO_0005068,myocardial infarction,ENSG00000144891,AGTR1,angiotensin II receptor type 1,0.6165385053207586
+Heart Attack,MONDO_0005068,myocardial infarction,ENSG00000113161,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,0.6155378604491625
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000284883,KRT88P,"keratin 88, pseudogene",0.0934235267328777
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000188389,PDCD1,programmed cell death 1,0.0899260870775588
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000136244,IL6,interleukin 6,0.0875435828506625
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000130649,CYP2E1,cytochrome P450 family 2 subfamily E member 1,0.0854877801147947
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000137462,TLR2,toll like receptor 2,0.082608343325609
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000271503,CCL5,C-C motif chemokine ligand 5,0.0822673990446222
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000131981,LGALS3,galectin 3,0.0811694297349979
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000025434,NR1H3,nuclear receptor subfamily 1 group H member 3,0.080256100773313
+Hepatitis A,MONDO_0005790,hepatitis A virus infection,ENSG00000111057,KRT18,keratin 18,0.0780206069936462
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000159110,IFNAR2,interferon alpha and beta receptor subunit 2,0.6098939570646336
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000142166,IFNAR1,interferon alpha and beta receptor subunit 1,0.6074027350313399
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000096433,ITPR3,"inositol 1,4,5-trisphosphate receptor type 3",0.4111351752481426
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000106348,IMPDH1,inosine monophosphate dehydrogenase 1,0.3867877881312903
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000101017,CD40,CD40 molecule,0.3659110710936225
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000106258,CYP3A5,cytochrome P450 family 3 subfamily A member 5,0.3589003645346328
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000160868,CYP3A4,cytochrome P450 family 3 subfamily A member 4,0.3564467649438093
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000021461,CYP3A43,cytochrome P450 family 3 subfamily A member 43,0.3557127382879773
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000160870,CYP3A7,cytochrome P450 family 3 subfamily A member 7,0.3557127382879773
+Hepatitis B,MONDO_0005344,hepatitis B virus infection,ENSG00000113805,CNTN3,contactin 3,0.3275162801986501
+Hepatitis D,MONDO_0005789,hepatitis D virus infection,ENSG00000100652,SLC10A1,solute carrier family 10 member 1,0.4761751790741804
+Hepatitis D,MONDO_0005789,hepatitis D virus infection,ENSG00000257365,FNTB,"farnesyltransferase, CAAX box, subunit beta",0.2929741636942227
+Hepatitis D,MONDO_0005789,hepatitis D virus infection,ENSG00000168522,FNTA,"farnesyltransferase, CAAX box, subunit alpha",0.2929741636942227
+Hepatitis D,MONDO_0005789,hepatitis D virus infection,ENSG00000185436,IFNLR1,interferon lambda receptor 1,0.0923949636711754
+Hypertension,HP_0000822,Hypertension,ENSG00000143839,REN,renin,0.6195825017360677
+Hypertension,HP_0000822,Hypertension,ENSG00000151067,CACNA1C,calcium voltage-gated channel subunit alpha1 C,0.6184133488447853
+Hypertension,HP_0000822,Hypertension,ENSG00000070915,SLC12A3,solute carrier family 12 member 3,0.6149057153547344
+Hypertension,HP_0000822,Hypertension,ENSG00000157388,CACNA1D,calcium voltage-gated channel subunit alpha1 D,0.6088449222536187
+Hypertension,HP_0000822,Hypertension,ENSG00000081248,CACNA1S,calcium voltage-gated channel subunit alpha1 S,0.6047469733880507
+Hypertension,HP_0000822,Hypertension,ENSG00000102001,CACNA1F,calcium voltage-gated channel subunit alpha1 F,0.6036228346633848
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000165409,TSHR,thyroid stimulating hormone receptor,0.8618243106284151
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000151090,THRB,thyroid hormone receptor beta,0.8444909588122892
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000125618,PAX8,paired box 8,0.6270038966879307
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000115705,TPO,thyroid peroxidase,0.609015173031838
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000163599,CTLA4,cytotoxic T-lymphocyte associated protein 4,0.5908791992532096
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000140443,IGF1R,insulin like growth factor 1 receptor,0.5747564457555903
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000042832,TG,thyroglobulin,0.5730993294064286
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000211452,DIO1,iodothyronine deiodinase 1,0.5576248297939415
+Hyperthyroidism,MONDO_0004425,hyperthyroidism,ENSG00000160856,FCRL3,Fc receptor like 3,0.5344751198646854
+Hypoglycemia,HP_0001943,Hypoglycemia,ENSG00000215644,GCGR,glucagon receptor,0.5888112626373435
+Hypoglycemia,HP_0001943,Hypoglycemia,ENSG00000121361,KCNJ8,potassium inwardly rectifying channel subfamily J member 8,0.4837908060520171
+Hypoglycemia,HP_0001943,Hypoglycemia,ENSG00000122335,SERAC1,serine active site containing 1,0.3701342244667288
+Hypoglycemia,HP_0001943,Hypoglycemia,ENSG00000112164,GLP1R,glucagon like peptide 1 receptor,0.363257928420236
+Hypoglycemia,HP_0001943,Hypoglycemia,ENSG00000131482,G6PC1,glucose-6-phosphatase catalytic subunit 1,0.3518583840429843
+Hypoglycemia,HP_0001943,Hypoglycemia,ENSG00000054983,GALC,galactosylceramidase,0.345834327870934
+Hypothyroidism,MONDO_0005420,hypothyroidism,ENSG00000091137,SLC26A4,solute carrier family 26 member 4,0.8482910589321081
+Hypothyroidism,MONDO_0005420,hypothyroidism,ENSG00000126351,THRA,thyroid hormone receptor alpha,0.8374607480800055
+Hypothyroidism,MONDO_0005420,hypothyroidism,ENSG00000105641,SLC5A5,solute carrier family 5 member 5,0.8182768531019772
+Hypothyroidism,MONDO_0005420,hypothyroidism,ENSG00000140279,DUOX2,dual oxidase 2,0.808172553588301
+Hypothyroidism,MONDO_0005420,hypothyroidism,ENSG00000187742,SECISBP2,SECIS binding protein 2,0.7950789510397279
+Hypothyroidism,MONDO_0005420,hypothyroidism,ENSG00000147255,IGSF1,immunoglobulin superfamily member 1,0.7799802123630334
+Impetigo,EFO_1000714,impetigo,ENSG00000174227,PIGG,phosphatidylinositol glycan anchor biosynthesis class G (EMM blood group),0.0234588633832266
+Impetigo,EFO_1000714,impetigo,ENSG00000136695,IL36RN,interleukin 36 receptor antagonist,0.0083155467304057
+Impetigo,EFO_1000714,impetigo,ENSG00000122194,PLG,plasminogen,0.0077611769483787
+Impetigo,EFO_1000714,impetigo,ENSG00000136160,EDNRB,endothelin receptor type B,0.0057568222031387
+Impetigo,EFO_1000714,impetigo,ENSG00000134760,DSG1,desmoglein 1,0.0052357146080332
+Impetigo,EFO_1000714,impetigo,ENSG00000204539,CDSN,corneodesmosin,0.0044349582562164
+Impetigo,EFO_1000714,impetigo,ENSG00000154640,BTG3,BTG anti-proliferation factor 3,0.003695798546847
+Jaundice,HP_0000952,Jaundice,ENSG00000197603,CPLANE1,ciliogenesis and planar polarity effector complex subunit 1,0.4627961069218432
+Jaundice,HP_0000952,Jaundice,ENSG00000241635,UGT1A1,UDP glucuronosyltransferase family 1 member A1,0.4392281705311213
+Jaundice,HP_0000952,Jaundice,ENSG00000134538,SLCO1B1,solute carrier organic anion transporter family member 1B1,0.3603690127346351
+Jaundice,HP_0000952,Jaundice,ENSG00000118257,NRP2,neuropilin 2,0.3265055985259603
+Jaundice,HP_0000952,Jaundice,ENSG00000186868,MAPT,microtubule associated protein tau,0.3157165698463132
+Jaundice,HP_0000952,Jaundice,ENSG00000180613,GSX2,GS homeobox 2,0.3144568159544962
+Jaundice,HP_0000952,Jaundice,ENSG00000152377,SPOCK1,"SPARC (osteonectin), cwcv and kazal like domains proteoglycan 1",0.3105138151306746
+Jaundice,HP_0000952,Jaundice,ENSG00000141433,ADCYAP1,adenylate cyclase activating polypeptide 1,0.3094563725988248
+Jaundice,HP_0000952,Jaundice,ENSG00000075213,SEMA3A,semaphorin 3A,0.307545076558298
+Jaundice,HP_0000952,Jaundice,ENSG00000156931,VPS8,VPS8 subunit of CORVET complex,0.3070177100559443
+Malaria,MONDO_0005136,malaria,ENSG00000239732,TLR9,toll like receptor 9,0.5760417798358409
+Malaria,MONDO_0005136,malaria,ENSG00000196664,TLR7,toll like receptor 7,0.5741206346467708
+Malaria,MONDO_0005136,malaria,ENSG00000175164,ABO,"ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase",0.4586340102222503
+Malaria,MONDO_0005136,malaria,ENSG00000250361,GYPB,glycophorin B (MNS blood group),0.3757616196466227
+Malaria,MONDO_0005136,malaria,ENSG00000136732,GYPC,glycophorin C (Gerbich blood group),0.3742790731996842
+Malaria,MONDO_0005136,malaria,ENSG00000170180,GYPA,glycophorin A (MNS blood group),0.3740000635473443
+Migraine,MONDO_0005277,migraine disorder,ENSG00000144285,SCN1A,sodium voltage-gated channel alpha subunit 1,0.8654163856357807
+Migraine,MONDO_0005277,migraine disorder,ENSG00000018625,ATP1A2,ATPase Na+/K+ transporting subunit alpha 2,0.8621327585140188
+Migraine,MONDO_0005277,migraine disorder,ENSG00000141837,CACNA1A,calcium voltage-gated channel subunit alpha1 A,0.8444956399254856
+Migraine,MONDO_0005277,migraine disorder,ENSG00000110680,CALCA,calcitonin related polypeptide alpha,0.7169435707716875
+Migraine,MONDO_0005277,migraine disorder,ENSG00000175868,CALCB,calcitonin related polypeptide beta,0.6628652353008391
+Migraine,MONDO_0005277,migraine disorder,ENSG00000113327,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,0.6240587304432302
+Migraine,MONDO_0005277,migraine disorder,ENSG00000022355,GABRA1,gamma-aminobutyric acid type A receptor subunit alpha1,0.6240576321339499
+Migraine,MONDO_0005277,migraine disorder,ENSG00000166206,GABRB3,gamma-aminobutyric acid type A receptor subunit beta3,0.6230788482763463
+Osteoarthritis,MONDO_0005178,osteoarthritis,ENSG00000125965,GDF5,growth differentiation factor 5,0.6385890510492749
+Osteoarthritis,MONDO_0005178,osteoarthritis,ENSG00000134259,NGF,nerve growth factor,0.6095933144347366
+Osteoarthritis,MONDO_0005178,osteoarthritis,ENSG00000152952,PLOD2,"procollagen-lysine,2-oxoglutarate 5-dioxygenase 2",0.5902714003809142
+Osteoarthritis,MONDO_0005178,osteoarthritis,ENSG00000050628,PTGER3,prostaglandin E receptor 3,0.5840988902934472
+Osteoarthritis,MONDO_0005178,osteoarthritis,ENSG00000112038,OPRM1,opioid receptor mu 1,0.5814413248353565
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000187498,COL4A1,collagen type IV alpha 1 chain,0.8413734444160558
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000134871,COL4A2,collagen type IV alpha 2 chain,0.5386400152808668
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000156650,KAT6B,lysine acetyltransferase 6B,0.3495449307622441
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000186790,FOXE3,forkhead box E3,0.0738714380834156
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000007372,PAX6,paired box 6,0.0714692172814228
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000125378,BMP4,bone morphogenetic protein 4,0.0661745459785731
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000054598,FOXC1,forkhead box C1,0.0659961890488304
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000164093,PITX2,paired like homeodomain 2,0.0649052652043525
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000121634,GJA8,gap junction protein alpha 8,0.0645378820706109
+Paralysis (brain hemorrhage),MONDO_0008289,brain small vessel disease 1 with or without ocular anomalies,ENSG00000133256,PDE6B,phosphodiesterase 6B,0.0634796099290341
+Peptic Ulcer Disease,MONDO_0004247,peptic ulcer disease,ENSG00000256713,PGA5,pepsinogen A5,0.5266923573539983
+Peptic Ulcer Disease,MONDO_0004247,peptic ulcer disease,ENSG00000133019,CHRM3,cholinergic receptor muscarinic 3,0.5266923573539983
+Peptic Ulcer Disease,MONDO_0004247,peptic ulcer disease,ENSG00000168539,CHRM1,cholinergic receptor muscarinic 1,0.5266553993685299
+Pneumonia,MONDO_0005249,pneumonia,ENSG00000015413,DPEP1,dipeptidase 1,0.5662168637713237
+Pneumonia,MONDO_0005249,pneumonia,ENSG00000168769,TET2,tet methylcytosine dioxygenase 2,0.5613898742626788
+Pneumonia,MONDO_0005249,pneumonia,ENSG00000161547,SRSF2,serine and arginine rich splicing factor 2,0.5473820821255302
+Pneumonia,MONDO_0005249,pneumonia,ENSG00000132693,CRP,C-reactive protein,0.5142657306334262
+Psoriasis,MONDO_0005083,psoriasis,ENSG00000141527,CARD14,caspase recruitment domain family member 14,0.8336899836911389
+Psoriasis,MONDO_0005083,psoriasis,ENSG00000177663,IL17RA,interleukin 17 receptor A,0.6830502846519175
+Psoriasis,MONDO_0005083,psoriasis,ENSG00000152056,AP1S3,adaptor related protein complex 1 subunit sigma 3,0.6559160643340026
+Psoriasis,MONDO_0005083,psoriasis,ENSG00000106546,AHR,aryl hydrocarbon receptor,0.6482778580712248
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000012223,LTF,lactotransferrin,0.517448705798367
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000114030,KPNA1,karyopherin subunit alpha 1,0.5030392466541774
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000108424,KPNB1,karyopherin subunit beta 1,0.5030392466541774
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000150991,UBC,ubiquitin C,0.4649877419692605
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000221983,UBA52,ubiquitin A-52 residue ribosomal protein fusion product 1,0.4619748183558772
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000143947,RPS27A,ribosomal protein S27a,0.4619748183558772
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000170315,UBB,ubiquitin B,0.4619748183558772
+Tuberculosis,MONDO_0018076,tuberculosis,ENSG00000075785,RAB7A,"RAB7A, member RAS oncogene family",0.4619748183558772
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000136279,DBNL,drebrin like,0.0530661234349029
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000164258,NDUFS4,NADH:ubiquinone oxidoreductase subunit S4,0.050357103100064
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000169057,MECP2,methyl-CpG binding protein 2,0.0502757544676051
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000145649,GZMA,granzyme A,0.0482096388222044
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000198947,DMD,dystrophin,0.0438266270677853
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000111262,KCNA1,potassium voltage-gated channel subfamily A member 1,0.0432016264690852
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000127415,IDUA,alpha-L-iduronidase,0.0422799353759298
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000151617,EDNRA,endothelin receptor type A,0.0421431908296965
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000160213,CSTB,cystatin B,0.041756979881551
+Typhoid,MONDO_0005619,typhoid fever,ENSG00000049768,FOXP3,forkhead box P3,0.0407812890651834
+Urinary Tract Infection,MONDO_0100338,urinary tract infection,ENSG00000113231,PDE8B,phosphodiesterase 8B,0.4619748183558772
+Urinary Tract Infection,MONDO_0100338,urinary tract infection,ENSG00000105650,PDE4C,phosphodiesterase 4C,0.4619748183558772
+Urinary Tract Infection,MONDO_0100338,urinary tract infection,ENSG00000073417,PDE8A,phosphodiesterase 8A,0.4619748183558772
+Urinary Tract Infection,MONDO_0100338,urinary tract infection,ENSG00000205268,PDE7A,phosphodiesterase 7A,0.4619748183558772
+Urinary Tract Infection,MONDO_0100338,urinary tract infection,ENSG00000169344,UMOD,uromodulin,0.3990526097046718
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000103335,PIEZO1,piezo type mechanosensitive ion channel component 1 (Er blood group),0.515693483520342
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000130940,CASZ1,castor zinc finger 1,0.5098331749434317
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000064651,SLC12A2,solute carrier family 12 member 2,0.5046429542457134
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000101096,NFATC2,nuclear factor of activated T cells 2,0.4934773018267443
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000101955,SRPX,sushi repeat containing protein X-linked,0.4834223768827107
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000061273,HDAC7,histone deacetylase 7,0.4658403309849207
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000213626,LBH,LBH regulator of Wnt signaling pathway,0.4561650279285926
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000159363,ATP13A2,ATPase cation transporting 13A2,0.4490187429229758
+Varicose Veins,HP_0002619,Varicose veins,ENSG00000146374,RSPO3,R-spondin 3,0.4423881936006719
+Vertigo,HP_0002321,Vertigo,ENSG00000165899,OTOGL,otogelin like,0.4281187724645872
+Vertigo,HP_0002321,Vertigo,ENSG00000109927,TECTA,tectorin alpha,0.4206996564984084
+Vertigo,HP_0002321,Vertigo,ENSG00000101180,HRH3,histamine receptor H3,0.3706885942487558
+Vertigo,HP_0002321,Vertigo,ENSG00000136531,SCN2A,sodium voltage-gated channel alpha subunit 2,0.3584924590441607
+Vertigo,HP_0002321,Vertigo,ENSG00000166167,BTRC,beta-transducin repeat containing E3 ubiquitin protein ligase,0.3514628162265109

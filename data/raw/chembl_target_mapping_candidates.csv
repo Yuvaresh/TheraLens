@@ -1,0 +1,1100 @@
+target_symbol,rank,chembl_target_id,pref_name,target_type,organism
+TOP2A,1.0,CHEMBL4845646,TOP2A promoter,NUCLEIC-ACID,Homo sapiens
+TOP2A,2.0,CHEMBL1806,DNA topoisomerase 2-alpha,SINGLE PROTEIN,Homo sapiens
+TOP2A,3.0,CHEMBL3400,DNA topoisomerase 2-alpha,SINGLE PROTEIN,Rattus norvegicus
+TOP2A,4.0,CHEMBL3586,DNA topoisomerase 2-alpha,SINGLE PROTEIN,Mus musculus
+TOP2A,5.0,CHEMBL4106174,Topoisomerase I/II,PROTEIN FAMILY,Homo sapiens
+TOP2A,6.0,CHEMBL2094255,DNA topoisomerase II,PROTEIN FAMILY,Homo sapiens
+PGR,1.0,CHEMBL208,Progesterone receptor,SINGLE PROTEIN,Homo sapiens
+PGR,2.0,CHEMBL2596,Progesterone receptor,SINGLE PROTEIN,Rattus norvegicus
+PGR,3.0,CHEMBL3304,Progesterone receptor,SINGLE PROTEIN,Gallus gallus
+PGR,4.0,CHEMBL3456,Progesterone receptor,SINGLE PROTEIN,Oryctolagus cuniculus
+PGR,5.0,CHEMBL1909044,Progesterone receptor,SINGLE PROTEIN,Bos taurus
+PGR,6.0,CHEMBL3271928,Progesterone receptor,SINGLE PROTEIN,Ovis aries
+PGR,7.0,CHEMBL4969,Progesterone receptor,SINGLE PROTEIN,Mus musculus
+PGR,8.0,CHEMBL4748219,von Hippel-Lindau disease tumor suppressor/Progesterone receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+IL2RA,1.0,CHEMBL1778,Interleukin-2 receptor subunit alpha,SINGLE PROTEIN,Homo sapiens
+IL2RA,2.0,CHEMBL3287,Interleukin-2 receptor subunit alpha,SINGLE PROTEIN,Mus musculus
+IL2RA,3.0,CHEMBL2364167,Interleukin-2 receptor,PROTEIN COMPLEX,Homo sapiens
+IL2RG,1.0,CHEMBL4665588,IL-2R beta/gamma,PROTEIN COMPLEX,Homo sapiens
+IL2RG,2.0,CHEMBL2364167,Interleukin-2 receptor,PROTEIN COMPLEX,Homo sapiens
+IL2RG,3.0,CHEMBL4665592,Interleukin-15 receptor,PROTEIN COMPLEX,Homo sapiens
+IL2RB,1.0,CHEMBL3276,Interleukin-2 receptor subunit beta,SINGLE PROTEIN,Homo sapiens
+IL2RB,2.0,CHEMBL4665588,IL-2R beta/gamma,PROTEIN COMPLEX,Homo sapiens
+IL2RB,3.0,CHEMBL2364167,Interleukin-2 receptor,PROTEIN COMPLEX,Homo sapiens
+IL2RB,4.0,CHEMBL4665592,Interleukin-15 receptor,PROTEIN COMPLEX,Homo sapiens
+TUBB,1.0,CHEMBL5444,Tubulin beta-5 chain,SINGLE PROTEIN,Homo sapiens
+TUBB,2.0,CHEMBL3885647,Tubulin alpha-1A /beta chains,PROTEIN COMPLEX GROUP,Homo sapiens
+TUBB,3.0,CHEMBL3832942,Tubulin beta,PROTEIN FAMILY,Homo sapiens
+TUBB,4.0,CHEMBL6066847,Protein cereblon/Tubulin beta,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TUBB,5.0,CHEMBL2095182,Tubulin,PROTEIN COMPLEX GROUP,Homo sapiens
+TUBA1A,1.0,CHEMBL3658,Tubulin alpha chain,SINGLE PROTEIN,Sus scrofa
+TUBA1A,2.0,CHEMBL3661,Tubulin alpha-1A chain,SINGLE PROTEIN,Homo sapiens
+TUBA1A,3.0,CHEMBL2111354,Tubulin,PROTEIN FAMILY,Sus scrofa
+TUBA1A,4.0,CHEMBL3885647,Tubulin alpha-1A /beta chains,PROTEIN COMPLEX GROUP,Homo sapiens
+TUBA1A,5.0,CHEMBL3832941,Tubulin alpha,PROTEIN FAMILY,Homo sapiens
+TUBA1A,6.0,CHEMBL6067579,Protein cereblon-alpha tubulin,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TUBA1A,7.0,CHEMBL2095182,Tubulin,PROTEIN COMPLEX GROUP,Homo sapiens
+TUBB1,1.0,CHEMBL1915,Tubulin beta-1 chain,SINGLE PROTEIN,Homo sapiens
+TUBB1,2.0,CHEMBL3832942,Tubulin beta,PROTEIN FAMILY,Homo sapiens
+TUBB1,3.0,CHEMBL6066847,Protein cereblon/Tubulin beta,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TUBB1,4.0,CHEMBL2095182,Tubulin,PROTEIN COMPLEX GROUP,Homo sapiens
+TUBA3E,1.0,CHEMBL3661,Tubulin alpha-1A chain,SINGLE PROTEIN,Homo sapiens
+TUBA3E,2.0,CHEMBL3885647,Tubulin alpha-1A /beta chains,PROTEIN COMPLEX GROUP,Homo sapiens
+TUBA3E,3.0,CHEMBL3832941,Tubulin alpha,PROTEIN FAMILY,Homo sapiens
+TUBA3E,4.0,CHEMBL6067579,Protein cereblon-alpha tubulin,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TUBA3E,5.0,CHEMBL2095182,Tubulin,PROTEIN COMPLEX GROUP,Homo sapiens
+TUBB4B,1.0,CHEMBL1848,Tubulin beta-4B chain,SINGLE PROTEIN,Homo sapiens
+TUBB4B,2.0,CHEMBL3832942,Tubulin beta,PROTEIN FAMILY,Homo sapiens
+TUBB4B,3.0,CHEMBL6066847,Protein cereblon/Tubulin beta,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TUBB4B,4.0,CHEMBL2095182,Tubulin,PROTEIN COMPLEX GROUP,Homo sapiens
+MMP1,1.0,CHEMBL332,Interstitial collagenase,SINGLE PROTEIN,Homo sapiens
+MMP1,2.0,CHEMBL2111422,Matrix metalloproteinase (1 and 13),SELECTIVITY GROUP,Homo sapiens
+MMP1,3.0,CHEMBL4523984,MMP-1/MMP-2,SELECTIVITY GROUP,Homo sapiens
+MMP1,4.0,CHEMBL2095216,Collagenase,PROTEIN FAMILY,Homo sapiens
+ESR1,1.0,CHEMBL206,Estrogen receptor,SINGLE PROTEIN,Homo sapiens
+ESR1,2.0,CHEMBL3065,Estrogen receptor,SINGLE PROTEIN,Mus musculus
+ESR1,3.0,CHEMBL2724,Estrogen receptor,SINGLE PROTEIN,Rattus norvegicus
+ESR1,4.0,CHEMBL2930,Estrogen receptor,SINGLE PROTEIN,Bos taurus
+ESR1,5.0,CHEMBL2021744,Estrogen receptor,SINGLE PROTEIN,Ovis aries
+ESR1,6.0,CHEMBL4523681,Protein cereblon/Estrogen receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+ESR1,7.0,CHEMBL4523713,Protein cereblon/Estrogen receptor/Cullin-4A,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+ESR1,8.0,CHEMBL4523726,von Hippel-Lindau disease tumor suppressor/Estrogen receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+ESR1,9.0,CHEMBL2093866,Estrogen receptor,PROTEIN FAMILY,Homo sapiens
+ESR1,10.0,CHEMBL2094113,Estrogen receptor,PROTEIN FAMILY,Mus musculus
+RARG,1.0,CHEMBL2630,Retinoic acid receptor gamma,SINGLE PROTEIN,Rattus norvegicus
+RARG,2.0,CHEMBL2003,Retinoic acid receptor gamma,SINGLE PROTEIN,Homo sapiens
+RARG,3.0,CHEMBL4177,Retinoic acid receptor gamma,SINGLE PROTEIN,Mus musculus
+RARG,4.0,CHEMBL3885633,Retinoic acid receptor RXR-alpha/gamma,PROTEIN COMPLEX,Homo sapiens
+RARG,5.0,CHEMBL2363069,Retinoic acid receptor,PROTEIN FAMILY,Homo sapiens
+RARG,6.0,CHEMBL2363071,Retinoid receptor,PROTEIN FAMILY,Homo sapiens
+RARA,1.0,CHEMBL2269,Retinoic acid receptor alpha,SINGLE PROTEIN,Rattus norvegicus
+RARA,2.0,CHEMBL2055,Retinoic acid receptor alpha,SINGLE PROTEIN,Homo sapiens
+RARA,3.0,CHEMBL2792,Retinoic acid receptor alpha,SINGLE PROTEIN,Mus musculus
+RARA,4.0,CHEMBL2363072,Retinoid X receptor gamma/retinoic acid receptor alpha,PROTEIN COMPLEX,Homo sapiens
+RARA,5.0,CHEMBL3430883,Retinoic acid receptor alpha/Retinoid X receptor alpha,PROTEIN COMPLEX,Homo sapiens
+RARA,6.0,CHEMBL5465238,PML-RARalpha,CHIMERIC PROTEIN,Homo sapiens
+RARA,7.0,CHEMBL2363069,Retinoic acid receptor,PROTEIN FAMILY,Homo sapiens
+RARA,8.0,CHEMBL2363071,Retinoid receptor,PROTEIN FAMILY,Homo sapiens
+RARB,1.0,CHEMBL3266,Retinoic acid receptor beta,SINGLE PROTEIN,Mus musculus
+RARB,2.0,CHEMBL2008,Retinoic acid receptor beta,SINGLE PROTEIN,Homo sapiens
+RARB,3.0,CHEMBL3885631,Retinoic acid receptor RXR-alpha/Retinoic acid receptor beta,PROTEIN COMPLEX,Homo sapiens
+RARB,4.0,CHEMBL2363069,Retinoic acid receptor,PROTEIN FAMILY,Homo sapiens
+RARB,5.0,CHEMBL2363071,Retinoid receptor,PROTEIN FAMILY,Homo sapiens
+MMP13,1.0,CHEMBL4944,Collagenase 3,SINGLE PROTEIN,Rattus norvegicus
+MMP13,2.0,CHEMBL280,Collagenase 3,SINGLE PROTEIN,Homo sapiens
+MMP13,3.0,CHEMBL5327,Collagenase 3,SINGLE PROTEIN,Bos taurus
+MMP13,4.0,CHEMBL3638350,Collagenase 3,SINGLE PROTEIN,Mus musculus
+MMP13,5.0,CHEMBL2111422,Matrix metalloproteinase (1 and 13),SELECTIVITY GROUP,Homo sapiens
+MMP13,6.0,CHEMBL4523970,MMP-2/MMP-13,SELECTIVITY GROUP,Homo sapiens
+MMP13,7.0,CHEMBL2095216,Collagenase,PROTEIN FAMILY,Homo sapiens
+MMP7,1.0,CHEMBL5465303,Matrilysin,SINGLE PROTEIN,Mus musculus
+MMP7,2.0,CHEMBL4073,Matrilysin,SINGLE PROTEIN,Homo sapiens
+MMP8,1.0,CHEMBL2312,Neutrophil collagenase,SINGLE PROTEIN,Rattus norvegicus
+MMP8,2.0,CHEMBL4588,Neutrophil collagenase,SINGLE PROTEIN,Homo sapiens
+MMP8,3.0,CHEMBL2095216,Collagenase,PROTEIN FAMILY,Homo sapiens
+AR,,,ERROR: 400 Client Error: Bad Request for url: https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=AR&limit=20,,
+NR3C1,1.0,CHEMBL2034,Glucocorticoid receptor,SINGLE PROTEIN,Homo sapiens
+NR3C1,2.0,CHEMBL3368,Glucocorticoid receptor,SINGLE PROTEIN,Rattus norvegicus
+NR3C1,3.0,CHEMBL4105966,Glucocorticoid receptor,SINGLE PROTEIN,Canis lupus familiaris
+NR3C1,4.0,CHEMBL4295956,Glucocorticoid receptor,SINGLE PROTEIN,Sus scrofa
+NR3C1,5.0,CHEMBL3144,Glucocorticoid receptor,SINGLE PROTEIN,Mus musculus
+CSF3R,1.0,CHEMBL1996,Granulocyte colony-stimulating factor receptor,SINGLE PROTEIN,Homo sapiens
+ADORA2B,1.0,CHEMBL255,Adenosine receptor A2b,SINGLE PROTEIN,Homo sapiens
+ADORA2B,2.0,CHEMBL2237,Adenosine receptor A2b,SINGLE PROTEIN,Mus musculus
+ADORA2B,3.0,CHEMBL2592,Adenosine receptor A2b,SINGLE PROTEIN,Rattus norvegicus
+ADORA2B,4.0,CHEMBL2094117,Adenosine A2 receptor,PROTEIN FAMILY,Rattus norvegicus
+ADORA2B,5.0,CHEMBL2094257,Adenosine A2 receptor,PROTEIN FAMILY,Homo sapiens
+ADORA2B,6.0,CHEMBL2095234,Adenosine receptors; A2b & A3,SELECTIVITY GROUP,Homo sapiens
+ADORA2B,7.0,CHEMBL2096908,Adenosine receptors; A1 & A2b,SELECTIVITY GROUP,Homo sapiens
+ADORA2B,8.0,CHEMBL4296621,Adenosine receptors; A2a & A2b,SELECTIVITY GROUP,Homo sapiens
+ADORA2B,9.0,CHEMBL2094131,Adenosine receptors; A1 & A2,SELECTIVITY GROUP,Rattus norvegicus
+ADORA2B,10.0,CHEMBL2096679,Adenosine receptors; A1 & A2,SELECTIVITY GROUP,Homo sapiens
+PDE4A,1.0,CHEMBL3333,Phosphodiesterase 4A,SINGLE PROTEIN,Sus scrofa
+PDE4A,2.0,CHEMBL254,"3',5'-cyclic-AMP phosphodiesterase 4A",SINGLE PROTEIN,Homo sapiens
+PDE4A,3.0,CHEMBL4964,"3',5'-cyclic-AMP phosphodiesterase 4A",SINGLE PROTEIN,Rattus norvegicus
+PDE4A,4.0,CHEMBL2366459,"3',5'-cyclic-AMP phosphodiesterase 4A",SINGLE PROTEIN,Cavia porcellus
+PDE4A,5.0,CHEMBL2111373,Phosphodiesterase 4,PROTEIN FAMILY,Mus musculus
+PDE4A,6.0,CHEMBL2094267,Phosphodiesterase 4,PROTEIN FAMILY,Rattus norvegicus
+PDE4A,7.0,CHEMBL2093863,Phosphodiesterase 4,PROTEIN FAMILY,Homo sapiens
+PDE4A,8.0,CHEMBL2111340,Phosphodiesterase 4 and 5 (PDE4 and PDE5),SELECTIVITY GROUP,Homo sapiens
+PDE4A,9.0,CHEMBL2095153,Phosphodiesterase; PDE3 & PDE4,SELECTIVITY GROUP,Homo sapiens
+PDE4A,10.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE1B,1.0,CHEMBL4425,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1B",SINGLE PROTEIN,Homo sapiens
+PDE1B,2.0,CHEMBL2650,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1B",SINGLE PROTEIN,Bos taurus
+PDE1B,3.0,CHEMBL2097166,Phosphodiesterase 1,PROTEIN FAMILY,Bos taurus
+PDE1B,4.0,CHEMBL2111408,Heart phosphodiesterase,PROTEIN FAMILY,Bos taurus
+PDE1B,5.0,CHEMBL2111322,Phosphodiesterase 1,PROTEIN FAMILY,Rattus norvegicus
+PDE1B,6.0,CHEMBL4524014,Phosphodiesterase PDE1,PROTEIN FAMILY,Bos taurus
+PDE1B,7.0,CHEMBL2095150,Phosphodiesterase 1,PROTEIN FAMILY,Homo sapiens
+PDE1B,8.0,CHEMBL2097161,"Phosphodiesterase, PDE1/PDE5",PROTEIN FAMILY,Homo sapiens
+PDE1B,9.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE6D,1.0,CHEMBL4523623,PDE6D/KRAS,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PDE6D,2.0,CHEMBL3286064,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",SINGLE PROTEIN,Canis lupus familiaris
+PDE6D,3.0,CHEMBL3860,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",SINGLE PROTEIN,Homo sapiens
+PDE6D,4.0,CHEMBL4630727,"Protein cereblon/Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PDE6D,5.0,CHEMBL5482984,LC3-B-PDEdelta,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PDE6D,6.0,CHEMBL2095220,Phosphodiesterases; PDE5 & PDE6,SELECTIVITY GROUP,Homo sapiens
+PDE6D,7.0,CHEMBL2096979,Phosphodiesterase 6,PROTEIN FAMILY,Bos taurus
+PDE6D,8.0,CHEMBL2097163,Phosphodiesterase 6,PROTEIN FAMILY,Homo sapiens
+PDE6D,9.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE7B,1.0,CHEMBL2366406,PDE7B protein,SINGLE PROTEIN,Bos taurus
+PDE7B,2.0,CHEMBL4716,"3',5'-cyclic-AMP phosphodiesterase 7B",SINGLE PROTEIN,Homo sapiens
+PDE7B,3.0,CHEMBL2111411,Phosphodiesterase 7,PROTEIN FAMILY,Homo sapiens
+PDE7B,4.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE10A,1.0,CHEMBL3638348,Phosphodiesterase,SINGLE PROTEIN,Bos taurus
+PDE10A,2.0,CHEMBL4409,"cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",SINGLE PROTEIN,Homo sapiens
+PDE10A,3.0,CHEMBL6140,"cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",SINGLE PROTEIN,Rattus norvegicus
+PDE10A,4.0,CHEMBL1795126,"cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",SINGLE PROTEIN,Mus musculus
+PDE10A,5.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE1A,1.0,CHEMBL3774,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1A",SINGLE PROTEIN,Bos taurus
+PDE1A,2.0,CHEMBL3421,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1A",SINGLE PROTEIN,Homo sapiens
+PDE1A,3.0,CHEMBL2097166,Phosphodiesterase 1,PROTEIN FAMILY,Bos taurus
+PDE1A,4.0,CHEMBL2111408,Heart phosphodiesterase,PROTEIN FAMILY,Bos taurus
+PDE1A,5.0,CHEMBL2111322,Phosphodiesterase 1,PROTEIN FAMILY,Rattus norvegicus
+PDE1A,6.0,CHEMBL4524014,Phosphodiesterase PDE1,PROTEIN FAMILY,Bos taurus
+PDE1A,7.0,CHEMBL2095150,Phosphodiesterase 1,PROTEIN FAMILY,Homo sapiens
+PDE1A,8.0,CHEMBL2097161,"Phosphodiesterase, PDE1/PDE5",PROTEIN FAMILY,Homo sapiens
+PDE1A,9.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+HRH1,1.0,CHEMBL231,Histamine H1 receptor,SINGLE PROTEIN,Homo sapiens
+HRH1,2.0,CHEMBL3573,Histamine H1 receptor,SINGLE PROTEIN,Bos taurus
+HRH1,3.0,CHEMBL4701,Histamine H1 receptor,SINGLE PROTEIN,Rattus norvegicus
+HRH1,4.0,CHEMBL3943,Histamine H1 receptor,SINGLE PROTEIN,Cavia porcellus
+HRH1,5.0,CHEMBL4322,Histamine H1 receptor,SINGLE PROTEIN,Mus musculus
+HRH1,6.0,CHEMBL5465306,ATP-dependent RNA helicase DHX8,SINGLE PROTEIN,Homo sapiens
+FLG,1.0,CHEMBL5724685,Filaggrin-2,SINGLE PROTEIN,Homo sapiens
+FLG,2.0,CHEMBL3960,Fibroblast growth factor receptor 1,SINGLE PROTEIN,Mus musculus
+FLG,3.0,CHEMBL4523276,Fibroblast growth factor receptor 1,SINGLE PROTEIN,Rattus norvegicus
+FLG,4.0,CHEMBL3650,Fibroblast growth factor receptor 1,SINGLE PROTEIN,Homo sapiens
+FLG,5.0,CHEMBL5291677,Protein cereblon/Fibroblast growth factor receptor 1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+FLG,6.0,CHEMBL5291688,von Hippel-Lindau disease tumor suppressor/Fibroblast growth factor receptor 1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+FLG,7.0,CHEMBL2111439,VEGF-receptor 2 and Fibroblast growth factor receptor 1,PROTEIN FAMILY,Homo sapiens
+FLG,8.0,CHEMBL2095217,Fibroblast growth factor receptor,PROTEIN FAMILY,Homo sapiens
+FLG,9.0,CHEMBL2111391,Fibroblast growth factor receptor,PROTEIN FAMILY,Mus musculus
+ADRB2,1.0,CHEMBL3373,Beta-2 adrenergic receptor,SINGLE PROTEIN,Bos taurus
+ADRB2,2.0,CHEMBL3707,Beta-2 adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRB2,3.0,CHEMBL2289,Beta-2 adrenergic receptor,SINGLE PROTEIN,Canis lupus familiaris
+ADRB2,4.0,CHEMBL3754,Beta-2 adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRB2,5.0,CHEMBL3801,Beta-2 adrenergic receptor,SINGLE PROTEIN,Sus scrofa
+ADRB2,6.0,CHEMBL5414,Beta-2 adrenergic receptor,SINGLE PROTEIN,Cavia porcellus
+ADRB2,7.0,CHEMBL5943,Beta-2 adrenergic receptor,SINGLE PROTEIN,Mesocricetus auratus
+ADRB2,8.0,CHEMBL210,Beta-2 adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRB2,9.0,CHEMBL2096974,Adrenergic receptor beta; ADRB1 & ADRB2,SELECTIVITY GROUP,Homo sapiens
+ADRB2,10.0,CHEMBL2111388,Beta-2 adrenergic receptor and beta-3 adrenergic receptor,SELECTIVITY GROUP,Homo sapiens
+ADRA1D,1.0,CHEMBL223,Alpha-1D adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRA1D,2.0,CHEMBL2130,Alpha-1D adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRA1D,3.0,CHEMBL326,Alpha-1D adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRA1D,4.0,CHEMBL2111447,Alpha adrenergic receptor 1A and 1D,SELECTIVITY GROUP,Rattus norvegicus
+ADRA1D,5.0,CHEMBL2111467,Alpha adrenergic receptor (1a and 1d),SELECTIVITY GROUP,Homo sapiens
+ADRA1D,6.0,CHEMBL1907610,Adrenergic receptor alpha-1,PROTEIN FAMILY,Rattus norvegicus
+ADRA1D,7.0,CHEMBL2094251,Adrenergic receptor alpha-1,PROTEIN FAMILY,Homo sapiens
+ADRA1D,8.0,CHEMBL2111452,Alpha-1 adrenergic receptor,PROTEIN FAMILY,Mus musculus
+ADRA1D,9.0,CHEMBL2097171,Serotonin 1a (5-HT1a) receptor/Adrenergic receptor alpha-1,SELECTIVITY GROUP,Rattus norvegicus
+ADRA1D,10.0,CHEMBL2094111,Adrenergic receptor alpha,PROTEIN FAMILY,Rattus norvegicus
+ADRA2B,1.0,CHEMBL266,Alpha-2B adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRA2B,2.0,CHEMBL2405,Alpha-2B adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRA2B,3.0,CHEMBL1942,Alpha-2B adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRA2B,4.0,CHEMBL2093864,Adrenergic receptor alpha-2,PROTEIN FAMILY,Rattus norvegicus
+ADRA2B,5.0,CHEMBL2111338,Alpha-2 adrenergic receptor,PROTEIN FAMILY,Mus musculus
+ADRA2B,6.0,CHEMBL2095158,Adrenergic receptor alpha-2,PROTEIN FAMILY,Homo sapiens
+ADRA2B,7.0,CHEMBL2094111,Adrenergic receptor alpha,PROTEIN FAMILY,Rattus norvegicus
+ADRA2B,8.0,CHEMBL2095203,Adrenergic receptor alpha,PROTEIN FAMILY,Homo sapiens
+ADRA2B,9.0,CHEMBL2331074,Adrenergic receptor,PROTEIN FAMILY,Homo sapiens
+ADRB1,1.0,CHEMBL5465184,Beta-1 adrenergic receptor,SINGLE PROTEIN,Oryctolagus cuniculus
+ADRB1,2.0,CHEMBL5471,Beta-1 adrenergic receptor,SINGLE PROTEIN,Cavia porcellus
+ADRB1,3.0,CHEMBL213,Beta-1 adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRB1,4.0,CHEMBL3440,Beta-1 adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRB1,5.0,CHEMBL3252,Beta-1 adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRB1,6.0,CHEMBL4351,Beta-1 adrenergic receptor,SINGLE PROTEIN,Sus scrofa
+ADRB1,7.0,CHEMBL2096974,Adrenergic receptor beta; ADRB1 & ADRB2,SELECTIVITY GROUP,Homo sapiens
+ADRB1,8.0,CHEMBL2097169,Adrenergic receptor beta; ADRB1 & ADRB3,SELECTIVITY GROUP,Homo sapiens
+ADRB1,9.0,CHEMBL2094118,Adrenergic receptor beta,PROTEIN FAMILY,Homo sapiens
+ADRB1,10.0,CHEMBL2095166,Adrenergic receptor beta,PROTEIN FAMILY,Rattus norvegicus
+ADRB3,1.0,CHEMBL4105847,Adrenoceptor beta 3,SINGLE PROTEIN,Callithrix jacchus
+ADRB3,2.0,CHEMBL246,Beta-3 adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRB3,3.0,CHEMBL4400,Beta-3 adrenergic receptor,SINGLE PROTEIN,Canis lupus familiaris
+ADRB3,4.0,CHEMBL4031,Beta-3 adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRB3,5.0,CHEMBL4030,Beta-3 adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRB3,6.0,CHEMBL3124732,Beta-3 adrenergic receptor,SINGLE PROTEIN,Macaca mulatta
+ADRB3,7.0,CHEMBL2097169,Adrenergic receptor beta; ADRB1 & ADRB3,SELECTIVITY GROUP,Homo sapiens
+ADRB3,8.0,CHEMBL2111388,Beta-2 adrenergic receptor and beta-3 adrenergic receptor,SELECTIVITY GROUP,Homo sapiens
+ADRB3,9.0,CHEMBL2094118,Adrenergic receptor beta,PROTEIN FAMILY,Homo sapiens
+ADRB3,10.0,CHEMBL2095166,Adrenergic receptor beta,PROTEIN FAMILY,Rattus norvegicus
+ADRA2C,1.0,CHEMBL4826,Alpha-2C adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRA2C,2.0,CHEMBL314,Alpha-2C adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRA2C,3.0,CHEMBL1916,Alpha-2C adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRA2C,4.0,CHEMBL2093864,Adrenergic receptor alpha-2,PROTEIN FAMILY,Rattus norvegicus
+ADRA2C,5.0,CHEMBL2111338,Alpha-2 adrenergic receptor,PROTEIN FAMILY,Mus musculus
+ADRA2C,6.0,CHEMBL2095158,Adrenergic receptor alpha-2,PROTEIN FAMILY,Homo sapiens
+ADRA2C,7.0,CHEMBL2094111,Adrenergic receptor alpha,PROTEIN FAMILY,Rattus norvegicus
+ADRA2C,8.0,CHEMBL2095203,Adrenergic receptor alpha,PROTEIN FAMILY,Homo sapiens
+ADRA2C,9.0,CHEMBL2331074,Adrenergic receptor,PROTEIN FAMILY,Homo sapiens
+ADRA1A,1.0,CHEMBL2111447,Alpha adrenergic receptor 1A and 1D,SELECTIVITY GROUP,Rattus norvegicus
+ADRA1A,2.0,CHEMBL2130,Alpha-1D adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRA1A,3.0,CHEMBL4892,Alpha-1A adrenergic receptor,SINGLE PROTEIN,Bos taurus
+ADRA1A,4.0,CHEMBL2822,Alpha-1A adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRA1A,5.0,CHEMBL319,Alpha-1A adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRA1A,6.0,CHEMBL326,Alpha-1D adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRA1A,7.0,CHEMBL3637,Alpha-1A adrenergic receptor,SINGLE PROTEIN,Oryctolagus cuniculus
+ADRA1A,8.0,CHEMBL1907610,Adrenergic receptor alpha-1,PROTEIN FAMILY,Rattus norvegicus
+ADRA1A,9.0,CHEMBL1926490,Alpha-1A adrenergic receptor,SINGLE PROTEIN,Sus scrofa
+ADRA1A,10.0,CHEMBL2111452,Alpha-1 adrenergic receptor,PROTEIN FAMILY,Mus musculus
+ADRA2A,1.0,CHEMBL5303559,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Canis lupus familiaris
+ADRA2A,2.0,CHEMBL5465183,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Oryctolagus cuniculus
+ADRA2A,3.0,CHEMBL4075,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRA2A,4.0,CHEMBL2350,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Sus scrofa
+ADRA2A,5.0,CHEMBL4744,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Bos taurus
+ADRA2A,6.0,CHEMBL327,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRA2A,7.0,CHEMBL1867,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRA2A,8.0,CHEMBL3885512,Adenosine receptor A1/Alpha-2A adrenergic receptor,PROTEIN COMPLEX,Homo sapiens
+ADRA2A,9.0,CHEMBL2111420,Cerebral cortex alpha adrenergic receptor,PROTEIN FAMILY,Bos taurus
+ADRA2A,10.0,CHEMBL3883321,Mu opioid receptor/Alpha-2A adrenergic receptor,PROTEIN COMPLEX,Homo sapiens
+SLC22A12,1.0,CHEMBL1075239,Solute carrier family 22 member 12,SINGLE PROTEIN,Rattus norvegicus
+SLC22A12,2.0,CHEMBL6120,Solute carrier family 22 member 12,SINGLE PROTEIN,Homo sapiens
+TYK2,1.0,CHEMBL3553,Non-receptor tyrosine-protein kinase TYK2,SINGLE PROTEIN,Homo sapiens
+TYK2,2.0,CHEMBL2321619,Non-receptor tyrosine-protein kinase TYK2,SINGLE PROTEIN,Mus musculus
+TYK2,3.0,CHEMBL6066058,Protein cereblon/Non-receptor tyrosine-protein kinase TYK2,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TYK2,4.0,CHEMBL3301391,JAK1/TYK2,PROTEIN COMPLEX,Homo sapiens
+TYK2,5.0,CHEMBL3301392,JAK2/TYK2,PROTEIN COMPLEX,Homo sapiens
+TYK2,6.0,CHEMBL4523618,JAK1/TYK2,PROTEIN COMPLEX,Mus musculus
+TYK2,7.0,CHEMBL3301390,JAK1/JAK2/TYK2,PROTEIN COMPLEX,Homo sapiens
+TYK2,8.0,CHEMBL3885642,TYK2/JAK1/JAK2,PROTEIN FAMILY,Mus musculus
+TYK2,9.0,CHEMBL2363062,Janus Kinase (JAK),PROTEIN FAMILY,Homo sapiens
+IL6R,1.0,CHEMBL4289,Interleukin-6 receptor subunit alpha,SINGLE PROTEIN,Rattus norvegicus
+IL6R,2.0,CHEMBL2364155,Interleukin-6 receptor subunit alpha,SINGLE PROTEIN,Homo sapiens
+IL6R,3.0,CHEMBL3137266,IL6Ralpha/GP130,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+IL6R,4.0,CHEMBL3124734,Interleukin-6 receptor subunit beta,SINGLE PROTEIN,Homo sapiens
+IL6R,5.0,CHEMBL3137274,LIFR/GP130,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+IL12B,1.0,CHEMBL2176814,Interleukin-12 subunit beta,SINGLE PROTEIN,Mus musculus
+IL12B,2.0,CHEMBL3580484,Interleukin-12 subunit beta,SINGLE PROTEIN,Homo sapiens
+IL12B,3.0,CHEMBL2364154,Interleukin-23,PROTEIN COMPLEX,Homo sapiens
+IL12B,4.0,CHEMBL2364153,Interleukin-12,PROTEIN COMPLEX,Homo sapiens
+JAK2,1.0,CHEMBL2971,Tyrosine-protein kinase JAK2,SINGLE PROTEIN,Homo sapiens
+JAK2,2.0,CHEMBL1075225,Tyrosine-protein kinase JAK2,SINGLE PROTEIN,Rattus norvegicus
+JAK2,3.0,CHEMBL1649049,Tyrosine-protein kinase JAK2,SINGLE PROTEIN,Mus musculus
+JAK2,4.0,CHEMBL4742263,Protein cereblon/Tyrosine-protein kinase JAK2,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+JAK2,5.0,CHEMBL3301392,JAK2/TYK2,PROTEIN COMPLEX,Homo sapiens
+JAK2,6.0,CHEMBL3885649,Tyrosine-protein kinase JAK1/JAK2,PROTEIN FAMILY,Mus musculus
+JAK2,7.0,CHEMBL3038492,JAK2/JAK1,PROTEIN COMPLEX,Homo sapiens
+JAK2,8.0,CHEMBL3885642,TYK2/JAK1/JAK2,PROTEIN FAMILY,Mus musculus
+JAK2,9.0,CHEMBL4802035,JAK2/JAK3,PROTEIN FAMILY,Homo sapiens
+JAK2,10.0,CHEMBL5482983,JAK2-STAT3,PROTEIN COMPLEX,Homo sapiens
+TNF,1.0,CHEMBL2523,Disintegrin and metalloproteinase domain-containing protein 17,SINGLE PROTEIN,Rattus norvegicus
+TNF,2.0,CHEMBL3332,Disintegrin and metalloproteinase domain-containing protein 17,SINGLE PROTEIN,Sus scrofa
+TNF,3.0,CHEMBL4379,Disintegrin and metalloproteinase domain-containing protein 17,SINGLE PROTEIN,Mus musculus
+TNF,4.0,CHEMBL3588728,TNF receptor-associated factor 6,SINGLE PROTEIN,Homo sapiens
+TNF,5.0,CHEMBL3713022,Lymphotoxin-beta,SINGLE PROTEIN,Homo sapiens
+TNF,6.0,CHEMBL3833421,Heterotrimeric lymphotoxin LTa1b2,PROTEIN COMPLEX,Homo sapiens
+TNF,7.0,CHEMBL6067211,TNF receptor-associated factor 2,SINGLE PROTEIN,Homo sapiens
+TNF,8.0,CHEMBL1825,Tumor necrosis factor,SINGLE PROTEIN,Homo sapiens
+TNF,9.0,CHEMBL2059,Lymphotoxin-alpha,SINGLE PROTEIN,Homo sapiens
+TNF,10.0,CHEMBL4984,Tumor necrosis factor,SINGLE PROTEIN,Mus musculus
+JAK1,1.0,CHEMBL2835,Tyrosine-protein kinase JAK1,SINGLE PROTEIN,Homo sapiens
+JAK1,2.0,CHEMBL2968,Tyrosine-protein kinase JAK1,SINGLE PROTEIN,Mus musculus
+JAK1,3.0,CHEMBL4523618,JAK1/TYK2,PROTEIN COMPLEX,Mus musculus
+JAK1,4.0,CHEMBL4742275,Protein cereblon/Tyrosine-protein kinase JAK1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+JAK1,5.0,CHEMBL3038492,JAK2/JAK1,PROTEIN COMPLEX,Homo sapiens
+JAK1,6.0,CHEMBL3301391,JAK1/TYK2,PROTEIN COMPLEX,Homo sapiens
+JAK1,7.0,CHEMBL3351191,Jak1 protein,SINGLE PROTEIN,Rattus norvegicus
+JAK1,8.0,CHEMBL3885649,Tyrosine-protein kinase JAK1/JAK2,PROTEIN FAMILY,Mus musculus
+JAK1,9.0,CHEMBL3885650,Tyrosine-protein kinase JAK1/JAK3,PROTEIN FAMILY,Mus musculus
+JAK1,10.0,CHEMBL3038491,JAK3/JAK1,PROTEIN COMPLEX,Homo sapiens
+TRAF3IP2,1.0,CHEMBL4523586,E3 ubiquitin ligase TRAF3IP2,SINGLE PROTEIN,Homo sapiens
+ABCG2,1.0,CHEMBL2073705,Broad substrate specificity ATP-binding cassette transporter ABCG2,SINGLE PROTEIN,Mus musculus
+ABCG2,2.0,CHEMBL3509585,Broad substrate specificity ATP-binding cassette transporter ABCG2,SINGLE PROTEIN,Rattus norvegicus
+ABCG2,3.0,CHEMBL5393,Broad substrate specificity ATP-binding cassette transporter ABCG2,SINGLE PROTEIN,Homo sapiens
+IL17A,1.0,CHEMBL3390822,Interleukin-17A,SINGLE PROTEIN,Homo sapiens
+IL17A,2.0,CHEMBL4879476,Interleukin-17A,SINGLE PROTEIN,Mus musculus
+IL4R,1.0,CHEMBL3580490,Interleukin-4 receptor subunit alpha,SINGLE PROTEIN,Homo sapiens
+IL4R,2.0,CHEMBL3831285,Interleukin 13 receptor,PROTEIN COMPLEX,Homo sapiens
+ADORA1,1.0,CHEMBL226,Adenosine receptor A1,SINGLE PROTEIN,Homo sapiens
+ADORA1,2.0,CHEMBL2114,Adenosine receptor A1,SINGLE PROTEIN,Gallus gallus
+ADORA1,3.0,CHEMBL3688,Adenosine receptor A1,SINGLE PROTEIN,Mus musculus
+ADORA1,4.0,CHEMBL4975,Adenosine receptor A1,SINGLE PROTEIN,Bos taurus
+ADORA1,5.0,CHEMBL318,Adenosine receptor A1,SINGLE PROTEIN,Rattus norvegicus
+ADORA1,6.0,CHEMBL3947,Adenosine receptor A1,SINGLE PROTEIN,Oryctolagus cuniculus
+ADORA1,7.0,CHEMBL2304404,Adenosine receptor A1,SINGLE PROTEIN,Cavia porcellus
+ADORA1,8.0,CHEMBL5169080,Protein cereblon/Adenosine receptor A1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+ADORA1,9.0,CHEMBL2095195,Adenosine receptors; A1 & A3,SELECTIVITY GROUP,Homo sapiens
+ADORA1,10.0,CHEMBL2095218,Adenosine receptors; A1 & A2a,SELECTIVITY GROUP,Rattus norvegicus
+IL33,1.0,CHEMBL4630890,Interleukin-33,SINGLE PROTEIN,Homo sapiens
+IL33,2.0,CHEMBL4804256,IL-33 receptor (ST2),PROTEIN COMPLEX,Homo sapiens
+TSLP,1.0,CHEMBL3712931,Thymic stromal lymphopoietin,SINGLE PROTEIN,Homo sapiens
+IL5,1.0,CHEMBL1169600,Interleukin-5,SINGLE PROTEIN,Homo sapiens
+IL5,2.0,CHEMBL1163111,Interleukin-5,SINGLE PROTEIN,Mus musculus
+IL5,3.0,CHEMBL3580483,Interleukin-5 receptor subunit alpha,SINGLE PROTEIN,Homo sapiens
+IL5,4.0,CHEMBL4523198,Interleukin-5 receptor subunit alpha,SINGLE PROTEIN,Mus musculus
+IL13,1.0,CHEMBL3580486,Interleukin-13,SINGLE PROTEIN,Homo sapiens
+IL13,2.0,CHEMBL3713941,Interleukin-13 receptor subunit alpha-2,SINGLE PROTEIN,Homo sapiens
+IL13,3.0,CHEMBL3831285,Interleukin 13 receptor,PROTEIN COMPLEX,Homo sapiens
+PDE4D,1.0,CHEMBL2712,"3',5'-cyclic-AMP phosphodiesterase 4D",SINGLE PROTEIN,Rattus norvegicus
+PDE4D,2.0,CHEMBL288,"3',5'-cyclic-AMP phosphodiesterase 4D",SINGLE PROTEIN,Homo sapiens
+PDE4D,3.0,CHEMBL3846,"3',5'-cyclic-AMP phosphodiesterase 4D",SINGLE PROTEIN,Mus musculus
+PDE4D,4.0,CHEMBL2111373,Phosphodiesterase 4,PROTEIN FAMILY,Mus musculus
+PDE4D,5.0,CHEMBL2094267,Phosphodiesterase 4,PROTEIN FAMILY,Rattus norvegicus
+PDE4D,6.0,CHEMBL2093863,Phosphodiesterase 4,PROTEIN FAMILY,Homo sapiens
+PDE4D,7.0,CHEMBL2111340,Phosphodiesterase 4 and 5 (PDE4 and PDE5),SELECTIVITY GROUP,Homo sapiens
+PDE4D,8.0,CHEMBL2095153,Phosphodiesterase; PDE3 & PDE4,SELECTIVITY GROUP,Homo sapiens
+PDE4D,9.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+CHRM2,1.0,CHEMBL211,Muscarinic acetylcholine receptor M2,SINGLE PROTEIN,Homo sapiens
+CHRM2,2.0,CHEMBL4781,Muscarinic acetylcholine receptor M2,SINGLE PROTEIN,Sus scrofa
+CHRM2,3.0,CHEMBL3197,Muscarinic acetylcholine receptor M2,SINGLE PROTEIN,Mus musculus
+CHRM2,4.0,CHEMBL309,Muscarinic acetylcholine receptor M2,SINGLE PROTEIN,Rattus norvegicus
+CHRM2,5.0,CHEMBL1075061,Muscarinic receptor 2,SINGLE PROTEIN,Cavia porcellus
+CHRM2,6.0,CHEMBL2111433,Muscarinic receptor M1 and M2,SELECTIVITY GROUP,Rattus norvegicus
+CHRM2,7.0,CHEMBL2111347,Muscarinic receptor M2 and M3,SELECTIVITY GROUP,Rattus norvegicus
+CHRM2,8.0,CHEMBL2095187,Muscarinic acetylcholine receptors; M2 & M3,SELECTIVITY GROUP,Homo sapiens
+CHRM2,9.0,CHEMBL2095219,Muscarinic acetylcholine receptors; M1 & M2,SELECTIVITY GROUP,Homo sapiens
+CHRM2,10.0,CHEMBL2111445,Muscarinic acetylcholine receptor M2 and M4,SELECTIVITY GROUP,Homo sapiens
+PAX3,1.0,CHEMBL5169275,PAX3/FOXO1,CHIMERIC PROTEIN,Homo sapiens
+PAX3,2.0,CHEMBL5725180,PAX3- and PAX7-binding protein 1,SINGLE PROTEIN,Homo sapiens
+FGFR1,1.0,CHEMBL3960,Fibroblast growth factor receptor 1,SINGLE PROTEIN,Mus musculus
+FGFR1,2.0,CHEMBL4523276,Fibroblast growth factor receptor 1,SINGLE PROTEIN,Rattus norvegicus
+FGFR1,3.0,CHEMBL3650,Fibroblast growth factor receptor 1,SINGLE PROTEIN,Homo sapiens
+FGFR1,4.0,CHEMBL5291677,Protein cereblon/Fibroblast growth factor receptor 1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+FGFR1,5.0,CHEMBL5291688,von Hippel-Lindau disease tumor suppressor/Fibroblast growth factor receptor 1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+FGFR1,6.0,CHEMBL2095217,Fibroblast growth factor receptor,PROTEIN FAMILY,Homo sapiens
+FGFR1,7.0,CHEMBL2111439,VEGF-receptor 2 and Fibroblast growth factor receptor 1,PROTEIN FAMILY,Homo sapiens
+FGFR1,8.0,CHEMBL2111391,Fibroblast growth factor receptor,PROTEIN FAMILY,Mus musculus
+FGFR1,9.0,CHEMBL4523602,Centrosomal protein 43/RET,CHIMERIC PROTEIN,Homo sapiens
+SLC25A21,1.0,CHEMBL6196107,Mitochondrial 2-oxodicarboxylate carrier,SINGLE PROTEIN,Mus musculus
+SLC25A21,2.0,CHEMBL4680040,Mitochondrial 2-oxodicarboxylate carrier,SINGLE PROTEIN,Homo sapiens
+CD40LG,1.0,CHEMBL3580491,CD40 ligand,SINGLE PROTEIN,Homo sapiens
+CD40LG,2.0,CHEMBL4106122,CD40-CD40L,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+CD40LG,3.0,CHEMBL4106121,MAC1-CD40L,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+ALB,1.0,CHEMBL1075271,Albumin,SINGLE PROTEIN,Mus musculus
+ALB,2.0,CHEMBL4817,Albumin,SINGLE PROTEIN,Rattus norvegicus
+ALB,3.0,CHEMBL6104,Albumin,SINGLE PROTEIN,Oryctolagus cuniculus
+ALB,4.0,CHEMBL5291503,Albumin,SINGLE PROTEIN,Macaca fascicularis
+ALB,5.0,CHEMBL3253,Albumin,SINGLE PROTEIN,Homo sapiens
+ALB,6.0,CHEMBL3728,Albumin,SINGLE PROTEIN,Bos taurus
+ALB,7.0,CHEMBL3751645,Albumin,SINGLE PROTEIN,Equus caballus
+NKX2-8,1.0,CHEMBL4106133,GATA4/NKX2-5,PROTEIN COMPLEX,Rattus norvegicus
+NKX2-8,2.0,CHEMBL4106137,GATA4/NKX2-5,PROTEIN COMPLEX,Mus musculus
+NKX2-8,3.0,CHEMBL4105991,Homeobox protein Nkx-2.5,SINGLE PROTEIN,Rattus norvegicus
+NKX2-8,4.0,CHEMBL4105872,Homeobox protein Nkx-2.5,SINGLE PROTEIN,Mus musculus
+NKX2-8,5.0,CHEMBL4105945,Galectin-8,SINGLE PROTEIN,Mus musculus
+NKX2-8,6.0,CHEMBL2157,Interleukin-8,SINGLE PROTEIN,Homo sapiens
+NKX2-8,7.0,CHEMBL4051,Cystic fibrosis transmembrane conductance regulator,SINGLE PROTEIN,Homo sapiens
+NKX2-8,8.0,CHEMBL3992,Cystic fibrosis transmembrane conductance regulator,SINGLE PROTEIN,Rattus norvegicus
+NKX2-8,9.0,CHEMBL2312,Neutrophil collagenase,SINGLE PROTEIN,Rattus norvegicus
+NKX2-8,10.0,CHEMBL5338,Ectonucleoside triphosphate diphosphohydrolase 8,SINGLE PROTEIN,Homo sapiens
+CD4,1.0,CHEMBL2754,T-cell surface glycoprotein CD4,SINGLE PROTEIN,Homo sapiens
+CD4,2.0,CHEMBL613544,CD4+ve Th,CELL-LINE,
+CD4,3.0,CHEMBL614148,CD-4+ (A 3.01),CELL-LINE,
+IGHE,1.0,CHEMBL1834,Immunoglobulin heavy constant epsilon,SINGLE PROTEIN,Homo sapiens
+IFNG,1.0,CHEMBL3286073,Interferon gamma,SINGLE PROTEIN,Homo sapiens
+IFNG,2.0,CHEMBL4523507,Deoxynucleoside triphosphate triphosphohydrolase SAMHD1,SINGLE PROTEIN,Homo sapiens
+ABCB11,1.0,CHEMBL6020,Bile salt export pump,SINGLE PROTEIN,Homo sapiens
+ABCB11,2.0,CHEMBL2073695,Bile salt export pump,SINGLE PROTEIN,Mus musculus
+ABCB11,3.0,CHEMBL2073674,Bile salt export pump,SINGLE PROTEIN,Rattus norvegicus
+TJP2,1.0,CHEMBL4879525,Tight junction protein 2,SINGLE PROTEIN,Mus musculus
+SLC10A2,1.0,CHEMBL2778,Ileal sodium/bile acid cotransporter,SINGLE PROTEIN,Homo sapiens
+SLC10A2,2.0,CHEMBL2073686,Ileal sodium/bile acid cotransporter,SINGLE PROTEIN,Rattus norvegicus
+SLC10A2,3.0,CHEMBL2073708,Ileal sodium/bile acid cotransporter,SINGLE PROTEIN,Mus musculus
+ABCB4,1.0,CHEMBL1743129,Phosphatidylcholine translocator ABCB4,SINGLE PROTEIN,Homo sapiens
+ABCB4,2.0,CHEMBL2073706,Phosphatidylcholine translocator ABCB4,SINGLE PROTEIN,Rattus norvegicus
+ABCB4,3.0,CHEMBL2573,ATP-dependent translocase ABCB1,SINGLE PROTEIN,Mus musculus
+ABCB4,4.0,CHEMBL2111404,P-glycoprotein 1 and 3 (MDR1a/MDR1b),PROTEIN FAMILY,Mus musculus
+ABCC2,1.0,CHEMBL2073681,ATP-binding cassette sub-family C member 2,SINGLE PROTEIN,Mus musculus
+ABCC2,2.0,CHEMBL5748,ATP-binding cassette sub-family C member 2,SINGLE PROTEIN,Homo sapiens
+ABCC2,3.0,CHEMBL2073676,ATP-binding cassette sub-family C member 2,SINGLE PROTEIN,Rattus norvegicus
+ABCC2,4.0,CHEMBL3885536,Canalicular multispecific organic anion transporter 1/Solute carrier organic anion transporter family member 1B1,PROTEIN FAMILY,Homo sapiens
+SOX17,1.0,CHEMBL4523455,Transcription factor SOX-17,SINGLE PROTEIN,Homo sapiens
+FAH,1.0,CHEMBL6066391,Fumarylacetoacetase,SINGLE PROTEIN,Homo sapiens
+FAH,2.0,CHEMBL4523346,"Oxaloacetate tautomerase FAHD1, mitochondrial",SINGLE PROTEIN,Homo sapiens
+ADRA1B,1.0,CHEMBL232,Alpha-1B adrenergic receptor,SINGLE PROTEIN,Homo sapiens
+ADRA1B,2.0,CHEMBL2486,Alpha-1B adrenergic receptor,SINGLE PROTEIN,Mus musculus
+ADRA1B,3.0,CHEMBL315,Alpha-1B adrenergic receptor,SINGLE PROTEIN,Rattus norvegicus
+ADRA1B,4.0,CHEMBL3122,Alpha-1B adrenergic receptor,SINGLE PROTEIN,Mesocricetus auratus
+ADRA1B,5.0,CHEMBL2111476,Alpha adrenergic receptor 1A and 1B,SELECTIVITY GROUP,Rattus norvegicus
+ADRA1B,6.0,CHEMBL2096676,Adrenergic receptors; alpha-1 A & B,SELECTIVITY GROUP,Homo sapiens
+ADRA1B,7.0,CHEMBL1907610,Adrenergic receptor alpha-1,PROTEIN FAMILY,Rattus norvegicus
+ADRA1B,8.0,CHEMBL2094251,Adrenergic receptor alpha-1,PROTEIN FAMILY,Homo sapiens
+ADRA1B,9.0,CHEMBL2111452,Alpha-1 adrenergic receptor,PROTEIN FAMILY,Mus musculus
+ADRA1B,10.0,CHEMBL2097171,Serotonin 1a (5-HT1a) receptor/Adrenergic receptor alpha-1,SELECTIVITY GROUP,Rattus norvegicus
+PTGS1,1.0,CHEMBL221,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Homo sapiens
+PTGS1,2.0,CHEMBL4133,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Canis lupus familiaris
+PTGS1,3.0,CHEMBL3334,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Oryctolagus cuniculus
+PTGS1,4.0,CHEMBL2949,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Ovis aries
+PTGS1,5.0,CHEMBL2649,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Mus musculus
+PTGS1,6.0,CHEMBL4042,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Rattus norvegicus
+PTGS1,7.0,CHEMBL2860,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Bos taurus
+PTGS1,8.0,CHEMBL2094253,Cyclooxygenase,PROTEIN FAMILY,Homo sapiens
+PTGS1,9.0,CHEMBL4523964,COX-1/COX-2,SELECTIVITY GROUP,Homo sapiens
+PTGS1,10.0,CHEMBL2095157,Cyclooxygenase,PROTEIN FAMILY,Rattus norvegicus
+SIGMAR1,1.0,CHEMBL3465,Sigma non-opioid intracellular receptor 1,SINGLE PROTEIN,Mus musculus
+SIGMAR1,2.0,CHEMBL3602,Sigma non-opioid intracellular receptor 1,SINGLE PROTEIN,Rattus norvegicus
+SIGMAR1,3.0,CHEMBL4153,Sigma non-opioid intracellular receptor 1,SINGLE PROTEIN,Cavia porcellus
+SIGMAR1,4.0,CHEMBL287,Sigma non-opioid intracellular receptor 1,SINGLE PROTEIN,Homo sapiens
+SIGMAR1,5.0,CHEMBL4524009,Sigma receptor,PROTEIN FAMILY,Homo sapiens
+GRIN2A,1.0,CHEMBL1907604,Glutamate NMDA receptor; GRIN1/GRIN2A,PROTEIN COMPLEX,Homo sapiens
+GRIN2A,2.0,CHEMBL2096680,Glutamate NMDA receptor; Grin1/Grin2a,PROTEIN COMPLEX,Rattus norvegicus
+GRIN2A,3.0,CHEMBL1972,"Glutamate receptor ionotropic, NMDA 2A",SINGLE PROTEIN,Homo sapiens
+GRIN2A,4.0,CHEMBL2521,Glutamate [NMDA] receptor subunit epsilon 1,SINGLE PROTEIN,Mus musculus
+GRIN2A,5.0,CHEMBL310,"Glutamate receptor ionotropic, NMDA 2A",SINGLE PROTEIN,Rattus norvegicus
+GRIN2A,6.0,CHEMBL5483086,Glutamate NMDA receptor; GRIN1/GRIN2A/GRIN2B,PROTEIN COMPLEX,Homo sapiens
+GRIN2A,7.0,CHEMBL4106156,Ionotropic glutamate receptor NMDA1/2A/2B,PROTEIN COMPLEX,Rattus norvegicus
+GRIN2A,8.0,CHEMBL6195767,Ionotropic glutamate receptor NMDA1/2A/2C,PROTEIN COMPLEX,Rattus norvegicus
+GRIN2A,9.0,CHEMBL6195768,Ionotropic glutamate receptor NMDA1/2A/2D,PROTEIN COMPLEX,Rattus norvegicus
+GRIN2A,10.0,CHEMBL1907608,Glutamate NMDA receptor,PROTEIN COMPLEX GROUP,Rattus norvegicus
+PTGS2,1.0,CHEMBL4033,Cyclooxygenase-2,SINGLE PROTEIN,Canis lupus familiaris
+PTGS2,2.0,CHEMBL230,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Homo sapiens
+PTGS2,3.0,CHEMBL3331,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Bos taurus
+PTGS2,4.0,CHEMBL2977,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Rattus norvegicus
+PTGS2,5.0,CHEMBL4102,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Ovis aries
+PTGS2,6.0,CHEMBL1293198,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Oryctolagus cuniculus
+PTGS2,7.0,CHEMBL4523261,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Cavia porcellus
+PTGS2,8.0,CHEMBL5303566,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Equus caballus
+PTGS2,9.0,CHEMBL2094253,Cyclooxygenase,PROTEIN FAMILY,Homo sapiens
+PTGS2,10.0,CHEMBL4523964,COX-1/COX-2,SELECTIVITY GROUP,Homo sapiens
+FAAH,1.0,CHEMBL2243,Fatty-acid amide hydrolase 1,SINGLE PROTEIN,Homo sapiens
+FAAH,2.0,CHEMBL6196099,Fatty acid 2-hydroxylase,SINGLE PROTEIN,Mus musculus
+FAAH,3.0,CHEMBL3229,Fatty-acid amide hydrolase 1,SINGLE PROTEIN,Rattus norvegicus
+FAAH,4.0,CHEMBL3455,Fatty-acid amide hydrolase 1,SINGLE PROTEIN,Mus musculus
+FAAH,5.0,CHEMBL4295969,Fatty-acid amide hydrolase 1,SINGLE PROTEIN,Sus scrofa
+FAAH,6.0,CHEMBL4879483,Fatty acid 2-hydroxylase,SINGLE PROTEIN,Homo sapiens
+TRPV1,1.0,CHEMBL5500263,TRPV1 mRNA,NUCLEIC-ACID,Homo sapiens
+TRPV1,2.0,CHEMBL4794,Transient receptor potential cation channel subfamily V member 1,SINGLE PROTEIN,Homo sapiens
+TRPV1,3.0,CHEMBL5132,Transient receptor potential cation channel subfamily V member 1,SINGLE PROTEIN,Cavia porcellus
+TRPV1,4.0,CHEMBL5254,Transient receptor potential cation channel subfamily V member 1,SINGLE PROTEIN,Canis lupus familiaris
+TRPV1,5.0,CHEMBL1781864,Transient receptor potential cation channel subfamily V member 1,SINGLE PROTEIN,Mus musculus
+TRPV1,6.0,CHEMBL5102,Transient receptor potential cation channel subfamily V member 1,SINGLE PROTEIN,Rattus norvegicus
+TRPV1,7.0,CHEMBL2412949,Uncharacterized protein,SINGLE PROTEIN,Gallus gallus
+TRPV1,8.0,CHEMBL2096684,Vanilloid receptor,PROTEIN FAMILY,Rattus norvegicus
+APOA1,1.0,CHEMBL5984,Apolipoprotein A-I,SINGLE PROTEIN,Homo sapiens
+YBX1,1.0,CHEMBL4296006,Y-box-binding protein 1,SINGLE PROTEIN,Homo sapiens
+CD209,1.0,CHEMBL1795114,CD209 antigen,SINGLE PROTEIN,Homo sapiens
+CD209,2.0,CHEMBL2176858,C-type lectin domain family 4 member M,SINGLE PROTEIN,Homo sapiens
+PROS1,1.0,CHEMBL5498501,Vitamin K-dependent protein S,SINGLE PROTEIN,Homo sapiens
+HSPA5,1.0,CHEMBL1781865,Endoplasmic reticulum chaperone BiP,SINGLE PROTEIN,Homo sapiens
+VIM,1.0,CHEMBL5798,Beta-lactamase VIM-2,SINGLE PROTEIN,Pseudomonas aeruginosa
+VIM,2.0,CHEMBL3712854,Vimentin,SINGLE PROTEIN,Homo sapiens
+VIM,3.0,CHEMBL1287605,Metallo-b-lactamase,SINGLE PROTEIN,Pseudomonas aeruginosa
+VIM,4.0,CHEMBL1255122,Metallo-beta-lactamase VIM-11,SINGLE PROTEIN,Pseudomonas aeruginosa
+VIM,5.0,CHEMBL1255147,Metallo-beta-lactamase,SINGLE PROTEIN,Escherichia coli
+VIM,6.0,CHEMBL1255155,BlaVIM-1,SINGLE PROTEIN,Escherichia coli
+VIM,7.0,CHEMBL1667697,Metallo-beta-lactamase,SINGLE PROTEIN,Klebsiella pneumoniae
+VIM,8.0,CHEMBL5465387,Beta-lactamase VIM-1,SINGLE PROTEIN,Bacteria
+VIM,9.0,CHEMBL6146,Beta-lactamase VIM-4,SINGLE PROTEIN,Pseudomonas aeruginosa
+VIM,10.0,CHEMBL1287601,Beta-lactamase VIM-1,SINGLE PROTEIN,Pseudomonas aeruginosa
+GAS6,1.0,CHEMBL4804247,Growth arrest-specific protein 6,SINGLE PROTEIN,Homo sapiens
+HSPA8,1.0,CHEMBL1275213,Heat shock cognate 71 kDa protein,SINGLE PROTEIN,Bos taurus
+HSPA8,2.0,CHEMBL5169139,Heat shock cognate 71 kDa protein,SINGLE PROTEIN,Mus musculus
+HSPA8,3.0,CHEMBL1275223,Heat shock cognate 71 kDa protein,SINGLE PROTEIN,Homo sapiens
+STT3A,1.0,CHEMBL6066234,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A,SINGLE PROTEIN,Homo sapiens
+KCNJ11,1.0,CHEMBL1886,ATP-sensitive inward rectifier potassium channel 11,SINGLE PROTEIN,Homo sapiens
+KCNJ11,2.0,CHEMBL4524028,ATP-sensitive inward rectifier potassium channel 11,SINGLE PROTEIN,Cricetulus griseus
+KCNJ11,3.0,CHEMBL2095198,"Sulfonylurea receptor 2, Kir6.2",PROTEIN COMPLEX,Homo sapiens
+KCNJ11,4.0,CHEMBL2096972,"Sulfonylurea receptor 1, Kir6.2",PROTEIN COMPLEX,Homo sapiens
+KCNJ11,5.0,CHEMBL3038487,Kir6.2/SUR1,PROTEIN COMPLEX,Rattus norvegicus
+KCNJ11,6.0,CHEMBL2095152,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Homo sapiens
+KCNJ11,7.0,CHEMBL4524131,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Rattus norvegicus
+ABCC8,1.0,CHEMBL1944490,ATP-binding cassette sub-family C member 8,SINGLE PROTEIN,Rattus norvegicus
+ABCC8,2.0,CHEMBL2071,ATP-binding cassette sub-family C member 8,SINGLE PROTEIN,Homo sapiens
+ABCC8,3.0,CHEMBL2096972,"Sulfonylurea receptor 1, Kir6.2",PROTEIN COMPLEX,Homo sapiens
+ABCC8,4.0,CHEMBL3038487,Kir6.2/SUR1,PROTEIN COMPLEX,Rattus norvegicus
+ABCC8,5.0,CHEMBL2095152,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Homo sapiens
+ABCC8,6.0,CHEMBL4524131,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Rattus norvegicus
+GCK,1.0,CHEMBL3882,Hexokinase-4,SINGLE PROTEIN,Rattus norvegicus
+GCK,2.0,CHEMBL3820,Hexokinase-4,SINGLE PROTEIN,Homo sapiens
+GCK,3.0,CHEMBL3112387,Hexokinase-4,SINGLE PROTEIN,Mus musculus
+GCK,4.0,CHEMBL3885579,Glucokinase/Glucokinase regulatory protein,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+GCK,5.0,CHEMBL3885580,Glucokinase/Glucokinase regulatory protein,PROTEIN-PROTEIN INTERACTION,Rattus norvegicus
+GCK,6.0,CHEMBL6166,Mitogen-activated protein kinase kinase kinase kinase 4,SINGLE PROTEIN,Homo sapiens
+GCK,7.0,CHEMBL4295856,Mitogen-activated protein kinase kinase kinase kinase 2,SINGLE PROTEIN,Mus musculus
+GCK,8.0,CHEMBL6196081,Mitogen-activated protein kinase kinase kinase kinase 4,SINGLE PROTEIN,Mus musculus
+GCK,9.0,CHEMBL5330,Mitogen-activated protein kinase kinase kinase kinase 2,SINGLE PROTEIN,Homo sapiens
+GCK,10.0,CHEMBL5518,Misshapen-like kinase 1,SINGLE PROTEIN,Homo sapiens
+INSR,1.0,CHEMBL1981,Insulin receptor,SINGLE PROTEIN,Homo sapiens
+INSR,2.0,CHEMBL3187,Insulin receptor,SINGLE PROTEIN,Mus musculus
+INSR,3.0,CHEMBL5486,Insulin receptor,SINGLE PROTEIN,Rattus norvegicus
+INSR,4.0,CHEMBL1957,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Homo sapiens
+INSR,5.0,CHEMBL5381,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Mus musculus
+INSR,6.0,CHEMBL5483,Insulin receptor-related protein,SINGLE PROTEIN,Homo sapiens
+INSR,7.0,CHEMBL1075098,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Rattus norvegicus
+INSR,8.0,CHEMBL4748221,von Hippel-Lindau disease tumor suppressor/Insulin-like growth factor 1 receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HNF1A,1.0,CHEMBL6066477,Hepatocyte nuclear factor 1-alpha,SINGLE PROTEIN,Homo sapiens
+INS,1.0,CHEMBL5881,Insulin,SINGLE PROTEIN,Homo sapiens
+INS,2.0,CHEMBL1744527,L-cysteine:1D-myo-inositol 2-amino-2-deoxy-alpha-D-glucopyranoside ligase,SINGLE PROTEIN,Mycobacterium tuberculosis
+INS,3.0,CHEMBL1938220,Inositol-tetrakisphosphate 1-kinase,SINGLE PROTEIN,Homo sapiens
+INS,4.0,CHEMBL6067,1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase,SINGLE PROTEIN,Mycobacterium tuberculosis
+INS,5.0,CHEMBL4739852,Forkhead box protein M1,SINGLE PROTEIN,Homo sapiens
+INS,6.0,CHEMBL6177910,Protein cereblon/Forkhead box protein M1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HNF4A,1.0,CHEMBL5398,Hepatocyte nuclear factor 4-alpha,SINGLE PROTEIN,Homo sapiens
+HNF4A,2.0,CHEMBL3714705,Hepatocyte nuclear factor 4-alpha,SINGLE PROTEIN,Rattus norvegicus
+PPARG,1.0,CHEMBL235,Peroxisome proliferator-activated receptor gamma,SINGLE PROTEIN,Homo sapiens
+PPARG,2.0,CHEMBL2459,Peroxisome proliferator-activated receptor gamma,SINGLE PROTEIN,Mus musculus
+PPARG,3.0,CHEMBL4797,Peroxisome proliferator-activated receptor gamma,SINGLE PROTEIN,Rattus norvegicus
+PPARG,4.0,CHEMBL1932903,Peroxisome proliferator-activated receptor gamma,SINGLE PROTEIN,Canis lupus familiaris
+PPARG,5.0,CHEMBL2111325,PPAR alpha/gamma,SELECTIVITY GROUP,Homo sapiens
+PPARG,6.0,CHEMBL2095163,Peroxisome proliferator-activated receptor gamma/Nuclear receptor coactivator 2,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PPARG,7.0,CHEMBL2111394,RXR alpha/PPAR gamma,PROTEIN COMPLEX,Homo sapiens
+PPARG,8.0,CHEMBL2095162,Peroxisome proliferator-activated receptor gamma/Nuclear receptor coactivator 1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PPARG,9.0,CHEMBL2096976,Peroxisome proliferator-activated receptor gamma/Nuclear receptor corepressor 2,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PPARG,10.0,CHEMBL2111371,PPAR delta/gamma,SELECTIVITY GROUP,Homo sapiens
+SNAP25,1.0,CHEMBL1075243,Synaptosomal-associated protein 25,SINGLE PROTEIN,Rattus norvegicus
+SNAP25,2.0,CHEMBL2364159,Synaptosomal-associated protein 25,SINGLE PROTEIN,Homo sapiens
+SNAP25,3.0,CHEMBL6066300,Synaptosomal-associated protein 23,SINGLE PROTEIN,Homo sapiens
+ACE,1.0,CHEMBL3341583,Acetylcholinesterase 1,SINGLE PROTEIN,Caenorhabditis elegans
+ACE,2.0,CHEMBL4074,Angiotensin-converting enzyme,SINGLE PROTEIN,Oryctolagus cuniculus
+ACE,3.0,CHEMBL2625,Angiotensin-converting enzyme,SINGLE PROTEIN,Rattus norvegicus
+ACE,4.0,CHEMBL2366514,Ace-orthologous acetylcholinesterase,SINGLE PROTEIN,Nephotettix cincticeps
+ACE,5.0,CHEMBL4523113,Angiotensin-converting enzyme,SINGLE PROTEIN,Sus scrofa
+ACE,6.0,CHEMBL1808,Angiotensin-converting enzyme,SINGLE PROTEIN,Homo sapiens
+ACE,7.0,CHEMBL2994,Angiotensin-converting enzyme,SINGLE PROTEIN,Mus musculus
+ACE,8.0,CHEMBL2046266,Acetylcholinesterase,SINGLE PROTEIN,Anopheles gambiae
+ACE,9.0,CHEMBL2096989,Angiotensin-converting enzyme,PROTEIN FAMILY,Homo sapiens
+ACE,10.0,CHEMBL2242744,Acetylcholinesterase,SINGLE PROTEIN,Drosophila melanogaster
+FTO,1.0,CHEMBL2331065,Alpha-ketoglutarate-dependent dioxygenase FTO,SINGLE PROTEIN,Homo sapiens
+FTO,2.0,CHEMBL3611964,Alpha-ketoglutarate-dependent dioxygenase FTO,SINGLE PROTEIN,Mus musculus
+TCF7L2,1.0,CHEMBL3038511,TCF4/beta-catenin,PROTEIN COMPLEX,Homo sapiens
+TCF7L2,2.0,CHEMBL3885511,Adenomatous polyposis coli protein/Transcription factor 7-like 2,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TCF7L2,3.0,CHEMBL3885533,Cadherin-1/Transcription factor 7-like 2,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+DHFR,1.0,CHEMBL202,Dihydrofolate reductase,SINGLE PROTEIN,Homo sapiens
+DHFR,2.0,CHEMBL2057,Dihydrofolate reductase,SINGLE PROTEIN,Pneumocystis jirovecii
+DHFR,3.0,CHEMBL2575,Dihydrofolate reductase,SINGLE PROTEIN,Gallus gallus
+DHFR,4.0,CHEMBL2363,Dihydrofolate reductase,SINGLE PROTEIN,Rattus norvegicus
+DHFR,5.0,CHEMBL2902,Dihydrofolate reductase,SINGLE PROTEIN,Lactobacillus casei
+DHFR,6.0,CHEMBL4564,Dihydrofolate reductase,SINGLE PROTEIN,Mus musculus
+DHFR,7.0,CHEMBL4012,Dihydrofolate reductase,SINGLE PROTEIN,Lactococcus lactis subsp. lactis (strain IL1403) (Streptococcuslactis)
+DHFR,8.0,CHEMBL1075051,Dihydrofolate reductase,SINGLE PROTEIN,Bos taurus
+DHFR,9.0,CHEMBL1681620,Dihydrofolate reductase,SINGLE PROTEIN,Staphylococcus aureus
+DHFR,10.0,CHEMBL2097172,Dihydrofolate reductase; T. gondii vs rat,SELECTIVITY GROUP,Toxoplasma gondii
+ATP4A,1.0,CHEMBL3919,Potassium-transporting ATPase alpha chain 1,SINGLE PROTEIN,Sus scrofa
+ATP4A,2.0,CHEMBL2095173,Potassium-transporting ATPase,PROTEIN COMPLEX,Homo sapiens
+ATP4A,3.0,CHEMBL2095199,Potassium-transporting ATPase,PROTEIN COMPLEX,Rattus norvegicus
+ATP4A,4.0,CHEMBL2095228,Potassium-transporting ATPase,PROTEIN COMPLEX,Sus scrofa
+ATP4B,1.0,CHEMBL4771,Potassium-transporting ATPase subunit beta,SINGLE PROTEIN,Rattus norvegicus
+ATP4B,2.0,CHEMBL2538,Potassium-transporting ATPase subunit beta,SINGLE PROTEIN,Sus scrofa
+ATP4B,3.0,CHEMBL2095173,Potassium-transporting ATPase,PROTEIN COMPLEX,Homo sapiens
+ATP4B,4.0,CHEMBL2095199,Potassium-transporting ATPase,PROTEIN COMPLEX,Rattus norvegicus
+ATP4B,5.0,CHEMBL2095228,Potassium-transporting ATPase,PROTEIN COMPLEX,Sus scrofa
+HRH2,1.0,CHEMBL1941,Histamine H2 receptor,SINGLE PROTEIN,Homo sapiens
+HRH2,2.0,CHEMBL2882,Histamine H2 receptor,SINGLE PROTEIN,Cavia porcellus
+HRH2,3.0,CHEMBL2245,Histamine H2 receptor,SINGLE PROTEIN,Mus musculus
+HRH2,4.0,CHEMBL4654,Histamine H2 receptor,SINGLE PROTEIN,Rattus norvegicus
+APOE,1.0,CHEMBL4549,Apolipoprotein B-100,SINGLE PROTEIN,Homo sapiens
+APOE,2.0,CHEMBL5813,Tumor necrosis factor ligand superfamily member 10,SINGLE PROTEIN,Homo sapiens
+APOE,3.0,CHEMBL2364185,Apo-B 100 mRNA,NUCLEIC-ACID,Homo sapiens
+APOE,4.0,CHEMBL4523160,Apolipoprotein C-III,SINGLE PROTEIN,Homo sapiens
+APOE,5.0,CHEMBL4680021,Apolipoprotein L1,SINGLE PROTEIN,Homo sapiens
+APOE,6.0,CHEMBL5984,Apolipoprotein A-I,SINGLE PROTEIN,Homo sapiens
+APOE,7.0,CHEMBL2417350,Tumor necrosis factor receptor superfamily member 6,SINGLE PROTEIN,Rattus norvegicus
+APOE,8.0,CHEMBL4523207,Tumor necrosis factor receptor superfamily member 6,SINGLE PROTEIN,Homo sapiens
+APOE,9.0,CHEMBL2062354,Biotin--protein ligase,SINGLE PROTEIN,Homo sapiens
+HSD11B1,1.0,CHEMBL5227,Hydroxysteroid 11-beta dehydrogenase 1,SINGLE PROTEIN,Macaca mulatta
+HSD11B1,2.0,CHEMBL5342,11-beta-hydroxysteroid dehydrogenase type 1,SINGLE PROTEIN,Canis lupus familiaris
+HSD11B1,3.0,CHEMBL2391,11-beta-hydroxysteroid dehydrogenase 1,SINGLE PROTEIN,Rattus norvegicus
+HSD11B1,4.0,CHEMBL4235,11-beta-hydroxysteroid dehydrogenase 1,SINGLE PROTEIN,Homo sapiens
+HSD11B1,5.0,CHEMBL3910,11-beta-hydroxysteroid dehydrogenase 1,SINGLE PROTEIN,Mus musculus
+HSD11B1,6.0,CHEMBL3542430,11-beta-hydroxysteroid dehydrogenase,PROTEIN FAMILY,Homo sapiens
+HSD11B2,1.0,CHEMBL3746,11-beta-hydroxysteroid dehydrogenase type 2,SINGLE PROTEIN,Homo sapiens
+HSD11B2,2.0,CHEMBL2908,11-beta-hydroxysteroid dehydrogenase type 2,SINGLE PROTEIN,Rattus norvegicus
+HSD11B2,3.0,CHEMBL3490,11-beta-hydroxysteroid dehydrogenase type 2,SINGLE PROTEIN,Mus musculus
+HSD11B2,4.0,CHEMBL3542430,11-beta-hydroxysteroid dehydrogenase,PROTEIN FAMILY,Homo sapiens
+PDE4B,1.0,CHEMBL2272,Phosphodiesterase 4B,SINGLE PROTEIN,Mus musculus
+PDE4B,2.0,CHEMBL275,"3',5'-cyclic-AMP phosphodiesterase 4B",SINGLE PROTEIN,Homo sapiens
+PDE4B,3.0,CHEMBL3382,"3',5'-cyclic-AMP phosphodiesterase 4B",SINGLE PROTEIN,Rattus norvegicus
+PDE4B,4.0,CHEMBL2366442,"cAMP-specific 3',5'-cyclic phosphodiesterase 4B",SINGLE PROTEIN,Crotalus adamanteus
+PDE4B,5.0,CHEMBL2111373,Phosphodiesterase 4,PROTEIN FAMILY,Mus musculus
+PDE4B,6.0,CHEMBL2094267,Phosphodiesterase 4,PROTEIN FAMILY,Rattus norvegicus
+PDE4B,7.0,CHEMBL2093863,Phosphodiesterase 4,PROTEIN FAMILY,Homo sapiens
+PDE4B,8.0,CHEMBL2111340,Phosphodiesterase 4 and 5 (PDE4 and PDE5),SELECTIVITY GROUP,Homo sapiens
+PDE4B,9.0,CHEMBL2095153,Phosphodiesterase; PDE3 & PDE4,SELECTIVITY GROUP,Homo sapiens
+PDE4B,10.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+NCAM1,1.0,CHEMBL3712938,Neural cell adhesion molecule 1,SINGLE PROTEIN,Homo sapiens
+JAK3,1.0,CHEMBL5250,Tyrosine-protein kinase JAK3,SINGLE PROTEIN,Mus musculus
+JAK3,2.0,CHEMBL4295857,Tyrosine-protein kinase JAK3,SINGLE PROTEIN,Rattus norvegicus
+JAK3,3.0,CHEMBL2148,Tyrosine-protein kinase JAK3,SINGLE PROTEIN,Homo sapiens
+JAK3,4.0,CHEMBL6066057,Protein cereblon/Tyrosine-protein kinase JAK3,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+JAK3,5.0,CHEMBL3885650,Tyrosine-protein kinase JAK1/JAK3,PROTEIN FAMILY,Mus musculus
+JAK3,6.0,CHEMBL4802035,JAK2/JAK3,PROTEIN FAMILY,Homo sapiens
+JAK3,7.0,CHEMBL3038491,JAK3/JAK1,PROTEIN COMPLEX,Homo sapiens
+JAK3,8.0,CHEMBL2363062,Janus Kinase (JAK),PROTEIN FAMILY,Homo sapiens
+JAK3,9.0,CHEMBL4879522,Unconventional myosin-XVIIIa,SINGLE PROTEIN,Mus musculus
+IL23A,1.0,CHEMBL2364154,Interleukin-23,PROTEIN COMPLEX,Homo sapiens
+ALOX5,1.0,CHEMBL215,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Homo sapiens
+ALOX5,2.0,CHEMBL312,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Rattus norvegicus
+ALOX5,3.0,CHEMBL5211,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Mus musculus
+ALOX5,4.0,CHEMBL2111402,5-lipoxygenase/FLAP,PROTEIN COMPLEX,Homo sapiens
+ALOX5,5.0,CHEMBL3879862,Arachidonate 5-lipoxygenase,SINGLE PROTEIN,Sus scrofa
+ALOX5,6.0,CHEMBL5303560,Arachidonate 5-lipoxygenase,SINGLE PROTEIN,Canis lupus familiaris
+GUCY1A1,1.0,CHEMBL3915,Guanylate cyclase soluble subunit alpha-1,SINGLE PROTEIN,Bos taurus
+GUCY1A1,2.0,CHEMBL3137281,Soluble guanylate cyclase alpha1/beta1 complex,PROTEIN COMPLEX,Homo sapiens
+GUCY1A1,3.0,CHEMBL4105800,Guanylate cyclase soluble subunit alpha-1,SINGLE PROTEIN,Rattus norvegicus
+GUCY1A1,4.0,CHEMBL2111348,Soluble guanylate cyclase,PROTEIN COMPLEX GROUP,Homo sapiens
+GUCY1A1,5.0,CHEMBL5482988,Soluble guanylate cyclase alpha1/beta1 complex,PROTEIN COMPLEX,Rattus norvegicus
+LDLR,1.0,CHEMBL3311,Low-density lipoprotein receptor,SINGLE PROTEIN,Homo sapiens
+LDLR,2.0,CHEMBL4523996,PCSK9/LDLR,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PCSK9,1.0,CHEMBL4630662,PCSK9 mRNA,NUCLEIC-ACID,Homo sapiens
+PCSK9,2.0,CHEMBL4523996,PCSK9/LDLR,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PCSK9,3.0,CHEMBL2929,Proprotein convertase subtilisin/kexin type 9,SINGLE PROTEIN,Homo sapiens
+PCSK9,4.0,CHEMBL5291514,Proprotein convertase subtilisin/kexin type 9,SINGLE PROTEIN,Mus musculus
+PCSK9,5.0,CHEMBL6195583,Microtubule-associated protein 1 light chain 3 beta/Proprotein convertase subtilisin/kexin type 9,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+P2RY12,1.0,CHEMBL2188,P2Y purinoceptor 12,SINGLE PROTEIN,Rattus norvegicus
+P2RY12,2.0,CHEMBL2001,P2Y purinoceptor 12,SINGLE PROTEIN,Homo sapiens
+P2RY12,3.0,CHEMBL4524124,Purinergic P2Y,PROTEIN FAMILY,Rattus norvegicus
+P2RY12,4.0,CHEMBL4524011,P2Y receptor,PROTEIN FAMILY,Homo sapiens
+AGTR1,1.0,CHEMBL3374,Type-1 angiotensin II receptor,SINGLE PROTEIN,Bos taurus
+AGTR1,2.0,CHEMBL3948,Type-1 angiotensin II receptor,SINGLE PROTEIN,Oryctolagus cuniculus
+AGTR1,3.0,CHEMBL5743,Type-1 angiotensin II receptor,SINGLE PROTEIN,Sus scrofa
+AGTR1,4.0,CHEMBL1671613,Type-1 angiotensin II receptor,SINGLE PROTEIN,Cavia porcellus
+AGTR1,5.0,CHEMBL2094250,Angiotensin II receptor (AT-1) type-1,PROTEIN FAMILY,Rattus norvegicus
+AGTR1,6.0,CHEMBL329,Type-1 angiotensin II receptor A,SINGLE PROTEIN,Rattus norvegicus
+AGTR1,7.0,CHEMBL5741,Type-1 angiotensin II receptor A,SINGLE PROTEIN,Mus musculus
+AGTR1,8.0,CHEMBL227,Type-1 angiotensin II receptor,SINGLE PROTEIN,Homo sapiens
+AGTR1,9.0,CHEMBL263,Type-1 angiotensin II receptor B,SINGLE PROTEIN,Rattus norvegicus
+AGTR1,10.0,CHEMBL2094112,Angiotensin II receptor,PROTEIN FAMILY,Rattus norvegicus
+HMGCR,1.0,CHEMBL402,3-hydroxy-3-methylglutaryl-coenzyme A reductase,SINGLE PROTEIN,Homo sapiens
+HMGCR,2.0,CHEMBL3247,3-hydroxy-3-methylglutaryl-coenzyme A reductase,SINGLE PROTEIN,Rattus norvegicus
+HMGCR,3.0,CHEMBL2764,3-hydroxy-3-methylglutaryl-coenzyme A reductase,SINGLE PROTEIN,Mus musculus
+HMGCR,4.0,CHEMBL1075267,3-hydroxy-3-methylglutaryl-coenzyme A reductase,SINGLE PROTEIN,Mesocricetus auratus
+HMGCR,5.0,CHEMBL3593154,3-hydroxy-3-methylglutaryl-coenzyme A reductase,SINGLE PROTEIN,Sus scrofa
+HMGCR,6.0,CHEMBL5169105,3-hydroxy-3-methylglutaryl-coenzyme A reductase,SINGLE PROTEIN,Cricetulus griseus
+HMGCR,7.0,CHEMBL4630729,Protein cereblon/3-hydroxy-3-methylglutaryl-coenzyme A reductase,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HMGCR,8.0,CHEMBL6193784,Protein cereblon/3-hydroxy-3-methylglutaryl-coenzyme A reductase,PROTEIN-PROTEIN INTERACTION,Cricetulus griseus
+HMGCR,9.0,CHEMBL5169065,von Hippel-Lindau disease tumor suppressor/3-hydroxy-3-methylglutaryl-coenzyme A reductase,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HMGCR,10.0,CHEMBL2116,5'-AMP-activated protein kinase catalytic subunit alpha-2,SINGLE PROTEIN,Homo sapiens
+PDCD1,1.0,CHEMBL3307223,Programmed cell death protein 1,SINGLE PROTEIN,Homo sapiens
+PDCD1,2.0,CHEMBL4630756,Programmed cell death protein 1/Programmed cell death 1 ligand 1,PROTEIN COMPLEX,Mus musculus
+PDCD1,3.0,CHEMBL5482985,PD1-PDL2,PROTEIN COMPLEX,Homo sapiens
+PDCD1,4.0,CHEMBL4523993,Programmed cell death protein 1/Programmed cell death 1 ligand 1,PROTEIN COMPLEX,Homo sapiens
+PDCD1,5.0,CHEMBL4523448,Programmed cell death 1 ligand 1,SINGLE PROTEIN,Mus musculus
+PDCD1,6.0,CHEMBL6066575,Programmed cell death 1 ligand 1/2,PROTEIN FAMILY,Homo sapiens
+PDCD1,7.0,CHEMBL3580522,Programmed cell death 1 ligand 1,SINGLE PROTEIN,Homo sapiens
+PDCD1,8.0,CHEMBL3713006,Programmed cell death 1 ligand 2,SINGLE PROTEIN,Homo sapiens
+PDCD1,9.0,CHEMBL4523499,Programmed cell death 1 ligand 2,SINGLE PROTEIN,Mus musculus
+PDCD1,10.0,CHEMBL5739543,Protein cereblon/Programmed cell death 1 ligand 1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+IL6,1.0,CHEMBL1795129,Interleukin-6,SINGLE PROTEIN,Homo sapiens
+IL6,2.0,CHEMBL4289,Interleukin-6 receptor subunit alpha,SINGLE PROTEIN,Rattus norvegicus
+IL6,3.0,CHEMBL3137266,IL6Ralpha/GP130,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+IL6,4.0,CHEMBL2364155,Interleukin-6 receptor subunit alpha,SINGLE PROTEIN,Homo sapiens
+IL6,5.0,CHEMBL3124734,Interleukin-6 receptor subunit beta,SINGLE PROTEIN,Homo sapiens
+IL6,6.0,CHEMBL3137274,LIFR/GP130,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+CYP2E1,1.0,CHEMBL5978,Cytochrome P450 2E1,SINGLE PROTEIN,Rattus norvegicus
+CYP2E1,2.0,CHEMBL5281,Cytochrome P450 2E1,SINGLE PROTEIN,Homo sapiens
+CYP2E1,3.0,CHEMBL4523986,Cytochrome P450,PROTEIN FAMILY,Homo sapiens
+TLR2,1.0,CHEMBL1075106,Toll-like receptor 2,SINGLE PROTEIN,Mus musculus
+TLR2,2.0,CHEMBL3137289,TLR2/TLR6,PROTEIN COMPLEX,Mus musculus
+TLR2,3.0,CHEMBL3301399,TLR2/TLR6,PROTEIN COMPLEX,Homo sapiens
+TLR2,4.0,CHEMBL4163,Toll-like receptor 2,SINGLE PROTEIN,Homo sapiens
+TLR2,5.0,CHEMBL3885644,Toll-like receptor 1/2,PROTEIN COMPLEX,Mus musculus
+TLR2,6.0,CHEMBL3885643,Toll-like receptor 1/2,PROTEIN COMPLEX,Homo sapiens
+CCL5,1.0,CHEMBL1275217,C-C motif chemokine 5,SINGLE PROTEIN,Homo sapiens
+CCL5,2.0,CHEMBL3885531,"C-C motif chemokine 5/Neutrophil defensin 1 (Defensin, alpha 1)",PROTEIN-PROTEIN INTERACTION,Homo sapiens
+LGALS3,1.0,CHEMBL3668,Galectin-3,SINGLE PROTEIN,Mus musculus
+LGALS3,2.0,CHEMBL4531,Galectin-3,SINGLE PROTEIN,Homo sapiens
+NR1H3,1.0,CHEMBL2808,Oxysterols receptor LXR-alpha,SINGLE PROTEIN,Homo sapiens
+NR1H3,2.0,CHEMBL2189152,Oxysterols receptor LXR-alpha,SINGLE PROTEIN,Mus musculus
+NR1H3,3.0,CHEMBL4523336,Oxysterols receptor LXR-alpha,SINGLE PROTEIN,Rattus norvegicus
+NR1H3,4.0,CHEMBL3706564,Liver X receptor,PROTEIN FAMILY,Homo sapiens
+NR1H3,5.0,CHEMBL3706565,Liver X receptor (LXR alpha AND LXR beta),SELECTIVITY GROUP,Homo sapiens
+NR1H3,6.0,CHEMBL6195519,von Hippel-Lindau disease tumor suppressor/Oxysterols receptor LXR-alpha,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+NR1H3,7.0,CHEMBL4093,Oxysterols receptor LXR-beta,SINGLE PROTEIN,Homo sapiens
+NR1H3,8.0,CHEMBL3430879,Retinoic acid receptor RXR-alpha/oxysterols receptor LXR-alpha,PROTEIN COMPLEX,Homo sapiens
+NR1H3,9.0,CHEMBL4523608,Oxysterols receptor LXR-alpha/beta,PROTEIN FAMILY,Mus musculus
+NR1H3,10.0,CHEMBL6193828,von Hippel-Lindau disease tumor suppressor/Oxysterols receptor LXR-beta,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+KRT18,1.0,CHEMBL6066464,"Keratin, type I cytoskeletal 18",SINGLE PROTEIN,Homo sapiens
+IFNAR2,1.0,CHEMBL2364170,Interferon alpha/beta receptor,PROTEIN COMPLEX,Homo sapiens
+IFNAR1,1.0,CHEMBL1887,Interferon alpha/beta receptor 1,SINGLE PROTEIN,Homo sapiens
+IFNAR1,2.0,CHEMBL2364170,Interferon alpha/beta receptor,PROTEIN COMPLEX,Homo sapiens
+ITPR3,1.0,CHEMBL3904,"Inositol 1,4,5-trisphosphate-gated calcium channel ITPR3",SINGLE PROTEIN,Homo sapiens
+ITPR3,2.0,CHEMBL2846,"Inositol 1,4,5-trisphosphate-gated calcium channel ITPR3",SINGLE PROTEIN,Rattus norvegicus
+ITPR3,3.0,CHEMBL2853,"Inositol 1,4,5-trisphosphate-gated calcium channel ITPR3",SINGLE PROTEIN,Bos taurus
+ITPR3,4.0,CHEMBL2111451,"Inositol 1,4,5-trisphosphate receptor",PROTEIN FAMILY,Homo sapiens
+IMPDH1,1.0,CHEMBL1822,Inosine-5'-monophosphate dehydrogenase 1,SINGLE PROTEIN,Homo sapiens
+IMPDH1,2.0,CHEMBL2111369,Inosine-5'-monophosphate dehydrogenase (IMPDH),PROTEIN FAMILY,Homo sapiens
+CD40,1.0,CHEMBL1250358,Tumor necrosis factor receptor superfamily member 5,SINGLE PROTEIN,Homo sapiens
+CD40,2.0,CHEMBL4106122,CD40-CD40L,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+CD40,3.0,CHEMBL3580491,CD40 ligand,SINGLE PROTEIN,Homo sapiens
+CD40,4.0,CHEMBL612417,CD40 mRNA,NUCLEIC-ACID,
+CD40,5.0,CHEMBL4106121,MAC1-CD40L,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+CYP3A5,1.0,CHEMBL3019,Cytochrome P450 3A5,SINGLE PROTEIN,Homo sapiens
+CYP3A5,2.0,CHEMBL2111472,Cytochrome P450 3A4/3A5,PROTEIN FAMILY,Homo sapiens
+CYP3A5,3.0,CHEMBL2364675,Cytochrome P450 3A,PROTEIN FAMILY,Homo sapiens
+CYP3A5,4.0,CHEMBL4523986,Cytochrome P450,PROTEIN FAMILY,Homo sapiens
+CYP3A4,1.0,CHEMBL340,Cytochrome P450 3A4,SINGLE PROTEIN,Homo sapiens
+CYP3A4,2.0,CHEMBL2111472,Cytochrome P450 3A4/3A5,PROTEIN FAMILY,Homo sapiens
+CYP3A4,3.0,CHEMBL2364675,Cytochrome P450 3A,PROTEIN FAMILY,Homo sapiens
+CYP3A4,4.0,CHEMBL4523986,Cytochrome P450,PROTEIN FAMILY,Homo sapiens
+CYP3A43,1.0,CHEMBL5792,Cytochrome P450 3A43,SINGLE PROTEIN,Homo sapiens
+CYP3A43,2.0,CHEMBL2364675,Cytochrome P450 3A,PROTEIN FAMILY,Homo sapiens
+CYP3A43,3.0,CHEMBL4523986,Cytochrome P450,PROTEIN FAMILY,Homo sapiens
+CYP3A7,1.0,CHEMBL3341582,Cytochrome P450 3A7,SINGLE PROTEIN,Homo sapiens
+CYP3A7,2.0,CHEMBL2364675,Cytochrome P450 3A,PROTEIN FAMILY,Homo sapiens
+CYP3A7,3.0,CHEMBL4523986,Cytochrome P450,PROTEIN FAMILY,Homo sapiens
+SLC10A1,1.0,CHEMBL4847,Hepatic sodium/bile acid cotransporter,SINGLE PROTEIN,Rattus norvegicus
+SLC10A1,2.0,CHEMBL2073713,Hepatic sodium/bile acid cotransporter,SINGLE PROTEIN,Mus musculus
+SLC10A1,3.0,CHEMBL5287,Hepatic sodium/bile acid cotransporter,SINGLE PROTEIN,Homo sapiens
+FNTB,1.0,CHEMBL272,Protein farnesyltransferase subunit beta,SINGLE PROTEIN,Homo sapiens
+FNTB,2.0,CHEMBL2094108,Protein farnesyltransferase,PROTEIN COMPLEX,Homo sapiens
+FNTB,3.0,CHEMBL2095178,Protein farnesyltransferase,PROTEIN COMPLEX,Bos taurus
+FNTB,4.0,CHEMBL2095197,Protein farnesyltransferase,PROTEIN COMPLEX,Rattus norvegicus
+FNTB,5.0,CHEMBL2096912,Protein farnesyltransferase,PROTEIN COMPLEX,Mus musculus
+FNTB,6.0,CHEMBL2096991,Protein farnesyl/geranylgeranyl transferase,PROTEIN COMPLEX GROUP,Homo sapiens
+FNTA,1.0,CHEMBL271,Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha,SINGLE PROTEIN,Homo sapiens
+FNTA,2.0,CHEMBL2095164,Geranylgeranyl transferase type I,PROTEIN COMPLEX,Homo sapiens
+FNTA,3.0,CHEMBL2094108,Protein farnesyltransferase,PROTEIN COMPLEX,Homo sapiens
+FNTA,4.0,CHEMBL2095178,Protein farnesyltransferase,PROTEIN COMPLEX,Bos taurus
+FNTA,5.0,CHEMBL2095197,Protein farnesyltransferase,PROTEIN COMPLEX,Rattus norvegicus
+FNTA,6.0,CHEMBL2096912,Protein farnesyltransferase,PROTEIN COMPLEX,Mus musculus
+FNTA,7.0,CHEMBL2096987,Geranylgeranyl transferase type I,PROTEIN COMPLEX,Bos taurus
+FNTA,8.0,CHEMBL2096991,Protein farnesyl/geranylgeranyl transferase,PROTEIN COMPLEX GROUP,Homo sapiens
+FNTA,9.0,CHEMBL2111479,geranylgeranyltransferase type-I,PROTEIN COMPLEX,Rattus norvegicus
+FNTA,10.0,CHEMBL3301421,Geranylgeranyl transferase type 1,PROTEIN COMPLEX,Mus musculus
+IFNLR1,1.0,CHEMBL3831284,Interferon lambda receptor,PROTEIN COMPLEX,Homo sapiens
+REN,1.0,CHEMBL286,Renin,SINGLE PROTEIN,Homo sapiens
+REN,2.0,CHEMBL2615,Renin-1,SINGLE PROTEIN,Mus musculus
+REN,3.0,CHEMBL2322,Renin,SINGLE PROTEIN,Rattus norvegicus
+REN,4.0,CHEMBL6056,Renin,SINGLE PROTEIN,Callithrix jacchus
+REN,5.0,CHEMBL1287631,Renin,SINGLE PROTEIN,Macaca mulatta
+REN,6.0,CHEMBL2046264,Renin,SINGLE PROTEIN,Macaca fascicularis
+REN,7.0,CHEMBL4630837,BTB/POZ domain-containing protein KCTD11,SINGLE PROTEIN,Homo sapiens
+REN,8.0,CHEMBL3778,Interleukin-1 receptor-associated kinase 4,SINGLE PROTEIN,Homo sapiens
+REN,9.0,CHEMBL5146,Breakpoint cluster region protein,SINGLE PROTEIN,Homo sapiens
+REN,10.0,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens
+CACNA1C,1.0,CHEMBL1940,Voltage-dependent L-type calcium channel subunit alpha-1C,SINGLE PROTEIN,Homo sapiens
+CACNA1C,2.0,CHEMBL2366456,Voltage-dependent L-type calcium channel subunit alpha-1C,SINGLE PROTEIN,Cavia porcellus
+CACNA1C,3.0,CHEMBL2529,Voltage-dependent L-type calcium channel subunit alpha-1C,SINGLE PROTEIN,Mus musculus
+CACNA1C,4.0,CHEMBL3762,Voltage-dependent L-type calcium channel subunit alpha-1C,SINGLE PROTEIN,Rattus norvegicus
+CACNA1C,5.0,CHEMBL2830,Voltage-dependent L-type calcium channel subunit alpha-1C,SINGLE PROTEIN,Oryctolagus cuniculus
+CACNA1C,6.0,CHEMBL3988633,L-type calcium channel,PROTEIN FAMILY,Cavia porcellus
+CACNA1C,7.0,CHEMBL3638171,L-type calcium channel alpha 1C/beta 2A,PROTEIN COMPLEX,Oryctolagus cuniculus
+CACNA1C,8.0,CHEMBL3988638,Voltage-dependent L-type calcium channel alpha1C/alpha2delta/beta1b,PROTEIN COMPLEX,Homo sapiens
+CACNA1C,9.0,CHEMBL4106164,L-type calcium channel alpha-1c/beta-2/alpha2delta-1,PROTEIN COMPLEX,Homo sapiens
+CACNA1C,10.0,CHEMBL6066567,Voltage-dependent L-type calcium channel subunit alpha-1C/L-type calcium channel subunit beta-3/calcium channel subunit alpha-2/delta-1,PROTEIN COMPLEX,Homo sapiens
+SLC12A3,1.0,CHEMBL1876,Solute carrier family 12 member 3,SINGLE PROTEIN,Homo sapiens
+CACNA1D,1.0,CHEMBL4138,Voltage-dependent L-type calcium channel subunit alpha-1D,SINGLE PROTEIN,Homo sapiens
+CACNA1D,2.0,CHEMBL4132,Voltage-dependent L-type calcium channel subunit alpha-1D,SINGLE PROTEIN,Rattus norvegicus
+CACNA1D,3.0,CHEMBL3137269,Cav1.3/Cav beta3 complex,PROTEIN COMPLEX,Rattus norvegicus
+CACNA1D,4.0,CHEMBL3988633,L-type calcium channel,PROTEIN FAMILY,Cavia porcellus
+CACNA1D,5.0,CHEMBL3137270,Cav1.3/Cav beta3/Cav alpha2delta complex,PROTEIN COMPLEX,Rattus norvegicus
+CACNA1D,6.0,CHEMBL2095177,Voltage-gated L-type calcium channel,PROTEIN FAMILY,Rattus norvegicus
+CACNA1D,7.0,CHEMBL2095229,Voltage-gated L-type calcium channel,PROTEIN FAMILY,Homo sapiens
+CACNA1D,8.0,CHEMBL3988632,L-type calcium channel,PROTEIN FAMILY,Mus musculus
+CACNA1D,9.0,CHEMBL2363032,Voltage-gated calcium channel,PROTEIN COMPLEX GROUP,Homo sapiens
+CACNA1S,1.0,CHEMBL3805,Voltage-dependent L-type calcium channel subunit alpha-1S,SINGLE PROTEIN,Homo sapiens
+CACNA1S,2.0,CHEMBL4108,Voltage-dependent L-type calcium channel subunit alpha-1S,SINGLE PROTEIN,Rattus norvegicus
+CACNA1S,3.0,CHEMBL4169,Voltage-dependent L-type calcium channel subunit alpha-1S,SINGLE PROTEIN,Oryctolagus cuniculus
+CACNA1S,4.0,CHEMBL3988633,L-type calcium channel,PROTEIN FAMILY,Cavia porcellus
+CACNA1S,5.0,CHEMBL1687682,Voltage-dependent R-type calcium channel subunit alpha-1E,SINGLE PROTEIN,Homo sapiens
+CACNA1S,6.0,CHEMBL2095177,Voltage-gated L-type calcium channel,PROTEIN FAMILY,Rattus norvegicus
+CACNA1S,7.0,CHEMBL2095229,Voltage-gated L-type calcium channel,PROTEIN FAMILY,Homo sapiens
+CACNA1S,8.0,CHEMBL3988632,L-type calcium channel,PROTEIN FAMILY,Mus musculus
+CACNA1S,9.0,CHEMBL2363032,Voltage-gated calcium channel,PROTEIN COMPLEX GROUP,Homo sapiens
+CACNA1F,1.0,CHEMBL2176791,Voltage-dependent L-type calcium channel subunit alpha-1F,SINGLE PROTEIN,Mus musculus
+CACNA1F,2.0,CHEMBL3988633,L-type calcium channel,PROTEIN FAMILY,Cavia porcellus
+CACNA1F,3.0,CHEMBL2095229,Voltage-gated L-type calcium channel,PROTEIN FAMILY,Homo sapiens
+CACNA1F,4.0,CHEMBL3988632,L-type calcium channel,PROTEIN FAMILY,Mus musculus
+CACNA1F,5.0,CHEMBL2363032,Voltage-gated calcium channel,PROTEIN COMPLEX GROUP,Homo sapiens
+TSHR,1.0,CHEMBL1963,Thyrotropin receptor,SINGLE PROTEIN,Homo sapiens
+TSHR,2.0,CHEMBL5291571,Thyrotropin receptor,SINGLE PROTEIN,Rattus norvegicus
+THRB,1.0,CHEMBL3917,Thyroid hormone receptor beta,SINGLE PROTEIN,Rattus norvegicus
+THRB,2.0,CHEMBL1947,Thyroid hormone receptor beta,SINGLE PROTEIN,Homo sapiens
+THRB,3.0,CHEMBL2111462,Thyroid hormone receptor,PROTEIN COMPLEX,Homo sapiens
+THRB,4.0,CHEMBL4524126,Thyroid Hormone Receptor,PROTEIN FAMILY,Rattus norvegicus
+PAX8,1.0,CHEMBL2362980,Paired box protein Pax-8,SINGLE PROTEIN,Homo sapiens
+TPO,1.0,CHEMBL1839,Thyroid peroxidase,SINGLE PROTEIN,Homo sapiens
+TPO,2.0,CHEMBL1864,Thrombopoietin receptor,SINGLE PROTEIN,Homo sapiens
+TPO,3.0,CHEMBL1075309,Thrombopoietin receptor,SINGLE PROTEIN,Mus musculus
+CTLA4,1.0,CHEMBL2364164,Cytotoxic T-lymphocyte protein 4,SINGLE PROTEIN,Homo sapiens
+CTLA4,2.0,CHEMBL2364156,T-lymphocyte activation antigen CD86,SINGLE PROTEIN,Homo sapiens
+CTLA4,3.0,CHEMBL2364157,T-lymphocyte activation antigen CD80,SINGLE PROTEIN,Homo sapiens
+IGF1R,1.0,CHEMBL1957,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Homo sapiens
+IGF1R,2.0,CHEMBL5381,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Mus musculus
+IGF1R,3.0,CHEMBL1075098,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Rattus norvegicus
+IGF1R,4.0,CHEMBL4748221,von Hippel-Lindau disease tumor suppressor/Insulin-like growth factor 1 receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TG,,,ERROR: 400 Client Error: Bad Request for url: https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=TG&limit=20,,
+DIO1,1.0,CHEMBL2019,Type I iodothyronine deiodinase,SINGLE PROTEIN,Homo sapiens
+DIO1,2.0,CHEMBL3542431,Deiodinase,PROTEIN FAMILY,Homo sapiens
+GCGR,1.0,CHEMBL1649060,Uncharacterized protein,SINGLE PROTEIN,Canis lupus familiaris
+GCGR,2.0,CHEMBL2157859,Uncharacterized protein,SINGLE PROTEIN,Macaca mulatta
+GCGR,3.0,CHEMBL1985,Glucagon receptor,SINGLE PROTEIN,Homo sapiens
+GCGR,4.0,CHEMBL4773,Glucagon receptor,SINGLE PROTEIN,Mus musculus
+GCGR,5.0,CHEMBL4720,Glucagon receptor,SINGLE PROTEIN,Rattus norvegicus
+KCNJ8,1.0,CHEMBL4770,ATP-sensitive inward rectifier potassium channel 8,SINGLE PROTEIN,Homo sapiens
+KCNJ8,2.0,CHEMBL2095152,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Homo sapiens
+KCNJ8,3.0,CHEMBL4524131,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Rattus norvegicus
+GLP1R,1.0,CHEMBL1784,Glucagon-like peptide 1 receptor,SINGLE PROTEIN,Homo sapiens
+GLP1R,2.0,CHEMBL1075290,Glucagon-like peptide 1 receptor,SINGLE PROTEIN,Mus musculus
+GLP1R,3.0,CHEMBL5862,Glucagon-like peptide 1 receptor,SINGLE PROTEIN,Rattus norvegicus
+GLP1R,4.0,CHEMBL4295545,Glucagon-like peptide 1 receptor,SINGLE PROTEIN,Macaca fascicularis
+G6PC1,1.0,CHEMBL4759,Glucose-6-phosphatase catalytic subunit 1,SINGLE PROTEIN,Rattus norvegicus
+G6PC1,2.0,CHEMBL2282,Glucose-6-phosphatase catalytic subunit 1,SINGLE PROTEIN,Homo sapiens
+GALC,1.0,CHEMBL2218,Galactocerebrosidase,SINGLE PROTEIN,Mus musculus
+GALC,2.0,CHEMBL3713095,Galactocerebrosidase,SINGLE PROTEIN,Homo sapiens
+SLC26A4,1.0,CHEMBL4523138,Pendrin,SINGLE PROTEIN,Homo sapiens
+SLC26A4,2.0,CHEMBL4523483,Pendrin,SINGLE PROTEIN,Mus musculus
+THRA,1.0,CHEMBL4823,Thyroid hormone receptor alpha,SINGLE PROTEIN,Rattus norvegicus
+THRA,2.0,CHEMBL1860,Thyroid hormone receptor alpha,SINGLE PROTEIN,Homo sapiens
+THRA,3.0,CHEMBL4524126,Thyroid Hormone Receptor,PROTEIN FAMILY,Rattus norvegicus
+THRA,4.0,CHEMBL2111462,Thyroid hormone receptor,PROTEIN COMPLEX,Homo sapiens
+SLC5A5,1.0,CHEMBL2331047,Sodium/iodide cotransporter,SINGLE PROTEIN,Rattus norvegicus
+DUOX2,1.0,CHEMBL3293,Dual oxidase 2,SINGLE PROTEIN,Homo sapiens
+SECISBP2,1.0,CHEMBL2176808,Selenocysteine insertion sequence-binding protein 2,SINGLE PROTEIN,Rattus norvegicus
+PLG,1.0,CHEMBL1801,Plasminogen,SINGLE PROTEIN,Homo sapiens
+PLG,2.0,CHEMBL2957,Plasminogen,SINGLE PROTEIN,Bos taurus
+PLG,3.0,CHEMBL3204,Plasminogen,SINGLE PROTEIN,Rattus norvegicus
+PLG,4.0,CHEMBL1075299,Plasminogen,SINGLE PROTEIN,Mus musculus
+PLG,5.0,CHEMBL3885619,Plasminogen/Urokinase plasminogen activator surface receptor/Urokinase-type plasminogen activator,PROTEIN-PROTEIN INTERACTION,Mus musculus
+EDNRB,1.0,CHEMBL1785,Endothelin receptor type B,SINGLE PROTEIN,Homo sapiens
+EDNRB,2.0,CHEMBL4631,Endothelin receptor type B,SINGLE PROTEIN,Rattus norvegicus
+EDNRB,3.0,CHEMBL4401,Endothelin receptor type B,SINGLE PROTEIN,Bos taurus
+EDNRB,4.0,CHEMBL3949,Endothelin receptor type B,SINGLE PROTEIN,Sus scrofa
+EDNRB,5.0,CHEMBL1681617,Endothelin receptor type B,SINGLE PROTEIN,Mus musculus
+EDNRB,6.0,CHEMBL2259248,Endothelin receptor type B,SINGLE PROTEIN,Oryctolagus cuniculus
+EDNRB,7.0,CHEMBL2111453,Endothelin receptor,PROTEIN FAMILY,Rattus norvegicus
+EDNRB,8.0,CHEMBL2096678,"Endothelin receptor, ET-A/ET-B",PROTEIN FAMILY,Homo sapiens
+DSG1,1.0,CHEMBL5725116,Desmoglein-1,SINGLE PROTEIN,Homo sapiens
+UGT1A1,1.0,CHEMBL4523948,UDP-glucuronosyltransferase,SINGLE PROTEIN,Macaca mulatta
+UGT1A1,2.0,CHEMBL4523337,UDP-glucuronosyltransferase 1A1,SINGLE PROTEIN,Mus musculus
+UGT1A1,3.0,CHEMBL4523339,UDP-glucuronosyltransferase 1A1,SINGLE PROTEIN,Rattus norvegicus
+UGT1A1,4.0,CHEMBL1287617,UDP-glucuronosyltransferase 1A1,SINGLE PROTEIN,Homo sapiens
+UGT1A1,5.0,CHEMBL4523985,UDP-glucuronosyltransferases (UGTs),PROTEIN FAMILY,Homo sapiens
+SLCO1B1,1.0,CHEMBL1697668,Solute carrier organic anion transporter family member 1B1,SINGLE PROTEIN,Homo sapiens
+SLCO1B1,2.0,CHEMBL3885536,Canalicular multispecific organic anion transporter 1/Solute carrier organic anion transporter family member 1B1,PROTEIN FAMILY,Homo sapiens
+NRP2,1.0,CHEMBL5482995,NRP2-VEGA,PROTEIN COMPLEX,Homo sapiens
+NRP2,2.0,CHEMBL4295667,Neuropilin-2,SINGLE PROTEIN,Homo sapiens
+MAPT,1.0,CHEMBL3638363,Microtubule-associated protein tau,SINGLE PROTEIN,Bos taurus
+MAPT,2.0,CHEMBL1075117,Microtubule-associated protein tau,SINGLE PROTEIN,Rattus norvegicus
+MAPT,3.0,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens
+MAPT,4.0,CHEMBL4296281,Microtubule-associated protein tau,SINGLE PROTEIN,Mus musculus
+MAPT,5.0,CHEMBL6066025,Protein cereblon/Microtubule-associated protein tau,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+MAPT,6.0,CHEMBL4296124,Cullin-3/Microtubule-associated protein tau,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+MAPT,7.0,CHEMBL4296122,Kelch-like ECH-associated protein 1/Microtubule-associated protein tau,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+MAPT,8.0,CHEMBL4296123,Kelch-like ECH-associated protein 1/Microtubule-associated protein tau/Cullin-3,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+MAPT,9.0,CHEMBL6193767,Sequestosome-1/Microtubule-associated protein tau,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+TLR9,1.0,CHEMBL6128,Toll-like receptor 9,SINGLE PROTEIN,Mus musculus
+TLR9,2.0,CHEMBL5804,Toll-like receptor 9,SINGLE PROTEIN,Homo sapiens
+TLR9,3.0,CHEMBL2111471,Toll-like receptor (TLR7/TLR9),PROTEIN FAMILY,Homo sapiens
+TLR9,4.0,CHEMBL4106182,Toll-like receptor 3/8/9,PROTEIN FAMILY,Homo sapiens
+TLR7,1.0,CHEMBL6085,Toll-like receptor 7,SINGLE PROTEIN,Mus musculus
+TLR7,2.0,CHEMBL5936,Toll-like receptor 7,SINGLE PROTEIN,Homo sapiens
+TLR7,3.0,CHEMBL4105722,Toll-like receptor 7,SINGLE PROTEIN,Macaca fascicularis
+TLR7,4.0,CHEMBL4105914,Toll-like receptor 7,SINGLE PROTEIN,Rattus norvegicus
+TLR7,5.0,CHEMBL2111471,Toll-like receptor (TLR7/TLR9),PROTEIN FAMILY,Homo sapiens
+TLR7,6.0,CHEMBL3137280,TLR7 and TLR8,PROTEIN FAMILY,Mus musculus
+TLR7,7.0,CHEMBL3137288,TLR7 and TLR8,PROTEIN FAMILY,Homo sapiens
+TLR7,8.0,CHEMBL4630752,Toll-like receptor 7/8,PROTEIN FAMILY,Canis lupus familiaris
+ABO,1.0,CHEMBL2321639,Histo-blood group ABO system transferase,SINGLE PROTEIN,Homo sapiens
+GYPA,1.0,CHEMBL5806,Glycophorin-A,SINGLE PROTEIN,Homo sapiens
+SCN1A,1.0,CHEMBL4523668,SCN1A/SCN1B,PROTEIN COMPLEX,Homo sapiens
+SCN1A,2.0,CHEMBL4906,Sodium channel protein type 1 subunit alpha,SINGLE PROTEIN,Rattus norvegicus
+SCN1A,3.0,CHEMBL4523103,Sodium channel protein type 1 subunit alpha,SINGLE PROTEIN,Mus musculus
+SCN1A,4.0,CHEMBL1845,Sodium channel protein type 1 subunit alpha,SINGLE PROTEIN,Homo sapiens
+SCN1A,5.0,CHEMBL4630760,Sodium channel protein type 1 subunit alpha/beta-1/beta-2,PROTEIN COMPLEX,Homo sapiens
+SCN1A,6.0,CHEMBL4630761,Sodium channel protein type 1 subunit alpha/beta-1/beta-2,PROTEIN COMPLEX,Mus musculus
+SCN1A,7.0,CHEMBL2095171,"Sodium channel alpha subunits; brain (Types I, II, III)",PROTEIN FAMILY,Rattus norvegicus
+SCN1A,8.0,CHEMBL2096682,"Sodium channel alpha subunits; brain (Types I, II, III)",PROTEIN FAMILY,Homo sapiens
+SCN1A,9.0,CHEMBL2331043,Sodium channel alpha subunit,PROTEIN FAMILY,Homo sapiens
+SCN1A,10.0,CHEMBL3988641,Voltage-gated sodium channel,PROTEIN FAMILY,Rattus norvegicus
+ATP1A2,1.0,CHEMBL4106148,Na+/K+ ATPase alpha-2/beta-1,PROTEIN COMPLEX,Rattus norvegicus
+ATP1A2,2.0,CHEMBL6066560,Sodium/potassium-transporting ATPase subunit alpha-2/beta-1,PROTEIN COMPLEX,Homo sapiens
+ATP1A2,3.0,CHEMBL6066561,Sodium/potassium-transporting ATPase subunit alpha-2/beta-2,PROTEIN COMPLEX,Homo sapiens
+ATP1A2,4.0,CHEMBL6066562,Sodium/potassium-transporting ATPase subunit alpha-2/beta-3,PROTEIN COMPLEX,Homo sapiens
+ATP1A2,5.0,CHEMBL3885640,Sodium/potassium-transporting ATPase subunit alpha-2/alpha-3,PROTEIN COMPLEX,Rattus norvegicus
+ATP1A2,6.0,CHEMBL4524015,Sodium/potassium-transporting ATPase,PROTEIN COMPLEX GROUP,Sus scrofa
+ATP1A2,7.0,CHEMBL2095186,Sodium/potassium-transporting ATPase,PROTEIN COMPLEX GROUP,Homo sapiens
+CACNA1A,1.0,CHEMBL4266,Voltage-dependent P/Q-type calcium channel subunit alpha-1A,SINGLE PROTEIN,Homo sapiens
+CACNA1A,2.0,CHEMBL3988640,Voltage-dependent P/Q-type calcium channel alpha1A/alpha2delta/beta1b,PROTEIN COMPLEX,Homo sapiens
+CACNA1A,3.0,CHEMBL2363032,Voltage-gated calcium channel,PROTEIN COMPLEX GROUP,Homo sapiens
+CALCA,1.0,CHEMBL5293,Calcitonin gene-related peptide 1,SINGLE PROTEIN,Homo sapiens
+CALCA,2.0,CHEMBL5735,Calcitonin gene-related peptide 1,SINGLE PROTEIN,Rattus norvegicus
+CALCA,3.0,CHEMBL3832947,Calcitonin gene-related peptide,PROTEIN FAMILY,Homo sapiens
+CALCB,1.0,CHEMBL3713541,Calcitonin gene-related peptide 2,SINGLE PROTEIN,Homo sapiens
+CALCB,2.0,CHEMBL3832947,Calcitonin gene-related peptide,PROTEIN FAMILY,Homo sapiens
+GABRG2,1.0,CHEMBL4523638,Gamma-aminobutyric acid receptor subunit alpha-1/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,2.0,CHEMBL5291950,Gamma-aminobutyric acid receptor subunit gamma-2/beta-3,PROTEIN COMPLEX,Rattus norvegicus
+GABRG2,3.0,CHEMBL2094120,GABA-A receptor; alpha-3/beta-3/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,4.0,CHEMBL2094121,GABA-A receptor; alpha-1/beta-3/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,5.0,CHEMBL2094122,GABA-A receptor; alpha-5/beta-3/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,6.0,CHEMBL2094130,GABA-A receptor; alpha-2/beta-3/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,7.0,CHEMBL2095172,GABA-A receptor; alpha-1/beta-2/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,8.0,CHEMBL2095190,GABA-A receptor; alpha-6/beta-3/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,9.0,CHEMBL2111413,GABA A receptor alpha-2/beta-2/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRG2,10.0,CHEMBL2111339,GABA A receptor alpha-3/beta-2/gamma-2,PROTEIN COMPLEX,Homo sapiens
+GABRA1,1.0,CHEMBL3139,Gamma-aminobutyric acid receptor subunit alpha-1,SINGLE PROTEIN,Mus musculus
+GABRA1,2.0,CHEMBL343,Gamma-aminobutyric acid receptor subunit alpha-1,SINGLE PROTEIN,Rattus norvegicus
+GABRA1,3.0,CHEMBL1962,Gamma-aminobutyric acid receptor subunit alpha-1,SINGLE PROTEIN,Homo sapiens
+GABRA1,4.0,CHEMBL4296060,Gamma-aminobutyric acid receptor subunit alpha-1/beta-3,PROTEIN COMPLEX,Rattus norvegicus
+GABRA1,5.0,CHEMBL4296063,Gamma-aminobutyric acid receptor subunit alpha-1/beta-2,PROTEIN COMPLEX,Rattus norvegicus
+GABRA1,6.0,CHEMBL2095167,GABA-A receptor; alpha-1/beta-2/gamma-2,PROTEIN COMPLEX,Rattus norvegicus
+GABRA1,7.0,CHEMBL4296058,Gamma-aminobutyric acid receptor subunit alpha-1/beta-3/gamma-2,PROTEIN COMPLEX,Mus musculus
+GABRA1,8.0,CHEMBL4296059,Gamma-aminobutyric acid receptor subunit alpha-1/beta-2/gamma-2,PROTEIN COMPLEX,Mus musculus
+GABRA1,9.0,CHEMBL4296061,Gamma-aminobutyric acid receptor subunit alpha-1/beta-3/delta,PROTEIN COMPLEX,Rattus norvegicus
+GABRA1,10.0,CHEMBL4296062,Gamma-aminobutyric acid receptor subunit alpha-1/beta-3/gamma-2,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,1.0,CHEMBL1847,Gamma-aminobutyric acid receptor subunit beta-3,SINGLE PROTEIN,Homo sapiens
+GABRB3,2.0,CHEMBL4296049,Gamma-aminobutyric acid receptor subunit alpha-4/beta-3,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,3.0,CHEMBL4296052,Gamma-aminobutyric acid receptor subunit alpha-6/beta-3,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,4.0,CHEMBL4296060,Gamma-aminobutyric acid receptor subunit alpha-1/beta-3,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,5.0,CHEMBL5291950,Gamma-aminobutyric acid receptor subunit gamma-2/beta-3,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,6.0,CHEMBL2111374,GABA A receptor alpha-5/beta-3/gamma-2,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,7.0,CHEMBL4296047,Gamma-aminobutyric acid receptor subunit alpha-3/beta-3/gamma-2,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,8.0,CHEMBL4296048,Gamma-aminobutyric acid receptor subunit alpha-2/beta-3/gamma-2,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,9.0,CHEMBL4296050,Gamma-aminobutyric acid receptor subunit alpha-4/beta-3/delta,PROTEIN COMPLEX,Rattus norvegicus
+GABRB3,10.0,CHEMBL4296051,Gamma-aminobutyric acid receptor subunit alpha-4/beta-3/gamma-2,PROTEIN COMPLEX,Rattus norvegicus
+NGF,1.0,CHEMBL1649058,Beta-nerve growth factor,SINGLE PROTEIN,Homo sapiens
+NGF,2.0,CHEMBL5303549,Beta-nerve growth factor,SINGLE PROTEIN,Canis lupus familiaris
+NGF,3.0,CHEMBL5303552,Beta-nerve growth factor,SINGLE PROTEIN,Felis catus
+NGF,4.0,CHEMBL3559684,Neurotrophic tyrosine kinase receptor,PROTEIN FAMILY,Homo sapiens
+NGF,5.0,CHEMBL4523622,NTRK1/NTRK2,PROTEIN FAMILY,Homo sapiens
+NGF,6.0,CHEMBL2791,NT-3 growth factor receptor,SINGLE PROTEIN,Mus musculus
+NGF,7.0,CHEMBL2815,High affinity nerve growth factor receptor,SINGLE PROTEIN,Homo sapiens
+NGF,8.0,CHEMBL4220,High affinity nerve growth factor receptor,SINGLE PROTEIN,Rattus norvegicus
+NGF,9.0,CHEMBL4898,BDNF/NT-3 growth factors receptor,SINGLE PROTEIN,Homo sapiens
+NGF,10.0,CHEMBL5608,NT-3 growth factor receptor,SINGLE PROTEIN,Homo sapiens
+PLOD2,1.0,CHEMBL5465273,"Procollagen-lysine,2-oxoglutarate 5-dioxygenase 2",SINGLE PROTEIN,Homo sapiens
+PLOD2,2.0,CHEMBL4742261,"Protein cereblon/Procollagen-lysine,2-oxoglutarate 5-dioxygenase 2",PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PTGER3,1.0,CHEMBL5674,Prostaglandin E2 receptor EP3 subtype,SINGLE PROTEIN,Rattus norvegicus
+PTGER3,2.0,CHEMBL3710,Prostaglandin E2 receptor EP3 subtype,SINGLE PROTEIN,Homo sapiens
+PTGER3,3.0,CHEMBL4336,Prostaglandin E2 receptor EP3 subtype,SINGLE PROTEIN,Mus musculus
+PTGER3,4.0,CHEMBL2363068,Prostaglandin E2 receptor,PROTEIN FAMILY,Homo sapiens
+OPRM1,1.0,CHEMBL3611961,Mu opioid receptor-like OR2,SINGLE PROTEIN,Danio rerio
+OPRM1,2.0,CHEMBL5430,Mu-opioid receptor,SINGLE PROTEIN,Cavia porcellus
+OPRM1,3.0,CHEMBL3041,Mu-type opioid receptor,SINGLE PROTEIN,Bos taurus
+OPRM1,4.0,CHEMBL2858,Mu-type opioid receptor,SINGLE PROTEIN,Mus musculus
+OPRM1,5.0,CHEMBL4354,Mu-type opioid receptor,SINGLE PROTEIN,Cavia porcellus
+OPRM1,6.0,CHEMBL5799,Mu-type opioid receptor,SINGLE PROTEIN,Macaca mulatta
+OPRM1,7.0,CHEMBL270,Mu-type opioid receptor,SINGLE PROTEIN,Rattus norvegicus
+OPRM1,8.0,CHEMBL233,Mu-type opioid receptor,SINGLE PROTEIN,Homo sapiens
+OPRM1,9.0,CHEMBL2111465,Opioid receptor (mu and kappa),SELECTIVITY GROUP,Cavia porcellus
+OPRM1,10.0,CHEMBL3038518,mu/kappa opioid receptor,PROTEIN FAMILY,Cavia porcellus
+COL4A1,1.0,CHEMBL2364188,Collagen,PROTEIN COMPLEX GROUP,Homo sapiens
+COL4A2,1.0,CHEMBL2364188,Collagen,PROTEIN COMPLEX GROUP,Homo sapiens
+KAT6B,1.0,CHEMBL3774300,Histone acetyltransferase KAT6B,SINGLE PROTEIN,Homo sapiens
+BMP4,1.0,CHEMBL2384894,Bone morphogenetic protein 4,SINGLE PROTEIN,Mus musculus
+BMP4,2.0,CHEMBL5350,Bone morphogenetic protein 4,SINGLE PROTEIN,Homo sapiens
+PDE6B,1.0,CHEMBL3430880,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase alpha/beta",PROTEIN COMPLEX,Homo sapiens
+PDE6B,2.0,CHEMBL2096979,Phosphodiesterase 6,PROTEIN FAMILY,Bos taurus
+PDE6B,3.0,CHEMBL2097163,Phosphodiesterase 6,PROTEIN FAMILY,Homo sapiens
+PDE6B,4.0,CHEMBL2095220,Phosphodiesterases; PDE5 & PDE6,SELECTIVITY GROUP,Homo sapiens
+PDE6B,5.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PGA5,1.0,CHEMBL3295,Pepsin A,SINGLE PROTEIN,Homo sapiens
+CHRM3,1.0,CHEMBL245,Muscarinic acetylcholine receptor M3,SINGLE PROTEIN,Homo sapiens
+CHRM3,2.0,CHEMBL5105,Muscarinic acetylcholine receptor M3,SINGLE PROTEIN,Mus musculus
+CHRM3,3.0,CHEMBL320,Muscarinic acetylcholine receptor M3,SINGLE PROTEIN,Rattus norvegicus
+CHRM3,4.0,CHEMBL2111347,Muscarinic receptor M2 and M3,SELECTIVITY GROUP,Rattus norvegicus
+CHRM3,5.0,CHEMBL2095187,Muscarinic acetylcholine receptors; M2 & M3,SELECTIVITY GROUP,Homo sapiens
+CHRM3,6.0,CHEMBL2111418,Muscarinic acetylcholine receptor M1 and M3,SELECTIVITY GROUP,Homo sapiens
+CHRM3,7.0,CHEMBL1907609,Muscarinic acetylcholine receptor,PROTEIN FAMILY,Rattus norvegicus
+CHRM3,8.0,CHEMBL2094109,Muscarinic acetylcholine receptor,PROTEIN FAMILY,Homo sapiens
+CHRM3,9.0,CHEMBL2097162,Muscarinic acetylcholine receptor,PROTEIN FAMILY,Mus musculus
+CHRM1,1.0,CHEMBL4295543,Muscarinic acetylcholine receptor,SINGLE PROTEIN,Canis lupus familiaris
+CHRM1,2.0,CHEMBL216,Muscarinic acetylcholine receptor M1,SINGLE PROTEIN,Homo sapiens
+CHRM1,3.0,CHEMBL276,Muscarinic acetylcholine receptor M1,SINGLE PROTEIN,Rattus norvegicus
+CHRM1,4.0,CHEMBL3733,Muscarinic acetylcholine receptor M1,SINGLE PROTEIN,Mus musculus
+CHRM1,5.0,CHEMBL1795124,Muscarinic acetylcholine receptor M1,SINGLE PROTEIN,Macaca mulatta
+CHRM1,6.0,CHEMBL2095219,Muscarinic acetylcholine receptors; M1 & M2,SELECTIVITY GROUP,Homo sapiens
+CHRM1,7.0,CHEMBL2111417,Muscarinic acetylcholine receptor M1/M5 chimeric protein,CHIMERIC PROTEIN,Homo sapiens
+CHRM1,8.0,CHEMBL2111418,Muscarinic acetylcholine receptor M1 and M3,SELECTIVITY GROUP,Homo sapiens
+CHRM1,9.0,CHEMBL2111433,Muscarinic receptor M1 and M2,SELECTIVITY GROUP,Rattus norvegicus
+CHRM1,10.0,CHEMBL1907609,Muscarinic acetylcholine receptor,PROTEIN FAMILY,Rattus norvegicus
+DPEP1,1.0,CHEMBL2626,Dipeptidase 1,SINGLE PROTEIN,Sus scrofa
+DPEP1,2.0,CHEMBL1989,Dipeptidase 1,SINGLE PROTEIN,Homo sapiens
+TET2,1.0,CHEMBL4523344,Methylcytosine dioxygenase TET2,SINGLE PROTEIN,Homo sapiens
+TET2,2.0,CHEMBL5465314,Methylcytosine dioxygenase TET2,SINGLE PROTEIN,Mus musculus
+SRSF2,1.0,CHEMBL5725035,Serine/arginine-rich splicing factor 2,SINGLE PROTEIN,Homo sapiens
+CRP,1.0,CHEMBL4295728,Cysteine and glycine-rich protein 1,SINGLE PROTEIN,Homo sapiens
+IL17RA,1.0,CHEMBL3580485,Interleukin-17 receptor A,SINGLE PROTEIN,Homo sapiens
+AHR,1.0,CHEMBL4725,Aryl hydrocarbon receptor,SINGLE PROTEIN,Oryctolagus cuniculus
+AHR,2.0,CHEMBL5400,Aryl hydrocarbon receptor,SINGLE PROTEIN,Rattus norvegicus
+AHR,3.0,CHEMBL6099,Aryl hydrocarbon receptor,SINGLE PROTEIN,Mus musculus
+AHR,4.0,CHEMBL3201,Aryl hydrocarbon receptor,SINGLE PROTEIN,Homo sapiens
+AHR,5.0,CHEMBL4742276,Protein cereblon/Aryl hydrocarbon receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+AHR,6.0,CHEMBL4748226,von Hippel-Lindau disease tumor suppressor/Aryl hydrocarbon receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+AHR,7.0,CHEMBL6193798,Baculoviral IAP repeat-containing protein 2/E3 ubiquitin-protein ligase XIAP/Aryl hydrocarbon receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+LTF,1.0,CHEMBL2796,Lactotransferrin,SINGLE PROTEIN,Bos taurus
+LTF,2.0,CHEMBL4523161,Lactotransferrin,SINGLE PROTEIN,Homo sapiens
+KPNA1,1.0,CHEMBL5724654,Importin subunit alpha-5,SINGLE PROTEIN,Homo sapiens
+KPNB1,1.0,CHEMBL1741199,Importin subunit beta-1,SINGLE PROTEIN,Homo sapiens
+KPNB1,2.0,CHEMBL3885594,Importin subunit beta-1/Snurportin-1,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+KPNB1,3.0,CHEMBL3885569,GTP-binding nuclear protein Ran/Importin subunit beta-1/Snurportin-1,PROTEIN COMPLEX,Homo sapiens
+UBC,1.0,CHEMBL4523179,Polyubiquitin-C,SINGLE PROTEIN,Homo sapiens
+UBC,2.0,CHEMBL4105871,Ubiquitin-conjugating enzyme E2 L3,SINGLE PROTEIN,Homo sapiens
+UBC,3.0,CHEMBL4105951,Ubiquitin-conjugating enzyme E2 H,SINGLE PROTEIN,Homo sapiens
+UBC,4.0,CHEMBL4105725,Ubiquitin-conjugating enzyme E2 D3,SINGLE PROTEIN,Mus musculus
+UBC,5.0,CHEMBL4105763,Ubiquitin-conjugating enzyme E2 T,SINGLE PROTEIN,Homo sapiens
+UBC,6.0,CHEMBL4295787,NEDD8-conjugating enzyme Ubc12,SINGLE PROTEIN,Homo sapiens
+UBC,7.0,CHEMBL4295940,(E3-independent) E2 ubiquitin-conjugating enzyme,SINGLE PROTEIN,Homo sapiens
+UBC,8.0,CHEMBL4523256,Ubiquitin-conjugating enzyme E2 G2,SINGLE PROTEIN,Homo sapiens
+UBC,9.0,CHEMBL4523422,NEDD8-conjugating enzyme UBE2F,SINGLE PROTEIN,Homo sapiens
+UBC,10.0,CHEMBL5234,Ubiquitin-conjugating enzyme E2 variant 1,SINGLE PROTEIN,Homo sapiens
+UBA52,1.0,CHEMBL4523259,Ubiquitin-ribosomal protein eL40 fusion protein,SINGLE PROTEIN,Homo sapiens
+RPS27A,1.0,CHEMBL4523597,Ubiquitin-ribosomal protein eS31 fusion protein,SINGLE PROTEIN,Homo sapiens
+RPS27A,2.0,CHEMBL3987582,80S Ribosome,PROTEIN NUCLEIC-ACID COMPLEX,Homo sapiens
+UBB,1.0,CHEMBL4523178,Polyubiquitin-B,SINGLE PROTEIN,Homo sapiens
+RAB7A,1.0,CHEMBL4105784,Ras-related protein Rab-7a,SINGLE PROTEIN,Homo sapiens
+DBNL,1.0,CHEMBL6067399,Drebrin-like protein,SINGLE PROTEIN,Homo sapiens
+NDUFS4,1.0,CHEMBL2363065,Mitochondrial complex I (NADH dehydrogenase),PROTEIN COMPLEX,Homo sapiens
+MECP2,1.0,CHEMBL3638346,Methyl-CpG-binding protein 2,SINGLE PROTEIN,Homo sapiens
+GZMA,1.0,CHEMBL2101,Granzyme A,SINGLE PROTEIN,Rattus norvegicus
+GZMA,2.0,CHEMBL4307,Granzyme A,SINGLE PROTEIN,Homo sapiens
+DMD,1.0,CHEMBL5169117,Dystrophin,SINGLE PROTEIN,Mus musculus
+DMD,2.0,CHEMBL5498504,Dystrophin,SINGLE PROTEIN,Homo sapiens
+KCNA1,1.0,CHEMBL5190,Potassium voltage-gated channel subfamily A member 1,SINGLE PROTEIN,Rattus norvegicus
+KCNA1,2.0,CHEMBL2429705,Potassium voltage-gated channel subfamily A member 1,SINGLE PROTEIN,Mus musculus
+KCNA1,3.0,CHEMBL2309,Potassium voltage-gated channel subfamily A member 1,SINGLE PROTEIN,Homo sapiens
+KCNA1,4.0,CHEMBL3988636,Voltage-gated potassium channel subfamily A member 1/beta-1,PROTEIN COMPLEX,Homo sapiens
+KCNA1,5.0,CHEMBL4106173,Potassium voltage-gated channel subfamily A member 1/2 (Kv1.1/Kv1.2),PROTEIN FAMILY,Rattus norvegicus
+KCNA1,6.0,CHEMBL2362996,Voltage-gated potassium channel,PROTEIN FAMILY,Homo sapiens
+IDUA,1.0,CHEMBL5169131,Alpha-L-iduronidase,SINGLE PROTEIN,Homo sapiens
+EDNRA,1.0,CHEMBL1795104,Endothelin receptor type A,SINGLE PROTEIN,Oryctolagus cuniculus
+EDNRA,2.0,CHEMBL2806,Endothelin-1 receptor,SINGLE PROTEIN,Bos taurus
+EDNRA,3.0,CHEMBL4566,Endothelin-1 receptor,SINGLE PROTEIN,Rattus norvegicus
+EDNRA,4.0,CHEMBL4130,Endothelin-1 receptor,SINGLE PROTEIN,Sus scrofa
+EDNRA,5.0,CHEMBL252,Endothelin-1 receptor,SINGLE PROTEIN,Homo sapiens
+EDNRA,6.0,CHEMBL2286,Endothelin-1 receptor,SINGLE PROTEIN,Mus musculus
+EDNRA,7.0,CHEMBL2111453,Endothelin receptor,PROTEIN FAMILY,Rattus norvegicus
+EDNRA,8.0,CHEMBL2096678,"Endothelin receptor, ET-A/ET-B",PROTEIN FAMILY,Homo sapiens
+CSTB,1.0,CHEMBL6066979,Cystatin-B,SINGLE PROTEIN,Homo sapiens
+FOXP3,1.0,CHEMBL6195516,von Hippel-Lindau disease tumor suppressor/Forkhead box protein P3,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+PDE8B,1.0,CHEMBL5169102,"High affinity cGMP-specific 3',5'-cyclic phosphodiesterase 9A",SINGLE PROTEIN,Mus musculus
+PDE8B,2.0,CHEMBL4408,"High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8B",SINGLE PROTEIN,Homo sapiens
+PDE8B,3.0,CHEMBL2363067,Phosphodiesterase 8,PROTEIN FAMILY,Homo sapiens
+PDE8B,4.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE4C,1.0,CHEMBL291,"3',5'-cyclic-AMP phosphodiesterase 4C",SINGLE PROTEIN,Homo sapiens
+PDE4C,2.0,CHEMBL2111373,Phosphodiesterase 4,PROTEIN FAMILY,Mus musculus
+PDE4C,3.0,CHEMBL2093863,Phosphodiesterase 4,PROTEIN FAMILY,Homo sapiens
+PDE4C,4.0,CHEMBL2094267,Phosphodiesterase 4,PROTEIN FAMILY,Rattus norvegicus
+PDE4C,5.0,CHEMBL2111340,Phosphodiesterase 4 and 5 (PDE4 and PDE5),SELECTIVITY GROUP,Homo sapiens
+PDE4C,6.0,CHEMBL2095153,Phosphodiesterase; PDE3 & PDE4,SELECTIVITY GROUP,Homo sapiens
+PDE4C,7.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE8A,1.0,CHEMBL2923,Phosphodiesterase 8A,SINGLE PROTEIN,Rattus norvegicus
+PDE8A,2.0,CHEMBL4640,"High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A",SINGLE PROTEIN,Homo sapiens
+PDE8A,3.0,CHEMBL2363067,Phosphodiesterase 8,PROTEIN FAMILY,Homo sapiens
+PDE8A,4.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PDE7A,1.0,CHEMBL3012,"High affinity 3',5'-cyclic-AMP phosphodiesterase 7A",SINGLE PROTEIN,Homo sapiens
+PDE7A,2.0,CHEMBL2040702,"High affinity 3',5'-cyclic-AMP phosphodiesterase 7A",SINGLE PROTEIN,Mus musculus
+PDE7A,3.0,CHEMBL3450,Phosphodiesterase 7A,SINGLE PROTEIN,Rattus norvegicus
+PDE7A,4.0,CHEMBL2111411,Phosphodiesterase 7,PROTEIN FAMILY,Homo sapiens
+PDE7A,5.0,CHEMBL2363066,"3',5'-cyclic phosphodiesterase",PROTEIN FAMILY,Homo sapiens
+PIEZO1,1.0,CHEMBL5169095,Piezo-type mechanosensitive ion channel component 1,SINGLE PROTEIN,Mus musculus
+PIEZO1,2.0,CHEMBL6196083,Piezo-type mechanosensitive ion channel component 1,SINGLE PROTEIN,Rattus norvegicus
+PIEZO1,3.0,CHEMBL5169186,Piezo-type mechanosensitive ion channel component 1,SINGLE PROTEIN,Homo sapiens
+SLC12A2,1.0,CHEMBL1615383,Solute carrier family 12 member 2,SINGLE PROTEIN,Homo sapiens
+SLC12A2,2.0,CHEMBL3885641,Solute carrier family 12 member 2/member 5,PROTEIN COMPLEX,Homo sapiens
+HDAC7,1.0,CHEMBL2716,Histone deacetylase 7,SINGLE PROTEIN,Homo sapiens
+HDAC7,2.0,CHEMBL6193803,Protein cereblon/Histone deacetylase 7,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HDAC7,3.0,CHEMBL4630738,von Hippel-Lindau disease tumor suppressor/Histone deacetylase 7,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HDAC7,4.0,CHEMBL4145,Histone deacetylase 9,SINGLE PROTEIN,Homo sapiens
+HDAC7,5.0,CHEMBL2095943,Histone deacetylase,PROTEIN FAMILY,Rattus norvegicus
+HDAC7,6.0,CHEMBL5465556,Protein cereblon/Histone deacetylase 9,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HDAC7,7.0,CHEMBL5169076,von Hippel-Lindau disease tumor suppressor/Histone deacetylase 9,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HDAC7,8.0,CHEMBL2093865,Histone deacetylase,PROTEIN FAMILY,Homo sapiens
+HDAC7,9.0,CHEMBL3832944,Histone deacetylase,PROTEIN FAMILY,Mus musculus
+RSPO3,1.0,CHEMBL4665590,RSPO3-LGR4,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+HRH3,1.0,CHEMBL5299,Histamine receptor H3,SINGLE PROTEIN,Macaca mulatta
+HRH3,2.0,CHEMBL3263,Histamine H3 receptor,SINGLE PROTEIN,Mus musculus
+HRH3,3.0,CHEMBL4124,Histamine H3 receptor,SINGLE PROTEIN,Rattus norvegicus
+HRH3,4.0,CHEMBL5076,Histamine H3 receptor,SINGLE PROTEIN,Cavia porcellus
+HRH3,5.0,CHEMBL264,Histamine H3 receptor,SINGLE PROTEIN,Homo sapiens
+HRH3,6.0,CHEMBL2111378,Histamine receptor (H3 and H4),SELECTIVITY GROUP,Homo sapiens
+SCN2A,1.0,CHEMBL613872,ScN2a,CELL-LINE,Mus musculus
+SCN2A,2.0,CHEMBL4523672,SCN2A/SCN1B,PROTEIN COMPLEX,Homo sapiens
+SCN2A,3.0,CHEMBL3399,Sodium channel protein type 2 subunit alpha,SINGLE PROTEIN,Rattus norvegicus
+SCN2A,4.0,CHEMBL4187,Sodium channel protein type 2 subunit alpha,SINGLE PROTEIN,Homo sapiens
+SCN2A,5.0,CHEMBL2095171,"Sodium channel alpha subunits; brain (Types I, II, III)",PROTEIN FAMILY,Rattus norvegicus
+SCN2A,6.0,CHEMBL2096682,"Sodium channel alpha subunits; brain (Types I, II, III)",PROTEIN FAMILY,Homo sapiens
+SCN2A,7.0,CHEMBL2331043,Sodium channel alpha subunit,PROTEIN FAMILY,Homo sapiens
+SCN2A,8.0,CHEMBL3988641,Voltage-gated sodium channel,PROTEIN FAMILY,Rattus norvegicus
