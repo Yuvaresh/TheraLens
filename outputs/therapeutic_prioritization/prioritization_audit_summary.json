@@ -1,0 +1,15 @@
+{
+  "total_associations": 3636,
+  "unique_association_targets": 2277,
+  "unique_activity_targets": 166,
+  "matched_targets": 166,
+  "unmatched_association_targets_count": 2111,
+  "total_bioactivity_records": 8023,
+  "total_molecules_referenced": 6319,
+  "scoring_weights": {
+    "target_association_weight": 0.35,
+    "potency_pchembl_weight": 0.35,
+    "druglikeness_weight": 0.15,
+    "clinical_evidence_weight": 0.15
+  }
+}

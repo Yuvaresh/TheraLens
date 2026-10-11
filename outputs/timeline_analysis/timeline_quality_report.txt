@@ -1,0 +1,39 @@
+================================================================================
+TheraLens: Master Therapeutic Development Timeline Quality & Scientific Audit
+================================================================================
+
+1. FDA APPROVALS TIMELINE SUMMARY
+--------------------------------------------------------------------------------
+- Total FDA Records:             12,243
+- Unique Applications (NDAs):    6,327
+- Unique Active Ingredients:     3,142
+- Unique Trade Names:            5,643
+- Records with Missing Year:     749 (6.12%)
+- Historical Year Range:         1939 to 2026
+
+2. FDA-TO-CHEMBL ENTITY RESOLUTION AUDIT
+--------------------------------------------------------------------------------
+- Ingredients Audited:           3,142
+- Successfully Matched:          3,059 (97.36%)
+- Unmatched Ingredients:         83
+- Top Match Methods:             {'exact_pref_name': 2147, 'multi_component_exact': 599, 'exact_synonym': 299, 'multi_component_partial': 9, 'salt_stripped_base_pref_name': 5}
+
+3. MASTER TIMELINE CARTESIAN JOIN AUDIT
+--------------------------------------------------------------------------------
+- Total Join Records:            555,323
+- Unique Diseases Covered:       2,378
+- Unique ChEMBL Molecules:       2,190
+- Unique Disease-Molecule Pairs: 30,430
+- Cartesian Redundancy Factor:   18.25x
+  (Average records generated per distinct disease-molecule pair due to multiple product dosages)
+
+4. EVIDENCE CLASSIFICATION BREAKDOWN
+--------------------------------------------------------------------------------
+- Verified Phase-4 Milestones:   72,277 (13.02%)
+- Investigational (Phase 1-3):   483,043 (86.98%)
+- Preclinical / Unverified:      3
+
+5. CRITICAL SCIENTIFIC & REGULATORY STATEMENT
+--------------------------------------------------------------------------------
+CRITICAL REGULATORY DISTINCTION: 1) Initial FDA approval year indicates when a chemical entity first received any regulatory marketing approval in the United States. 2) In secondary indications, initial approval year precedes the indication approval. 3) Records with Phase < 4.0 represent clinical investigation, NOT verified disease-specific market authorizations.
+================================================================================

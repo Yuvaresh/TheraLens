@@ -1,62 +1,141 @@
-# ==========================================
-# TheraLens - Generated / Cache Files
-# ==========================================
+# ==============================================================================
+# TheraLens - Master Git Ignore Configuration
+# ==============================================================================
 
-# ChEMBL API cache
+# ------------------------------------------------------------------------------
+# 1. Large Datasets, High-Volume Tables & API Caches
+# ------------------------------------------------------------------------------
+# ChEMBL persistent SQLite request cache (45+ MB)
 data/processed/.chembl_cache.sqlite
+*.sqlite
+*.sqlite3
 
-# Large generated master therapeutic timeline
+# Large generated master therapeutic timeline Cartesian table (114+ MB)
 data/processed/therapeutic_development_timeline.csv
 
-# ==========================================
-# Python
-# ==========================================
+# Temporary or scratch datasets
+data/raw/temp/
+data/processed/temp/
+scratch/
 
+# ------------------------------------------------------------------------------
+# 2. Python Caches & Bytecode
+# ------------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
+*$py.class
 *.pyo
 *.pyd
 
-# Virtual environments
+# Build & packaging artifacts
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 3. Virtual Environments
+# ------------------------------------------------------------------------------
 .venv/
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
-# ==========================================
-# Jupyter
-# ==========================================
+# ------------------------------------------------------------------------------
+# 4. Testing, Coverage & Profiling
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+*.cover
+*.py,cover
+.mutmut-cache/
 
+# ------------------------------------------------------------------------------
+# 5. Jupyter Notebook Checkpoints
+# ------------------------------------------------------------------------------
 .ipynb_checkpoints/
+*-checkpoint.ipynb
 
-# ==========================================
-# Environment / Secrets
-# ==========================================
-
+# ------------------------------------------------------------------------------
+# 6. Environment Configurations & Secrets
+# ------------------------------------------------------------------------------
 .env
 .env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Explicitly track template example file
 !.env.example
 
-# ==========================================
-# IDE / OS
-# ==========================================
-
+# ------------------------------------------------------------------------------
+# 7. IDE & Operating System Artifacts
+# ------------------------------------------------------------------------------
+# Visual Studio Code
 .vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ)
 .idea/
-*.swp
+*.iws
+*.iml
+
+# Operating system metadata
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+[Dd]esktop.ini
 
-# ==========================================
-# ML-generated files
-# ==========================================
+# Editors & swap files
+*.swp
+*.swo
+*~
+*.bak
 
-models/*.pkl
-models/*.joblib
-models/*.h5
-models/*.keras
-models/*.pt
-models/*.pth
+# ------------------------------------------------------------------------------
+# 8. Large Deep Learning Checkpoints & Heavy Binary Blobs
+# ------------------------------------------------------------------------------
+# Ignore massive weight blobs if added in future reviews
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
 
-# Training outputs
-outputs/
+# ------------------------------------------------------------------------------
+# 9. Logs & Process Outputs
+# ------------------------------------------------------------------------------
 logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

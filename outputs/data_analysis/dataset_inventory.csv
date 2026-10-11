@@ -1,0 +1,13 @@
+Dataset Name,Source,Rows,Columns,Unique Diseases,Important Fields,Purpose in TheraLens
+Disease-Symptom Dataset,Public Clinical Symptom Repository,4961,133,41,Symptom binary flags & disease classification labels,Disease classification based on presented clinical symptoms
+WHO Measles Dataset,World Health Organization (WHO),1692,9,N/A,"country_iso3, year, value_numeric",Epidemiological incidence tracking for viral outbreak forecasting
+WHO Yellow Fever Dataset,World Health Organization (WHO),874,9,N/A,"country_iso3, year, value_numeric",Epidemiological incidence tracking for flavivirus outbreak patterns
+WHO Cholera 2012 Dataset,World Health Organization (WHO),19,70,N/A,"Country, Weekly reported cholera cases (Weeks 1-52)",Granular weekly epidemiological trend tracking for bacterial cholera
+WHO Cholera 2013 Dataset,World Health Organization (WHO),18,70,N/A,"Country, Weekly reported cholera cases (Weeks 1-52)",Granular weekly epidemiological trend tracking for bacterial cholera
+WHO Cholera 2014 Dataset,World Health Organization (WHO),18,70,N/A,"Country, Weekly reported cholera cases (Weeks 1-52)",Granular weekly epidemiological trend tracking for bacterial cholera
+Open Targets Therapeutic Associations,Open Targets Platform,3636,7,38,"local_disease, target_symbol, association_score",Disease-to-biological target association evidence scoring
+ChEMBL Activity,EMBL-EBI ChEMBL DB,8023,10,N/A,"molecule_chembl_id, chembl_target_id, pchembl_value, standard_type",Target-to-compound bioactivity measurement & potency quantification
+ChEMBL Molecules,EMBL-EBI ChEMBL DB,6319,11,N/A,"molecule_chembl_id, molecular_weight, alogp, psa, hba, hbd, rotatable_bond",Physicochemical & structural property characterization of drug candidates
+FDA Drug Approval Timeline,FDA Drugs@FDA Source Tables,12243,12,N/A,"appl_no, drug_name, active_ingredient, first_approval_date, first_approval_year",Regulatory approval milestone tracking for therapeutic solution timeline
+ChEMBL Drug Indications,EMBL-EBI ChEMBL API,30663,8,2326,"molecule_chembl_id, indication, efo_id, efo_term, mesh_id, mesh_heading, max_phase_for_ind",Clinical indication & disease ontology annotation for matched molecules
+Therapeutic Development Timeline,TheraLens Integration Pipeline,555323,14,2378,"disease_name, efo_id, mesh_id, chembl_molecule_id, drug_name, active_ingredient, first_approval_year",Master historical therapeutic solution timeline dataset for forecasting target

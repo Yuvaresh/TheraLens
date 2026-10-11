@@ -1,0 +1,10 @@
+Dataset,Missing Values,Duplicates,Entity Issues,Action Taken
+Disease-Symptom,0 (0.0%),"4,657 (93.9%)",Redundant synthetic symptom rows,Deduplicated to 304 unique clinical patterns
+WHO Measles,"3,384 null entries",0 (0.0%),Unreported country-years,Filtered complete country-year time series
+WHO Yellow Fever,"1,748 null entries",0 (0.0%),Sparse endemic country reporting,Aggregated annual national totals
+WHO Cholera (2012-14),152 missing week cells,0 (0.0%),Wide format unsuited for time series ML,Melted to long format with zero-filled non-report weeks
+Open Targets,0 (0.0%),0 (0.0%),None,Extracted top 10 scoring targets per disease
+ChEMBL Activity,0 (0.0%),0 (0.0%),Heterogeneous bioactivity assay units,Filtered measured pChEMBL log-affinity values
+ChEMBL Molecules,"20,850 property nulls",0 (0.0%),Missing physicochemical parameters for biologicals,Retained raw property flags without artificial imputation
+FDA Timeline,749 missing approval years,0 (0.0%),Historical pre-1938 unrecorded dates,Excluded missing year entries from time series milestone evaluation
+FDA-ChEMBL Mapping,83 unmatched ingredients,0 (0.0%),Obsolete trade names & electrolyte solutions,Audited in fda_chembl_match_audit.csv without silent deletion

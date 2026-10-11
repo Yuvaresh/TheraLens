@@ -1,0 +1,35 @@
+{
+  "total_records": 5426,
+  "diseases_covered": [
+    "Measles",
+    "Yellow Fever",
+    "Cholera"
+  ],
+  "time_span": {
+    "Measles": "1974 - 2024 (Annual)",
+    "Yellow Fever": "1974 - 2024 (Annual)",
+    "Cholera": "2012 - 2014 (Weekly)"
+  },
+  "detected_outbreak_surges": 224,
+  "forecasting_benchmarks": {
+    "evaluation_period": "2015 - 2024 (N=10 years)",
+    "models": {
+      "Naive Persistence Baseline": {
+        "MAE": 53024.6,
+        "RMSE": 67224.23,
+        "MAPE_pct": 91.95
+      },
+      "3-Year Moving Average Baseline": {
+        "MAE": 57401.27,
+        "RMSE": 70034.64,
+        "MAPE_pct": 105.93
+      },
+      "Autoregressive Ridge (Lag1 + Lag2 + Trend)": {
+        "MAE": 155157.37,
+        "RMSE": 172469.68,
+        "MAPE_pct": 240.19
+      }
+    },
+    "limitation_statement": "Longitudinal surveillance series exhibit severe non-stationarity driven by national vaccination campaign expansions and reporting disruptions. Short-term models should not be extrapolated for long-horizon epidemic prediction."
+  }
+}

@@ -1,0 +1,989 @@
+country,year,week,cases
+#country+name,2012,1,0.0
+Benin,2012,1,1.0
+Burkina Faso,2012,1,0.0
+Cameroon,2012,1,11.0
+Chad,2012,1,0.0
+Congo,2012,1,9.0
+Cote d'Ivoire,2012,1,18.0
+DR Congo,2012,1,1125.0
+Ghana,2012,1,14.0
+Guinea,2012,1,0.0
+Guinea Bissau,2012,1,0.0
+Liberia,2012,1,36.0
+Mali,2012,1,0.0
+Niger,2012,1,3.0
+Nigeria,2012,1,0.0
+RCA,2012,1,0.0
+Senegal,2012,1,0.0
+Sierra Leone,2012,1,214.0
+Togo,2012,1,3.0
+#country+name,2012,2,0.0
+Benin,2012,2,0.0
+Burkina Faso,2012,2,0.0
+Cameroon,2012,2,21.0
+Chad,2012,2,0.0
+Congo,2012,2,15.0
+Cote d'Ivoire,2012,2,13.0
+DR Congo,2012,2,854.0
+Ghana,2012,2,18.0
+Guinea,2012,2,0.0
+Guinea Bissau,2012,2,0.0
+Liberia,2012,2,20.0
+Mali,2012,2,0.0
+Niger,2012,2,0.0
+Nigeria,2012,2,0.0
+RCA,2012,2,0.0
+Senegal,2012,2,0.0
+Sierra Leone,2012,2,199.0
+Togo,2012,2,0.0
+#country+name,2012,3,0.0
+Benin,2012,3,0.0
+Burkina Faso,2012,3,0.0
+Cameroon,2012,3,5.0
+Chad,2012,3,0.0
+Congo,2012,3,3.0
+Cote d'Ivoire,2012,3,13.0
+DR Congo,2012,3,761.0
+Ghana,2012,3,15.0
+Guinea,2012,3,0.0
+Guinea Bissau,2012,3,0.0
+Liberia,2012,3,26.0
+Mali,2012,3,0.0
+Niger,2012,3,2.0
+Nigeria,2012,3,13.0
+RCA,2012,3,0.0
+Senegal,2012,3,0.0
+Sierra Leone,2012,3,216.0
+Togo,2012,3,0.0
+#country+name,2012,4,0.0
+Benin,2012,4,1.0
+Burkina Faso,2012,4,0.0
+Cameroon,2012,4,8.0
+Chad,2012,4,0.0
+Congo,2012,4,34.0
+Cote d'Ivoire,2012,4,5.0
+DR Congo,2012,4,866.0
+Ghana,2012,4,23.0
+Guinea,2012,4,0.0
+Guinea Bissau,2012,4,0.0
+Liberia,2012,4,19.0
+Mali,2012,4,0.0
+Niger,2012,4,15.0
+Nigeria,2012,4,8.0
+RCA,2012,4,0.0
+Senegal,2012,4,0.0
+Sierra Leone,2012,4,215.0
+Togo,2012,4,0.0
+#country+name,2012,5,0.0
+Benin,2012,5,0.0
+Burkina Faso,2012,5,0.0
+Cameroon,2012,5,4.0
+Chad,2012,5,0.0
+Congo,2012,5,38.0
+Cote d'Ivoire,2012,5,5.0
+DR Congo,2012,5,737.0
+Ghana,2012,5,16.0
+Guinea,2012,5,10.0
+Guinea Bissau,2012,5,0.0
+Liberia,2012,5,23.0
+Mali,2012,5,0.0
+Niger,2012,5,65.0
+Nigeria,2012,5,14.0
+RCA,2012,5,0.0
+Senegal,2012,5,0.0
+Sierra Leone,2012,5,145.0
+Togo,2012,5,0.0
+#country+name,2012,6,0.0
+Benin,2012,6,0.0
+Burkina Faso,2012,6,0.0
+Cameroon,2012,6,2.0
+Chad,2012,6,0.0
+Congo,2012,6,59.0
+Cote d'Ivoire,2012,6,2.0
+DR Congo,2012,6,811.0
+Ghana,2012,6,12.0
+Guinea,2012,6,73.0
+Guinea Bissau,2012,6,0.0
+Liberia,2012,6,23.0
+Mali,2012,6,0.0
+Niger,2012,6,46.0
+Nigeria,2012,6,20.0
+RCA,2012,6,0.0
+Senegal,2012,6,0.0
+Sierra Leone,2012,6,141.0
+Togo,2012,6,0.0
+#country+name,2012,7,0.0
+Benin,2012,7,0.0
+Burkina Faso,2012,7,0.0
+Cameroon,2012,7,3.0
+Chad,2012,7,0.0
+Congo,2012,7,75.0
+Cote d'Ivoire,2012,7,7.0
+DR Congo,2012,7,713.0
+Ghana,2012,7,13.0
+Guinea,2012,7,29.0
+Guinea Bissau,2012,7,0.0
+Liberia,2012,7,29.0
+Mali,2012,7,0.0
+Niger,2012,7,35.0
+Nigeria,2012,7,27.0
+RCA,2012,7,0.0
+Senegal,2012,7,0.0
+Sierra Leone,2012,7,234.0
+Togo,2012,7,0.0
+#country+name,2012,8,0.0
+Benin,2012,8,0.0
+Burkina Faso,2012,8,0.0
+Cameroon,2012,8,1.0
+Chad,2012,8,0.0
+Congo,2012,8,59.0
+Cote d'Ivoire,2012,8,1.0
+DR Congo,2012,8,614.0
+Ghana,2012,8,23.0
+Guinea,2012,8,18.0
+Guinea Bissau,2012,8,0.0
+Liberia,2012,8,16.0
+Mali,2012,8,0.0
+Niger,2012,8,17.0
+Nigeria,2012,8,24.0
+RCA,2012,8,0.0
+Senegal,2012,8,0.0
+Sierra Leone,2012,8,467.0
+Togo,2012,8,0.0
+#country+name,2012,9,0.0
+Benin,2012,9,0.0
+Burkina Faso,2012,9,0.0
+Cameroon,2012,9,6.0
+Chad,2012,9,0.0
+Congo,2012,9,40.0
+Cote d'Ivoire,2012,9,2.0
+DR Congo,2012,9,486.0
+Ghana,2012,9,15.0
+Guinea,2012,9,51.0
+Guinea Bissau,2012,9,0.0
+Liberia,2012,9,0.0
+Mali,2012,9,0.0
+Niger,2012,9,64.0
+Nigeria,2012,9,13.0
+RCA,2012,9,0.0
+Senegal,2012,9,0.0
+Sierra Leone,2012,9,277.0
+Togo,2012,9,0.0
+#country+name,2012,10,0.0
+Benin,2012,10,0.0
+Burkina Faso,2012,10,0.0
+Cameroon,2012,10,3.0
+Chad,2012,10,0.0
+Congo,2012,10,77.0
+Cote d'Ivoire,2012,10,0.0
+DR Congo,2012,10,497.0
+Ghana,2012,10,15.0
+Guinea,2012,10,34.0
+Guinea Bissau,2012,10,0.0
+Liberia,2012,10,12.0
+Mali,2012,10,0.0
+Niger,2012,10,77.0
+Nigeria,2012,10,19.0
+RCA,2012,10,0.0
+Senegal,2012,10,0.0
+Sierra Leone,2012,10,197.0
+Togo,2012,10,0.0
+#country+name,2012,11,0.0
+Benin,2012,11,0.0
+Burkina Faso,2012,11,0.0
+Cameroon,2012,11,4.0
+Chad,2012,11,0.0
+Congo,2012,11,53.0
+Cote d'Ivoire,2012,11,1.0
+DR Congo,2012,11,665.0
+Ghana,2012,11,27.0
+Guinea,2012,11,57.0
+Guinea Bissau,2012,11,0.0
+Liberia,2012,11,2.0
+Mali,2012,11,0.0
+Niger,2012,11,47.0
+Nigeria,2012,11,19.0
+RCA,2012,11,0.0
+Senegal,2012,11,0.0
+Sierra Leone,2012,11,98.0
+Togo,2012,11,0.0
+#country+name,2012,12,0.0
+Benin,2012,12,0.0
+Burkina Faso,2012,12,0.0
+Cameroon,2012,12,2.0
+Chad,2012,12,0.0
+Congo,2012,12,82.0
+Cote d'Ivoire,2012,12,2.0
+DR Congo,2012,12,646.0
+Ghana,2012,12,69.0
+Guinea,2012,12,33.0
+Guinea Bissau,2012,12,0.0
+Liberia,2012,12,13.0
+Mali,2012,12,0.0
+Niger,2012,12,15.0
+Nigeria,2012,12,13.0
+RCA,2012,12,0.0
+Senegal,2012,12,0.0
+Sierra Leone,2012,12,63.0
+Togo,2012,12,0.0
+#country+name,2012,13,0.0
+Benin,2012,13,0.0
+Burkina Faso,2012,13,0.0
+Cameroon,2012,13,7.0
+Chad,2012,13,0.0
+Congo,2012,13,79.0
+Cote d'Ivoire,2012,13,0.0
+DR Congo,2012,13,862.0
+Ghana,2012,13,289.0
+Guinea,2012,13,12.0
+Guinea Bissau,2012,13,0.0
+Liberia,2012,13,0.0
+Mali,2012,13,0.0
+Niger,2012,13,32.0
+Nigeria,2012,13,16.0
+RCA,2012,13,0.0
+Senegal,2012,13,0.0
+Sierra Leone,2012,13,28.0
+Togo,2012,13,0.0
+#country+name,2012,14,0.0
+Benin,2012,14,0.0
+Burkina Faso,2012,14,6.0
+Cameroon,2012,14,0.0
+Chad,2012,14,0.0
+Congo,2012,14,74.0
+Cote d'Ivoire,2012,14,0.0
+DR Congo,2012,14,863.0
+Ghana,2012,14,624.0
+Guinea,2012,14,13.0
+Guinea Bissau,2012,14,0.0
+Liberia,2012,14,0.0
+Mali,2012,14,0.0
+Niger,2012,14,24.0
+Nigeria,2012,14,6.0
+RCA,2012,14,0.0
+Senegal,2012,14,0.0
+Sierra Leone,2012,14,41.0
+Togo,2012,14,0.0
+#country+name,2012,15,0.0
+Benin,2012,15,0.0
+Burkina Faso,2012,15,0.0
+Cameroon,2012,15,2.0
+Chad,2012,15,0.0
+Congo,2012,15,81.0
+Cote d'Ivoire,2012,15,0.0
+DR Congo,2012,15,888.0
+Ghana,2012,15,566.0
+Guinea,2012,15,12.0
+Guinea Bissau,2012,15,0.0
+Liberia,2012,15,0.0
+Mali,2012,15,0.0
+Niger,2012,15,58.0
+Nigeria,2012,15,15.0
+RCA,2012,15,0.0
+Senegal,2012,15,0.0
+Sierra Leone,2012,15,60.0
+Togo,2012,15,0.0
+#country+name,2012,16,0.0
+Benin,2012,16,0.0
+Burkina Faso,2012,16,0.0
+Cameroon,2012,16,1.0
+Chad,2012,16,0.0
+Congo,2012,16,46.0
+Cote d'Ivoire,2012,16,0.0
+DR Congo,2012,16,932.0
+Ghana,2012,16,558.0
+Guinea,2012,16,25.0
+Guinea Bissau,2012,16,0.0
+Liberia,2012,16,0.0
+Mali,2012,16,0.0
+Niger,2012,16,29.0
+Nigeria,2012,16,8.0
+RCA,2012,16,0.0
+Senegal,2012,16,0.0
+Sierra Leone,2012,16,46.0
+Togo,2012,16,0.0
+#country+name,2012,17,0.0
+Benin,2012,17,0.0
+Burkina Faso,2012,17,0.0
+Cameroon,2012,17,0.0
+Chad,2012,17,0.0
+Congo,2012,17,37.0
+Cote d'Ivoire,2012,17,1.0
+DR Congo,2012,17,769.0
+Ghana,2012,17,508.0
+Guinea,2012,17,27.0
+Guinea Bissau,2012,17,0.0
+Liberia,2012,17,0.0
+Mali,2012,17,0.0
+Niger,2012,17,55.0
+Nigeria,2012,17,10.0
+RCA,2012,17,0.0
+Senegal,2012,17,0.0
+Sierra Leone,2012,17,32.0
+Togo,2012,17,0.0
+#country+name,2012,18,0.0
+Benin,2012,18,0.0
+Burkina Faso,2012,18,0.0
+Cameroon,2012,18,7.0
+Chad,2012,18,0.0
+Congo,2012,18,48.0
+Cote d'Ivoire,2012,18,0.0
+DR Congo,2012,18,766.0
+Ghana,2012,18,292.0
+Guinea,2012,18,5.0
+Guinea Bissau,2012,18,0.0
+Liberia,2012,18,0.0
+Mali,2012,18,0.0
+Niger,2012,18,68.0
+Nigeria,2012,18,9.0
+RCA,2012,18,0.0
+Senegal,2012,18,0.0
+Sierra Leone,2012,18,37.0
+Togo,2012,18,0.0
+#country+name,2012,19,0.0
+Benin,2012,19,0.0
+Burkina Faso,2012,19,0.0
+Cameroon,2012,19,2.0
+Chad,2012,19,0.0
+Congo,2012,19,34.0
+Cote d'Ivoire,2012,19,16.0
+DR Congo,2012,19,614.0
+Ghana,2012,19,147.0
+Guinea,2012,19,14.0
+Guinea Bissau,2012,19,0.0
+Liberia,2012,19,0.0
+Mali,2012,19,0.0
+Niger,2012,19,64.0
+Nigeria,2012,19,18.0
+RCA,2012,19,0.0
+Senegal,2012,19,0.0
+Sierra Leone,2012,19,111.0
+Togo,2012,19,0.0
+#country+name,2012,20,0.0
+Benin,2012,20,0.0
+Burkina Faso,2012,20,0.0
+Cameroon,2012,20,2.0
+Chad,2012,20,0.0
+Congo,2012,20,59.0
+Cote d'Ivoire,2012,20,16.0
+DR Congo,2012,20,674.0
+Ghana,2012,20,296.0
+Guinea,2012,20,18.0
+Guinea Bissau,2012,20,0.0
+Liberia,2012,20,0.0
+Mali,2012,20,0.0
+Niger,2012,20,126.0
+Nigeria,2012,20,13.0
+RCA,2012,20,0.0
+Senegal,2012,20,0.0
+Sierra Leone,2012,20,102.0
+Togo,2012,20,0.0
+#country+name,2012,21,0.0
+Benin,2012,21,0.0
+Burkina Faso,2012,21,0.0
+Cameroon,2012,21,8.0
+Chad,2012,21,0.0
+Congo,2012,21,40.0
+Cote d'Ivoire,2012,21,16.0
+DR Congo,2012,21,721.0
+Ghana,2012,21,157.0
+Guinea,2012,21,24.0
+Guinea Bissau,2012,21,0.0
+Liberia,2012,21,0.0
+Mali,2012,21,0.0
+Niger,2012,21,212.0
+Nigeria,2012,21,3.0
+RCA,2012,21,0.0
+Senegal,2012,21,0.0
+Sierra Leone,2012,21,9.0
+Togo,2012,21,0.0
+#country+name,2012,22,0.0
+Benin,2012,22,0.0
+Burkina Faso,2012,22,0.0
+Cameroon,2012,22,0.0
+Chad,2012,22,0.0
+Congo,2012,22,36.0
+Cote d'Ivoire,2012,22,33.0
+DR Congo,2012,22,538.0
+Ghana,2012,22,253.0
+Guinea,2012,22,42.0
+Guinea Bissau,2012,22,0.0
+Liberia,2012,22,0.0
+Mali,2012,22,0.0
+Niger,2012,22,126.0
+Nigeria,2012,22,2.0
+RCA,2012,22,0.0
+Senegal,2012,22,0.0
+Sierra Leone,2012,22,47.0
+Togo,2012,22,0.0
+#country+name,2012,23,0.0
+Benin,2012,23,0.0
+Burkina Faso,2012,23,0.0
+Cameroon,2012,23,2.0
+Chad,2012,23,0.0
+Congo,2012,23,17.0
+Cote d'Ivoire,2012,23,70.0
+DR Congo,2012,23,481.0
+Ghana,2012,23,199.0
+Guinea,2012,23,32.0
+Guinea Bissau,2012,23,0.0
+Liberia,2012,23,0.0
+Mali,2012,23,0.0
+Niger,2012,23,163.0
+Nigeria,2012,23,14.0
+RCA,2012,23,0.0
+Senegal,2012,23,0.0
+Sierra Leone,2012,23,76.0
+Togo,2012,23,0.0
+#country+name,2012,24,0.0
+Benin,2012,24,0.0
+Burkina Faso,2012,24,0.0
+Cameroon,2012,24,0.0
+Chad,2012,24,0.0
+Congo,2012,24,6.0
+Cote d'Ivoire,2012,24,34.0
+DR Congo,2012,24,446.0
+Ghana,2012,24,145.0
+Guinea,2012,24,22.0
+Guinea Bissau,2012,24,0.0
+Liberia,2012,24,0.0
+Mali,2012,24,0.0
+Niger,2012,24,274.0
+Nigeria,2012,24,10.0
+RCA,2012,24,0.0
+Senegal,2012,24,0.0
+Sierra Leone,2012,24,21.0
+Togo,2012,24,0.0
+#country+name,2012,25,0.0
+Benin,2012,25,0.0
+Burkina Faso,2012,25,0.0
+Cameroon,2012,25,2.0
+Chad,2012,25,0.0
+Congo,2012,25,13.0
+Cote d'Ivoire,2012,25,34.0
+DR Congo,2012,25,745.0
+Ghana,2012,25,224.0
+Guinea,2012,25,22.0
+Guinea Bissau,2012,25,0.0
+Liberia,2012,25,0.0
+Mali,2012,25,0.0
+Niger,2012,25,393.0
+Nigeria,2012,25,5.0
+RCA,2012,25,0.0
+Senegal,2012,25,0.0
+Sierra Leone,2012,25,103.0
+Togo,2012,25,0.0
+#country+name,2012,26,0.0
+Benin,2012,26,4.0
+Burkina Faso,2012,26,0.0
+Cameroon,2012,26,4.0
+Chad,2012,26,0.0
+Congo,2012,26,11.0
+Cote d'Ivoire,2012,26,18.0
+DR Congo,2012,26,743.0
+Ghana,2012,26,129.0
+Guinea,2012,26,10.0
+Guinea Bissau,2012,26,0.0
+Liberia,2012,26,0.0
+Mali,2012,26,2.0
+Niger,2012,26,356.0
+Nigeria,2012,26,8.0
+RCA,2012,26,0.0
+Senegal,2012,26,0.0
+Sierra Leone,2012,26,102.0
+Togo,2012,26,0.0
+#country+name,2012,27,0.0
+Benin,2012,27,15.0
+Burkina Faso,2012,27,0.0
+Cameroon,2012,27,0.0
+Chad,2012,27,0.0
+Congo,2012,27,9.0
+Cote d'Ivoire,2012,27,13.0
+DR Congo,2012,27,358.0
+Ghana,2012,27,176.0
+Guinea,2012,27,57.0
+Guinea Bissau,2012,27,0.0
+Liberia,2012,27,0.0
+Mali,2012,27,47.0
+Niger,2012,27,308.0
+Nigeria,2012,27,13.0
+RCA,2012,27,0.0
+Senegal,2012,27,0.0
+Sierra Leone,2012,27,75.0
+Togo,2012,27,0.0
+#country+name,2012,28,0.0
+Benin,2012,28,77.0
+Burkina Faso,2012,28,0.0
+Cameroon,2012,28,4.0
+Chad,2012,28,0.0
+Congo,2012,28,11.0
+Cote d'Ivoire,2012,28,10.0
+DR Congo,2012,28,349.0
+Ghana,2012,28,153.0
+Guinea,2012,28,46.0
+Guinea Bissau,2012,28,0.0
+Liberia,2012,28,0.0
+Mali,2012,28,7.0
+Niger,2012,28,241.0
+Nigeria,2012,28,15.0
+RCA,2012,28,0.0
+Senegal,2012,28,0.0
+Sierra Leone,2012,28,288.0
+Togo,2012,28,0.0
+#country+name,2012,29,0.0
+Benin,2012,29,21.0
+Burkina Faso,2012,29,0.0
+Cameroon,2012,29,1.0
+Chad,2012,29,0.0
+Congo,2012,29,2.0
+Cote d'Ivoire,2012,29,4.0
+DR Congo,2012,29,269.0
+Ghana,2012,29,90.0
+Guinea,2012,29,128.0
+Guinea Bissau,2012,29,0.0
+Liberia,2012,29,0.0
+Mali,2012,29,8.0
+Niger,2012,29,107.0
+Nigeria,2012,29,11.0
+RCA,2012,29,0.0
+Senegal,2012,29,0.0
+Sierra Leone,2012,29,806.0
+Togo,2012,29,0.0
+#country+name,2012,30,0.0
+Benin,2012,30,15.0
+Burkina Faso,2012,30,0.0
+Cameroon,2012,30,0.0
+Chad,2012,30,0.0
+Congo,2012,30,6.0
+Cote d'Ivoire,2012,30,10.0
+DR Congo,2012,30,355.0
+Ghana,2012,30,59.0
+Guinea,2012,30,337.0
+Guinea Bissau,2012,30,0.0
+Liberia,2012,30,0.0
+Mali,2012,30,34.0
+Niger,2012,30,89.0
+Nigeria,2012,30,11.0
+RCA,2012,30,0.0
+Senegal,2012,30,0.0
+Sierra Leone,2012,30,1335.0
+Togo,2012,30,6.0
+#country+name,2012,31,0.0
+Benin,2012,31,3.0
+Burkina Faso,2012,31,0.0
+Cameroon,2012,31,0.0
+Chad,2012,31,0.0
+Congo,2012,31,2.0
+Cote d'Ivoire,2012,31,24.0
+DR Congo,2012,31,504.0
+Ghana,2012,31,102.0
+Guinea,2012,31,674.0
+Guinea Bissau,2012,31,0.0
+Liberia,2012,31,0.0
+Mali,2012,31,36.0
+Niger,2012,31,176.0
+Nigeria,2012,31,2.0
+RCA,2012,31,0.0
+Senegal,2012,31,0.0
+Sierra Leone,2012,31,1713.0
+Togo,2012,31,0.0
+#country+name,2012,32,0.0
+Benin,2012,32,1.0
+Burkina Faso,2012,32,0.0
+Cameroon,2012,32,0.0
+Chad,2012,32,0.0
+Congo,2012,32,6.0
+Cote d'Ivoire,2012,32,5.0
+DR Congo,2012,32,438.0
+Ghana,2012,32,104.0
+Guinea,2012,32,938.0
+Guinea Bissau,2012,32,0.0
+Liberia,2012,32,0.0
+Mali,2012,32,9.0
+Niger,2012,32,134.0
+Nigeria,2012,32,4.0
+RCA,2012,32,0.0
+Senegal,2012,32,0.0
+Sierra Leone,2012,32,2139.0
+Togo,2012,32,1.0
+#country+name,2012,33,0.0
+Benin,2012,33,0.0
+Burkina Faso,2012,33,0.0
+Cameroon,2012,33,0.0
+Chad,2012,33,0.0
+Congo,2012,33,2.0
+Cote d'Ivoire,2012,33,2.0
+DR Congo,2012,33,653.0
+Ghana,2012,33,118.0
+Guinea,2012,33,1127.0
+Guinea Bissau,2012,33,0.0
+Liberia,2012,33,0.0
+Mali,2012,33,16.0
+Niger,2012,33,120.0
+Nigeria,2012,33,1.0
+RCA,2012,33,0.0
+Senegal,2012,33,0.0
+Sierra Leone,2012,33,2024.0
+Togo,2012,33,1.0
+#country+name,2012,34,0.0
+Benin,2012,34,0.0
+Burkina Faso,2012,34,16.0
+Cameroon,2012,34,0.0
+Chad,2012,34,0.0
+Congo,2012,34,2.0
+Cote d'Ivoire,2012,34,9.0
+DR Congo,2012,34,640.0
+Ghana,2012,34,121.0
+Guinea,2012,34,1152.0
+Guinea Bissau,2012,34,20.0
+Liberia,2012,34,0.0
+Mali,2012,34,5.0
+Niger,2012,34,165.0
+Nigeria,2012,34,1.0
+RCA,2012,34,0.0
+Senegal,2012,34,0.0
+Sierra Leone,2012,34,2110.0
+Togo,2012,34,0.0
+#country+name,2012,35,0.0
+Benin,2012,35,0.0
+Burkina Faso,2012,35,9.0
+Cameroon,2012,35,1.0
+Chad,2012,35,0.0
+Congo,2012,35,3.0
+Cote d'Ivoire,2012,35,9.0
+DR Congo,2012,35,710.0
+Ghana,2012,35,48.0
+Guinea,2012,35,693.0
+Guinea Bissau,2012,35,31.0
+Liberia,2012,35,0.0
+Mali,2012,35,6.0
+Niger,2012,35,195.0
+Nigeria,2012,35,0.0
+RCA,2012,35,0.0
+Senegal,2012,35,0.0
+Sierra Leone,2012,35,1911.0
+Togo,2012,35,0.0
+#country+name,2012,36,0.0
+Benin,2012,36,1.0
+Burkina Faso,2012,36,12.0
+Cameroon,2012,36,3.0
+Chad,2012,36,0.0
+Congo,2012,36,0.0
+Cote d'Ivoire,2012,36,2.0
+DR Congo,2012,36,693.0
+Ghana,2012,36,231.0
+Guinea,2012,36,518.0
+Guinea Bissau,2012,36,77.0
+Liberia,2012,36,0.0
+Mali,2012,36,31.0
+Niger,2012,36,363.0
+Nigeria,2012,36,24.0
+RCA,2012,36,0.0
+Senegal,2012,36,0.0
+Sierra Leone,2012,36,1492.0
+Togo,2012,36,0.0
+#country+name,2012,37,0.0
+Benin,2012,37,7.0
+Burkina Faso,2012,37,4.0
+Cameroon,2012,37,3.0
+Chad,2012,37,0.0
+Congo,2012,37,0.0
+Cote d'Ivoire,2012,37,1.0
+DR Congo,2012,37,464.0
+Ghana,2012,37,700.0
+Guinea,2012,37,346.0
+Guinea Bissau,2012,37,75.0
+Liberia,2012,37,6.0
+Mali,2012,37,15.0
+Niger,2012,37,212.0
+Nigeria,2012,37,0.0
+RCA,2012,37,0.0
+Senegal,2012,37,0.0
+Sierra Leone,2012,37,1282.0
+Togo,2012,37,0.0
+#country+name,2012,38,0.0
+Benin,2012,38,7.0
+Burkina Faso,2012,38,0.0
+Cameroon,2012,38,1.0
+Chad,2012,38,0.0
+Congo,2012,38,0.0
+Cote d'Ivoire,2012,38,2.0
+DR Congo,2012,38,502.0
+Ghana,2012,38,439.0
+Guinea,2012,38,219.0
+Guinea Bissau,2012,38,101.0
+Liberia,2012,38,2.0
+Mali,2012,38,3.0
+Niger,2012,38,169.0
+Nigeria,2012,38,14.0
+RCA,2012,38,0.0
+Senegal,2012,38,0.0
+Sierra Leone,2012,38,1141.0
+Togo,2012,38,0.0
+#country+name,2012,39,0.0
+Benin,2012,39,21.0
+Burkina Faso,2012,39,1.0
+Cameroon,2012,39,0.0
+Chad,2012,39,0.0
+Congo,2012,39,0.0
+Cote d'Ivoire,2012,39,2.0
+DR Congo,2012,39,449.0
+Ghana,2012,39,354.0
+Guinea,2012,39,128.0
+Guinea Bissau,2012,39,101.0
+Liberia,2012,39,0.0
+Mali,2012,39,0.0
+Niger,2012,39,122.0
+Nigeria,2012,39,8.0
+RCA,2012,39,0.0
+Senegal,2012,39,0.0
+Sierra Leone,2012,39,841.0
+Togo,2012,39,0.0
+#country+name,2012,40,0.0
+Benin,2012,40,47.0
+Burkina Faso,2012,40,6.0
+Cameroon,2012,40,1.0
+Chad,2012,40,0.0
+Congo,2012,40,0.0
+Cote d'Ivoire,2012,40,1.0
+DR Congo,2012,40,447.0
+Ghana,2012,40,344.0
+Guinea,2012,40,121.0
+Guinea Bissau,2012,40,135.0
+Liberia,2012,40,0.0
+Mali,2012,40,0.0
+Niger,2012,40,64.0
+Nigeria,2012,40,21.0
+RCA,2012,40,0.0
+Senegal,2012,40,0.0
+Sierra Leone,2012,40,624.0
+Togo,2012,40,1.0
+#country+name,2012,41,0.0
+Benin,2012,41,94.0
+Burkina Faso,2012,41,39.0
+Cameroon,2012,41,1.0
+Chad,2012,41,0.0
+Congo,2012,41,0.0
+Cote d'Ivoire,2012,41,1.0
+DR Congo,2012,41,409.0
+Ghana,2012,41,316.0
+Guinea,2012,41,71.0
+Guinea Bissau,2012,41,234.0
+Liberia,2012,41,0.0
+Mali,2012,41,0.0
+Niger,2012,41,57.0
+Nigeria,2012,41,0.0
+RCA,2012,41,0.0
+Senegal,2012,41,0.0
+Sierra Leone,2012,41,433.0
+Togo,2012,41,38.0
+#country+name,2012,42,0.0
+Benin,2012,42,88.0
+Burkina Faso,2012,42,32.0
+Cameroon,2012,42,0.0
+Chad,2012,42,0.0
+Congo,2012,42,0.0
+Cote d'Ivoire,2012,42,0.0
+DR Congo,2012,42,439.0
+Ghana,2012,42,235.0
+Guinea,2012,42,59.0
+Guinea Bissau,2012,42,270.0
+Liberia,2012,42,0.0
+Mali,2012,42,0.0
+Niger,2012,42,67.0
+Nigeria,2012,42,0.0
+RCA,2012,42,0.0
+Senegal,2012,42,0.0
+Sierra Leone,2012,42,311.0
+Togo,2012,42,11.0
+#country+name,2012,43,0.0
+Benin,2012,43,91.0
+Burkina Faso,2012,43,7.0
+Cameroon,2012,43,0.0
+Chad,2012,43,0.0
+Congo,2012,43,0.0
+Cote d'Ivoire,2012,43,0.0
+DR Congo,2012,43,582.0
+Ghana,2012,43,230.0
+Guinea,2012,43,15.0
+Guinea Bissau,2012,43,335.0
+Liberia,2012,43,0.0
+Mali,2012,43,0.0
+Niger,2012,43,88.0
+Nigeria,2012,43,0.0
+RCA,2012,43,0.0
+Senegal,2012,43,0.0
+Sierra Leone,2012,43,204.0
+Togo,2012,43,0.0
+#country+name,2012,44,0.0
+Benin,2012,44,62.0
+Burkina Faso,2012,44,7.0
+Cameroon,2012,44,0.0
+Chad,2012,44,0.0
+Congo,2012,44,0.0
+Cote d'Ivoire,2012,44,0.0
+DR Congo,2012,44,354.0
+Ghana,2012,44,215.0
+Guinea,2012,44,11.0
+Guinea Bissau,2012,44,374.0
+Liberia,2012,44,4.0
+Mali,2012,44,0.0
+Niger,2012,44,120.0
+Nigeria,2012,44,0.0
+RCA,2012,44,0.0
+Senegal,2012,44,0.0
+Sierra Leone,2012,44,109.0
+Togo,2012,44,0.0
+#country+name,2012,45,0.0
+Benin,2012,45,28.0
+Burkina Faso,2012,45,3.0
+Cameroon,2012,45,0.0
+Chad,2012,45,0.0
+Congo,2012,45,0.0
+Cote d'Ivoire,2012,45,1.0
+DR Congo,2012,45,430.0
+Ghana,2012,45,196.0
+Guinea,2012,45,4.0
+Guinea Bissau,2012,45,387.0
+Liberia,2012,45,8.0
+Mali,2012,45,0.0
+Niger,2012,45,54.0
+Nigeria,2012,45,6.0
+RCA,2012,45,0.0
+Senegal,2012,45,0.0
+Sierra Leone,2012,45,65.0
+Togo,2012,45,0.0
+#country+name,2012,46,0.0
+Benin,2012,46,25.0
+Burkina Faso,2012,46,0.0
+Cameroon,2012,46,2.0
+Chad,2012,46,0.0
+Congo,2012,46,0.0
+Cote d'Ivoire,2012,46,2.0
+DR Congo,2012,46,296.0
+Ghana,2012,46,128.0
+Guinea,2012,46,11.0
+Guinea Bissau,2012,46,442.0
+Liberia,2012,46,13.0
+Mali,2012,46,0.0
+Niger,2012,46,42.0
+Nigeria,2012,46,0.0
+RCA,2012,46,0.0
+Senegal,2012,46,0.0
+Sierra Leone,2012,46,61.0
+Togo,2012,46,0.0
+#country+name,2012,47,0.0
+Benin,2012,47,7.0
+Burkina Faso,2012,47,1.0
+Cameroon,2012,47,0.0
+Chad,2012,47,0.0
+Congo,2012,47,6.0
+Cote d'Ivoire,2012,47,0.0
+DR Congo,2012,47,336.0
+Ghana,2012,47,144.0
+Guinea,2012,47,45.0
+Guinea Bissau,2012,47,310.0
+Liberia,2012,47,10.0
+Mali,2012,47,0.0
+Niger,2012,47,21.0
+Nigeria,2012,47,6.0
+RCA,2012,47,0.0
+Senegal,2012,47,0.0
+Sierra Leone,2012,47,39.0
+Togo,2012,47,0.0
+#country+name,2012,48,0.0
+Benin,2012,48,6.0
+Burkina Faso,2012,48,0.0
+Cameroon,2012,48,0.0
+Chad,2012,48,0.0
+Congo,2012,48,8.0
+Cote d'Ivoire,2012,48,0.0
+DR Congo,2012,48,324.0
+Ghana,2012,48,135.0
+Guinea,2012,48,40.0
+Guinea Bissau,2012,48,186.0
+Liberia,2012,48,6.0
+Mali,2012,48,0.0
+Niger,2012,48,3.0
+Nigeria,2012,48,0.0
+RCA,2012,48,0.0
+Senegal,2012,48,0.0
+Sierra Leone,2012,48,61.0
+Togo,2012,48,0.0
+#country+name,2012,49,0.0
+Benin,2012,49,3.0
+Burkina Faso,2012,49,0.0
+Cameroon,2012,49,0.0
+Chad,2012,49,0.0
+Congo,2012,49,14.0
+Cote d'Ivoire,2012,49,3.0
+DR Congo,2012,49,364.0
+Ghana,2012,49,132.0
+Guinea,2012,49,0.0
+Guinea Bissau,2012,49,112.0
+Liberia,2012,49,0.0
+Mali,2012,49,0.0
+Niger,2012,49,2.0
+Nigeria,2012,49,145.0
+RCA,2012,49,0.0
+Senegal,2012,49,0.0
+Sierra Leone,2012,49,0.0
+Togo,2012,49,0.0
+#country+name,2012,50,0.0
+Benin,2012,50,0.0
+Burkina Faso,2012,50,0.0
+Cameroon,2012,50,0.0
+Chad,2012,50,0.0
+Congo,2012,50,30.0
+Cote d'Ivoire,2012,50,2.0
+DR Congo,2012,50,196.0
+Ghana,2012,50,82.0
+Guinea,2012,50,2.0
+Guinea Bissau,2012,50,76.0
+Liberia,2012,50,90.0
+Mali,2012,50,0.0
+Niger,2012,50,0.0
+Nigeria,2012,50,8.0
+RCA,2012,50,0.0
+Senegal,2012,50,0.0
+Sierra Leone,2012,50,0.0
+Togo,2012,50,0.0
+#country+name,2012,51,0.0
+Benin,2012,51,0.0
+Burkina Faso,2012,51,0.0
+Cameroon,2012,51,0.0
+Chad,2012,51,0.0
+Congo,2012,51,11.0
+Cote d'Ivoire,2012,51,1.0
+DR Congo,2012,51,344.0
+Ghana,2012,51,43.0
+Guinea,2012,51,0.0
+Guinea Bissau,2012,51,39.0
+Liberia,2012,51,13.0
+Mali,2012,51,0.0
+Niger,2012,51,0.0
+Nigeria,2012,51,0.0
+RCA,2012,51,0.0
+Senegal,2012,51,0.0
+Sierra Leone,2012,51,0.0
+Togo,2012,51,0.0
+#country+name,2012,52,0.0
+Benin,2012,52,0.0
+Burkina Faso,2012,52,0.0
+Cameroon,2012,52,1.0
+Chad,2012,52,0.0
+Congo,2012,52,14.0
+Cote d'Ivoire,2012,52,0.0
+DR Congo,2012,52,316.0
+Ghana,2012,52,6.0
+Guinea,2012,52,0.0
+Guinea Bissau,2012,52,54.0
+Liberia,2012,52,15.0
+Mali,2012,52,0.0
+Niger,2012,52,0.0
+Nigeria,2012,52,0.0
+RCA,2012,52,0.0
+Senegal,2012,52,0.0
+Sierra Leone,2012,52,0.0
+Togo,2012,52,0.0

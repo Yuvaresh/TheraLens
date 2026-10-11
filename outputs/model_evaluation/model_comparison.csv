@@ -1,0 +1,5 @@
+Model,Accuracy,Balanced_Accuracy,Macro_Precision,Macro_Recall,Macro_F1,Weighted_F1
+Logistic Regression,1.0,1.0,1.0,1.0,1.0,1.0
+Random Forest,1.0,1.0,1.0,1.0,1.0,1.0
+Support Vector Machine,1.0,1.0,1.0,1.0,1.0,1.0
+Dummy (Stratified),0.0164,0.0122,0.0122,0.0122,0.0122,0.0164

@@ -1,0 +1,9 @@
+Dataset,Before,Processing,After
+Disease-Symptom,"4,961 records",Duplicate pattern detection & exact record deduplication,304 unique symptom patterns
+WHO Cholera (2012),19 countries x 52 weekly columns (wide format),Wide-to-long melt transformation & missing week imputation,"988 long-format weekly records (country, year, week, cases)"
+WHO Cholera (2013),18 countries x 52 weekly columns (wide format),Wide-to-long melt transformation & missing week imputation,"936 long-format weekly records (country, year, week, cases)"
+WHO Cholera (2014),18 countries x 52 weekly columns (wide format),Wide-to-long melt transformation & missing week imputation,"936 long-format weekly records (country, year, week, cases)"
+FDA Approval Timeline,"12,243 FDA product approval entries",Active ingredient normalization & approval date extraction,"3,142 unique normalized active ingredients"
+FDA-ChEMBL Mapping,"3,142 FDA active ingredients","Multi-stage API entity resolution (exact, synonym, salt stripping, combination split)","3,059 matched ingredients (97.4% match rate)"
+ChEMBL Indications,"2,589 matched ChEMBL molecules",REST API pagination & EFO/MeSH ontology mapping,"30,663 disease indication records"
+Therapeutic Timeline,"12,243 FDA entries x 30,663 ChEMBL indications",Exploded entity inner join on matched ChEMBL ID,"555,323 master historical milestone records"

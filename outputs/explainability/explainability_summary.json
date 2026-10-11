@@ -1,0 +1,27 @@
+{
+  "status": "SUCCESS",
+  "top_5_influential_symptoms": [
+    {
+      "symptom_feature": "vomiting",
+      "mean_importance": 0.0040983606557377095
+    },
+    {
+      "symptom_feature": "joint_pain",
+      "mean_importance": 0.0024590163934426258
+    },
+    {
+      "symptom_feature": "itching",
+      "mean_importance": 0.0
+    },
+    {
+      "symptom_feature": "skin_rash",
+      "mean_importance": 0.0
+    },
+    {
+      "symptom_feature": "continuous_sneezing",
+      "mean_importance": 0.0
+    }
+  ],
+  "top_candidates_decomposed": 15,
+  "causality_disclaimer": "Feature importance measures predictive model reliance, NOT medical causality."
+}

@@ -1,0 +1,48 @@
+{
+  "fda_approvals_audit": {
+    "total_fda_records": 12243,
+    "unique_applications": 6327,
+    "unique_active_ingredients": 3142,
+    "unique_trade_names": 5643,
+    "missing_approval_years": 749,
+    "missing_approval_year_pct": 6.12,
+    "earliest_approval_year": 1939,
+    "latest_approval_year": 2026
+  },
+  "mapping_resolution_audit": {
+    "total_active_ingredients_audited": 3142,
+    "matched_ingredients": 3059,
+    "unmatched_ingredients": 83,
+    "overall_match_rate_pct": 97.36,
+    "match_methods_breakdown": {
+      "exact_pref_name": 2147,
+      "multi_component_exact": 599,
+      "exact_synonym": 299,
+      "multi_component_partial": 9,
+      "salt_stripped_base_pref_name": 5
+    }
+  },
+  "master_timeline_audit": {
+    "total_timeline_records": 555323,
+    "unique_standardized_diseases": 2378,
+    "unique_chembl_molecules": 2190,
+    "unique_disease_molecule_milestone_pairs": 30430,
+    "average_cartesian_redundancy_factor": 18.25,
+    "evidence_classification": {
+      "verified_phase4_approved_indication_records": 72277,
+      "verified_phase4_pct": 13.02,
+      "investigational_clinical_trials_phase1_3_records": 483043,
+      "investigational_pct": 86.98,
+      "preclinical_or_unverified_records": 3
+    },
+    "phase_breakdown_detail": {
+      "Phase_3.0": 192508,
+      "Phase_2.0": 197179,
+      "Phase_1.0": 79429,
+      "Phase_4.0": 72277,
+      "Phase_0.5": 13927,
+      "Phase_-1.0": 3
+    },
+    "scientific_caveat_summary": "CRITICAL REGULATORY DISTINCTION: 1) Initial FDA approval year indicates when a chemical entity first received any regulatory marketing approval in the United States. 2) In secondary indications, initial approval year precedes the indication approval. 3) Records with Phase < 4.0 represent clinical investigation, NOT verified disease-specific market authorizations."
+  }
+}

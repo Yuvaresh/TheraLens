@@ -1,0 +1,68 @@
+{
+  "execution_timestamp": "2026-10-11T04:23:05Z",
+  "modules_executed": {
+    "symptom_classifier": {
+      "status": "SUCCESS",
+      "best_model": "Logistic Regression",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "reloaded_verified": true,
+      "elapsed_sec": 14.06
+    },
+    "therapeutic_prioritization": {
+      "status": "SUCCESS",
+      "ranked_targets_count": 3636,
+      "ranked_candidates_count": 25650,
+      "top_candidate": "AIDS -> MEDROXYPROGESTERONE ACETATE (CPS=0.7689)",
+      "elapsed_sec": 25.86
+    },
+    "epidemiological_analysis": {
+      "status": "SUCCESS",
+      "total_records": 5426,
+      "surges_detected": 224,
+      "forecasting_period": "2015 - 2024 (N=10 years)",
+      "elapsed_sec": 9.99
+    },
+    "timeline_validation": {
+      "status": "SUCCESS",
+      "total_timeline_rows": 555323,
+      "unique_disease_molecule_milestones": 30430,
+      "verified_phase4_milestones": 72277,
+      "elapsed_sec": 13.9
+    },
+    "experimental_forecast": {
+      "status": "SUCCESS",
+      "diseases_assessed": 37,
+      "median_forecast_horizon_years": 2,
+      "elapsed_sec": 4.85
+    },
+    "explainability": {
+      "status": "SUCCESS",
+      "top_influential_symptom": "vomiting",
+      "elapsed_sec": 15.94
+    }
+  },
+  "modules_skipped": {},
+  "artifacts_generated": [
+    "models/symptom_classifier.joblib",
+    "models/symptom_classifier_metadata.json",
+    "outputs/model_evaluation/model_comparison.csv",
+    "outputs/model_evaluation/confusion_matrix.png",
+    "data/processed/disease_target_rankings.csv",
+    "data/processed/therapeutic_candidate_rankings.csv",
+    "outputs/therapeutic_prioritization/top_candidate_scores.png",
+    "outputs/therapeutic_prioritization/score_component_breakdown.png",
+    "data/processed/epidemiological_trends.csv",
+    "outputs/epidemiological_analysis/global_incidence_trends.png",
+    "outputs/epidemiological_analysis/forecasting_model_comparison.png",
+    "outputs/timeline_analysis/timeline_quality_report.txt",
+    "outputs/timeline_analysis/mapping_audit_summary.json",
+    "outputs/timeline_analysis/timeline_evidence_classification.png",
+    "outputs/timeline_analysis/experimental_forecast_projections.csv",
+    "outputs/timeline_analysis/forecast_pipeline_latencies.png",
+    "outputs/explainability/symptom_permutation_importance.csv",
+    "outputs/explainability/top_symptoms_importance.png",
+    "outputs/explainability/candidate_score_decomposition.csv",
+    "outputs/explainability/candidate_contribution_breakdown.png"
+  ]
+}

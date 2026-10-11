@@ -1,0 +1,59 @@
+{
+  "model_name": "Logistic Regression",
+  "model_class": "LogisticRegression",
+  "dataset_rows_raw": 4961,
+  "dataset_rows_clean": 304,
+  "synthetic_duplicates_filtered": 4657,
+  "unique_symptom_patterns": 304,
+  "num_classes": 41,
+  "num_features": 132,
+  "train_samples": 243,
+  "test_samples": 61,
+  "random_seed": 42,
+  "evaluation_metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0
+  },
+  "all_model_benchmarks": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 1.0,
+      "Balanced_Accuracy": 1.0,
+      "Macro_Precision": 1.0,
+      "Macro_Recall": 1.0,
+      "Macro_F1": 1.0,
+      "Weighted_F1": 1.0
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 1.0,
+      "Balanced_Accuracy": 1.0,
+      "Macro_Precision": 1.0,
+      "Macro_Recall": 1.0,
+      "Macro_F1": 1.0,
+      "Weighted_F1": 1.0
+    },
+    {
+      "Model": "Support Vector Machine",
+      "Accuracy": 1.0,
+      "Balanced_Accuracy": 1.0,
+      "Macro_Precision": 1.0,
+      "Macro_Recall": 1.0,
+      "Macro_F1": 1.0,
+      "Weighted_F1": 1.0
+    },
+    {
+      "Model": "Dummy (Stratified)",
+      "Accuracy": 0.0164,
+      "Balanced_Accuracy": 0.0122,
+      "Macro_Precision": 0.0122,
+      "Macro_Recall": 0.0122,
+      "Macro_F1": 0.0122,
+      "Weighted_F1": 0.0164
+    }
+  ]
+}

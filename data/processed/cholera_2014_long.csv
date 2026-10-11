@@ -1,0 +1,937 @@
+country,year,week,cases
+#country+name,2014,1,0.0
+Benin,2014,1,1.0
+Burkina Faso,2014,1,0.0
+Cameroon,2014,1,0.0
+Chad,2014,1,0.0
+Congo,2014,1,0.0
+Cote d'Ivoire,2014,1,0.0
+DR Congo,2014,1,569.0
+Ghana,2014,1,0.0
+Guinea,2014,1,0.0
+Guinea Bissau,2014,1,0.0
+Liberia,2014,1,4.0
+Mali,2014,1,0.0
+Niger,2014,1,4.0
+Nigeria,2014,1,238.0
+RCA,2014,1,0.0
+Sierra Leone,2014,1,0.0
+Togo,2014,1,0.0
+#country+name,2014,2,0.0
+Benin,2014,2,1.0
+Burkina Faso,2014,2,0.0
+Cameroon,2014,2,1.0
+Chad,2014,2,0.0
+Congo,2014,2,0.0
+Cote d'Ivoire,2014,2,0.0
+DR Congo,2014,2,614.0
+Ghana,2014,2,100.0
+Guinea,2014,2,0.0
+Guinea Bissau,2014,2,0.0
+Liberia,2014,2,2.0
+Mali,2014,2,0.0
+Niger,2014,2,1.0
+Nigeria,2014,2,100.0
+RCA,2014,2,0.0
+Sierra Leone,2014,2,0.0
+Togo,2014,2,0.0
+#country+name,2014,3,0.0
+Benin,2014,3,21.0
+Burkina Faso,2014,3,0.0
+Cameroon,2014,3,1.0
+Chad,2014,3,0.0
+Congo,2014,3,0.0
+Cote d'Ivoire,2014,3,0.0
+DR Congo,2014,3,393.0
+Ghana,2014,3,0.0
+Guinea,2014,3,0.0
+Guinea Bissau,2014,3,3.0
+Liberia,2014,3,5.0
+Mali,2014,3,0.0
+Niger,2014,3,4.0
+Nigeria,2014,3,273.0
+RCA,2014,3,0.0
+Sierra Leone,2014,3,0.0
+Togo,2014,3,0.0
+#country+name,2014,4,0.0
+Benin,2014,4,10.0
+Burkina Faso,2014,4,0.0
+Cameroon,2014,4,0.0
+Chad,2014,4,0.0
+Congo,2014,4,0.0
+Cote d'Ivoire,2014,4,0.0
+DR Congo,2014,4,403.0
+Ghana,2014,4,0.0
+Guinea,2014,4,0.0
+Guinea Bissau,2014,4,0.0
+Liberia,2014,4,6.0
+Mali,2014,4,0.0
+Niger,2014,4,4.0
+Nigeria,2014,4,470.0
+RCA,2014,4,0.0
+Sierra Leone,2014,4,0.0
+Togo,2014,4,0.0
+#country+name,2014,5,0.0
+Benin,2014,5,21.0
+Burkina Faso,2014,5,0.0
+Cameroon,2014,5,1.0
+Chad,2014,5,0.0
+Congo,2014,5,0.0
+Cote d'Ivoire,2014,5,0.0
+DR Congo,2014,5,471.0
+Ghana,2014,5,0.0
+Guinea,2014,5,0.0
+Guinea Bissau,2014,5,0.0
+Liberia,2014,5,5.0
+Mali,2014,5,0.0
+Niger,2014,5,3.0
+Nigeria,2014,5,1030.0
+RCA,2014,5,0.0
+Sierra Leone,2014,5,0.0
+Togo,2014,5,0.0
+#country+name,2014,6,0.0
+Benin,2014,6,8.0
+Burkina Faso,2014,6,0.0
+Cameroon,2014,6,2.0
+Chad,2014,6,0.0
+Congo,2014,6,0.0
+Cote d'Ivoire,2014,6,0.0
+DR Congo,2014,6,346.0
+Ghana,2014,6,0.0
+Guinea,2014,6,0.0
+Guinea Bissau,2014,6,0.0
+Liberia,2014,6,7.0
+Mali,2014,6,0.0
+Niger,2014,6,2.0
+Nigeria,2014,6,1103.0
+RCA,2014,6,0.0
+Sierra Leone,2014,6,0.0
+Togo,2014,6,3.0
+#country+name,2014,7,0.0
+Benin,2014,7,8.0
+Burkina Faso,2014,7,0.0
+Cameroon,2014,7,0.0
+Chad,2014,7,0.0
+Congo,2014,7,0.0
+Cote d'Ivoire,2014,7,1.0
+DR Congo,2014,7,390.0
+Ghana,2014,7,0.0
+Guinea,2014,7,1.0
+Guinea Bissau,2014,7,0.0
+Liberia,2014,7,4.0
+Mali,2014,7,0.0
+Niger,2014,7,28.0
+Nigeria,2014,7,969.0
+RCA,2014,7,0.0
+Sierra Leone,2014,7,0.0
+Togo,2014,7,21.0
+#country+name,2014,8,0.0
+Benin,2014,8,8.0
+Burkina Faso,2014,8,0.0
+Cameroon,2014,8,1.0
+Chad,2014,8,0.0
+Congo,2014,8,0.0
+Cote d'Ivoire,2014,8,0.0
+DR Congo,2014,8,526.0
+Ghana,2014,8,0.0
+Guinea,2014,8,1.0
+Guinea Bissau,2014,8,0.0
+Liberia,2014,8,2.0
+Mali,2014,8,0.0
+Niger,2014,8,20.0
+Nigeria,2014,8,915.0
+RCA,2014,8,0.0
+Sierra Leone,2014,8,0.0
+Togo,2014,8,5.0
+#country+name,2014,9,0.0
+Benin,2014,9,10.0
+Burkina Faso,2014,9,0.0
+Cameroon,2014,9,0.0
+Chad,2014,9,0.0
+Congo,2014,9,0.0
+Cote d'Ivoire,2014,9,1.0
+DR Congo,2014,9,499.0
+Ghana,2014,9,0.0
+Guinea,2014,9,0.0
+Guinea Bissau,2014,9,0.0
+Liberia,2014,9,2.0
+Mali,2014,9,0.0
+Niger,2014,9,11.0
+Nigeria,2014,9,857.0
+RCA,2014,9,0.0
+Sierra Leone,2014,9,0.0
+Togo,2014,9,1.0
+#country+name,2014,10,0.0
+Benin,2014,10,9.0
+Burkina Faso,2014,10,0.0
+Cameroon,2014,10,2.0
+Chad,2014,10,0.0
+Congo,2014,10,0.0
+Cote d'Ivoire,2014,10,1.0
+DR Congo,2014,10,608.0
+Ghana,2014,10,0.0
+Guinea,2014,10,0.0
+Guinea Bissau,2014,10,0.0
+Liberia,2014,10,2.0
+Mali,2014,10,0.0
+Niger,2014,10,17.0
+Nigeria,2014,10,1421.0
+RCA,2014,10,0.0
+Sierra Leone,2014,10,0.0
+Togo,2014,10,0.0
+#country+name,2014,11,0.0
+Benin,2014,11,8.0
+Burkina Faso,2014,11,0.0
+Cameroon,2014,11,0.0
+Chad,2014,11,0.0
+Congo,2014,11,0.0
+Cote d'Ivoire,2014,11,1.0
+DR Congo,2014,11,370.0
+Ghana,2014,11,0.0
+Guinea,2014,11,0.0
+Guinea Bissau,2014,11,0.0
+Liberia,2014,11,5.0
+Mali,2014,11,0.0
+Niger,2014,11,10.0
+Nigeria,2014,11,1395.0
+RCA,2014,11,0.0
+Sierra Leone,2014,11,0.0
+Togo,2014,11,1.0
+#country+name,2014,12,0.0
+Benin,2014,12,7.0
+Burkina Faso,2014,12,0.0
+Cameroon,2014,12,11.0
+Chad,2014,12,0.0
+Congo,2014,12,0.0
+Cote d'Ivoire,2014,12,0.0
+DR Congo,2014,12,256.0
+Ghana,2014,12,0.0
+Guinea,2014,12,0.0
+Guinea Bissau,2014,12,0.0
+Liberia,2014,12,4.0
+Mali,2014,12,0.0
+Niger,2014,12,11.0
+Nigeria,2014,12,1584.0
+RCA,2014,12,0.0
+Sierra Leone,2014,12,0.0
+Togo,2014,12,0.0
+#country+name,2014,13,0.0
+Benin,2014,13,2.0
+Burkina Faso,2014,13,0.0
+Cameroon,2014,13,2.0
+Chad,2014,13,0.0
+Congo,2014,13,0.0
+Cote d'Ivoire,2014,13,3.0
+DR Congo,2014,13,553.0
+Ghana,2014,13,0.0
+Guinea,2014,13,0.0
+Guinea Bissau,2014,13,0.0
+Liberia,2014,13,2.0
+Mali,2014,13,0.0
+Niger,2014,13,8.0
+Nigeria,2014,13,1892.0
+RCA,2014,13,0.0
+Sierra Leone,2014,13,0.0
+Togo,2014,13,0.0
+#country+name,2014,14,0.0
+Benin,2014,14,1.0
+Burkina Faso,2014,14,0.0
+Cameroon,2014,14,0.0
+Chad,2014,14,0.0
+Congo,2014,14,0.0
+Cote d'Ivoire,2014,14,2.0
+DR Congo,2014,14,501.0
+Ghana,2014,14,0.0
+Guinea,2014,14,0.0
+Guinea Bissau,2014,14,0.0
+Liberia,2014,14,2.0
+Mali,2014,14,0.0
+Niger,2014,14,1.0
+Nigeria,2014,14,1792.0
+RCA,2014,14,0.0
+Sierra Leone,2014,14,0.0
+Togo,2014,14,1.0
+#country+name,2014,15,0.0
+Benin,2014,15,0.0
+Burkina Faso,2014,15,0.0
+Cameroon,2014,15,2.0
+Chad,2014,15,0.0
+Congo,2014,15,0.0
+Cote d'Ivoire,2014,15,0.0
+DR Congo,2014,15,371.0
+Ghana,2014,15,0.0
+Guinea,2014,15,0.0
+Guinea Bissau,2014,15,0.0
+Liberia,2014,15,2.0
+Mali,2014,15,0.0
+Niger,2014,15,1.0
+Nigeria,2014,15,1727.0
+RCA,2014,15,0.0
+Sierra Leone,2014,15,0.0
+Togo,2014,15,3.0
+#country+name,2014,16,0.0
+Benin,2014,16,0.0
+Burkina Faso,2014,16,0.0
+Cameroon,2014,16,5.0
+Chad,2014,16,0.0
+Congo,2014,16,0.0
+Cote d'Ivoire,2014,16,0.0
+DR Congo,2014,16,347.0
+Ghana,2014,16,0.0
+Guinea,2014,16,0.0
+Guinea Bissau,2014,16,0.0
+Liberia,2014,16,0.0
+Mali,2014,16,0.0
+Niger,2014,16,1.0
+Nigeria,2014,16,1500.0
+RCA,2014,16,0.0
+Sierra Leone,2014,16,0.0
+Togo,2014,16,3.0
+#country+name,2014,17,0.0
+Benin,2014,17,0.0
+Burkina Faso,2014,17,0.0
+Cameroon,2014,17,3.0
+Chad,2014,17,0.0
+Congo,2014,17,0.0
+Cote d'Ivoire,2014,17,0.0
+DR Congo,2014,17,232.0
+Ghana,2014,17,1.0
+Guinea,2014,17,0.0
+Guinea Bissau,2014,17,0.0
+Liberia,2014,17,0.0
+Mali,2014,17,0.0
+Niger,2014,17,0.0
+Nigeria,2014,17,1160.0
+RCA,2014,17,0.0
+Sierra Leone,2014,17,0.0
+Togo,2014,17,0.0
+#country+name,2014,18,0.0
+Benin,2014,18,0.0
+Burkina Faso,2014,18,0.0
+Cameroon,2014,18,3.0
+Chad,2014,18,0.0
+Congo,2014,18,0.0
+Cote d'Ivoire,2014,18,0.0
+DR Congo,2014,18,253.0
+Ghana,2014,18,0.0
+Guinea,2014,18,0.0
+Guinea Bissau,2014,18,0.0
+Liberia,2014,18,2.0
+Mali,2014,18,0.0
+Niger,2014,18,7.0
+Nigeria,2014,18,773.0
+RCA,2014,18,0.0
+Sierra Leone,2014,18,0.0
+Togo,2014,18,0.0
+#country+name,2014,19,0.0
+Benin,2014,19,0.0
+Burkina Faso,2014,19,0.0
+Cameroon,2014,19,19.0
+Chad,2014,19,0.0
+Congo,2014,19,0.0
+Cote d'Ivoire,2014,19,1.0
+DR Congo,2014,19,242.0
+Ghana,2014,19,0.0
+Guinea,2014,19,0.0
+Guinea Bissau,2014,19,0.0
+Liberia,2014,19,2.0
+Mali,2014,19,0.0
+Niger,2014,19,0.0
+Nigeria,2014,19,613.0
+RCA,2014,19,0.0
+Sierra Leone,2014,19,0.0
+Togo,2014,19,0.0
+#country+name,2014,20,0.0
+Benin,2014,20,0.0
+Burkina Faso,2014,20,0.0
+Cameroon,2014,20,11.0
+Chad,2014,20,0.0
+Congo,2014,20,0.0
+Cote d'Ivoire,2014,20,0.0
+DR Congo,2014,20,289.0
+Ghana,2014,20,0.0
+Guinea,2014,20,0.0
+Guinea Bissau,2014,20,0.0
+Liberia,2014,20,1.0
+Mali,2014,20,0.0
+Niger,2014,20,0.0
+Nigeria,2014,20,855.0
+RCA,2014,20,0.0
+Sierra Leone,2014,20,0.0
+Togo,2014,20,0.0
+#country+name,2014,21,0.0
+Benin,2014,21,0.0
+Burkina Faso,2014,21,0.0
+Cameroon,2014,21,16.0
+Chad,2014,21,0.0
+Congo,2014,21,0.0
+Cote d'Ivoire,2014,21,0.0
+DR Congo,2014,21,246.0
+Ghana,2014,21,0.0
+Guinea,2014,21,0.0
+Guinea Bissau,2014,21,0.0
+Liberia,2014,21,0.0
+Mali,2014,21,0.0
+Niger,2014,21,1.0
+Nigeria,2014,21,1078.0
+RCA,2014,21,0.0
+Sierra Leone,2014,21,0.0
+Togo,2014,21,0.0
+#country+name,2014,22,0.0
+Benin,2014,22,0.0
+Burkina Faso,2014,22,0.0
+Cameroon,2014,22,35.0
+Chad,2014,22,0.0
+Congo,2014,22,0.0
+Cote d'Ivoire,2014,22,0.0
+DR Congo,2014,22,275.0
+Ghana,2014,22,0.0
+Guinea,2014,22,0.0
+Guinea Bissau,2014,22,0.0
+Liberia,2014,22,1.0
+Mali,2014,22,0.0
+Niger,2014,22,22.0
+Nigeria,2014,22,620.0
+RCA,2014,22,0.0
+Sierra Leone,2014,22,0.0
+Togo,2014,22,0.0
+#country+name,2014,23,0.0
+Benin,2014,23,0.0
+Burkina Faso,2014,23,0.0
+Cameroon,2014,23,26.0
+Chad,2014,23,0.0
+Congo,2014,23,0.0
+Cote d'Ivoire,2014,23,0.0
+DR Congo,2014,23,163.0
+Ghana,2014,23,0.0
+Guinea,2014,23,0.0
+Guinea Bissau,2014,23,4.0
+Liberia,2014,23,0.0
+Mali,2014,23,0.0
+Niger,2014,23,36.0
+Nigeria,2014,23,525.0
+RCA,2014,23,0.0
+Sierra Leone,2014,23,0.0
+Togo,2014,23,0.0
+#country+name,2014,24,0.0
+Benin,2014,24,0.0
+Burkina Faso,2014,24,0.0
+Cameroon,2014,24,62.0
+Chad,2014,24,0.0
+Congo,2014,24,0.0
+Cote d'Ivoire,2014,24,0.0
+DR Congo,2014,24,266.0
+Ghana,2014,24,7.0
+Guinea,2014,24,0.0
+Guinea Bissau,2014,24,5.0
+Liberia,2014,24,0.0
+Mali,2014,24,0.0
+Niger,2014,24,9.0
+Nigeria,2014,24,434.0
+RCA,2014,24,0.0
+Sierra Leone,2014,24,0.0
+Togo,2014,24,0.0
+#country+name,2014,25,0.0
+Benin,2014,25,0.0
+Burkina Faso,2014,25,0.0
+Cameroon,2014,25,69.0
+Chad,2014,25,0.0
+Congo,2014,25,0.0
+Cote d'Ivoire,2014,25,0.0
+DR Congo,2014,25,283.0
+Ghana,2014,25,3.0
+Guinea,2014,25,0.0
+Guinea Bissau,2014,25,3.0
+Liberia,2014,25,0.0
+Mali,2014,25,0.0
+Niger,2014,25,1.0
+Nigeria,2014,25,445.0
+RCA,2014,25,0.0
+Sierra Leone,2014,25,0.0
+Togo,2014,25,1.0
+#country+name,2014,26,0.0
+Benin,2014,26,0.0
+Burkina Faso,2014,26,0.0
+Cameroon,2014,26,223.0
+Chad,2014,26,0.0
+Congo,2014,26,0.0
+Cote d'Ivoire,2014,26,0.0
+DR Congo,2014,26,198.0
+Ghana,2014,26,17.0
+Guinea,2014,26,0.0
+Guinea Bissau,2014,26,1.0
+Liberia,2014,26,0.0
+Mali,2014,26,0.0
+Niger,2014,26,0.0
+Nigeria,2014,26,426.0
+RCA,2014,26,0.0
+Sierra Leone,2014,26,0.0
+Togo,2014,26,0.0
+#country+name,2014,27,0.0
+Benin,2014,27,81.0
+Burkina Faso,2014,27,0.0
+Cameroon,2014,27,256.0
+Chad,2014,27,0.0
+Congo,2014,27,0.0
+Cote d'Ivoire,2014,27,0.0
+DR Congo,2014,27,185.0
+Ghana,2014,27,39.0
+Guinea,2014,27,0.0
+Guinea Bissau,2014,27,2.0
+Liberia,2014,27,0.0
+Mali,2014,27,0.0
+Niger,2014,27,39.0
+Nigeria,2014,27,490.0
+RCA,2014,27,0.0
+Sierra Leone,2014,27,0.0
+Togo,2014,27,0.0
+#country+name,2014,28,0.0
+Benin,2014,28,84.0
+Burkina Faso,2014,28,0.0
+Cameroon,2014,28,262.0
+Chad,2014,28,0.0
+Congo,2014,28,0.0
+Cote d'Ivoire,2014,28,0.0
+DR Congo,2014,28,139.0
+Ghana,2014,28,38.0
+Guinea,2014,28,0.0
+Guinea Bissau,2014,28,0.0
+Liberia,2014,28,0.0
+Mali,2014,28,0.0
+Niger,2014,28,19.0
+Nigeria,2014,28,696.0
+RCA,2014,28,0.0
+Sierra Leone,2014,28,0.0
+Togo,2014,28,0.0
+#country+name,2014,29,0.0
+Benin,2014,29,35.0
+Burkina Faso,2014,29,0.0
+Cameroon,2014,29,261.0
+Chad,2014,29,0.0
+Congo,2014,29,0.0
+Cote d'Ivoire,2014,29,0.0
+DR Congo,2014,29,229.0
+Ghana,2014,29,273.0
+Guinea,2014,29,0.0
+Guinea Bissau,2014,29,0.0
+Liberia,2014,29,0.0
+Mali,2014,29,0.0
+Niger,2014,29,19.0
+Nigeria,2014,29,886.0
+RCA,2014,29,0.0
+Sierra Leone,2014,29,0.0
+Togo,2014,29,0.0
+#country+name,2014,30,0.0
+Benin,2014,30,2.0
+Burkina Faso,2014,30,0.0
+Cameroon,2014,30,183.0
+Chad,2014,30,0.0
+Congo,2014,30,0.0
+Cote d'Ivoire,2014,30,1.0
+DR Congo,2014,30,177.0
+Ghana,2014,30,505.0
+Guinea,2014,30,0.0
+Guinea Bissau,2014,30,0.0
+Liberia,2014,30,0.0
+Mali,2014,30,0.0
+Niger,2014,30,6.0
+Nigeria,2014,30,682.0
+RCA,2014,30,0.0
+Sierra Leone,2014,30,0.0
+Togo,2014,30,1.0
+#country+name,2014,31,0.0
+Benin,2014,31,0.0
+Burkina Faso,2014,31,0.0
+Cameroon,2014,31,198.0
+Chad,2014,31,0.0
+Congo,2014,31,0.0
+Cote d'Ivoire,2014,31,0.0
+DR Congo,2014,31,176.0
+Ghana,2014,31,1209.0
+Guinea,2014,31,0.0
+Guinea Bissau,2014,31,0.0
+Liberia,2014,31,0.0
+Mali,2014,31,0.0
+Niger,2014,31,3.0
+Nigeria,2014,31,1244.0
+RCA,2014,31,0.0
+Sierra Leone,2014,31,0.0
+Togo,2014,31,0.0
+#country+name,2014,32,0.0
+Benin,2014,32,3.0
+Burkina Faso,2014,32,0.0
+Cameroon,2014,32,139.0
+Chad,2014,32,2.0
+Congo,2014,32,0.0
+Cote d'Ivoire,2014,32,1.0
+DR Congo,2014,32,108.0
+Ghana,2014,32,2208.0
+Guinea,2014,32,0.0
+Guinea Bissau,2014,32,0.0
+Liberia,2014,32,0.0
+Mali,2014,32,0.0
+Niger,2014,32,1.0
+Nigeria,2014,32,787.0
+RCA,2014,32,0.0
+Sierra Leone,2014,32,0.0
+Togo,2014,32,3.0
+#country+name,2014,33,0.0
+Benin,2014,33,0.0
+Burkina Faso,2014,33,0.0
+Cameroon,2014,33,90.0
+Chad,2014,33,2.0
+Congo,2014,33,0.0
+Cote d'Ivoire,2014,33,0.0
+DR Congo,2014,33,267.0
+Ghana,2014,33,2032.0
+Guinea,2014,33,0.0
+Guinea Bissau,2014,33,0.0
+Liberia,2014,33,0.0
+Mali,2014,33,0.0
+Niger,2014,33,5.0
+Nigeria,2014,33,926.0
+RCA,2014,33,0.0
+Sierra Leone,2014,33,0.0
+Togo,2014,33,5.0
+#country+name,2014,34,0.0
+Benin,2014,34,2.0
+Burkina Faso,2014,34,0.0
+Cameroon,2014,34,79.0
+Chad,2014,34,21.0
+Congo,2014,34,0.0
+Cote d'Ivoire,2014,34,0.0
+DR Congo,2014,34,280.0
+Ghana,2014,34,2680.0
+Guinea,2014,34,0.0
+Guinea Bissau,2014,34,0.0
+Liberia,2014,34,0.0
+Mali,2014,34,0.0
+Niger,2014,34,32.0
+Nigeria,2014,34,680.0
+RCA,2014,34,0.0
+Sierra Leone,2014,34,0.0
+Togo,2014,34,9.0
+#country+name,2014,35,0.0
+Benin,2014,35,6.0
+Burkina Faso,2014,35,0.0
+Cameroon,2014,35,104.0
+Chad,2014,35,3.0
+Congo,2014,35,0.0
+Cote d'Ivoire,2014,35,0.0
+DR Congo,2014,35,544.0
+Ghana,2014,35,3087.0
+Guinea,2014,35,0.0
+Guinea Bissau,2014,35,0.0
+Liberia,2014,35,0.0
+Mali,2014,35,0.0
+Niger,2014,35,42.0
+Nigeria,2014,35,611.0
+RCA,2014,35,0.0
+Sierra Leone,2014,35,0.0
+Togo,2014,35,11.0
+#country+name,2014,36,0.0
+Benin,2014,36,5.0
+Burkina Faso,2014,36,0.0
+Cameroon,2014,36,54.0
+Chad,2014,36,0.0
+Congo,2014,36,0.0
+Cote d'Ivoire,2014,36,0.0
+DR Congo,2014,36,559.0
+Ghana,2014,36,2807.0
+Guinea,2014,36,0.0
+Guinea Bissau,2014,36,0.0
+Liberia,2014,36,0.0
+Mali,2014,36,0.0
+Niger,2014,36,151.0
+Nigeria,2014,36,615.0
+RCA,2014,36,0.0
+Sierra Leone,2014,36,0.0
+Togo,2014,36,22.0
+#country+name,2014,37,0.0
+Benin,2014,37,7.0
+Burkina Faso,2014,37,0.0
+Cameroon,2014,37,55.0
+Chad,2014,37,0.0
+Congo,2014,37,0.0
+Cote d'Ivoire,2014,37,0.0
+DR Congo,2014,37,628.0
+Ghana,2014,37,2468.0
+Guinea,2014,37,0.0
+Guinea Bissau,2014,37,0.0
+Liberia,2014,37,0.0
+Mali,2014,37,0.0
+Niger,2014,37,251.0
+Nigeria,2014,37,746.0
+RCA,2014,37,0.0
+Sierra Leone,2014,37,0.0
+Togo,2014,37,21.0
+#country+name,2014,38,0.0
+Benin,2014,38,0.0
+Burkina Faso,2014,38,0.0
+Cameroon,2014,38,61.0
+Chad,2014,38,0.0
+Congo,2014,38,0.0
+Cote d'Ivoire,2014,38,0.0
+DR Congo,2014,38,614.0
+Ghana,2014,38,2010.0
+Guinea,2014,38,0.0
+Guinea Bissau,2014,38,0.0
+Liberia,2014,38,0.0
+Mali,2014,38,0.0
+Niger,2014,38,237.0
+Nigeria,2014,38,497.0
+RCA,2014,38,0.0
+Sierra Leone,2014,38,0.0
+Togo,2014,38,25.0
+#country+name,2014,39,0.0
+Benin,2014,39,18.0
+Burkina Faso,2014,39,0.0
+Cameroon,2014,39,57.0
+Chad,2014,39,7.0
+Congo,2014,39,0.0
+Cote d'Ivoire,2014,39,0.0
+DR Congo,2014,39,495.0
+Ghana,2014,39,1978.0
+Guinea,2014,39,0.0
+Guinea Bissau,2014,39,0.0
+Liberia,2014,39,0.0
+Mali,2014,39,0.0
+Niger,2014,39,230.0
+Nigeria,2014,39,350.0
+RCA,2014,39,0.0
+Sierra Leone,2014,39,0.0
+Togo,2014,39,15.0
+#country+name,2014,40,0.0
+Benin,2014,40,65.0
+Burkina Faso,2014,40,0.0
+Cameroon,2014,40,44.0
+Chad,2014,40,61.0
+Congo,2014,40,0.0
+Cote d'Ivoire,2014,40,0.0
+DR Congo,2014,40,532.0
+Ghana,2014,40,1505.0
+Guinea,2014,40,0.0
+Guinea Bissau,2014,40,0.0
+Liberia,2014,40,0.0
+Mali,2014,40,0.0
+Niger,2014,40,121.0
+Nigeria,2014,40,516.0
+RCA,2014,40,0.0
+Sierra Leone,2014,40,0.0
+Togo,2014,40,15.0
+#country+name,2014,41,0.0
+Benin,2014,41,76.0
+Burkina Faso,2014,41,0.0
+Cameroon,2014,41,135.0
+Chad,2014,41,19.0
+Congo,2014,41,0.0
+Cote d'Ivoire,2014,41,15.0
+DR Congo,2014,41,432.0
+Ghana,2014,41,1192.0
+Guinea,2014,41,0.0
+Guinea Bissau,2014,41,0.0
+Liberia,2014,41,0.0
+Mali,2014,41,0.0
+Niger,2014,41,154.0
+Nigeria,2014,41,792.0
+RCA,2014,41,0.0
+Sierra Leone,2014,41,0.0
+Togo,2014,41,15.0
+#country+name,2014,42,0.0
+Benin,2014,42,23.0
+Burkina Faso,2014,42,0.0
+Cameroon,2014,42,178.0
+Chad,2014,42,20.0
+Congo,2014,42,0.0
+Cote d'Ivoire,2014,42,11.0
+DR Congo,2014,42,494.0
+Ghana,2014,42,1330.0
+Guinea,2014,42,0.0
+Guinea Bissau,2014,42,0.0
+Liberia,2014,42,0.0
+Mali,2014,42,0.0
+Niger,2014,42,111.0
+Nigeria,2014,42,339.0
+RCA,2014,42,0.0
+Sierra Leone,2014,42,0.0
+Togo,2014,42,16.0
+#country+name,2014,43,0.0
+Benin,2014,43,13.0
+Burkina Faso,2014,43,0.0
+Cameroon,2014,43,133.0
+Chad,2014,43,3.0
+Congo,2014,43,0.0
+Cote d'Ivoire,2014,43,33.0
+DR Congo,2014,43,429.0
+Ghana,2014,43,970.0
+Guinea,2014,43,0.0
+Guinea Bissau,2014,43,0.0
+Liberia,2014,43,0.0
+Mali,2014,43,0.0
+Niger,2014,43,36.0
+Nigeria,2014,43,289.0
+RCA,2014,43,0.0
+Sierra Leone,2014,43,0.0
+Togo,2014,43,17.0
+#country+name,2014,44,0.0
+Benin,2014,44,120.0
+Burkina Faso,2014,44,0.0
+Cameroon,2014,44,256.0
+Chad,2014,44,5.0
+Congo,2014,44,0.0
+Cote d'Ivoire,2014,44,22.0
+DR Congo,2014,44,347.0
+Ghana,2014,44,609.0
+Guinea,2014,44,0.0
+Guinea Bissau,2014,44,0.0
+Liberia,2014,44,0.0
+Mali,2014,44,0.0
+Niger,2014,44,17.0
+Nigeria,2014,44,236.0
+RCA,2014,44,0.0
+Sierra Leone,2014,44,0.0
+Togo,2014,44,13.0
+#country+name,2014,45,0.0
+Benin,2014,45,107.0
+Burkina Faso,2014,45,0.0
+Cameroon,2014,45,150.0
+Chad,2014,45,7.0
+Congo,2014,45,0.0
+Cote d'Ivoire,2014,45,24.0
+DR Congo,2014,45,465.0
+Ghana,2014,45,380.0
+Guinea,2014,45,0.0
+Guinea Bissau,2014,45,0.0
+Liberia,2014,45,0.0
+Mali,2014,45,0.0
+Niger,2014,45,46.0
+Nigeria,2014,45,156.0
+RCA,2014,45,0.0
+Sierra Leone,2014,45,0.0
+Togo,2014,45,3.0
+#country+name,2014,46,0.0
+Benin,2014,46,53.0
+Burkina Faso,2014,46,0.0
+Cameroon,2014,46,60.0
+Chad,2014,46,2.0
+Congo,2014,46,0.0
+Cote d'Ivoire,2014,46,16.0
+DR Congo,2014,46,499.0
+Ghana,2014,46,381.0
+Guinea,2014,46,0.0
+Guinea Bissau,2014,46,0.0
+Liberia,2014,46,0.0
+Mali,2014,46,0.0
+Niger,2014,46,27.0
+Nigeria,2014,46,64.0
+RCA,2014,46,0.0
+Sierra Leone,2014,46,0.0
+Togo,2014,46,22.0
+#country+name,2014,47,0.0
+Benin,2014,47,36.0
+Burkina Faso,2014,47,0.0
+Cameroon,2014,47,72.0
+Chad,2014,47,0.0
+Congo,2014,47,0.0
+Cote d'Ivoire,2014,47,18.0
+DR Congo,2014,47,367.0
+Ghana,2014,47,310.0
+Guinea,2014,47,0.0
+Guinea Bissau,2014,47,0.0
+Liberia,2014,47,0.0
+Mali,2014,47,0.0
+Niger,2014,47,31.0
+Nigeria,2014,47,50.0
+RCA,2014,47,0.0
+Sierra Leone,2014,47,0.0
+Togo,2014,47,25.0
+#country+name,2014,48,0.0
+Benin,2014,48,11.0
+Burkina Faso,2014,48,0.0
+Cameroon,2014,48,14.0
+Chad,2014,48,0.0
+Congo,2014,48,0.0
+Cote d'Ivoire,2014,48,32.0
+DR Congo,2014,48,308.0
+Ghana,2014,48,266.0
+Guinea,2014,48,0.0
+Guinea Bissau,2014,48,0.0
+Liberia,2014,48,0.0
+Mali,2014,48,0.0
+Niger,2014,48,2.0
+Nigeria,2014,48,28.0
+RCA,2014,48,0.0
+Sierra Leone,2014,48,0.0
+Togo,2014,48,6.0
+#country+name,2014,49,0.0
+Benin,2014,49,1.0
+Burkina Faso,2014,49,0.0
+Cameroon,2014,49,10.0
+Chad,2014,49,1.0
+Congo,2014,49,0.0
+Cote d'Ivoire,2014,49,11.0
+DR Congo,2014,49,280.0
+Ghana,2014,49,173.0
+Guinea,2014,49,0.0
+Guinea Bissau,2014,49,0.0
+Liberia,2014,49,0.0
+Mali,2014,49,0.0
+Niger,2014,49,0.0
+Nigeria,2014,49,35.0
+RCA,2014,49,0.0
+Sierra Leone,2014,49,0.0
+Togo,2014,49,16.0
+#country+name,2014,50,0.0
+Benin,2014,50,0.0
+Burkina Faso,2014,50,0.0
+Cameroon,2014,50,4.0
+Chad,2014,50,0.0
+Congo,2014,50,0.0
+Cote d'Ivoire,2014,50,3.0
+DR Congo,2014,50,344.0
+Ghana,2014,50,141.0
+Guinea,2014,50,0.0
+Guinea Bissau,2014,50,0.0
+Liberia,2014,50,0.0
+Mali,2014,50,0.0
+Niger,2014,50,118.0
+Nigeria,2014,50,32.0
+RCA,2014,50,0.0
+Sierra Leone,2014,50,0.0
+Togo,2014,50,15.0
+#country+name,2014,51,0.0
+Benin,2014,51,0.0
+Burkina Faso,2014,51,0.0
+Cameroon,2014,51,1.0
+Chad,2014,51,0.0
+Congo,2014,51,0.0
+Cote d'Ivoire,2014,51,10.0
+DR Congo,2014,51,399.0
+Ghana,2014,51,120.0
+Guinea,2014,51,0.0
+Guinea Bissau,2014,51,0.0
+Liberia,2014,51,0.0
+Mali,2014,51,0.0
+Niger,2014,51,99.0
+Nigeria,2014,51,36.0
+RCA,2014,51,0.0
+Sierra Leone,2014,51,0.0
+Togo,2014,51,10.0
+#country+name,2014,52,0.0
+Benin,2014,52,0.0
+Burkina Faso,2014,52,0.0
+Cameroon,2014,52,4.0
+Chad,2014,52,0.0
+Congo,2014,52,0.0
+Cote d'Ivoire,2014,52,41.0
+DR Congo,2014,52,344.0
+Ghana,2014,52,103.0
+Guinea,2014,52,0.0
+Guinea Bissau,2014,52,0.0
+Liberia,2014,52,0.0
+Mali,2014,52,0.0
+Niger,2014,52,60.0
+Nigeria,2014,52,18.0
+RCA,2014,52,0.0
+Sierra Leone,2014,52,0.0
+Togo,2014,52,5.0

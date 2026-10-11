@@ -1,0 +1,38 @@
+disease,pipeline_status,current_max_phase,top_candidate,top_target,projected_milestone_year,confidence_window_start,confidence_window_end,estimated_success_probability_pct
+AIDS,Approved Therapies Exist (Repurposing / Expansion),4.0,MEDROXYPROGESTERONE ACETATE,PGR,2028,2027,2028,90.0
+Acne,Approved Therapies Exist (Repurposing / Expansion),4.0,ESTRADIOL,ESR1,2028,2027,2028,90.0
+Alcoholic Hepatitis,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXAMETHASONE,NR3C1,2028,2027,2028,90.0
+Allergy,Approved Therapies Exist (Repurposing / Expansion),4.0,PYRILAMINE,HRH1,2028,2027,2028,90.0
+Arthritis,Approved Therapies Exist (Repurposing / Expansion),4.0,DEUCRAVACITINIB,TYK2,2028,2027,2028,90.0
+Bronchial Asthma,Approved Therapies Exist (Repurposing / Expansion),4.0,TIOTROPIUM BROMIDE,CHRM2,2028,2027,2028,90.0
+Chickenpox,Approved Therapies Exist (Repurposing / Expansion),4.0,PREDNISOLONE,IL6,2028,2027,2028,90.0
+Chronic Cholestasis,Approved Therapies Exist (Repurposing / Expansion),4.0,PIOGLITAZONE,ABCB11,2028,2027,2028,90.0
+Fungal Infection,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXAMETHASONE,NR3C1,2028,2027,2028,90.0
+Common Cold,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXMEDETOMIDINE,ADRA1D,2028,2027,2028,90.0
+Dengue,Approved Therapies Exist (Repurposing / Expansion),4.0,MOLIBRESIB,GAS6,2028,2027,2028,90.0
+Diabetes,Approved Therapies Exist (Repurposing / Expansion),4.0,CERIVASTATIN,HMGCR,2028,2027,2028,90.0
+Gastroenteritis,Approved Therapies Exist (Repurposing / Expansion),4.0,RUXOLITINIB,JAK2,2028,2027,2028,90.0
+GERD,Approved Therapies Exist (Repurposing / Expansion),4.0,DESLORATADINE,HRH2,2028,2027,2028,90.0
+Heart Attack,Approved Therapies Exist (Repurposing / Expansion),4.0,CERIVASTATIN,HMGCR,2028,2027,2028,90.0
+Hepatitis A,Approved Therapies Exist (Repurposing / Expansion),4.0,PREDNISOLONE,IL6,2028,2027,2028,90.0
+Peptic Ulcer Disease,Approved Therapies Exist (Repurposing / Expansion),4.0,TIOTROPIUM,CHRM3,2028,2027,2028,90.0
+Hepatitis B,Approved Therapies Exist (Repurposing / Expansion),4.0,PHTHALYLSULFATHIAZOLE,CYP3A4,2028,2027,2028,90.0
+Hepatitis D,Approved Therapies Exist (Repurposing / Expansion),4.0,PHTHALYLSULFATHIAZOLE,CYP3A4,2028,2027,2028,90.0
+Hypertension,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXMEDETOMIDINE,ADRA1D,2028,2027,2028,90.0
+Hyperthyroidism,Approved Therapies Exist (Repurposing / Expansion),4.0,FORMOTEROL,TSHR,2028,2027,2028,90.0
+Hypoglycemia,Approved Therapies Exist (Repurposing / Expansion),4.0,SEMAGLUTIDE,GLP1R,2028,2027,2028,90.0
+Hypothyroidism,Approved Therapies Exist (Repurposing / Expansion),4.0,FORMOTEROL,TSHR,2028,2027,2028,90.0
+Jaundice,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXAMETHASONE,NR3C1,2028,2027,2028,90.0
+Psoriasis,Approved Therapies Exist (Repurposing / Expansion),4.0,DEUCRAVACITINIB,TYK2,2028,2027,2028,90.0
+Malaria,Approved Therapies Exist (Repurposing / Expansion),4.0,LINDANE,GABRB3,2028,2027,2028,90.0
+Migraine,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXMEDETOMIDINE,ADRA1D,2028,2027,2028,90.0
+Osteoarthritis,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXAMETHASONE,NR3C1,2028,2027,2028,90.0
+Pneumonia,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXAMETHASONE,NR3C1,2028,2027,2028,90.0
+Varicose Veins,Approved Therapies Exist (Repurposing / Expansion),4.0,PANOBINOSTAT,HDAC7,2028,2027,2028,90.0
+Urinary Tract Infection,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXAMETHASONE,NR3C1,2028,2027,2028,90.0
+Tuberculosis,Approved Therapies Exist (Repurposing / Expansion),4.0,DEXAMETHASONE,NR3C1,2028,2027,2028,90.0
+Vertigo,Approved Therapies Exist (Repurposing / Expansion),4.0,PYRILAMINE,HRH1,2028,2027,2028,90.0
+Typhoid,Active Clinical Trials (Phase 3),3.0,RESVERATROL,AHR,2031,2029,2034,52.2
+Impetigo,Active Clinical Trials (Phase 2),2.0,ENDOTHELIN,PLG,2034,2032,2038,18.3
+Cervical Spondylosis,Preclinical Discovery Stage,0.0,PD-173074,FGFR1,2041,2037,2045,4.3
+Paralysis (brain hemorrhage),Preclinical Discovery Stage,0.0,WM-1119,KAT6B,2041,2037,2045,4.3
