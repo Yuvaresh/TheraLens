@@ -21,7 +21,7 @@ To support this objective, a heterogeneous collection of twelve datasets was acq
 | **ChEMBL Molecular Properties** | EMBL-EBI ChEMBL DB | 6,319 | 11 | N/A | `molecular_weight`, `alogp`, `psa`, `hba`, `hbd` | Physicochemical characterization and Lipinski rule screening |
 | **FDA Drug Approval Timeline** | FDA Drugs@FDA Source Tables | 12,243 | 12 | N/A | `appl_no`, `drug_name`, `active_ingredient`, `first_approval_year` | Ground-truth historical therapeutic approval milestone year |
 | **ChEMBL Drug Indications** | EMBL-EBI ChEMBL REST API | 30,663 | 8 | 2,190 | `molecule_chembl_id`, `indication`, `efo_id`, `mesh_id` | Standardized ontology mapping from drugs to clinical diseases |
-| **Therapeutic Development Timeline** | TheraLens Integration Pipeline | 555,323 | 14 | 2,378 | `disease_name`, `chembl_molecule_id`, `first_approval_year` | Master target dataset linking historical solution year to disease-drug pairs |
+| **Therapeutic Development Timeline** | TheraLens Integration Pipeline | 555,323 | 14 | 2,378 | `disease_name`, `chembl_molecule_id`, `first_approval_year` | Master joined dataset linking historical solution year to 30,430 unique disease-molecule pairs (555,323 formulation join rows) |
 
 ---
 
@@ -88,13 +88,13 @@ Pharmacological potency and physicochemical property profiles were evaluated usi
 - **Total Measured Bioactivity Records**: 8,023 records.
 - **Unique Candidate Compounds**: 6,319 molecules (`molecule_chembl_id`).
 - **Unique Biological Targets**: 166 targets (`chembl_target_id`).
-- **pChEMBL Potency Values**: Mean pChEMBL = 6.42 (-log10 M affinity), representing nanomolar to micromolar binding strengths.
+- **pChEMBL Potency Values**: Mean pChEMBL = 7.80 (-log10 M affinity), representing nanomolar to sub-micromolar binding strengths.
 
 ### Molecular Property Profiling (`chembl_molecules.csv`):
 - **Total Characterized Compounds**: 6,319 molecules.
-- **Molecular Weight (MW)**: Mean = 428.5 Da (84.2% conform to Lipinski Rule of 5 threshold <= 500 Da).
-- **Lipophilicity (ALogP)**: Mean = 3.12 (89.6% conform to Lipinski threshold LogP <= 5.0).
-- **Polar Surface Area (PSA)**: Mean = 92.4 Å² (91.1% exhibit high oral bioavailability potential <= 140 Å²).
+- **Molecular Weight (MW)**: Mean = 563.71 Da (64.2% conform to Lipinski Rule of 5 threshold <= 500 Da).
+- **Lipophilicity (ALogP)**: Mean = 3.93 (74.3% conform to Lipinski threshold LogP <= 5.0).
+- **Polar Surface Area (PSA)**: Mean = 91.32 Å² (89.9% exhibit high oral bioavailability potential <= 140 Å²).
 
 ![pChEMBL Distribution](../outputs/data_analysis/chembl_pchembl_distribution.png)
 *Figure 4.7: Bioactivity affinity distribution (pChEMBL values).*
@@ -113,7 +113,7 @@ The `fda_drug_approval_timeline.csv` dataset provides the historical benchmark f
 - **Unique Active Ingredients**: 3,142 normalized active ingredient entities.
 - **Unique Trade Names**: 5,643 drug products.
 - **Milestone Span**: Earliest recorded approval year = 1939, Latest = 2026.
-- **Missing Milestone Years**: 749 historical records lacking explicit pre-1938 first approval year metadata.
+- **Missing Milestone Years**: 749 historical records lacking explicit first approval year metadata in the source Drugs@FDA tables.
 
 ![FDA Approval Timeline](../outputs/data_analysis/fda_approval_timeline.png)
 *Figure 4.9: Annual FDA first approval solution milestone volume over time (1939–2024).*
@@ -128,7 +128,7 @@ An automated entity-resolution pipeline matched FDA active ingredients to ChEMBL
 1. **FDA-to-ChEMBL Match Rate**: **97.4%** (3,059 of 3,142 active ingredients successfully resolved).
 2. **Unique ChEMBL Molecules Matched**: 2,589 distinct molecule entities.
 3. **ChEMBL Indication Records**: 30,663 clinical indication records retrieved via REST API.
-4. **Master Timeline Records**: **555,323 disease-drug historical solution milestone pairs** spanning 2,378 standardized disease ontology terms.
+4. **Master Timeline Records**: **555,323 master timeline join rows** (representing **30,430 unique disease–molecule pairs** across 2,378 standardized disease ontology terms, reflecting an $18.25\times$ Cartesian expansion factor from multiple product formulations and dosage strengths).
 
 ![Data Integration Funnel](../outputs/data_analysis/fda_chembl_integration_funnel.png)
 *Figure 4.10: Entity resolution funnel connecting FDA active ingredients to disease indications.*
@@ -169,7 +169,7 @@ Table 4.3 summarizes the quality audit findings and corrective actions.
 | **Open Targets** | 0 (0.0%) | 0 (0.0%) | None | Extracted top 10 scoring targets per disease |
 | **ChEMBL Activity** | 0 (0.0%) | 0 (0.0%) | Heterogeneous bioactivity units | Filtered measured pChEMBL log-affinity values |
 | **ChEMBL Molecules** | 20,850 nulls | 0 (0.0%) | Missing properties for biologicals | Retained raw property flags without artificial imputation |
-| **FDA Timeline** | 749 nulls | 0 (0.0%) | Unrecorded pre-1938 approval dates | Excluded missing year entries from time series milestone evaluation |
+| **FDA Timeline** | 749 nulls | 0 (0.0%) | Missing approval dates in source tables | Excluded missing year entries from time series milestone evaluation |
 | **FDA-ChEMBL Mapping** | 83 nulls | 0 (0.0%) | Obsolete trade names & electrolytes | Audited in `fda_chembl_match_audit.csv` without silent deletion |
 
 ---

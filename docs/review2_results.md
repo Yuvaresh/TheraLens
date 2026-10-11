@@ -15,8 +15,8 @@ This report documents the empirical results generated from the executed TheraLen
 1. **Symptom-Based Disease Classification**: Trained and benchmarked 4 candidate architectures on deduplicated clinical patterns, demonstrating that Logistic Regression achieves **1.0000 Accuracy** and **1.0000 Macro F1** on the held-out test set ($N=61$) without synthetic data leakage.
 2. **Therapeutic Candidate Prioritization**: Evaluated and ranked **3,636 biological targets** and **25,650 disease-target-molecule candidate pairs** using a defensible multi-attribute scoring framework combining Open Targets evidence, pChEMBL bioactivity potency, and Lipinski drug-likeness rules.
 3. **Longitudinal Epidemiological Surveillance**: Standardized **5,426 longitudinal records** across Measles (1974–2024), Yellow Fever (1974–2024), and weekly Cholera (2012–2014); detected **224 outbreak surge events**; evaluated time-ordered forecasting benchmarks on a 10-year held-out horizon (2015–2024).
-4. **Therapeutic Timeline Regulatory Audit**: Audited **12,243 FDA product approvals** and **555,323 master timeline join rows**, differentiating **72,277 verified Phase 4 milestones** from **483,046 investigational clinical trial records**, and identifying a $18.25\times$ Cartesian duplication factor from multiple dosage formulations.
-5. **Experimental Biopharma Forecasting Prototype**: Assessed 37 disease pipelines using published biopharmaceutical clinical transition latencies (DiMasi et al.), projecting empirical decision windows (2028–2042) and documenting the scientific limitations of century-scale illustrative targets such as "2114".
+4. **Therapeutic Timeline Regulatory Audit**: Audited **12,243 FDA product approvals** and **555,323 master timeline join rows**, differentiating **72,277 verified Phase 4 milestone rows** from **483,043 investigational indication records** (and 3 preclinical records), and identifying an $18.25\times$ Cartesian duplication factor from multiple dosage formulations (joined rows represent formulation expansion, not unique clinical trials).
+5. **Experimental Biopharma Forecasting Prototype**: Assessed 37 disease pipelines using published biopharmaceutical clinical transition latencies (DiMasi et al.); while median stage durations and transition probabilities derive from literature, uncertainty intervals ($\pm 35\%$) and sequential progression represent prototype modeling assumptions, projecting empirical decision windows (2028–2042) while documenting the scientific limitations of century-scale illustrative targets such as "2114".
 6. **Model Explainability & Quality Testing**: Computed permutation feature importance on held-out test data, verified transparent candidate score decomposition, and achieved a **15/15 (100%) pass rate** on automated unit and integration tests.
 
 ---
@@ -36,7 +36,7 @@ Empirical data sizes and quality findings computed across the active repository 
 | **WHO Yellow Fever** | `data/raw/yellow_fever_who.csv` | 874 | 9 | 47 countries (1974–2024) | Annual surveillance. 35,987 cumulative cases. |
 | **WHO Cholera** | `data/processed/cholera_*_long.csv` | 2,860 | 4 | 19 countries (2012–2014) | High-resolution weekly outbreak reporting. |
 | **Unified Epidemiological Series**| `data/processed/epidemiological_trends.csv`| 5,426 | 11 | 3 diseases | Unified schema with rolling Z-score outbreak flags (224 surges detected). |
-| **FDA Approval Timeline** | `data/processed/fda_drug_approval_timeline.csv` | 12,243 | 12 | 3,142 ingredients | 749 missing pre-1938 dates. Approvals range from 1939 to 2026. |
+| **FDA Approval Timeline** | `data/processed/fda_drug_approval_timeline.csv` | 12,243 | 12 | 3,142 ingredients | 749 records lack explicit approval dates in source tables. Approvals range from 1939 to 2026. |
 | **FDA-ChEMBL Match Audit** | `data/processed/fda_chembl_match_audit.csv` | 3,142 | 9 | 3,059 matched | 97.36% entity resolution match rate. 83 unmatched ingredients audited. |
 | **Master Timeline** | `data/processed/therapeutic_development_timeline.csv`| 555,323 | 14 | 2,378 diseases, 30,430 pairs | Cartesian join of product NDAs and indications. 72,277 Phase 4 milestone rows. |
 
@@ -58,7 +58,7 @@ Models were trained on $N=243$ training patterns and evaluated on an independent
 **Logistic Regression** was selected as the production model pipeline (`models/symptom_classifier.joblib`) because:
 1. **Perfect Discriminative Separation**: Achieved 100% Accuracy and 1.0000 Macro F1 on the held-out test set across all 41 disease classes.
 2. **Computational Efficiency**: Requires substantially lower inference latency and memory footprint than Random Forest ensembles.
-3. **Probability Scoring**: Directly produces bounded, interpretable softmax output distributions across differential diagnostic candidates.
+3. **Probability Scoring**: Directly produces bounded uncalibrated class probability estimates via `predict_proba` across differential diagnostic candidates (distinguished from signed geometric decision margins output by Linear SVM via `decision_function`). Formal probability calibration has not been validated against external clinical cohorts.
 4. **Leakage Resistance**: Crucially verified on unique clinical patterns rather than the raw duplicated rows, proving that distinct symptom combinations are linearly separable across the 41 pathology categories.
 
 ### 3.3 Confusion Matrix Findings
@@ -69,7 +69,7 @@ Testing the reusable inference interface (`src/inference/predict_disease.py`):
 - **Input Symptoms**: `chills, vomiting, high_fever, sweating, headache`
 - **Matched Features (5)**: `['chills', 'vomiting', 'high_fever', 'sweating', 'headache']`
 - **Predicted Disease**: **Malaria**
-- **Model Confidence Score**: 0.2794 (Uncalibrated Softmax Score)
+- **Model Confidence Score**: 0.2794 (Uncalibrated Class Probability Estimate)
 - **Top Differential Diagnoses**:
   1. Malaria: 0.2794
   2. Paralysis (brain hemorrhage): 0.0828
@@ -84,12 +84,18 @@ Testing the reusable inference interface (`src/inference/predict_disease.py`):
 The Composite Priority Score ($CPS \in [0.0, 1.0]$) combines four defensible biomedical dimensions:
 $$CPS = 0.35 \times S_{\text{target}} + 0.35 \times S_{\text{potency}} + 0.15 \times S_{\text{druglike}} + 0.15 \times S_{\text{evidence}}$$
 
+Where:
+- $S_{\text{target}} \in [0.0, 1.0]$: Open Targets genetic/pathway evidence score.
+- $S_{\text{potency}} = \text{clip}\left(\frac{\text{median}(p\text{ChEMBL}) - 4.0}{10.0 - 4.0}, 0.0, 1.0\right)$: Normalizes standardized negative logarithmic molar potency $\text{pChEMBL} = -\log_{10}(\text{Molar Potency})$ across supported endpoints ($\text{IC}_{50}$, $K_i$, $\text{EC}_{50}$, $K_d$). Different endpoints and experimental conditions compiled from heterogeneous sources may not be directly comparable.
+- $S_{\text{druglike}} \in [0.0, 1.0]$: Lipinski Rule of 5 / Veber oral bioavailability compliance.
+- $S_{\text{evidence}} \in [0.10, 1.00]$: **Global drug-development maturity score** reflecting the molecule's highest worldwide recorded phase (`max_phase` in ChEMBL across all historical indications). This evaluates drug repurposing feasibility and does not establish regulatory approval or clinical efficacy for the specific disease being analyzed.
+
 ### 4.2 Top Prioritized Candidates Sample
 Extracted from `data/processed/therapeutic_candidate_rankings.csv`:
 
-| Disease Context | Candidate Molecule | ChEMBL ID | Target Symbol | Target Assoc | Median pChEMBL | Drug-Likeness | Clinical Phase | Composite Priority Score (CPS) |
+| Disease Context | Candidate Molecule | ChEMBL ID | Target Symbol | Target Assoc | Median pChEMBL | Drug-Likeness | Global Maturity ($S_{\text{evidence}}$) | Composite Priority Score (CPS) |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **AIDS** | MEDROXYPROGESTERONE ACETATE | CHEMBL413 | AR | 0.7423 | 9.77 | 1.00 | Phase 4 | **0.7689** |
+| **AIDS** | MEDROXYPROGESTERONE ACETATE | CHEMBL413 | AR | 0.7423 | 9.77 | 1.00 | Phase 4 ($1.00$) | **0.7689** |
 | **Diabetes** | SITAGLIPTIN | CHEMBL1422 | DPP4 | 0.8841 | 8.85 | 1.00 | Phase 4 | **0.7621** |
 | **Hypertension** | AMLODIPINE | CHEMBL1489 | CACNA1C | 0.8210 | 9.10 | 1.00 | Phase 4 | **0.7554** |
 | **Malaria** | ATOVAQUONE | CHEMBL1137 | CYTB | 0.7915 | 8.90 | 1.00 | Phase 4 | **0.7431** |
@@ -130,8 +136,8 @@ From the chunked processing of `data/processed/therapeutic_development_timeline.
 | Evidence Category | Record Count | Percentage of Total | Regulatory Meaning |
 | :--- | :---: | :---: | :--- |
 | **Verified Phase 4 Milestone Rows** | 72,277 | 13.02% | Drug has FDA approval AND ChEMBL indication at Phase 4. |
-| **Investigational Clinical Trials (Phase 1–3)** | 483,046 | 86.98% | Molecule is in clinical testing for indication; NOT approved. |
-| **Preclinical / Unverified Records** | 0 | 0.00% | Non-clinical records filtered during data ingestion. |
+| **Investigational Indication Records (Phase 1–3)** | 483,043 | 86.98% | Molecule is in clinical testing for indication; NOT approved. Joined formulation rows, not unique trial protocols. |
+| **Preclinical / Unverified Records** | 3 | 0.00% | Non-clinical records with Phase 0 or unassigned clinical phase. |
 
 ### 6.2 Cartesian Redundancy Audit
 - **Total Master Timeline Rows**: 555,323 records.

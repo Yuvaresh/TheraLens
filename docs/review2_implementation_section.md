@@ -118,7 +118,7 @@ Table 3.1 details the preprocessing transformations executed across the twelve p
 | **Open Targets** | 3,636 rows x 7 cols | Validated target symbols & association bounds | 3,636 associations | Ranked targets within 38 diseases (scores: 0.0015 to 0.9250). |
 | **ChEMBL Bioactivity** | 8,023 rows x 10 cols | Verified measured pChEMBL logarithmic affinity | 8,023 potency records| Standardized heterogeneous assay units (IC50, Ki, EC50) into logarithmic pChEMBL. |
 | **ChEMBL Molecules** | 6,319 rows x 11 cols | Evaluated MW, AlogP, PSA, HBA, HBD | 6,319 characterized molecules | Imputed missing properties with neutral baseline and audit flag. |
-| **FDA Approval Timeline**| 12,243 rows x 12 cols | Normalized active ingredients; extracted year | 3,142 unique active ingredients | Flagged 749 pre-1938 records lacking first approval dates. |
+| **FDA Approval Timeline**| 12,243 rows x 12 cols | Normalized active ingredients; extracted year | 3,142 unique active ingredients | Flagged 749 records lacking explicit first approval dates in source Drugs@FDA tables. |
 | **FDA-ChEMBL Match** | 3,142 ingredients | Multi-stage dictionary & salt-stripping match | 3,059 matched ingredients | Achieved 97.36% resolution rate; audited 83 unmatched entities. |
 | **Master Timeline** | 555,323 rows x 14 cols | Chunked entity join with Phase 4 auditing | 30,430 unique disease-drug pairs | Resolved $18.25\times$ Cartesian duplication from multi-dosage products. |
 
@@ -149,9 +149,9 @@ The Review-2 codebase is organized into modular Python packages:
   $$\text{CPS} = 0.35 \times S_{\text{target}} + 0.35 \times S_{\text{potency}} + 0.15 \times S_{\text{druglike}} + 0.15 \times S_{\text{evidence}}$$
   Where:
   1. $S_{\text{target}} = \text{Open Targets association score} \in [0.0, 1.0]$.
-  2. $S_{\text{potency}} = \text{clip}\left(\frac{\text{median pChEMBL} - 4.0}{10.0 - 4.0}, 0.0, 1.0\right)$.
+  2. $S_{\text{potency}} = \text{clip}\left(\frac{\text{median}(p\text{ChEMBL}) - 4.0}{10.0 - 4.0}, 0.0, 1.0\right)$ where $\text{pChEMBL} = -\log_{10}(\text{Molar Concentration})$ represents standardized negative logarithmic molar potency across supported activity endpoints ($\text{IC}_{50}$, $K_i$, $\text{EC}_{50}$, $K_d$).
   3. $S_{\text{druglike}} = \frac{\sum \text{passed Lipinski / Veber rules}}{5.0} \in [0.0, 1.0]$ (neutral $0.5$ if missing).
-  4. $S_{\text{evidence}} = \text{Clinical Phase advancement bonus} \in [0.1, 1.0]$.
+  4. $S_{\text{evidence}} = \text{Global drug-development maturity score} \in [0.10, 1.00]$ based on the molecule's highest worldwide recorded clinical phase (`max_phase` in ChEMBL across any indication); does not establish approval or clinical efficacy for the specific disease being queried.
 - **Outputs**: Generates `data/processed/disease_target_rankings.csv` (3,636 targets) and `data/processed/therapeutic_candidate_rankings.csv` (25,650 candidates).
 
 ### 4.4 Module 3: Epidemiological Trend Analysis
@@ -161,8 +161,8 @@ The Review-2 codebase is organized into modular Python packages:
 - **Temporal Forecasting**: Chronologically partitioned Measles surveillance into training (1974–2014, 41 years) and held-out test (2015–2024, 10 years). Compares Naive Persistence ($\hat{y}_t = y_{t-1}$), 3-Year Moving Average, and Autoregressive Ridge Regression.
 
 ### 4.5 Module 4: Therapeutic Timeline Validation & Forecasting
-- **Scientific Audit**: Classifies records into Verified Phase 4 Milestones, Investigational Clinical Trials (Phase 1–3), and Preclinical Associations.
-- **Progression Latency Modeling**: Implements benchmark transition latencies (DiMasi et al.): Phase 1 (2.1 yrs), Phase 2 (3.2 yrs), Phase 3 (3.8 yrs), FDA NDA Review (1.5 yrs). Projects realistic milestone windows (2028–2042) for 37 diseases.
+- **Scientific Audit**: Classifies records into Verified Phase 4 Milestones, Investigational Indication Records (Phase 1–3), and Preclinical Associations (joined rows reflect formulation expansion, not unique clinical trials).
+- **Progression Latency Modeling**: Implements benchmark transition latencies (DiMasi et al.): Phase 1 (2.1 yrs), Phase 2 (3.2 yrs), Phase 3 (3.8 yrs), FDA NDA Review (1.5 yrs). Literature-derived median durations are coupled with prototype modeling assumptions (heuristic $\pm 35\%$ uncertainty intervals and sequential progression) to project empirical milestone windows (2028–2042) for 37 diseases.
 
 ### 4.6 Module 5: Model Explainability
 - Evaluates permutation feature importance on held-out test data across 20 repeats.
@@ -215,10 +215,11 @@ Top prioritized molecules identified across representative disease categories:
 - Total Timeline Rows: 555,323
 - Unique Disease-Molecule Pairs: 30,430
 - Verified Phase 4 Milestone Rows: 72,277 (13.02%)
-- Investigational Clinical Trials: 483,046 (86.98%)
+- Investigational Indication Records: 483,043 (86.98%)
+- Preclinical / Unverified Records: 3 (0.00%)
 
 ![Timeline Classification](../outputs/timeline_analysis/timeline_evidence_classification.png)  
-*Figure 5.6: Evidence classification audit separating Phase 4 approvals from investigational trials.*
+*Figure 5.6: Evidence classification audit separating Phase 4 approvals from investigational indication records.*
 
 ---
 

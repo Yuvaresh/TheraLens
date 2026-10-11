@@ -139,3 +139,25 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ------------------------------------------------------------------------------
+# 10. Linter & Static Analysis Caches
+# ------------------------------------------------------------------------------
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------------------------
+# 11. Intermediate Documentation & PDF Build Artifacts
+# ------------------------------------------------------------------------------
+# Intermediate HTML generated during PDF compilation
+docs/*.html
+
+# Vendor JavaScript bundles downloaded for offline headless rendering
+docs/mermaid*.js
+
+# Temporary visual preview screenshots
+docs/preview_*.png
+docs/*_preview.png
+
+# Keep final report PDF tracked for submission
+!docs/theralens_review2_report.pdf

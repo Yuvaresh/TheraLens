@@ -23,7 +23,7 @@ All components required for Review-2 are implemented in modular Python scripts, 
 | **Model Persistence & Inference Interface** | 80% | **90%** | `models/symptom_classifier.joblib` reloaded & verified; `src/inference/predict_disease.py` CLI interface operational |
 | **Therapeutic Target & Candidate Prioritization** | 80% | **90%** | Ranked 3,636 targets & 25,650 candidates via multi-attribute Composite Priority Score ($CPS \in [0, 1]$) |
 | **Longitudinal Epidemiological Analysis** | 80% | **85%** | 5,426 records harmonized; 224 outbreak surges detected; time-ordered forecasting evaluated on 2015–2024 horizon |
-| **Regulatory Timeline Validation & Audit** | 80% | **85%** | Chunked processing of 555,323 master rows; separated 72,277 Phase 4 approvals from 483,046 trials |
+| **Regulatory Timeline Validation & Audit** | 80% | **85%** | Chunked processing of 555,323 master rows; separated 72,277 Phase 4 milestone rows from 483,043 investigational indication records |
 | **Future Therapeutic Milestone Forecast** | 70% | **75%** | Industry latency benchmark prototype (DiMasi et al.); documented epistemic limits of "2114" headline |
 | **Model Explainability & Interpretability** | 75% | **80%** | Permutation feature importance on held-out test data; transparent mathematical component score decomposition |
 | **Automated Testing Suite (Quality Assurance)**| 80% | **90%** | 15 pytest unit/integration tests created & executed with a **100% pass rate** |

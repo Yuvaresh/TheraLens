@@ -52,24 +52,29 @@ As established in the TheraLens Review-2 guidelines:
 
 To address the project's objective scientifically, TheraLens implements an **empirical biopharmaceutical pipeline progression prototype** in `src/analysis/forecast_therapeutic_timeline.py`.
 
-### 4.1 Benchmark Assumptions (DiMasi et al., Nature Reviews Drug Discovery)
-Rather than ungrounded extrapolation, the prototype models clinical pipeline transition latencies based on multi-decade industry benchmarks across FDA and global clinical trial databases:
+### 4.1 Literature-Derived Benchmark Parameters (DiMasi et al., 2003, 2016; Hay et al., 2014)
+Rather than ungrounded extrapolation, the prototype models clinical pipeline transition latencies based on published industry benchmark studies across FDA and global clinical trial databases (e.g., DiMasi et al., 2003, 2016, *J Health Econ*; Hay et al., 2014, *Nat Biotechnol*). These durations represent empirical historical medians across heterogeneous indications rather than fixed universal constants, as individual trial lengths vary widely depending on therapeutic area, trial protocols, and expedited regulatory pathways:
 
 $$\text{Pipeline Duration} = \sum_{p \in \text{Remaining Phases}} \tau_p$$
 
-| Clinical Phase | Median Phase Duration ($\tau_p$) | Historical Transition Probability ($P_p$) | Primary Attrition Mechanism |
-| :--- | :---: | :---: | :--- |
-| **Phase 1** | 2.1 years | 59.5% | Dose-limiting toxicities, pharmacokinetic failure |
-| **Phase 2** | 3.2 years | 35.1% | Lack of clinical efficacy in target patient cohorts |
-| **Phase 3** | 3.8 years | 58.6% | Failure in pivotal double-blind randomized trials |
-| **FDA NDA Review** | 1.5 years | 90.1% | Regulatory rejection / manufacturing quality issues |
-| **Cumulative (Phase 1 $\to$ Approval)** | **10.6 years** | **~11.3%** | **~89% overall candidate attrition rate** |
+| Clinical Phase | Median Phase Duration ($\tau_p$) | Historical Transition Probability ($P_p$) | Primary Attrition Mechanism | Parameter Nature |
+| :--- | :---: | :---: | :--- | :--- |
+| **Phase 1** | 2.1 years | 59.5% | Dose-limiting toxicities, pharmacokinetic failure | Literature benchmark (DiMasi / Hay) |
+| **Phase 2** | 3.2 years | 35.1% | Lack of clinical efficacy in target patient cohorts | Literature benchmark (DiMasi / Hay) |
+| **Phase 3** | 3.8 years | 58.6% | Failure in pivotal double-blind randomized trials | Literature benchmark (DiMasi / Hay) |
+| **FDA NDA Review** | 1.5 years | 90.1% | Regulatory rejection / manufacturing quality issues | Literature benchmark (DiMasi / Hay) |
+| **Cumulative (Phase 1 $\to$ Approval)** | **10.6 years** | **~11.3%** | **~89% overall candidate attrition rate** | Published aggregate industry metrics |
 
-### 4.2 Mathematical Formulation of Projected Decision Window
+### 4.2 Prototype Modeling Assumptions & Formulation of Projected Decision Window
+To operationalize these literature benchmarks, the experimental prototype applies several explicit **engineering modeling assumptions**:
+- **Sequential Linear Progression**: Assumes candidate compounds advance strictly phase-by-phase without parallel multi-arm acceleration or expedited regulatory pathways (e.g., FDA Breakthrough Therapy, Fast Track).
+- **Heuristic Uncertainty Intervals**: The $\pm 35\%$ uncertainty bounds ($[0.65 \times \tau_{\text{cum}}, 1.45 \times \tau_{\text{cum}}]$) represent a prototype sensitivity heuristic reflecting cross-indication variance, rather than an empirically fitted parametric survival distribution.
+- **Base Year Setting**: Assumes active candidates are positioned at the start of their current recorded clinical phase as of $Y_{\text{base}} = 2026$, as exact registry trial commencement dates are not ingested.
+
 For a disease with an advanced candidate currently at clinical phase $P_{\text{current}}$:
 1. **Median Projected Year**:
    $$\hat{Y}_{\text{milestone}} = Y_{\text{base}} + \sum_{p = P_{\text{current}}}^{4.0} \tau_p$$
-2. **Confidence Window ($80\%$ Uncertainty Interval)**:
+2. **Confidence Window ($80\%$ Heuristic Uncertainty Interval)**:
    $$[Y_{\text{base}} + 0.65 \times \tau_{\text{cum}}, \; Y_{\text{base}} + 1.45 \times \tau_{\text{cum}}]$$
 3. **Cumulative Probability of Success ($P_{\text{success}}$)**:
    $$P_{\text{success}} = \prod_{p = P_{\text{current}}}^{4.0} P_p$$
