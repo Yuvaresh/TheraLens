@@ -1,0 +1,6221 @@
+{
+  "status": "COMPLETED",
+  "disease_name": "Test_Febrile_Emergence",
+  "query_metadata": {
+    "query_id": "TL_20261026_051831_76ee54",
+    "timestamp": "2026-10-26T05:18:31.609052",
+    "emerging_disease_name": "Test_Febrile_Emergence",
+    "raw_symptom_input": "chills, vomiting, high_fever, sweating, headache",
+    "research_notes": ""
+  },
+  "symptom_analysis": {
+    "status": "INSUFFICIENT_SIMILARITY",
+    "message": "No reference disease met the minimum similarity threshold of 10.0%. Strongest candidate was 'Malaria' with Jaccard=0.0379.",
+    "query_symptoms": [
+      "chills",
+      "vomiting",
+      "high_fever",
+      "sweating",
+      "headache"
+    ],
+    "recognized_symptoms": [
+      "chills",
+      "vomiting",
+      "high_fever",
+      "sweating",
+      "headache"
+    ],
+    "active_symptom_count": 5,
+    "unrecognized_symptoms": [],
+    "duplicate_inputs": [],
+    "min_similarity_threshold": 0.1,
+    "qualifying_count": 0,
+    "total_reference_diseases": 41,
+    "top_match": {
+      "disease": "Malaria",
+      "jaccard_similarity": 0.0379,
+      "weighted_jaccard_similarity": 0.5645,
+      "overlap_coefficient": 1.0,
+      "cosine_similarity": 0.7759,
+      "shared_symptom_count": 5,
+      "shared_symptoms": [
+        "chills",
+        "headache",
+        "high_fever",
+        "sweating",
+        "vomiting"
+      ],
+      "shared_symptoms_detail": [
+        {
+          "symptom": "chills",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "headache",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "high_fever",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "sweating",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "vomiting",
+          "prevalence": 0.88
+        }
+      ],
+      "matching_symptoms": [
+        "chills",
+        "headache",
+        "high_fever",
+        "sweating",
+        "vomiting"
+      ],
+      "query_only_symptoms": [],
+      "differing_query_symptoms": [],
+      "reference_only_symptoms": [
+        "abdominal_pain",
+        "abnormal_menstruation",
+        "acidity",
+        "acute_liver_failure",
+        "altered_sensorium",
+        "anxiety",
+        "back_pain",
+        "belly_pain",
+        "blackheads",
+        "bladder_discomfort",
+        "blister",
+        "blood_in_sputum",
+        "bloody_stool",
+        "blurred_and_distorted_vision",
+        "breathlessness",
+        "brittle_nails",
+        "bruising",
+        "burning_micturition",
+        "chest_pain",
+        "cold_hands_and_feets",
+        "coma",
+        "congestion",
+        "constipation",
+        "continuous_feel_of_urine",
+        "continuous_sneezing",
+        "cough",
+        "cramps",
+        "dark_urine",
+        "dehydration",
+        "depression",
+        "diarrhoea",
+        "dischromic _patches",
+        "distention_of_abdomen",
+        "dizziness",
+        "drying_and_tingling_lips",
+        "enlarged_thyroid",
+        "excessive_hunger",
+        "extra_marital_contacts",
+        "family_history",
+        "fast_heart_rate",
+        "fatigue",
+        "fluid_overload",
+        "fluid_overload.1",
+        "foul_smell_of urine",
+        "hip_joint_pain",
+        "history_of_alcohol_consumption",
+        "increased_appetite",
+        "indigestion",
+        "inflammatory_nails",
+        "internal_itching",
+        "irregular_sugar_level",
+        "irritability",
+        "irritation_in_anus",
+        "itching",
+        "joint_pain",
+        "knee_pain",
+        "lack_of_concentration",
+        "lethargy",
+        "loss_of_appetite",
+        "loss_of_balance",
+        "loss_of_smell",
+        "malaise",
+        "mild_fever",
+        "mood_swings",
+        "movement_stiffness",
+        "mucoid_sputum",
+        "muscle_pain",
+        "muscle_wasting",
+        "muscle_weakness",
+        "nausea",
+        "neck_pain",
+        "nodal_skin_eruptions",
+        "obesity",
+        "pain_behind_the_eyes",
+        "pain_during_bowel_movements",
+        "pain_in_anal_region",
+        "painful_walking",
+        "palpitations",
+        "passage_of_gases",
+        "patches_in_throat",
+        "phlegm",
+        "polyuria",
+        "prominent_veins_on_calf",
+        "puffy_face_and_eyes",
+        "pus_filled_pimples",
+        "receiving_blood_transfusion",
+        "receiving_unsterile_injections",
+        "red_sore_around_nose",
+        "red_spots_over_body",
+        "redness_of_eyes",
+        "restlessness",
+        "runny_nose",
+        "rusty_sputum",
+        "scurring",
+        "shivering",
+        "silver_like_dusting",
+        "sinus_pressure",
+        "skin_peeling",
+        "skin_rash",
+        "slurred_speech",
+        "small_dents_in_nails",
+        "spinning_movements",
+        "spotting_ urination",
+        "stiff_neck",
+        "stomach_bleeding",
+        "stomach_pain",
+        "sunken_eyes",
+        "swelled_lymph_nodes",
+        "swelling_joints",
+        "swelling_of_stomach",
+        "swollen_blood_vessels",
+        "swollen_extremeties",
+        "swollen_legs",
+        "throat_irritation",
+        "toxic_look_(typhos)",
+        "ulcers_on_tongue",
+        "unsteadiness",
+        "visual_disturbances",
+        "watering_from_eyes",
+        "weakness_in_limbs",
+        "weakness_of_one_body_side",
+        "weight_gain",
+        "weight_loss",
+        "yellow_crust_ooze",
+        "yellow_urine",
+        "yellowing_of_eyes",
+        "yellowish_skin"
+      ],
+      "reference_only_detail": [
+        {
+          "symptom": "abdominal_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "abnormal_menstruation",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "acidity",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "acute_liver_failure",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "altered_sensorium",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "anxiety",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "back_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "belly_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "blackheads",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "bladder_discomfort",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "blister",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "blood_in_sputum",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "bloody_stool",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "blurred_and_distorted_vision",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "breathlessness",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "brittle_nails",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "bruising",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "burning_micturition",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "chest_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "cold_hands_and_feets",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "coma",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "congestion",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "constipation",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "continuous_feel_of_urine",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "continuous_sneezing",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "cough",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "cramps",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "dark_urine",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "dehydration",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "depression",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "diarrhoea",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "dischromic _patches",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "distention_of_abdomen",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "dizziness",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "drying_and_tingling_lips",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "enlarged_thyroid",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "excessive_hunger",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "extra_marital_contacts",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "family_history",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "fast_heart_rate",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "fatigue",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "fluid_overload",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "fluid_overload.1",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "foul_smell_of urine",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "hip_joint_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "history_of_alcohol_consumption",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "increased_appetite",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "indigestion",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "inflammatory_nails",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "internal_itching",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "irregular_sugar_level",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "irritability",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "irritation_in_anus",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "itching",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "joint_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "knee_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "lack_of_concentration",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "lethargy",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "loss_of_appetite",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "loss_of_balance",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "loss_of_smell",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "malaise",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "mild_fever",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "mood_swings",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "movement_stiffness",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "mucoid_sputum",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "muscle_pain",
+          "prevalence": 1.0
+        },
+        {
+          "symptom": "muscle_wasting",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "muscle_weakness",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "nausea",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "neck_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "nodal_skin_eruptions",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "obesity",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "pain_behind_the_eyes",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "pain_during_bowel_movements",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "pain_in_anal_region",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "painful_walking",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "palpitations",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "passage_of_gases",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "patches_in_throat",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "phlegm",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "polyuria",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "prominent_veins_on_calf",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "puffy_face_and_eyes",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "pus_filled_pimples",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "receiving_blood_transfusion",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "receiving_unsterile_injections",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "red_sore_around_nose",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "red_spots_over_body",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "redness_of_eyes",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "restlessness",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "runny_nose",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "rusty_sputum",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "scurring",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "shivering",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "silver_like_dusting",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "sinus_pressure",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "skin_peeling",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "skin_rash",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "slurred_speech",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "small_dents_in_nails",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "spinning_movements",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "spotting_ urination",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "stiff_neck",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "stomach_bleeding",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "stomach_pain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "sunken_eyes",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "swelled_lymph_nodes",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "swelling_joints",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "swelling_of_stomach",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "swollen_blood_vessels",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "swollen_extremeties",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "swollen_legs",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "throat_irritation",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "toxic_look_(typhos)",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "ulcers_on_tongue",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "unsteadiness",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "visual_disturbances",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "watering_from_eyes",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "weakness_in_limbs",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "weakness_of_one_body_side",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "weight_gain",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "weight_loss",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "yellow_crust_ooze",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "yellow_urine",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "yellowing_of_eyes",
+          "prevalence": 0.0
+        },
+        {
+          "symptom": "yellowish_skin",
+          "prevalence": 0.0
+        }
+      ],
+      "differing_reference_symptoms": [
+        "abdominal_pain",
+        "abnormal_menstruation",
+        "acidity",
+        "acute_liver_failure",
+        "altered_sensorium",
+        "anxiety",
+        "back_pain",
+        "belly_pain",
+        "blackheads",
+        "bladder_discomfort",
+        "blister",
+        "blood_in_sputum",
+        "bloody_stool",
+        "blurred_and_distorted_vision",
+        "breathlessness",
+        "brittle_nails",
+        "bruising",
+        "burning_micturition",
+        "chest_pain",
+        "cold_hands_and_feets",
+        "coma",
+        "congestion",
+        "constipation",
+        "continuous_feel_of_urine",
+        "continuous_sneezing",
+        "cough",
+        "cramps",
+        "dark_urine",
+        "dehydration",
+        "depression",
+        "diarrhoea",
+        "dischromic _patches",
+        "distention_of_abdomen",
+        "dizziness",
+        "drying_and_tingling_lips",
+        "enlarged_thyroid",
+        "excessive_hunger",
+        "extra_marital_contacts",
+        "family_history",
+        "fast_heart_rate",
+        "fatigue",
+        "fluid_overload",
+        "fluid_overload.1",
+        "foul_smell_of urine",
+        "hip_joint_pain",
+        "history_of_alcohol_consumption",
+        "increased_appetite",
+        "indigestion",
+        "inflammatory_nails",
+        "internal_itching",
+        "irregular_sugar_level",
+        "irritability",
+        "irritation_in_anus",
+        "itching",
+        "joint_pain",
+        "knee_pain",
+        "lack_of_concentration",
+        "lethargy",
+        "loss_of_appetite",
+        "loss_of_balance",
+        "loss_of_smell",
+        "malaise",
+        "mild_fever",
+        "mood_swings",
+        "movement_stiffness",
+        "mucoid_sputum",
+        "muscle_pain",
+        "muscle_wasting",
+        "muscle_weakness",
+        "nausea",
+        "neck_pain",
+        "nodal_skin_eruptions",
+        "obesity",
+        "pain_behind_the_eyes",
+        "pain_during_bowel_movements",
+        "pain_in_anal_region",
+        "painful_walking",
+        "palpitations",
+        "passage_of_gases",
+        "patches_in_throat",
+        "phlegm",
+        "polyuria",
+        "prominent_veins_on_calf",
+        "puffy_face_and_eyes",
+        "pus_filled_pimples",
+        "receiving_blood_transfusion",
+        "receiving_unsterile_injections",
+        "red_sore_around_nose",
+        "red_spots_over_body",
+        "redness_of_eyes",
+        "restlessness",
+        "runny_nose",
+        "rusty_sputum",
+        "scurring",
+        "shivering",
+        "silver_like_dusting",
+        "sinus_pressure",
+        "skin_peeling",
+        "skin_rash",
+        "slurred_speech",
+        "small_dents_in_nails",
+        "spinning_movements",
+        "spotting_ urination",
+        "stiff_neck",
+        "stomach_bleeding",
+        "stomach_pain",
+        "sunken_eyes",
+        "swelled_lymph_nodes",
+        "swelling_joints",
+        "swelling_of_stomach",
+        "swollen_blood_vessels",
+        "swollen_extremeties",
+        "swollen_legs",
+        "throat_irritation",
+        "toxic_look_(typhos)",
+        "ulcers_on_tongue",
+        "unsteadiness",
+        "visual_disturbances",
+        "watering_from_eyes",
+        "weakness_in_limbs",
+        "weakness_of_one_body_side",
+        "weight_gain",
+        "weight_loss",
+        "yellow_crust_ooze",
+        "yellow_urine",
+        "yellowing_of_eyes",
+        "yellowish_skin"
+      ],
+      "reference_total_symptoms": 132
+    },
+    "matches": [
+      {
+        "disease": "Malaria",
+        "jaccard_similarity": 0.0379,
+        "weighted_jaccard_similarity": 0.5645,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.7759,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.88
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "abnormal_menstruation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acidity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acute_liver_failure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "altered_sensorium",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "anxiety",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "back_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blackheads",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bladder_discomfort",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blister",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blood_in_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bloody_stool",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blurred_and_distorted_vision",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "brittle_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bruising",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "burning_micturition",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cold_hands_and_feets",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "coma",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "congestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_feel_of_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_sneezing",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cough",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cramps",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dark_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dehydration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "depression",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "dischromic _patches",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "distention_of_abdomen",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dizziness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "drying_and_tingling_lips",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "enlarged_thyroid",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "excessive_hunger",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "extra_marital_contacts",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "family_history",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fast_heart_rate",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload.1",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "foul_smell_of urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "hip_joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "history_of_alcohol_consumption",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "increased_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "indigestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "inflammatory_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "internal_itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irregular_sugar_level",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritability",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritation_in_anus",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "knee_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lack_of_concentration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lethargy",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_balance",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_smell",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "malaise",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mild_fever",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mood_swings",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "movement_stiffness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mucoid_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "muscle_wasting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_weakness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "neck_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nodal_skin_eruptions",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "obesity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_behind_the_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_during_bowel_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_in_anal_region",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "painful_walking",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "palpitations",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "passage_of_gases",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "patches_in_throat",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "phlegm",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "polyuria",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "prominent_veins_on_calf",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "puffy_face_and_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pus_filled_pimples",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_blood_transfusion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_unsterile_injections",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_sore_around_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_spots_over_body",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "redness_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "restlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "runny_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "rusty_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "scurring",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "shivering",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "silver_like_dusting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sinus_pressure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_peeling",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_rash",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "slurred_speech",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "small_dents_in_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spinning_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spotting_ urination",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stiff_neck",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_bleeding",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sunken_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelled_lymph_nodes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_joints",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_of_stomach",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_blood_vessels",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_extremeties",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_legs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "throat_irritation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "ulcers_on_tongue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "unsteadiness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "visual_disturbances",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "watering_from_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_in_limbs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_of_one_body_side",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_gain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_loss",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_crust_ooze",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowing_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowish_skin",
+            "prevalence": 0.0
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_total_symptoms": 132
+      },
+      {
+        "disease": "Typhoid",
+        "jaccard_similarity": 0.0379,
+        "weighted_jaccard_similarity": 0.4216,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.5534,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.89
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "abnormal_menstruation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acidity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acute_liver_failure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "altered_sensorium",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "anxiety",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "back_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "blackheads",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bladder_discomfort",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blister",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blood_in_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bloody_stool",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blurred_and_distorted_vision",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "brittle_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bruising",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "burning_micturition",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cold_hands_and_feets",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "coma",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "congestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "continuous_feel_of_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_sneezing",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cough",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cramps",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dark_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dehydration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "depression",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "dischromic _patches",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "distention_of_abdomen",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dizziness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "drying_and_tingling_lips",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "enlarged_thyroid",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "excessive_hunger",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "extra_marital_contacts",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "family_history",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fast_heart_rate",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "fluid_overload",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload.1",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "foul_smell_of urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "hip_joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "history_of_alcohol_consumption",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "increased_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "indigestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "inflammatory_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "internal_itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irregular_sugar_level",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritability",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritation_in_anus",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "knee_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lack_of_concentration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lethargy",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_balance",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_smell",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "malaise",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mild_fever",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mood_swings",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "movement_stiffness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mucoid_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_wasting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_weakness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "neck_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nodal_skin_eruptions",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "obesity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_behind_the_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_during_bowel_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_in_anal_region",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "painful_walking",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "palpitations",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "passage_of_gases",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "patches_in_throat",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "phlegm",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "polyuria",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "prominent_veins_on_calf",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "puffy_face_and_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pus_filled_pimples",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_blood_transfusion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_unsterile_injections",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_sore_around_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_spots_over_body",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "redness_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "restlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "runny_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "rusty_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "scurring",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "shivering",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "silver_like_dusting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sinus_pressure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_peeling",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_rash",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "slurred_speech",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "small_dents_in_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spinning_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spotting_ urination",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stiff_neck",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_bleeding",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sunken_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelled_lymph_nodes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_joints",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_of_stomach",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_blood_vessels",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_extremeties",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_legs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "throat_irritation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "ulcers_on_tongue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "unsteadiness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "visual_disturbances",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "watering_from_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_in_limbs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_of_one_body_side",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_gain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_loss",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_crust_ooze",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowing_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowish_skin",
+            "prevalence": 0.0
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_total_symptoms": 132
+      },
+      {
+        "disease": "Dengue",
+        "jaccard_similarity": 0.0379,
+        "weighted_jaccard_similarity": 0.3264,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.472,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.9
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "abnormal_menstruation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acidity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acute_liver_failure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "altered_sensorium",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "anxiety",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "back_pain",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blackheads",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bladder_discomfort",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blister",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blood_in_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bloody_stool",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blurred_and_distorted_vision",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "brittle_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bruising",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "burning_micturition",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cold_hands_and_feets",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "coma",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "congestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_feel_of_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_sneezing",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cough",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cramps",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dark_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dehydration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "depression",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dischromic _patches",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "distention_of_abdomen",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dizziness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "drying_and_tingling_lips",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "enlarged_thyroid",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "excessive_hunger",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "extra_marital_contacts",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "family_history",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fast_heart_rate",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "fluid_overload",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload.1",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "foul_smell_of urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "hip_joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "history_of_alcohol_consumption",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "increased_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "indigestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "inflammatory_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "internal_itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irregular_sugar_level",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritability",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritation_in_anus",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "joint_pain",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "knee_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lack_of_concentration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lethargy",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_appetite",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "loss_of_balance",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_smell",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "malaise",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "mild_fever",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mood_swings",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "movement_stiffness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mucoid_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "muscle_wasting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_weakness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "neck_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nodal_skin_eruptions",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "obesity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_behind_the_eyes",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "pain_during_bowel_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_in_anal_region",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "painful_walking",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "palpitations",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "passage_of_gases",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "patches_in_throat",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "phlegm",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "polyuria",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "prominent_veins_on_calf",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "puffy_face_and_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pus_filled_pimples",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_blood_transfusion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_unsterile_injections",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_sore_around_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_spots_over_body",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "redness_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "restlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "runny_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "rusty_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "scurring",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "shivering",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "silver_like_dusting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sinus_pressure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_peeling",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_rash",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "slurred_speech",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "small_dents_in_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spinning_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spotting_ urination",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stiff_neck",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_bleeding",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sunken_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelled_lymph_nodes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_joints",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_of_stomach",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_blood_vessels",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_extremeties",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_legs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "throat_irritation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "ulcers_on_tongue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "unsteadiness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "visual_disturbances",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "watering_from_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_in_limbs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_of_one_body_side",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_gain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_loss",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_crust_ooze",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowing_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowish_skin",
+            "prevalence": 0.0
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_total_symptoms": 132
+      }
+    ]
+  },
+  "supplementary_classifier_signal": {
+    "status": "SUCCESS",
+    "predicted_disease": "Malaria",
+    "confidence_score": 0.2794,
+    "confidence_type": "Model Softmax Score (Uncalibrated)",
+    "top_candidates": [
+      {
+        "disease": "Malaria",
+        "confidence_score": 0.2794
+      },
+      {
+        "disease": "Paralysis (brain hemorrhage)",
+        "confidence_score": 0.0828
+      },
+      {
+        "disease": "Heart Attack",
+        "confidence_score": 0.0703
+      }
+    ],
+    "matched_symptoms": [
+      "chills",
+      "vomiting",
+      "high_fever",
+      "sweating",
+      "headache"
+    ],
+    "unmatched_symptoms": [],
+    "active_symptom_count": 5,
+    "disclaimer": "RESEARCH DEMONSTRATION ONLY: This output is produced by an academic machine learning model as part of the TheraLens research project. It does NOT constitute clinical diagnosis, medical guidance, or healthcare advice. Consult licensed healthcare professionals for medical diagnosis and care."
+  },
+  "therapeutic_evidence": [
+    {
+      "similarity_context": {
+        "disease": "Malaria",
+        "jaccard_similarity": 0.0379,
+        "weighted_jaccard_similarity": 0.5645,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.7759,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.88
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "abnormal_menstruation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acidity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acute_liver_failure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "altered_sensorium",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "anxiety",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "back_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blackheads",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bladder_discomfort",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blister",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blood_in_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bloody_stool",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blurred_and_distorted_vision",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "brittle_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bruising",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "burning_micturition",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cold_hands_and_feets",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "coma",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "congestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_feel_of_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_sneezing",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cough",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cramps",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dark_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dehydration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "depression",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "dischromic _patches",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "distention_of_abdomen",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dizziness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "drying_and_tingling_lips",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "enlarged_thyroid",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "excessive_hunger",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "extra_marital_contacts",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "family_history",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fast_heart_rate",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload.1",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "foul_smell_of urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "hip_joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "history_of_alcohol_consumption",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "increased_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "indigestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "inflammatory_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "internal_itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irregular_sugar_level",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritability",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritation_in_anus",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "knee_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lack_of_concentration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lethargy",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_balance",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_smell",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "malaise",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mild_fever",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mood_swings",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "movement_stiffness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mucoid_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "muscle_wasting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_weakness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "neck_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nodal_skin_eruptions",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "obesity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_behind_the_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_during_bowel_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_in_anal_region",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "painful_walking",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "palpitations",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "passage_of_gases",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "patches_in_throat",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "phlegm",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "polyuria",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "prominent_veins_on_calf",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "puffy_face_and_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pus_filled_pimples",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_blood_transfusion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_unsterile_injections",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_sore_around_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_spots_over_body",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "redness_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "restlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "runny_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "rusty_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "scurring",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "shivering",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "silver_like_dusting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sinus_pressure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_peeling",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_rash",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "slurred_speech",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "small_dents_in_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spinning_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spotting_ urination",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stiff_neck",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_bleeding",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sunken_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelled_lymph_nodes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_joints",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_of_stomach",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_blood_vessels",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_extremeties",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_legs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "throat_irritation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "ulcers_on_tongue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "unsteadiness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "visual_disturbances",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "watering_from_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_in_limbs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_of_one_body_side",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_gain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_loss",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_crust_ooze",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowing_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowish_skin",
+            "prevalence": 0.0
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_total_symptoms": 132
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Malaria",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Retrieved 5 targets and 3 candidates (Tier 1: 0, Tier 2: 2).",
+        "missing_reasons": [],
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "TLR9",
+            "target_name": "toll like receptor 9",
+            "target_id": "ENSG00000239732",
+            "association_score": 0.576,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "TLR7",
+            "target_name": "toll like receptor 7",
+            "target_id": "ENSG00000196664",
+            "association_score": 0.5741,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "ABO",
+            "target_name": "ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase",
+            "target_id": "ENSG00000175164",
+            "association_score": 0.4586,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "MMP8",
+            "target_name": "matrix metallopeptidase 8",
+            "target_id": "ENSG00000118113",
+            "association_score": 0.3849,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "MMP1",
+            "target_name": "matrix metallopeptidase 1",
+            "target_id": "ENSG00000196611",
+            "association_score": 0.3818,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "compound_name": "RITONAVIR",
+            "chembl_id": "CHEMBL163",
+            "target_symbol": "CYP3A5",
+            "composite_priority_score": 0.4813,
+            "clinical_phase": 4.0,
+            "indication_phase": 1.0,
+            "has_direct_indication": true,
+            "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+            "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+            "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": false,
+            "is_disqualified": false,
+            "median_pchembl": 6.92,
+            "molecular_weight": 721.0,
+            "drug_likeness_score": 0.4,
+            "tier_priority": 2,
+            "score_breakdown": {
+              "target_association_contrib": 0.101,
+              "potency_contrib": 0.1703,
+              "druglikeness_contrib": 0.06,
+              "clinical_evidence_contrib": 0.15
+            },
+            "rank": 1
+          },
+          {
+            "compound_name": "RITONAVIR",
+            "chembl_id": "CHEMBL163",
+            "target_symbol": "SLCO1B1",
+            "composite_priority_score": 0.4107,
+            "clinical_phase": 4.0,
+            "indication_phase": 1.0,
+            "has_direct_indication": true,
+            "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+            "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+            "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": false,
+            "is_disqualified": false,
+            "median_pchembl": 6.08,
+            "molecular_weight": 721.0,
+            "drug_likeness_score": 0.4,
+            "tier_priority": 2,
+            "score_breakdown": {
+              "target_association_contrib": 0.0793,
+              "potency_contrib": 0.1213,
+              "druglikeness_contrib": 0.06,
+              "clinical_evidence_contrib": 0.15
+            },
+            "rank": 2
+          },
+          {
+            "compound_name": "CIPEMASTAT",
+            "chembl_id": "CHEMBL115653",
+            "target_symbol": "MMP1",
+            "composite_priority_score": 0.6956,
+            "clinical_phase": 2.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Exploratory Target Lead (Investigational Phase 2 in Other Diseases)",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'MMP1', but has NO documented clinical trials or approvals for 'Malaria'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 9.52,
+            "molecular_weight": 436.6,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.1336,
+              "potency_contrib": 0.322,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.09
+            },
+            "rank": 3
+          }
+        ],
+        "has_verified_indication_treatment": false,
+        "regulatory_maturity": "Active Clinical Trials Documented for this Indication"
+      }
+    },
+    {
+      "similarity_context": {
+        "disease": "Typhoid",
+        "jaccard_similarity": 0.0379,
+        "weighted_jaccard_similarity": 0.4216,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.5534,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.89
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "abnormal_menstruation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acidity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acute_liver_failure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "altered_sensorium",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "anxiety",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "back_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "blackheads",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bladder_discomfort",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blister",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blood_in_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bloody_stool",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blurred_and_distorted_vision",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "brittle_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bruising",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "burning_micturition",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cold_hands_and_feets",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "coma",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "congestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "continuous_feel_of_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_sneezing",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cough",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cramps",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dark_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dehydration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "depression",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "dischromic _patches",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "distention_of_abdomen",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dizziness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "drying_and_tingling_lips",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "enlarged_thyroid",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "excessive_hunger",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "extra_marital_contacts",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "family_history",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fast_heart_rate",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "fluid_overload",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload.1",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "foul_smell_of urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "hip_joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "history_of_alcohol_consumption",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "increased_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "indigestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "inflammatory_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "internal_itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irregular_sugar_level",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritability",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritation_in_anus",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "knee_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lack_of_concentration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lethargy",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_balance",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_smell",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "malaise",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mild_fever",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mood_swings",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "movement_stiffness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mucoid_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_wasting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_weakness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "neck_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nodal_skin_eruptions",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "obesity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_behind_the_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_during_bowel_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_in_anal_region",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "painful_walking",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "palpitations",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "passage_of_gases",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "patches_in_throat",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "phlegm",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "polyuria",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "prominent_veins_on_calf",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "puffy_face_and_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pus_filled_pimples",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_blood_transfusion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_unsterile_injections",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_sore_around_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_spots_over_body",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "redness_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "restlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "runny_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "rusty_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "scurring",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "shivering",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "silver_like_dusting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sinus_pressure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_peeling",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_rash",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "slurred_speech",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "small_dents_in_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spinning_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spotting_ urination",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stiff_neck",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_bleeding",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sunken_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelled_lymph_nodes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_joints",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_of_stomach",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_blood_vessels",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_extremeties",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_legs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "throat_irritation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "ulcers_on_tongue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "unsteadiness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "visual_disturbances",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "watering_from_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_in_limbs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_of_one_body_side",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_gain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_loss",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_crust_ooze",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowing_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowish_skin",
+            "prevalence": 0.0
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_total_symptoms": 132
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Typhoid",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Retrieved 5 targets and 3 candidates (Tier 1: 0, Tier 2: 0).",
+        "missing_reasons": [
+          "No verified indication-specific clinical candidates exist for 'Typhoid' in repository. Retrieved molecules are indirect target screen hits or chemical surrogates."
+        ],
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "DBNL",
+            "target_name": "drebrin like",
+            "target_id": "ENSG00000136279",
+            "association_score": 0.0531,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "NDUFS4",
+            "target_name": "NADH:ubiquinone oxidoreductase subunit S4",
+            "target_id": "ENSG00000164258",
+            "association_score": 0.0504,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "MECP2",
+            "target_name": "methyl-CpG binding protein 2",
+            "target_id": "ENSG00000169057",
+            "association_score": 0.0503,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "GZMA",
+            "target_name": "granzyme A",
+            "target_id": "ENSG00000145649",
+            "association_score": 0.0482,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "DMD",
+            "target_name": "dystrophin",
+            "target_id": "ENSG00000198947",
+            "association_score": 0.0438,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "compound_name": "CHEMBL179510",
+            "chembl_id": "CHEMBL179510",
+            "target_symbol": "AHR",
+            "composite_priority_score": 0.4812,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'AHR', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 9.7,
+            "molecular_weight": 317.1,
+            "drug_likeness_score": 0.8,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.0137,
+              "potency_contrib": 0.3325,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 1
+          },
+          {
+            "compound_name": "CHEMBL359428",
+            "chembl_id": "CHEMBL359428",
+            "target_symbol": "APOE",
+            "composite_priority_score": 0.4526,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'APOE', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 8.74,
+            "molecular_weight": 488.5,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.0111,
+              "potency_contrib": 0.2765,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 2
+          },
+          {
+            "compound_name": "CHEMBL142450",
+            "chembl_id": "CHEMBL142450",
+            "target_symbol": "APOE",
+            "composite_priority_score": 0.4465,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'APOE', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 9.15,
+            "molecular_weight": 468.5,
+            "drug_likeness_score": 0.8,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.0111,
+              "potency_contrib": 0.3004,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 3
+          }
+        ],
+        "has_verified_indication_treatment": false,
+        "regulatory_maturity": "Preclinical / In-Vitro Screen Stage (Only Indirect Target Associations; No Verified Indication Compounds)"
+      }
+    },
+    {
+      "similarity_context": {
+        "disease": "Dengue",
+        "jaccard_similarity": 0.0379,
+        "weighted_jaccard_similarity": 0.3264,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.472,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.9
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "abnormal_menstruation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acidity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "acute_liver_failure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "altered_sensorium",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "anxiety",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "back_pain",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blackheads",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bladder_discomfort",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blister",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blood_in_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bloody_stool",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "blurred_and_distorted_vision",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "brittle_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "bruising",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "burning_micturition",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cold_hands_and_feets",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "coma",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "congestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_feel_of_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "continuous_sneezing",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cough",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "cramps",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dark_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dehydration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "depression",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dischromic _patches",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "distention_of_abdomen",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "dizziness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "drying_and_tingling_lips",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "enlarged_thyroid",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "excessive_hunger",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "extra_marital_contacts",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "family_history",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fast_heart_rate",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "fluid_overload",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "fluid_overload.1",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "foul_smell_of urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "hip_joint_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "history_of_alcohol_consumption",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "increased_appetite",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "indigestion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "inflammatory_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "internal_itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irregular_sugar_level",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritability",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "irritation_in_anus",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "itching",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "joint_pain",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "knee_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lack_of_concentration",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "lethargy",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_appetite",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "loss_of_balance",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "loss_of_smell",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "malaise",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "mild_fever",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mood_swings",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "movement_stiffness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "mucoid_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "muscle_wasting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "muscle_weakness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "neck_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "nodal_skin_eruptions",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "obesity",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_behind_the_eyes",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "pain_during_bowel_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pain_in_anal_region",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "painful_walking",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "palpitations",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "passage_of_gases",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "patches_in_throat",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "phlegm",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "polyuria",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "prominent_veins_on_calf",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "puffy_face_and_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "pus_filled_pimples",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_blood_transfusion",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "receiving_unsterile_injections",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_sore_around_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "red_spots_over_body",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "redness_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "restlessness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "runny_nose",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "rusty_sputum",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "scurring",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "shivering",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "silver_like_dusting",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sinus_pressure",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_peeling",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "skin_rash",
+            "prevalence": 0.9
+          },
+          {
+            "symptom": "slurred_speech",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "small_dents_in_nails",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spinning_movements",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "spotting_ urination",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stiff_neck",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_bleeding",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "stomach_pain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "sunken_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelled_lymph_nodes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_joints",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swelling_of_stomach",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_blood_vessels",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_extremeties",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "swollen_legs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "throat_irritation",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "ulcers_on_tongue",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "unsteadiness",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "visual_disturbances",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "watering_from_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_in_limbs",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weakness_of_one_body_side",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_gain",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "weight_loss",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_crust_ooze",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellow_urine",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowing_of_eyes",
+            "prevalence": 0.0
+          },
+          {
+            "symptom": "yellowish_skin",
+            "prevalence": 0.0
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "abnormal_menstruation",
+          "acidity",
+          "acute_liver_failure",
+          "altered_sensorium",
+          "anxiety",
+          "back_pain",
+          "belly_pain",
+          "blackheads",
+          "bladder_discomfort",
+          "blister",
+          "blood_in_sputum",
+          "bloody_stool",
+          "blurred_and_distorted_vision",
+          "breathlessness",
+          "brittle_nails",
+          "bruising",
+          "burning_micturition",
+          "chest_pain",
+          "cold_hands_and_feets",
+          "coma",
+          "congestion",
+          "constipation",
+          "continuous_feel_of_urine",
+          "continuous_sneezing",
+          "cough",
+          "cramps",
+          "dark_urine",
+          "dehydration",
+          "depression",
+          "diarrhoea",
+          "dischromic _patches",
+          "distention_of_abdomen",
+          "dizziness",
+          "drying_and_tingling_lips",
+          "enlarged_thyroid",
+          "excessive_hunger",
+          "extra_marital_contacts",
+          "family_history",
+          "fast_heart_rate",
+          "fatigue",
+          "fluid_overload",
+          "fluid_overload.1",
+          "foul_smell_of urine",
+          "hip_joint_pain",
+          "history_of_alcohol_consumption",
+          "increased_appetite",
+          "indigestion",
+          "inflammatory_nails",
+          "internal_itching",
+          "irregular_sugar_level",
+          "irritability",
+          "irritation_in_anus",
+          "itching",
+          "joint_pain",
+          "knee_pain",
+          "lack_of_concentration",
+          "lethargy",
+          "loss_of_appetite",
+          "loss_of_balance",
+          "loss_of_smell",
+          "malaise",
+          "mild_fever",
+          "mood_swings",
+          "movement_stiffness",
+          "mucoid_sputum",
+          "muscle_pain",
+          "muscle_wasting",
+          "muscle_weakness",
+          "nausea",
+          "neck_pain",
+          "nodal_skin_eruptions",
+          "obesity",
+          "pain_behind_the_eyes",
+          "pain_during_bowel_movements",
+          "pain_in_anal_region",
+          "painful_walking",
+          "palpitations",
+          "passage_of_gases",
+          "patches_in_throat",
+          "phlegm",
+          "polyuria",
+          "prominent_veins_on_calf",
+          "puffy_face_and_eyes",
+          "pus_filled_pimples",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "red_sore_around_nose",
+          "red_spots_over_body",
+          "redness_of_eyes",
+          "restlessness",
+          "runny_nose",
+          "rusty_sputum",
+          "scurring",
+          "shivering",
+          "silver_like_dusting",
+          "sinus_pressure",
+          "skin_peeling",
+          "skin_rash",
+          "slurred_speech",
+          "small_dents_in_nails",
+          "spinning_movements",
+          "spotting_ urination",
+          "stiff_neck",
+          "stomach_bleeding",
+          "stomach_pain",
+          "sunken_eyes",
+          "swelled_lymph_nodes",
+          "swelling_joints",
+          "swelling_of_stomach",
+          "swollen_blood_vessels",
+          "swollen_extremeties",
+          "swollen_legs",
+          "throat_irritation",
+          "toxic_look_(typhos)",
+          "ulcers_on_tongue",
+          "unsteadiness",
+          "visual_disturbances",
+          "watering_from_eyes",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "weight_gain",
+          "weight_loss",
+          "yellow_crust_ooze",
+          "yellow_urine",
+          "yellowing_of_eyes",
+          "yellowish_skin"
+        ],
+        "reference_total_symptoms": 132
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Dengue",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Retrieved 5 targets and 3 candidates (Tier 1: 0, Tier 2: 0).",
+        "missing_reasons": [
+          "No verified indication-specific clinical candidates exist for 'Dengue' in repository. Retrieved molecules are indirect target screen hits or chemical surrogates."
+        ],
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "APOA1",
+            "target_name": "apolipoprotein A1",
+            "target_id": "ENSG00000118137",
+            "association_score": 0.5807,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "HAVCR1",
+            "target_name": "hepatitis A virus cellular receptor 1",
+            "target_id": "ENSG00000113249",
+            "association_score": 0.5442,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "YBX1",
+            "target_name": "Y-box binding protein 1",
+            "target_id": "ENSG00000065978",
+            "association_score": 0.5409,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "CD209",
+            "target_name": "CD209 molecule",
+            "target_id": "ENSG00000090659",
+            "association_score": 0.5255,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "PROS1",
+            "target_name": "protein S",
+            "target_id": "ENSG00000184500",
+            "association_score": 0.5133,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "compound_name": "CHEMBL5954944",
+            "chembl_id": "CHEMBL5954944",
+            "target_symbol": "GAS6",
+            "composite_priority_score": 0.6288,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'GAS6', but has NO documented clinical trials or approvals for 'Dengue'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 8.92,
+            "molecular_weight": 458.6,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.1768,
+              "potency_contrib": 0.287,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 1
+          },
+          {
+            "compound_name": "CHEMBL5890127",
+            "chembl_id": "CHEMBL5890127",
+            "target_symbol": "GAS6",
+            "composite_priority_score": 0.627,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'GAS6', but has NO documented clinical trials or approvals for 'Dengue'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 8.89,
+            "molecular_weight": 462.6,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.1768,
+              "potency_contrib": 0.2853,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 2
+          },
+          {
+            "compound_name": "CHEMBL6021490",
+            "chembl_id": "CHEMBL6021490",
+            "target_symbol": "GAS6",
+            "composite_priority_score": 0.623,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'GAS6', but has NO documented clinical trials or approvals for 'Dengue'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 8.82,
+            "molecular_weight": 462.6,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.1768,
+              "potency_contrib": 0.2812,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 3
+          }
+        ],
+        "has_verified_indication_treatment": false,
+        "regulatory_maturity": "Preclinical / In-Vitro Screen Stage (Only Indirect Target Associations; No Verified Indication Compounds)"
+      }
+    }
+  ],
+  "cross_disease_evaluations": [
+    {
+      "disease": "Malaria",
+      "jaccard_similarity": 0.0379,
+      "cosine_similarity": 0.7759,
+      "weighted_jaccard": 0.0,
+      "target_count": 5,
+      "candidate_count": 3,
+      "viable_candidate_count": 3,
+      "tier1_count": 0,
+      "tier2_count": 2,
+      "tier3_count": 1,
+      "disqualified_count": 0,
+      "lead_viable_candidate": {
+        "compound_name": "RITONAVIR",
+        "chembl_id": "CHEMBL163",
+        "target_symbol": "CYP3A5",
+        "composite_priority_score": 0.4813,
+        "clinical_phase": 4.0,
+        "indication_phase": 1.0,
+        "has_direct_indication": true,
+        "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+        "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+        "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+        "is_negative_control_surrogate": false,
+        "disqualified_from_repurposing": false,
+        "is_disqualified": false,
+        "median_pchembl": 6.92,
+        "molecular_weight": 721.0,
+        "drug_likeness_score": 0.4,
+        "tier_priority": 2,
+        "score_breakdown": {
+          "target_association_contrib": 0.101,
+          "potency_contrib": 0.1703,
+          "druglikeness_contrib": 0.06,
+          "clinical_evidence_contrib": 0.15
+        },
+        "rank": 1
+      },
+      "disqualified_candidates": [],
+      "forecast": {
+        "status": "INSUFFICIENT_EVIDENCE_SIMILARITY_TOO_LOW",
+        "can_forecast": false,
+        "emerging_disease": "Test_Febrile_Emergence",
+        "reference_disease": "Malaria",
+        "symptom_similarity": 0.0379,
+        "estimated_availability_year": null,
+        "plausible_range": null,
+        "primary_reason": "Symptom similarity between 'Test_Febrile_Emergence' and 'Malaria' (Jaccard = 0.0379) is below the minimum evidence threshold (0.10). Projecting an availability year on weak phenotypic overlap would constitute unscientific extrapolation without shared biological rationale.",
+        "data_limitations": [
+          "Symptom overlap is insufficient to justify transferring existing drug candidates.",
+          "Pathogen etiology, genomic sequencing, or direct target assays are required."
+        ],
+        "scenarios": {},
+        "selected_reference_disease": "Malaria",
+        "selection_rationale": "Selected highest symptom match 'Malaria' (Jaccard = 0.0379). Evaluated 3 viable candidate(s).",
+        "cluster_evaluations": 

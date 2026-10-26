@@ -23,7 +23,10 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
 
 import pandas as pd
-import requests
+try:
+    import requests
+except ImportError:
+    requests = None
 
 # -----------------------------------------------------------------------------
 # Configuration & Constants
@@ -107,6 +110,11 @@ class ChEMBLClient:
     """Client for querying the official ChEMBL REST API with rate limiting & caching."""
 
     def __init__(self, cache: DiskCache, max_retries: int = 3, timeout: int = 15):
+        if requests is None:
+            raise ImportError(
+                "The 'requests' package is required for live ChEMBL REST API queries. "
+                "Please install it using 'pip install requests'."
+            )
         self.cache = cache
         self.timeout = timeout
         self.session = requests.Session()

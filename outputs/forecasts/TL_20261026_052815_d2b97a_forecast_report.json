@@ -1,0 +1,1613 @@
+{
+  "status": "COMPLETED",
+  "disease_name": "Sample_Febrile_Syndrome",
+  "query_metadata": {
+    "query_id": "TL_20261026_052815_d2b97a",
+    "timestamp": "2026-10-26T05:28:15.249246",
+    "emerging_disease_name": "Sample_Febrile_Syndrome",
+    "raw_symptom_input": "chills, high_fever, sweating, headache, vomiting",
+    "research_notes": ""
+  },
+  "symptom_analysis": {
+    "status": "SUCCESS",
+    "message": "Identified 21 reference diseases meeting similarity threshold.",
+    "query_symptoms": [
+      "chills",
+      "high_fever",
+      "sweating",
+      "headache",
+      "vomiting"
+    ],
+    "recognized_symptoms": [
+      "chills",
+      "high_fever",
+      "sweating",
+      "headache",
+      "vomiting"
+    ],
+    "active_symptom_count": 5,
+    "unrecognized_symptoms": [],
+    "duplicate_inputs": [],
+    "min_similarity_threshold": 0.1,
+    "qualifying_count": 21,
+    "total_reference_diseases": 41,
+    "top_match": {
+      "disease": "Malaria",
+      "jaccard_similarity": 0.625,
+      "weighted_jaccard": 0.5645,
+      "weighted_jaccard_similarity": 0.5645,
+      "overlap_coefficient": 1.0,
+      "cosine_similarity": 0.7759,
+      "shared_symptom_count": 5,
+      "shared_symptoms": [
+        "chills",
+        "headache",
+        "high_fever",
+        "sweating",
+        "vomiting"
+      ],
+      "shared_symptoms_detail": [
+        {
+          "symptom": "chills",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "headache",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "high_fever",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "sweating",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "vomiting",
+          "prevalence": 0.88
+        }
+      ],
+      "matching_symptoms": [
+        "chills",
+        "headache",
+        "high_fever",
+        "sweating",
+        "vomiting"
+      ],
+      "hallmark_symptoms": [
+        "chills",
+        "headache",
+        "high_fever",
+        "sweating",
+        "vomiting"
+      ],
+      "query_only_symptoms": [],
+      "differing_query_symptoms": [],
+      "reference_only_symptoms": [
+        "diarrhoea",
+        "muscle_pain",
+        "nausea"
+      ],
+      "reference_only_detail": [
+        {
+          "symptom": "diarrhoea",
+          "prevalence": 0.88
+        },
+        {
+          "symptom": "muscle_pain",
+          "prevalence": 1.0
+        },
+        {
+          "symptom": "nausea",
+          "prevalence": 0.88
+        }
+      ],
+      "differing_reference_symptoms": [
+        "diarrhoea",
+        "muscle_pain",
+        "nausea"
+      ],
+      "reference_total_symptoms": 8
+    },
+    "matches": [
+      {
+        "disease": "Malaria",
+        "jaccard_similarity": 0.625,
+        "weighted_jaccard": 0.5645,
+        "weighted_jaccard_similarity": 0.5645,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.7759,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.88
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "hallmark_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "diarrhoea",
+          "muscle_pain",
+          "nausea"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.88
+          }
+        ],
+        "differing_reference_symptoms": [
+          "diarrhoea",
+          "muscle_pain",
+          "nausea"
+        ],
+        "reference_total_symptoms": 8
+      },
+      {
+        "disease": "Typhoid",
+        "jaccard_similarity": 0.3333,
+        "weighted_jaccard": 0.3333,
+        "weighted_jaccard_similarity": 0.3333,
+        "overlap_coefficient": 0.8,
+        "cosine_similarity": 0.5534,
+        "shared_symptom_count": 4,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.89
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "vomiting"
+        ],
+        "hallmark_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "vomiting"
+        ],
+        "query_only_symptoms": [
+          "sweating"
+        ],
+        "differing_query_symptoms": [
+          "sweating"
+        ],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "belly_pain",
+          "constipation",
+          "diarrhoea",
+          "fatigue",
+          "nausea",
+          "toxic_look_(typhos)"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.89
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "belly_pain",
+          "constipation",
+          "diarrhoea",
+          "fatigue",
+          "nausea",
+          "toxic_look_(typhos)"
+        ],
+        "reference_total_symptoms": 11
+      },
+      {
+        "disease": "Heart Attack",
+        "jaccard_similarity": 0.2857,
+        "weighted_jaccard": 0.2424,
+        "weighted_jaccard_similarity": 0.2424,
+        "overlap_coefficient": 0.5,
+        "cosine_similarity": 0.4472,
+        "shared_symptom_count": 2,
+        "shared_symptoms": [
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "sweating",
+            "prevalence": 0.8
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.8
+          }
+        ],
+        "matching_symptoms": [
+          "sweating",
+          "vomiting"
+        ],
+        "hallmark_symptoms": [
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [
+          "chills",
+          "headache",
+          "high_fever"
+        ],
+        "differing_query_symptoms": [
+          "chills",
+          "headache",
+          "high_fever"
+        ],
+        "reference_only_symptoms": [
+          "breathlessness",
+          "chest_pain"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.8
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.8
+          }
+        ],
+        "differing_reference_symptoms": [
+          "breathlessness",
+          "chest_pain"
+        ],
+        "reference_total_symptoms": 4
+      }
+    ]
+  },
+  "supplementary_classifier_signal": {
+    "status": "SUCCESS",
+    "predicted_disease": "Malaria",
+    "confidence_score": 0.2794,
+    "confidence_type": "Model Softmax Score (Uncalibrated)",
+    "top_candidates": [
+      {
+        "disease": "Malaria",
+        "confidence_score": 0.2794
+      },
+      {
+        "disease": "Paralysis (brain hemorrhage)",
+        "confidence_score": 0.0828
+      },
+      {
+        "disease": "Heart Attack",
+        "confidence_score": 0.0703
+      }
+    ],
+    "matched_symptoms": [
+      "chills",
+      "high_fever",
+      "sweating",
+      "headache",
+      "vomiting"
+    ],
+    "unmatched_symptoms": [],
+    "active_symptom_count": 5,
+    "disclaimer": "RESEARCH DEMONSTRATION ONLY: This output is produced by an academic machine learning model as part of the TheraLens research project. It does NOT constitute clinical diagnosis, medical guidance, or healthcare advice. Consult licensed healthcare professionals for medical diagnosis and care."
+  },
+  "therapeutic_evidence": [
+    {
+      "similarity_context": {
+        "disease": "Malaria",
+        "jaccard_similarity": 0.625,
+        "weighted_jaccard": 0.5645,
+        "weighted_jaccard_similarity": 0.5645,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.7759,
+        "shared_symptom_count": 5,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "sweating",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.88
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "hallmark_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "diarrhoea",
+          "muscle_pain",
+          "nausea"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.88
+          },
+          {
+            "symptom": "muscle_pain",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.88
+          }
+        ],
+        "differing_reference_symptoms": [
+          "diarrhoea",
+          "muscle_pain",
+          "nausea"
+        ],
+        "reference_total_symptoms": 8
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Malaria",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Retrieved 5 targets and 3 candidates (Tier 1: 0, Tier 2: 2).",
+        "missing_reasons": [],
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "TLR9",
+            "target_name": "toll like receptor 9",
+            "target_id": "ENSG00000239732",
+            "association_score": 0.576,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "TLR7",
+            "target_name": "toll like receptor 7",
+            "target_id": "ENSG00000196664",
+            "association_score": 0.5741,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "ABO",
+            "target_name": "ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase",
+            "target_id": "ENSG00000175164",
+            "association_score": 0.4586,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "MMP8",
+            "target_name": "matrix metallopeptidase 8",
+            "target_id": "ENSG00000118113",
+            "association_score": 0.3849,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "MMP1",
+            "target_name": "matrix metallopeptidase 1",
+            "target_id": "ENSG00000196611",
+            "association_score": 0.3818,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "compound_name": "RITONAVIR",
+            "chembl_id": "CHEMBL163",
+            "target_symbol": "CYP3A5",
+            "composite_priority_score": 0.4813,
+            "clinical_phase": 4.0,
+            "indication_phase": 1.0,
+            "has_direct_indication": true,
+            "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+            "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+            "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": false,
+            "is_disqualified": false,
+            "median_pchembl": 6.92,
+            "molecular_weight": 721.0,
+            "drug_likeness_score": 0.4,
+            "tier_priority": 2,
+            "score_breakdown": {
+              "target_association_contrib": 0.101,
+              "potency_contrib": 0.1703,
+              "druglikeness_contrib": 0.06,
+              "clinical_evidence_contrib": 0.15
+            },
+            "rank": 1
+          },
+          {
+            "compound_name": "RITONAVIR",
+            "chembl_id": "CHEMBL163",
+            "target_symbol": "SLCO1B1",
+            "composite_priority_score": 0.4107,
+            "clinical_phase": 4.0,
+            "indication_phase": 1.0,
+            "has_direct_indication": true,
+            "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+            "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+            "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": false,
+            "is_disqualified": false,
+            "median_pchembl": 6.08,
+            "molecular_weight": 721.0,
+            "drug_likeness_score": 0.4,
+            "tier_priority": 2,
+            "score_breakdown": {
+              "target_association_contrib": 0.0793,
+              "potency_contrib": 0.1213,
+              "druglikeness_contrib": 0.06,
+              "clinical_evidence_contrib": 0.15
+            },
+            "rank": 2
+          },
+          {
+            "compound_name": "CIPEMASTAT",
+            "chembl_id": "CHEMBL115653",
+            "target_symbol": "MMP1",
+            "composite_priority_score": 0.6956,
+            "clinical_phase": 2.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Exploratory Target Lead (Investigational Phase 2 in Other Diseases)",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'MMP1', but has NO documented clinical trials or approvals for 'Malaria'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 9.52,
+            "molecular_weight": 436.6,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.1336,
+              "potency_contrib": 0.322,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.09
+            },
+            "rank": 3
+          }
+        ],
+        "has_verified_indication_treatment": false,
+        "regulatory_maturity": "Active Clinical Trials Documented for this Indication"
+      }
+    },
+    {
+      "similarity_context": {
+        "disease": "Typhoid",
+        "jaccard_similarity": 0.3333,
+        "weighted_jaccard": 0.3333,
+        "weighted_jaccard_similarity": 0.3333,
+        "overlap_coefficient": 0.8,
+        "cosine_similarity": 0.5534,
+        "shared_symptom_count": 4,
+        "shared_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "chills",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "headache",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "high_fever",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.89
+          }
+        ],
+        "matching_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "vomiting"
+        ],
+        "hallmark_symptoms": [
+          "chills",
+          "headache",
+          "high_fever",
+          "vomiting"
+        ],
+        "query_only_symptoms": [
+          "sweating"
+        ],
+        "differing_query_symptoms": [
+          "sweating"
+        ],
+        "reference_only_symptoms": [
+          "abdominal_pain",
+          "belly_pain",
+          "constipation",
+          "diarrhoea",
+          "fatigue",
+          "nausea",
+          "toxic_look_(typhos)"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "abdominal_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "belly_pain",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "constipation",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "diarrhoea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "fatigue",
+            "prevalence": 1.0
+          },
+          {
+            "symptom": "nausea",
+            "prevalence": 0.89
+          },
+          {
+            "symptom": "toxic_look_(typhos)",
+            "prevalence": 0.89
+          }
+        ],
+        "differing_reference_symptoms": [
+          "abdominal_pain",
+          "belly_pain",
+          "constipation",
+          "diarrhoea",
+          "fatigue",
+          "nausea",
+          "toxic_look_(typhos)"
+        ],
+        "reference_total_symptoms": 11
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Typhoid",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Retrieved 5 targets and 3 candidates (Tier 1: 0, Tier 2: 0).",
+        "missing_reasons": [
+          "No verified indication-specific clinical candidates exist for 'Typhoid' in repository. Retrieved molecules are indirect target screen hits or chemical surrogates."
+        ],
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "DBNL",
+            "target_name": "drebrin like",
+            "target_id": "ENSG00000136279",
+            "association_score": 0.0531,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "NDUFS4",
+            "target_name": "NADH:ubiquinone oxidoreductase subunit S4",
+            "target_id": "ENSG00000164258",
+            "association_score": 0.0504,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "MECP2",
+            "target_name": "methyl-CpG binding protein 2",
+            "target_id": "ENSG00000169057",
+            "association_score": 0.0503,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "GZMA",
+            "target_name": "granzyme A",
+            "target_id": "ENSG00000145649",
+            "association_score": 0.0482,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "DMD",
+            "target_name": "dystrophin",
+            "target_id": "ENSG00000198947",
+            "association_score": 0.0438,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "compound_name": "CHEMBL179510",
+            "chembl_id": "CHEMBL179510",
+            "target_symbol": "AHR",
+            "composite_priority_score": 0.4812,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'AHR', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 9.7,
+            "molecular_weight": 317.1,
+            "drug_likeness_score": 0.8,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.0137,
+              "potency_contrib": 0.3325,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 1
+          },
+          {
+            "compound_name": "CHEMBL359428",
+            "chembl_id": "CHEMBL359428",
+            "target_symbol": "APOE",
+            "composite_priority_score": 0.4526,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'APOE', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 8.74,
+            "molecular_weight": 488.5,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.0111,
+              "potency_contrib": 0.2765,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 2
+          },
+          {
+            "compound_name": "CHEMBL142450",
+            "chembl_id": "CHEMBL142450",
+            "target_symbol": "APOE",
+            "composite_priority_score": 0.4465,
+            "clinical_phase": 0.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'APOE', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 9.15,
+            "molecular_weight": 468.5,
+            "drug_likeness_score": 0.8,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.0111,
+              "potency_contrib": 0.3004,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.015
+            },
+            "rank": 3
+          }
+        ],
+        "has_verified_indication_treatment": false,
+        "regulatory_maturity": "Preclinical / In-Vitro Screen Stage (Only Indirect Target Associations; No Verified Indication Compounds)"
+      }
+    },
+    {
+      "similarity_context": {
+        "disease": "Heart Attack",
+        "jaccard_similarity": 0.2857,
+        "weighted_jaccard": 0.2424,
+        "weighted_jaccard_similarity": 0.2424,
+        "overlap_coefficient": 0.5,
+        "cosine_similarity": 0.4472,
+        "shared_symptom_count": 2,
+        "shared_symptoms": [
+          "sweating",
+          "vomiting"
+        ],
+        "shared_symptoms_detail": [
+          {
+            "symptom": "sweating",
+            "prevalence": 0.8
+          },
+          {
+            "symptom": "vomiting",
+            "prevalence": 0.8
+          }
+        ],
+        "matching_symptoms": [
+          "sweating",
+          "vomiting"
+        ],
+        "hallmark_symptoms": [
+          "sweating",
+          "vomiting"
+        ],
+        "query_only_symptoms": [
+          "chills",
+          "headache",
+          "high_fever"
+        ],
+        "differing_query_symptoms": [
+          "chills",
+          "headache",
+          "high_fever"
+        ],
+        "reference_only_symptoms": [
+          "breathlessness",
+          "chest_pain"
+        ],
+        "reference_only_detail": [
+          {
+            "symptom": "breathlessness",
+            "prevalence": 0.8
+          },
+          {
+            "symptom": "chest_pain",
+            "prevalence": 0.8
+          }
+        ],
+        "differing_reference_symptoms": [
+          "breathlessness",
+          "chest_pain"
+        ],
+        "reference_total_symptoms": 4
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Heart Attack",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Retrieved 5 targets and 3 candidates (Tier 1: 0, Tier 2: 0).",
+        "missing_reasons": [
+          "No verified indication-specific clinical candidates exist for 'Heart Attack' in repository. Retrieved molecules are indirect target screen hits or chemical surrogates."
+        ],
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "GUCY1A1",
+            "target_name": "guanylate cyclase 1 soluble subunit alpha 1",
+            "target_id": "ENSG00000164116",
+            "association_score": 0.6947,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "LDLR",
+            "target_name": "low density lipoprotein receptor",
+            "target_id": "ENSG00000130164",
+            "association_score": 0.6894,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "PCSK9",
+            "target_name": "proprotein convertase subtilisin/kexin type 9",
+            "target_id": "ENSG00000169174",
+            "association_score": 0.6698,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "ADRB1",
+            "target_name": "adrenoceptor beta 1",
+            "target_id": "ENSG00000043591",
+            "association_score": 0.624,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "ADRB3",
+            "target_name": "adrenoceptor beta 3",
+            "target_id": "ENSG00000188778",
+            "association_score": 0.6219,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "compound_name": "CERIVASTATIN",
+            "chembl_id": "CHEMBL1477",
+            "target_symbol": "HMGCR",
+            "composite_priority_score": 0.8654,
+            "clinical_phase": 4.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Exploratory Target Lead (Approved in Other Diseases: Global Phase 4)",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'HMGCR', but has NO documented clinical trials or approvals for 'Heart Attack'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 10.07,
+            "molecular_weight": 459.6,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.2154,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            },
+            "rank": 1
+          },
+          {
+            "compound_name": "DEXMEDETOMIDINE",
+            "chembl_id": "CHEMBL778",
+            "target_symbol": "ADRA1D",
+            "composite_priority_score": 0.8615,
+            "clinical_phase": 4.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Exploratory Target Lead (Approved in Other Diseases: Global Phase 4)",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'ADRA1D', but has NO documented clinical trials or approvals for 'Heart Attack'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 10.82,
+            "molecular_weight": 200.3,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.2115,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            },
+            "rank": 2
+          },
+          {
+            "compound_name": "TAMSULOSIN",
+            "chembl_id": "CHEMBL836",
+            "target_symbol": "ADRA1D",
+            "composite_priority_score": 0.848,
+            "clinical_phase": 4.0,
+            "indication_phase": null,
+            "has_direct_indication": false,
+            "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+            "evidence_category": "Exploratory Target Lead (Approved in Other Diseases: Global Phase 4)",
+            "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'ADRA1D', but has NO documented clinical trials or approvals for 'Heart Attack'. Global testing in unrelated diseases cannot bypass early-stage development.",
+            "is_negative_control_surrogate": false,
+            "disqualified_from_repurposing": true,
+            "is_disqualified": false,
+            "median_pchembl": 9.77,
+            "molecular_weight": 408.5,
+            "drug_likeness_score": 1.0,
+            "tier_priority": 3,
+            "score_breakdown": {
+              "target_association_contrib": 0.2115,
+              "potency_contrib": 0.3366,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            },
+            "rank": 3
+          }
+        ],
+        "has_verified_indication_treatment": false,
+        "regulatory_maturity": "Preclinical / In-Vitro Screen Stage (Only Indirect Target Associations; No Verified Indication Compounds)"
+      }
+    }
+  ],
+  "cross_disease_evaluations": [
+    {
+      "disease": "Malaria",
+      "jaccard_similarity": 0.625,
+      "cosine_similarity": 0.7759,
+      "weighted_jaccard": 0.5645,
+      "target_count": 5,
+      "candidate_count": 3,
+      "viable_candidate_count": 3,
+      "tier1_count": 0,
+      "tier2_count": 2,
+      "tier3_count": 1,
+      "disqualified_count": 0,
+      "lead_viable_candidate": {
+        "compound_name": "RITONAVIR",
+        "chembl_id": "CHEMBL163",
+        "target_symbol": "CYP3A5",
+        "composite_priority_score": 0.4813,
+        "clinical_phase": 4.0,
+        "indication_phase": 1.0,
+        "has_direct_indication": true,
+        "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+        "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+        "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+        "is_negative_control_surrogate": false,
+        "disqualified_from_repurposing": false,
+        "is_disqualified": false,
+        "median_pchembl": 6.92,
+        "molecular_weight": 721.0,
+        "drug_likeness_score": 0.4,
+        "tier_priority": 2,
+        "score_breakdown": {
+          "target_association_contrib": 0.101,
+          "potency_contrib": 0.1703,
+          "druglikeness_contrib": 0.06,
+          "clinical_evidence_contrib": 0.15
+        },
+        "rank": 1
+      },
+      "disqualified_candidates": []
+    },
+    {
+      "disease": "Typhoid",
+      "jaccard_similarity": 0.3333,
+      "cosine_similarity": 0.5534,
+      "weighted_jaccard": 0.3333,
+      "target_count": 5,
+      "candidate_count": 3,
+      "viable_candidate_count": 3,
+      "tier1_count": 0,
+      "tier2_count": 0,
+      "tier3_count": 3,
+      "disqualified_count": 0,
+      "lead_viable_candidate": {
+        "compound_name": "CHEMBL179510",
+        "chembl_id": "CHEMBL179510",
+        "target_symbol": "AHR",
+        "composite_priority_score": 0.4812,
+        "clinical_phase": 0.0,
+        "indication_phase": null,
+        "has_direct_indication": false,
+        "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+        "evidence_category": "Preclinical / In-Vitro Screened Lead",
+        "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'AHR', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+        "is_negative_control_surrogate": false,
+        "disqualified_from_repurposing": true,
+        "is_disqualified": false,
+        "median_pchembl": 9.7,
+        "molecular_weight": 317.1,
+        "drug_likeness_score": 0.8,
+        "tier_priority": 3,
+        "score_breakdown": {
+          "target_association_contrib": 0.0137,
+          "potency_contrib": 0.3325,
+          "druglikeness_contrib": 0.12,
+          "clinical_evidence_contrib": 0.015
+        },
+        "rank": 1
+      },
+      "disqualified_candidates": []
+    },
+    {
+      "disease": "Heart Attack",
+      "jaccard_similarity": 0.2857,
+      "cosine_similarity": 0.4472,
+      "weighted_jaccard": 0.2424,
+      "target_count": 5,
+      "candidate_count": 3,
+      "viable_candidate_count": 3,
+      "tier1_count": 0,
+      "tier2_count": 0,
+      "tier3_count": 3,
+      "disqualified_count": 0,
+      "lead_viable_candidate": {
+        "compound_name": "CERIVASTATIN",
+        "chembl_id": "CHEMBL1477",
+        "target_symbol": "HMGCR",
+        "composite_priority_score": 0.8654,
+        "clinical_phase": 4.0,
+        "indication_phase": null,
+        "has_direct_indication": false,
+        "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+        "evidence_category": "Exploratory Target Lead (Approved in Other Diseases: Global Phase 4)",
+        "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'HMGCR', but has NO documented clinical trials or approvals for 'Heart Attack'. Global testing in unrelated diseases cannot bypass early-stage development.",
+        "is_negative_control_surrogate": false,
+        "disqualified_from_repurposing": true,
+        "is_disqualified": false,
+        "median_pchembl": 10.07,
+        "molecular_weight": 459.6,
+        "drug_likeness_score": 1.0,
+        "tier_priority": 3,
+        "score_breakdown": {
+          "target_association_contrib": 0.2154,
+          "potency_contrib": 0.35,
+          "druglikeness_contrib": 0.15,
+          "clinical_evidence_contrib": 0.15
+        },
+        "rank": 1
+      },
+      "disqualified_candidates": []
+    }
+  ],
+  "development_forecast": {
+    "status": "FORECAST_GENERATED",
+    "can_forecast": true,
+    "forecast_methodology": "Exploratory Scenario Simulation (Biopharmaceutical Literature Benchmarks: DiMasi et al., Hay et al.)",
+    "is_validated_ml_prediction": false,
+    "emerging_disease": "Sample_Febrile_Syndrome",
+    "reference_disease": "Malaria",
+    "symptom_similarity": 0.625,
+    "lead_candidate": {
+      "compound_name": "RITONAVIR",
+      "chembl_id": "CHEMBL163",
+      "target_symbol": "CYP3A5",
+      "current_clinical_phase": 4.0,
+      "indication_phase": 1.0,
+      "has_direct_indication": true,
+      "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+      "composite_priority_score": 0.4813
+    },
+    "pathway_type": "Advancement of Phase 1 Investigational Candidate",
+    "pathway_explanation": "Candidate 'RITONAVIR' has documented Phase 1 first-in-human safety trials specifically for 'Malaria'.",
+    "phases_to_complete": [
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "fda_review"
+    ],
+    "base_evaluation_year": 2026,
+    "baseline_duration_years": 10.6,
+    "estimated_availability_year": 2037,
+    "plausible_range": [
+      2033,
+      2041
+    ],
+    "illustrative_sensitivity_range": [
+      2033,
+      2041
+    ],
+    "window_type": "Illustrative Duration Sensitivity Spread (+/- 30-35% Historical Trial Variance; Not a Calibrated ML Confidence Interval)",
+    "historical_benchmark_pipeline_success_rate_pct": 11.0,
+    "cumulative_pipeline_success_rate_pct": 11.0,
+    "therapeutic_transferability_assessment": "Phenotypic symptom similarity (Jaccard = 0.6250) reflects clinical symptom overlap, NOT biological or target homology. Efficacy against an emerging disease depends on pathogen etiology, target engagement, and host response. The historical pipeline success rate (11.0%) is an industry benchmark under sequential trial conditions, not a validated probability of clinical transfer.",
+    "scenarios": {
+      "baseline": {
+        "scenario_name": "Historical Industry Baseline",
+        "speedup_pct": 0,
+        "projected_duration_years": 10.6,
+        "estimated_milestone_year": 2037,
+        "plausible_window": [
+          2033,
+          2041
+        ],
+        "illustrative_sensitivity_window": [
+          2033,
+          2041
+        ],
+        "scenario_type": "Hypothetical Scenario Sensitivity Analysis",
+        "scenario_description": "Conventional drug development adhering strictly to historical DiMasi / Hay median durations with traditional trial protocols."
+      },
+      "moderate": {
+        "scenario_name": "Moderate Technological Progress (Enhanced Screening & Biomarkers)",
+        "speedup_pct": 15,
+        "projected_duration_years": 9.0,
+        "estimated_milestone_year": 2035,
+        "plausible_window": [
+          2032,
+          2038
+        ],
+        "illustrative_sensitivity_window": [
+          2032,
+          2038
+        ],
+        "scenario_type": "Hypothetical Scenario Sensitivity Analysis",
+        "scenario_description": "15% duration reduction in discovery and Phase 1-2 via automated phenotypic screening and genomic biomarker patient stratification."
+      },
+      "aggressive": {
+        "scenario_name": "Aggressive AI & Adaptive Platform Acceleration (Breakthrough Paradigm)",
+        "speedup_pct": 30,
+        "projected_duration_years": 7.4,
+        "estimated_milestone_year": 2033,
+        "plausible_window": [
+          2031,
+          2036
+        ],
+        "illustrative_sensitivity_window": [
+          2031,
+          2036
+        ],
+        "scenario_type": "Hypothetical Scenario Sensitivity Analysis",
+        "scenario_description": "30% duration reduction via generative de novo molecular design, in-silico ADMET toxicity modeling, and multi-arm adaptive platform trial designs."
+      }
+    },
+    "data_limitations": [
+      "Projections are scenario-based arithmetic simulations using historical literature benchmarks (DiMasi/Hay), NOT a trained ML time-series forecast.",
+      "Efficacy against the emerging disease is an unverified computational hypothesis; symptom similarity does not imply biological target overlap.",
+      "Sensitivity windows reflect illustrative duration dispersion (+/- 30-35%), NOT calibrated statistical prediction intervals.",
+      "Clinical trial failure / safety attrition rates historically exceed 80-85% across exploratory biopharmaceutical development.",
+      "Accelerated technological progress scenarios (15% and 30% speedup) are hypothetical exploratory what-if assumptions, not measured AI effects."
+    ],
+    "selected_reference_disease": "Malaria",
+    "selection_rationale": "Selected highest symptom match 'Malaria' (Jaccard = 0.6250). Evaluated 3 viable candidate(s).",
+    "cluster_summary": [
+      {
+        "disease": "Malaria",
+        "jaccard_similarity": 0.625,
+        "cosine_similarity": 0.7759,
+        "weighted_jaccard": 0.5645,
+        "target_count": 5,
+        "candidate_count": 3,
+        "viable_candidate_count": 3,
+        "tier1_count": 0,
+        "tier2_count": 2,
+        "tier3_count": 1,
+        "disqualified_count": 0,
+        "lead_viable_candidate": {
+          "compound_name": "RITONAVIR",
+          "chembl_id": "CHEMBL163",
+          "target_symbol": "CYP3A5",
+          "composite_priority_score": 0.4813,
+          "clinical_phase": 4.0,
+          "indication_phase": 1.0,
+          "has_direct_indication": true,
+          "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+          "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+          "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+          "is_negative_control_surrogate": false,
+          "disqualified_from_repurposing": false,
+          "is_disqualified": false,
+          "median_pchembl": 6.92,
+          "molecular_weight": 721.0,
+          "drug_likeness_score": 0.4,
+          "tier_priority": 2,
+          "score_breakdown": {
+            "target_association_contrib": 0.101,
+            "potency_contrib": 0.1703,
+            "druglikeness_contrib": 0.06,
+            "clinical_evidence_contrib": 0.15
+          },
+          "rank": 1
+        },
+        "disqualified_candidates": []
+      },
+      {
+        "disease": "Typhoid",
+        "jaccard_similarity": 0.3333,
+        "cosine_similarity": 0.5534,
+        "weighted_jaccard": 0.3333,
+        "target_count": 5,
+        "candidate_count": 3,
+        "viable_candidate_count": 3,
+        "tier1_count": 0,
+        "tier2_count": 0,
+        "tier3_count": 3,
+        "disqualified_count": 0,
+        "lead_viable_candidate": {
+          "compound_name": "CHEMBL179510",
+          "chembl_id": "CHEMBL179510",
+          "target_symbol": "AHR",
+          "composite_priority_score": 0.4812,
+          "clinical_phase": 0.0,
+          "indication_phase": null,
+          "has_direct_indication": false,
+          "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+          "evidence_category": "Preclinical / In-Vitro Screened Lead",
+          "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'AHR', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+          "is_negative_control_surrogate": false,
+          "disqualified_from_repurposing": true,
+          "is_disqualified": false,
+          "median_pchembl": 9.7,
+          "molecular_weight": 317.1,
+          "drug_likeness_score": 0.8,
+          "tier_priority": 3,
+          "score_breakdown": {
+            "target_association_contrib": 0.0137,
+            "potency_contrib": 0.3325,
+            "druglikeness_contrib": 0.12,
+            "clinical_evidence_contrib": 0.015
+          },
+          "rank": 1
+        },
+        "disqualified_candidates": []
+      },
+      {
+        "disease": "Heart Attack",
+        "jaccard_similarity": 0.2857,
+        "cosine_similarity": 0.4472,
+        "weighted_jaccard": 0.2424,
+        "target_count": 5,
+        "candidate_count": 3,
+        "viable_candidate_count": 3,
+        "tier1_count": 0,
+        "tier2_count": 0,
+        "tier3_count": 3,
+        "disqualified_count": 0,
+        "lead_viable_candidate": {
+          "compound_name": "CERIVASTATIN",
+          "chembl_id": "CHEMBL1477",
+          "target_symbol": "HMGCR",
+          "composite_priority_score": 0.8654,
+          "clinical_phase": 4.0,
+          "indication_phase": null,
+          "has_direct_indication": false,
+          "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+          "evidence_category": "Exploratory Target Lead (Approved in Other Diseases: Global Phase 4)",
+          "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'HMGCR', but has NO documented clinical trials or approvals for 'Heart Attack'. Global testing in unrelated diseases cannot bypass early-stage development.",
+          "is_negative_control_surrogate": false,
+          "disqualified_from_repurposing": true,
+          "is_disqualified": false,
+          "median_pchembl": 10.07,
+          "molecular_weight": 459.6,
+          "drug_likeness_score": 1.0,
+          "tier_priority": 3,
+          "score_breakdown": {
+            "target_association_contrib": 0.2154,
+            "potency_contrib": 0.35,
+            "druglikeness_contrib": 0.15,
+            "clinical_evidence_contrib": 0.15
+          },
+          "rank": 1
+        },
+        "disqualified_candidates": []
+      }
+    ]
+  },
+  "future_year_forecast": {
+    "status": "FORECAST_GENERATED",
+    "can_forecast": true,
+    "forecast_methodology": "Exploratory Scenario Simulation (Biopharmaceutical Literature Benchmarks: DiMasi et al., Hay et al.)",
+    "is_validated_ml_prediction": false,
+    "emerging_disease": "Sample_Febrile_Syndrome",
+    "reference_disease": "Malaria",
+    "symptom_similarity": 0.625,
+    "lead_candidate": {
+      "compound_name": "RITONAVIR",
+      "chembl_id": "CHEMBL163",
+      "target_symbol": "CYP3A5",
+      "current_clinical_phase": 4.0,
+      "indication_phase": 1.0,
+      "has_direct_indication": true,
+      "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+      "composite_priority_score": 0.4813
+    },
+    "pathway_type": "Advancement of Phase 1 Investigational Candidate",
+    "pathway_explanation": "Candidate 'RITONAVIR' has documented Phase 1 first-in-human safety trials specifically for 'Malaria'.",
+    "phases_to_complete": [
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "fda_review"
+    ],
+    "base_evaluation_year": 2026,
+    "baseline_duration_years": 10.6,
+    "estimated_availability_year": 2037,
+    "plausible_range": [
+      2033,
+      2041
+    ],
+    "illustrative_sensitivity_range": [
+      2033,
+      2041
+    ],
+    "window_type": "Illustrative Duration Sensitivity Spread (+/- 30-35% Historical Trial Variance; Not a Calibrated ML Confidence Interval)",
+    "historical_benchmark_pipeline_success_rate_pct": 11.0,
+    "cumulative_pipeline_success_rate_pct": 11.0,
+    "therapeutic_transferability_assessment": "Phenotypic symptom similarity (Jaccard = 0.6250) reflects clinical symptom overlap, NOT biological or target homology. Efficacy against an emerging disease depends on pathogen etiology, target engagement, and host response. The historical pipeline success rate (11.0%) is an industry benchmark under sequential trial conditions, not a validated probability of clinical transfer.",
+    "scenarios": {
+      "baseline": {
+        "scenario_name": "Historical Industry Baseline",
+        "speedup_pct": 0,
+        "projected_duration_years": 10.6,
+        "estimated_milestone_year": 2037,
+        "plausible_window": [
+          2033,
+          2041
+        ],
+        "illustrative_sensitivity_window": [
+          2033,
+          2041
+        ],
+        "scenario_type": "Hypothetical Scenario Sensitivity Analysis",
+        "scenario_description": "Conventional drug development adhering strictly to historical DiMasi / Hay median durations with traditional trial protocols."
+      },
+      "moderate": {
+        "scenario_name": "Moderate Technological Progress (Enhanced Screening & Biomarkers)",
+        "speedup_pct": 15,
+        "projected_duration_years": 9.0,
+        "estimated_milestone_year": 2035,
+        "plausible_window": [
+          2032,
+          2038
+        ],
+        "illustrative_sensitivity_window": [
+          2032,
+          2038
+        ],
+        "scenario_type": "Hypothetical Scenario Sensitivity Analysis",
+        "scenario_description": "15% duration reduction in discovery and Phase 1-2 via automated phenotypic screening and genomic biomarker patient stratification."
+      },
+      "aggressive": {
+        "scenario_name": "Aggressive AI & Adaptive Platform Acceleration (Breakthrough Paradigm)",
+        "speedup_pct": 30,
+        "projected_duration_years": 7.4,
+        "estimated_milestone_year": 2033,
+        "plausible_window": [
+          2031,
+          2036
+        ],
+        "illustrative_sensitivity_window": [
+          2031,
+          2036
+        ],
+        "scenario_type": "Hypothetical Scenario Sensitivity Analysis",
+        "scenario_description": "30% duration reduction via generative de novo molecular design, in-silico ADMET toxicity modeling, and multi-arm adaptive platform trial designs."
+      }
+    },
+    "data_limitations": [
+      "Projections are scenario-based arithmetic simulations using historical literature benchmarks (DiMasi/Hay), NOT a trained ML time-series forecast.",
+      "Efficacy against the emerging disease is an unverified computational hypothesis; symptom similarity does not imply biological target overlap.",
+      "Sensitivity windows reflect illustrative duration dispersion (+/- 30-35%), NOT calibrated statistical prediction intervals.",
+      "Clinical trial failure / safety attrition rates historically exceed 80-85% across exploratory biopharmaceutical development.",
+      "Accelerated technological progress scenarios (15% and 30% speedup) are hypothetical exploratory what-if assumptions, not measured AI effects."
+    ],
+    "selected_reference_disease": "Malaria",
+    "selection_rationale": "Selected highest symptom match 'Malaria' (Jaccard = 0.6250). Evaluated 3 viable candidate(s).",
+    "cluster_summary": [
+      {
+        "disease": "Malaria",
+        "jaccard_similarity": 0.625,
+        "cosine_similarity": 0.7759,
+        "weighted_jaccard": 0.5645,
+        "target_count": 5,
+        "candidate_count": 3,
+        "viable_candidate_count": 3,
+        "tier1_count": 0,
+        "tier2_count": 2,
+        "tier3_count": 1,
+        "disqualified_count": 0,
+        "lead_viable_candidate": {
+          "compound_name": "RITONAVIR",
+          "chembl_id": "CHEMBL163",
+          "target_symbol": "CYP3A5",
+          "composite_priority_score": 0.4813,
+          "clinical_phase": 4.0,
+          "indication_phase": 1.0,
+          "has_direct_indication": true,
+          "evidence_tier": "Tier 2: Indication-Specific Investigational Candidate",
+          "evidence_category": "Investigational Clinical Candidate (Phase 1 for Malaria)",
+          "therapeutic_relevance": "Clinical Trial Evidence: Verified indication: malaria (Max Phase 1.0)",
+          "is_negative_control_surrogate": false,
+          "disqualified_from_repurposing": false,
+          "is_disqualified": false,
+          "median_pchembl": 6.92,
+          "molecular_weight": 721.0,
+          "drug_likeness_score": 0.4,
+          "tier_priority": 2,
+          "score_breakdown": {
+            "target_association_contrib": 0.101,
+            "potency_contrib": 0.1703,
+            "druglikeness_contrib": 0.06,
+            "clinical_evidence_contrib": 0.15
+          },
+          "rank": 1
+        },
+        "disqualified_candidates": []
+      },
+      {
+        "disease": "Typhoid",
+        "jaccard_similarity": 0.3333,
+        "cosine_similarity": 0.5534,
+        "weighted_jaccard": 0.3333,
+        "target_count": 5,
+        "candidate_count": 3,
+        "viable_candidate_count": 3,
+        "tier1_count": 0,
+        "tier2_count": 0,
+        "tier3_count": 3,
+        "disqualified_count": 0,
+        "lead_viable_candidate": {
+          "compound_name": "CHEMBL179510",
+          "chembl_id": "CHEMBL179510",
+          "target_symbol": "AHR",
+          "composite_priority_score": 0.4812,
+          "clinical_phase": 0.0,
+          "indication_phase": null,
+          "has_direct_indication": false,
+          "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+          "evidence_category": "Preclinical / In-Vitro Screened Lead",
+          "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'AHR', but has NO documented clinical trials or approvals for 'Typhoid'. Global testing in unrelated diseases cannot bypass early-stage development.",
+          "is_negative_control_surrogate": false,
+          "disqualified_from_repurposing": true,
+          "is_disqualified": false,
+          "median_pchembl": 9.7,
+          "molecular_weight": 317.1,
+          "drug_likeness_score": 0.8,
+          "tier_priority": 3,
+          "score_breakdown": {
+            "target_association_contrib": 0.0137,
+            "potency_contrib": 0.3325,
+            "druglikeness_contrib": 0.12,
+            "clinical_evidence_contrib": 0.015
+          },
+          "rank": 1
+        },
+        "disqualified_candidates": []
+      },
+      {
+        "disease": "Heart Attack",
+        "jaccard_similarity": 0.2857,
+        "cosine_similarity": 0.4472,
+        "weighted_jaccard": 0.2424,
+        "target_count": 5,
+        "candidate_count": 3,
+        "viable_candidate_count": 3,
+        "tier1_count": 0,
+        "tier2_count": 0,
+        "tier3_count": 3,
+        "disqualified_count": 0,
+        "lead_viable_candidate": {
+          "compound_name": "CERIVASTATIN",
+          "chembl_id": "CHEMBL1477",
+          "target_symbol": "HMGCR",
+          "composite_priority_score": 0.8654,
+          "clinical_phase": 4.0,
+          "indication_phase": null,
+          "has_direct_indication": false,
+          "evidence_tier": "Tier 3: Indirect Mechanistic Target Association",
+          "evidence_category": "Exploratory Target Lead (Approved in Other Diseases: Global Phase 4)",
+          "therapeutic_relevance": "Indirect Target Hit: Molecule exhibits in-vitro potency against target 'HMGCR', but has NO documented clinical trials or approvals for 'Heart Attack'. Global testing in unrelated diseases cannot bypass early-stage development.",
+          "is_negative_control_surrogate": false,
+          "disqualified_from_repurposing": true,
+          "is_disqualified": false,
+          "median_pchembl": 10.07,
+          "molecular_weight": 459.6,
+          "drug_likeness_score": 1.0,
+          "tier_priority": 3,
+          "score_breakdown": {
+            "target_association_contrib": 0.2154,
+            "potency_contrib": 0.35,
+            "druglikeness_contrib": 0.15,
+            "clinical_evidence_contrib": 0.15
+          },
+          "rank": 1
+        },
+        "disqualified_candidates": []
+      }
+    ]
+  },
+  "research_conclusions": {
+    "strongest_matches": [
+      {
+        "disease": "Malaria",
+        "jaccard": 0.625
+      },
+      {
+        "disease": "Typhoid",
+        "jaccard": 0.3333
+      },
+      {
+        "disease": "Heart Attack",
+        "jaccard": 0.2857
+      }
+    ],
+    "forecast_status": "FORECAST_GENERATED",
+    "estimated_year": 2037,
+    "plausible_range": [
+      2033,
+      2041
+    ],
+    "illustrative_sensitivity_range": [
+      2033,
+      2041
+    ],
+    "forecast_methodology": "Exploratory Scenario Simulation (Biopharmaceutical Literature Benchmarks: DiMasi et al., Hay et al.)"
+  },
+  "disclaimer": "RESEARCH DEMONSTRATION & TRANSLATIONAL EXPLORATION ONLY:\nTheraLens is an exploratory computational research-support tool developed for academic evaluation. Symptom similarity does NOT establish disease identity or shared etiology. Therapeutic target associations and candidate prioritization scores do NOT establish clinical efficacy, safety, or regulatory approval. Projected milestone decision windows are multi-scenario research estimates, NOT guaranteed drug approval dates. Output is NOT intended for clinical diagnosis, prescribing, or patient care."
+}

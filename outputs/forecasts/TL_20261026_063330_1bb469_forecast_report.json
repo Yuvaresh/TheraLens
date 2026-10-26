@@ -1,0 +1,80 @@
+{
+  "status": "COMPLETED",
+  "disease_name": "Alien_Condition",
+  "query_metadata": {
+    "query_id": "TL_20261026_063330_1bb469",
+    "timestamp": "2026-10-26T06:33:30.112513",
+    "emerging_disease_name": "Alien_Condition",
+    "raw_symptom_input": "crystallized_scales, telepathic_beaming, purple_aura",
+    "research_notes": ""
+  },
+  "symptom_analysis": {
+    "status": "NO_SYMPTOMS_MATCHED",
+    "query_symptoms": [],
+    "recognized_symptoms": [],
+    "active_symptom_count": 0,
+    "unrecognized_symptoms": [
+      "crystallized_scales",
+      "telepathic_beaming",
+      "purple_aura"
+    ],
+    "duplicate_inputs": [],
+    "total_reference_diseases": 41,
+    "matches": [],
+    "top_match": null,
+    "message": "No recognized symptoms could be identified from input."
+  },
+  "supplementary_classifier_signal": {
+    "status": "NO_SYMPTOMS_MATCHED",
+    "predicted_disease": null,
+    "confidence_score": 0.0,
+    "confidence_type": "None",
+    "top_candidates": [],
+    "matched_symptoms": [],
+    "unmatched_symptoms": [
+      "crystallized_scales",
+      "telepathic_beaming",
+      "purple_aura"
+    ],
+    "disclaimer": "RESEARCH DEMONSTRATION ONLY: This output is produced by an academic machine learning model as part of the TheraLens research project. It does NOT constitute clinical diagnosis, medical guidance, or healthcare advice. Consult licensed healthcare professionals for medical diagnosis and care."
+  },
+  "therapeutic_evidence": [],
+  "cross_disease_evaluations": [],
+  "development_forecast": {
+    "status": "INSUFFICIENT_EVIDENCE_NO_SIMILAR_DISEASE",
+    "can_forecast": false,
+    "emerging_disease": "Alien_Condition",
+    "reference_disease": null,
+    "symptom_similarity": 0.0,
+    "estimated_availability_year": null,
+    "plausible_range": null,
+    "primary_reason": "No reference diseases met the required symptom similarity threshold.",
+    "data_limitations": [
+      "Input symptoms lacked sufficient overlap with reference disease profiles."
+    ],
+    "scenarios": {}
+  },
+  "future_year_forecast": {
+    "status": "INSUFFICIENT_EVIDENCE_NO_SIMILAR_DISEASE",
+    "can_forecast": false,
+    "emerging_disease": "Alien_Condition",
+    "reference_disease": null,
+    "symptom_similarity": 0.0,
+    "estimated_availability_year": null,
+    "plausible_range": null,
+    "primary_reason": "No reference diseases met the required symptom similarity threshold.",
+    "data_limitations": [
+      "Input symptoms lacked sufficient overlap with reference disease profiles."
+    ],
+    "scenarios": {}
+  },
+  "research_conclusions": {
+    "strongest_matches": [],
+    "forecast_status": "INSUFFICIENT_EVIDENCE_NO_SIMILAR_DISEASE",
+    "estimated_year": null,
+    "plausible_range": null,
+    "illustrative_sensitivity_range": null,
+    "forecast_methodology": null
+  },
+  "disclaimer": "RESEARCH DEMONSTRATION & TRANSLATIONAL EXPLORATION ONLY:\nTheraLens is an exploratory computational research-support tool developed for academic evaluation. Symptom similarity does NOT establish disease identity or shared etiology. Therapeutic target associations and candidate prioritization scores do NOT establish clinical efficacy, safety, or regulatory approval. Projected milestone decision windows are multi-scenario research estimates, NOT guaranteed drug approval dates. Output is NOT intended for clinical diagnosis, prescribing, or patient care."
+}

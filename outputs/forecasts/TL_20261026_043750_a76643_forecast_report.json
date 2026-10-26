@@ -1,0 +1,596 @@
+{
+  "status": "COMPLETED",
+  "disease_name": "Emerging_Spinal_Neuropathy",
+  "query_metadata": {
+    "query_id": "TL_20261026_043750_a76643",
+    "timestamp": "2026-10-26T04:37:50.396277",
+    "emerging_disease_name": "Emerging_Spinal_Neuropathy",
+    "raw_symptom_input": "neck_pain, back_pain, weakness_in_limbs",
+    "research_notes": ""
+  },
+  "symptom_analysis": {
+    "status": "SUCCESS",
+    "message": "Identified 2 reference diseases meeting similarity threshold.",
+    "query_symptoms": [
+      "neck_pain",
+      "back_pain",
+      "weakness_in_limbs"
+    ],
+    "recognized_symptoms": [
+      "neck_pain",
+      "back_pain",
+      "weakness_in_limbs"
+    ],
+    "active_symptom_count": 3,
+    "unrecognized_symptoms": [],
+    "duplicate_inputs": [],
+    "min_similarity_threshold": 0.1,
+    "qualifying_count": 2,
+    "total_reference_diseases": 41,
+    "top_match": {
+      "disease": "Cervical Spondylosis",
+      "jaccard_similarity": 0.6,
+      "overlap_coefficient": 1.0,
+      "cosine_similarity": 0.7746,
+      "shared_symptom_count": 3,
+      "shared_symptoms": [
+        "back_pain",
+        "neck_pain",
+        "weakness_in_limbs"
+      ],
+      "matching_symptoms": [
+        "back_pain",
+        "neck_pain",
+        "weakness_in_limbs"
+      ],
+      "query_only_symptoms": [],
+      "differing_query_symptoms": [],
+      "reference_only_symptoms": [
+        "dizziness",
+        "loss_of_balance"
+      ],
+      "differing_reference_symptoms": [
+        "dizziness",
+        "loss_of_balance"
+      ],
+      "reference_total_symptoms": 5
+    },
+    "matches": [
+      {
+        "disease": "Cervical Spondylosis",
+        "jaccard_similarity": 0.6,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.7746,
+        "shared_symptom_count": 3,
+        "shared_symptoms": [
+          "back_pain",
+          "neck_pain",
+          "weakness_in_limbs"
+        ],
+        "matching_symptoms": [
+          "back_pain",
+          "neck_pain",
+          "weakness_in_limbs"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "dizziness",
+          "loss_of_balance"
+        ],
+        "differing_reference_symptoms": [
+          "dizziness",
+          "loss_of_balance"
+        ],
+        "reference_total_symptoms": 5
+      },
+      {
+        "disease": "Osteoarthritis",
+        "jaccard_similarity": 0.125,
+        "overlap_coefficient": 0.3333,
+        "cosine_similarity": 0.2357,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "neck_pain"
+        ],
+        "matching_symptoms": [
+          "neck_pain"
+        ],
+        "query_only_symptoms": [
+          "back_pain",
+          "weakness_in_limbs"
+        ],
+        "differing_query_symptoms": [
+          "back_pain",
+          "weakness_in_limbs"
+        ],
+        "reference_only_symptoms": [
+          "hip_joint_pain",
+          "joint_pain",
+          "knee_pain",
+          "painful_walking",
+          "swelling_joints"
+        ],
+        "differing_reference_symptoms": [
+          "hip_joint_pain",
+          "joint_pain",
+          "knee_pain",
+          "painful_walking",
+          "swelling_joints"
+        ],
+        "reference_total_symptoms": 6
+      }
+    ]
+  },
+  "supplementary_classifier_signal": {
+    "status": "SUCCESS",
+    "predicted_disease": "Cervical Spondylosis",
+    "confidence_score": 0.5282,
+    "confidence_type": "Model Softmax Score (Uncalibrated)",
+    "top_candidates": [
+      {
+        "disease": "Cervical Spondylosis",
+        "confidence_score": 0.5282
+      },
+      {
+        "disease": "Osteoarthritis",
+        "confidence_score": 0.0345
+      },
+      {
+        "disease": "Urinary Tract Infection",
+        "confidence_score": 0.0239
+      }
+    ],
+    "matched_symptoms": [
+      "neck_pain",
+      "back_pain",
+      "weakness_in_limbs"
+    ],
+    "unmatched_symptoms": [],
+    "active_symptom_count": 3,
+    "disclaimer": "RESEARCH DEMONSTRATION ONLY: This output is produced by an academic machine learning model as part of the TheraLens research project. It does NOT constitute clinical diagnosis, medical guidance, or healthcare advice. Consult licensed healthcare professionals for medical diagnosis and care."
+  },
+  "therapeutic_evidence": [
+    {
+      "similarity_context": {
+        "disease": "Cervical Spondylosis",
+        "jaccard_similarity": 0.6,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.7746,
+        "shared_symptom_count": 3,
+        "shared_symptoms": [
+          "back_pain",
+          "neck_pain",
+          "weakness_in_limbs"
+        ],
+        "matching_symptoms": [
+          "back_pain",
+          "neck_pain",
+          "weakness_in_limbs"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "dizziness",
+          "loss_of_balance"
+        ],
+        "differing_reference_symptoms": [
+          "dizziness",
+          "loss_of_balance"
+        ],
+        "reference_total_symptoms": 5
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Cervical Spondylosis",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Successfully retrieved 5 targets and 3 candidates.",
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "CDX1",
+            "target_name": "caudal type homeobox 1",
+            "target_id": "ENSG00000113722",
+            "association_score": 0.0907,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "MESP2",
+            "target_name": "mesoderm posterior bHLH transcription factor 2",
+            "target_id": "ENSG00000188095",
+            "association_score": 0.0877,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "PAX1",
+            "target_name": "paired box 1",
+            "target_id": "ENSG00000125813",
+            "association_score": 0.0869,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "PHC2",
+            "target_name": "polyhomeotic homolog 2",
+            "target_id": "ENSG00000134686",
+            "association_score": 0.0865,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "PAX3",
+            "target_name": "paired box 3",
+            "target_id": "ENSG00000135903",
+            "association_score": 0.084,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "rank": 1,
+            "compound_name": "PD-173074",
+            "chembl_id": "CHEMBL189584",
+            "target_symbol": "FGFR1",
+            "composite_priority_score": 0.4254,
+            "clinical_phase": 0.0,
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "median_pchembl": 9.0,
+            "molecular_weight": 523.7,
+            "drug_likeness_score": 0.6,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.0287,
+              "potency_contrib": 0.2917,
+              "druglikeness_contrib": 0.09,
+              "clinical_evidence_contrib": 0.015
+            }
+          },
+          {
+            "rank": 2,
+            "compound_name": "CHEMBL130577",
+            "chembl_id": "CHEMBL130577",
+            "target_symbol": "RARG",
+            "composite_priority_score": 0.2764,
+            "clinical_phase": 0.0,
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "median_pchembl": 5.96,
+            "molecular_weight": 447.5,
+            "drug_likeness_score": 0.8,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.0271,
+              "potency_contrib": 0.1143,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.015
+            }
+          },
+          {
+            "rank": 3,
+            "compound_name": "CHEMBL336086",
+            "chembl_id": "CHEMBL336086",
+            "target_symbol": "RARG",
+            "composite_priority_score": 0.2583,
+            "clinical_phase": 0.0,
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "median_pchembl": 5.65,
+            "molecular_weight": 414.6,
+            "drug_likeness_score": 0.8,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.0271,
+              "potency_contrib": 0.0963,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.015
+            }
+          }
+        ],
+        "max_clinical_phase": 0.0,
+        "regulatory_maturity": "Preclinical / In-Vitro Discovery Stage (No Clinical-Stage Compounds)"
+      }
+    },
+    {
+      "similarity_context": {
+        "disease": "Osteoarthritis",
+        "jaccard_similarity": 0.125,
+        "overlap_coefficient": 0.3333,
+        "cosine_similarity": 0.2357,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "neck_pain"
+        ],
+        "matching_symptoms": [
+          "neck_pain"
+        ],
+        "query_only_symptoms": [
+          "back_pain",
+          "weakness_in_limbs"
+        ],
+        "differing_query_symptoms": [
+          "back_pain",
+          "weakness_in_limbs"
+        ],
+        "reference_only_symptoms": [
+          "hip_joint_pain",
+          "joint_pain",
+          "knee_pain",
+          "painful_walking",
+          "swelling_joints"
+        ],
+        "differing_reference_symptoms": [
+          "hip_joint_pain",
+          "joint_pain",
+          "knee_pain",
+          "painful_walking",
+          "swelling_joints"
+        ],
+        "reference_total_symptoms": 6
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Osteoarthritis",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Successfully retrieved 5 targets and 3 candidates.",
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "GDF5",
+            "target_name": "growth differentiation factor 5",
+            "target_id": "ENSG00000125965",
+            "association_score": 0.6386,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "PTGS2",
+            "target_name": "prostaglandin-endoperoxide synthase 2",
+            "target_id": "ENSG00000073756",
+            "association_score": 0.6226,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "NR3C1",
+            "target_name": "nuclear receptor subfamily 3 group C member 1",
+            "target_id": "ENSG00000113580",
+            "association_score": 0.6153,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "PTGS1",
+            "target_name": "prostaglandin-endoperoxide synthase 1",
+            "target_id": "ENSG00000095303",
+            "association_score": 0.6127,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "NGF",
+            "target_name": "nerve growth factor",
+            "target_id": "ENSG00000134259",
+            "association_score": 0.6096,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "rank": 1,
+            "compound_name": "DEXAMETHASONE",
+            "chembl_id": "CHEMBL384467",
+            "target_symbol": "NR3C1",
+            "composite_priority_score": 0.8653,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 10.0,
+            "molecular_weight": 392.5,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.2153,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            }
+          },
+          {
+            "rank": 2,
+            "compound_name": "MIFEPRISTONE",
+            "chembl_id": "CHEMBL1276308",
+            "target_symbol": "NR3C1",
+            "composite_priority_score": 0.8353,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 10.03,
+            "molecular_weight": 429.6,
+            "drug_likeness_score": 0.8,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.2153,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.15
+            }
+          },
+          {
+            "rank": 2,
+            "compound_name": "FLUTICASONE PROPIONATE",
+            "chembl_id": "CHEMBL1473",
+            "target_symbol": "NR3C1",
+            "composite_priority_score": 0.8353,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 10.36,
+            "molecular_weight": 500.6,
+            "drug_likeness_score": 0.8,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.2153,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.12,
+              "clinical_evidence_contrib": 0.15
+            }
+          }
+        ],
+        "max_clinical_phase": 4.0,
+        "regulatory_maturity": "Established Approved Therapies Exist (High Repurposing Potential)"
+      }
+    }
+  ],
+  "development_forecast": {
+    "status": "FORECAST_GENERATED",
+    "can_forecast": true,
+    "emerging_disease": "Emerging_Spinal_Neuropathy",
+    "reference_disease": "Cervical Spondylosis",
+    "symptom_similarity": 0.6,
+    "lead_candidate": {
+      "compound_name": "PD-173074",
+      "target_symbol": "FGFR1",
+      "current_clinical_phase": 0.0,
+      "composite_priority_score": 0.4254
+    },
+    "pathway_type": "De Novo Discovery from Preclinical Lead",
+    "pathway_explanation": "Only in-vitro screened hits exist for target 'FGFR1'. Requires full de novo preclinical lead optimization before entering clinical trials.",
+    "phases_to_complete": [
+      "preclinical",
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "fda_review"
+    ],
+    "base_evaluation_year": 2026,
+    "baseline_duration_years": 15.1,
+    "estimated_availability_year": 2041,
+    "plausible_range": [
+      2035,
+      2049
+    ],
+    "cumulative_pipeline_success_rate_pct": 4.4,
+    "similarity_discounted_success_pct": 2.6,
+    "scenarios": {
+      "baseline": {
+        "scenario_name": "Historical Industry Baseline",
+        "speedup_pct": 0,
+        "projected_duration_years": 15.1,
+        "estimated_milestone_year": 2041,
+        "plausible_window": [
+          2035,
+          2049
+        ],
+        "scenario_description": "Conventional drug development adhering strictly to historical DiMasi / Hay median durations with traditional trial protocols."
+      },
+      "moderate": {
+        "scenario_name": "Moderate Technological Progress (Enhanced Screening & Biomarkers)",
+        "speedup_pct": 15,
+        "projected_duration_years": 12.8,
+        "estimated_milestone_year": 2039,
+        "plausible_window": [
+          2034,
+          2045
+        ],
+        "scenario_description": "15% duration reduction in discovery and Phase 1-2 via automated phenotypic screening and genomic biomarker patient stratification."
+      },
+      "aggressive": {
+        "scenario_name": "Aggressive AI & Adaptive Platform Acceleration (Breakthrough Paradigm)",
+        "speedup_pct": 30,
+        "projected_duration_years": 10.6,
+        "estimated_milestone_year": 2037,
+        "plausible_window": [
+          2033,
+          2042
+        ],
+        "scenario_description": "30% duration reduction via generative de novo molecular design, in-silico ADMET toxicity modeling, and multi-arm adaptive platform trial designs."
+      }
+    },
+    "data_limitations": [
+      "Projections assume candidate progresses through standard sequential clinical trials.",
+      "Efficacy against the emerging disease is an unverified computational hypothesis.",
+      "Clinical trial failure / safety attrition rates exceed 85% for early-stage candidates.",
+      "Actual approval timeline depends on regulatory emergency designations (EUA, Fast Track)."
+    ]
+  },
+  "future_year_forecast": {
+    "status": "FORECAST_GENERATED",
+    "can_forecast": true,
+    "emerging_disease": "Emerging_Spinal_Neuropathy",
+    "reference_disease": "Cervical Spondylosis",
+    "symptom_similarity": 0.6,
+    "lead_candidate": {
+      "compound_name": "PD-173074",
+      "target_symbol": "FGFR1",
+      "current_clinical_phase": 0.0,
+      "composite_priority_score": 0.4254
+    },
+    "pathway_type": "De Novo Discovery from Preclinical Lead",
+    "pathway_explanation": "Only in-vitro screened hits exist for target 'FGFR1'. Requires full de novo preclinical lead optimization before entering clinical trials.",
+    "phases_to_complete": [
+      "preclinical",
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "fda_review"
+    ],
+    "base_evaluation_year": 2026,
+    "baseline_duration_years": 15.1,
+    "estimated_availability_year": 2041,
+    "plausible_range": [
+      2035,
+      2049
+    ],
+    "cumulative_pipeline_success_rate_pct": 4.4,
+    "similarity_discounted_success_pct": 2.6,
+    "scenarios": {
+      "baseline": {
+        "scenario_name": "Historical Industry Baseline",
+        "speedup_pct": 0,
+        "projected_duration_years": 15.1,
+        "estimated_milestone_year": 2041,
+        "plausible_window": [
+          2035,
+          2049
+        ],
+        "scenario_description": "Conventional drug development adhering strictly to historical DiMasi / Hay median durations with traditional trial protocols."
+      },
+      "moderate": {
+        "scenario_name": "Moderate Technological Progress (Enhanced Screening & Biomarkers)",
+        "speedup_pct": 15,
+        "projected_duration_years": 12.8,
+        "estimated_milestone_year": 2039,
+        "plausible_window": [
+          2034,
+          2045
+        ],
+        "scenario_description": "15% duration reduction in discovery and Phase 1-2 via automated phenotypic screening and genomic biomarker patient stratification."
+      },
+      "aggressive": {
+        "scenario_name": "Aggressive AI & Adaptive Platform Acceleration (Breakthrough Paradigm)",
+        "speedup_pct": 30,
+        "projected_duration_years": 10.6,
+        "estimated_milestone_year": 2037,
+        "plausible_window": [
+          2033,
+          2042
+        ],
+        "scenario_description": "30% duration reduction via generative de novo molecular design, in-silico ADMET toxicity modeling, and multi-arm adaptive platform trial designs."
+      }
+    },
+    "data_limitations": [
+      "Projections assume candidate progresses through standard sequential clinical trials.",
+      "Efficacy against the emerging disease is an unverified computational hypothesis.",
+      "Clinical trial failure / safety attrition rates exceed 85% for early-stage candidates.",
+      "Actual approval timeline depends on regulatory emergency designations (EUA, Fast Track)."
+    ]
+  },
+  "research_conclusions": {
+    "strongest_matches": [
+      {
+        "disease": "Cervical Spondylosis",
+        "jaccard": 0.6
+      },
+      {
+        "disease": "Osteoarthritis",
+        "jaccard": 0.125
+      }
+    ],
+    "forecast_status": "FORECAST_GENERATED",
+    "estimated_year": 2041,
+    "plausible_range": [
+      2035,
+      2049
+    ]
+  },
+  "disclaimer": "RESEARCH DEMONSTRATION & TRANSLATIONAL EXPLORATION ONLY:\nTheraLens is an exploratory computational research-support tool developed for academic evaluation. Symptom similarity does NOT establish disease identity or shared etiology. Therapeutic target associations and candidate prioritization scores do NOT establish clinical efficacy, safety, or regulatory approval. Projected milestone decision windows are multi-scenario research estimates, NOT guaranteed drug approval dates. Output is NOT intended for clinical diagnosis, prescribing, or patient care."
+}

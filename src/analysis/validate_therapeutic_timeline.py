@@ -194,7 +194,7 @@ def plot_timeline_visualizations(
     ]
     
     fig, ax = plt.subplots(figsize=(10, 6))
-    bars = sns.barplot(x=classes, y=counts, palette=["#2ca02c", "#ff7f0e", "#7f7f7f"], ax=ax)
+    bars = sns.barplot(x=classes, y=counts, hue=classes, palette=["#2ca02c", "#ff7f0e", "#7f7f7f"], legend=False, ax=ax)
     ax.set_title("Master Therapeutic Timeline: Evidence Categorization Audit", fontsize=13, weight="bold")
     ax.set_ylabel("Record Volume (Cartesian Expanded)", fontsize=11)
     for bar in bars.patches:
@@ -238,7 +238,7 @@ def plot_timeline_visualizations(
     ]
     
     fig, ax = plt.subplots(figsize=(11, 6))
-    bars = sns.barplot(x=metric_labels, y=metric_values, palette="rocket", ax=ax)
+    bars = sns.barplot(x=metric_labels, y=metric_values, hue=metric_labels, palette="rocket", legend=False, ax=ax)
     ax.set_yscale("log")
     ax.set_title("Audit of Cartesian Join Duplication vs. Unique Biological Entities", fontsize=13, weight="bold")
     ax.set_ylabel("Entity Count (Logarithmic Scale)", fontsize=11)

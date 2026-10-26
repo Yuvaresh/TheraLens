@@ -111,7 +111,7 @@ def plot_class_distribution(df_clean: pd.DataFrame, target_col: str, output_path
     """Generates bar chart of unique pattern frequency per disease class."""
     counts = df_clean[target_col].value_counts().sort_values(ascending=False)
     fig, ax = plt.subplots(figsize=(12, 10))
-    sns.barplot(x=counts.values, y=counts.index, palette="viridis", ax=ax)
+    sns.barplot(x=counts.values, y=counts.index, hue=counts.index, palette="viridis", legend=False, ax=ax)
     ax.set_title("Unique Clinical Symptom Patterns per Disease Class (Deduplicated Manifold)", fontsize=13, weight="bold")
     ax.set_xlabel("Number of Unique Symptom Presentations", fontsize=11)
     ax.set_ylabel("Disease Class (Prognosis)", fontsize=11)
@@ -172,7 +172,7 @@ def plot_per_class_f1(report_dict: Dict[str, Any], output_path: Path):
             
     s = pd.Series(class_f1).sort_values(ascending=False)
     fig, ax = plt.subplots(figsize=(12, 10))
-    sns.barplot(x=s.values, y=s.index, palette="mako", ax=ax)
+    sns.barplot(x=s.values, y=s.index, hue=s.index, palette="mako", legend=False, ax=ax)
     ax.set_xlim(0, 1.05)
     ax.set_title("Per-Class Held-Out F1-Score (Best Model)", fontsize=13, weight="bold")
     ax.set_xlabel("F1-Score", fontsize=11)

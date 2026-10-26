@@ -1,0 +1,745 @@
+{
+  "status": "COMPLETED",
+  "disease_name": "Alien_Condition",
+  "query_metadata": {
+    "query_id": "TL_20261026_033106_c4f678",
+    "timestamp": "2026-10-26T03:31:06.093070",
+    "emerging_disease_name": "Alien_Condition",
+    "raw_symptom_input": "crystallized_skin, telepathic_headache, purple_aura",
+    "research_notes": ""
+  },
+  "symptom_analysis": {
+    "status": "SUCCESS",
+    "message": "Identified 5 reference diseases meeting similarity threshold.",
+    "query_symptoms": [
+      "headache"
+    ],
+    "recognized_symptoms": [
+      "headache"
+    ],
+    "active_symptom_count": 1,
+    "unrecognized_symptoms": [
+      "crystallized_skin",
+      "purple_aura"
+    ],
+    "duplicate_inputs": [],
+    "min_similarity_threshold": 0.1,
+    "qualifying_count": 5,
+    "total_reference_diseases": 41,
+    "top_match": {
+      "disease": "Paralysis (brain hemorrhage)",
+      "jaccard_similarity": 0.25,
+      "overlap_coefficient": 1.0,
+      "cosine_similarity": 0.5,
+      "shared_symptom_count": 1,
+      "shared_symptoms": [
+        "headache"
+      ],
+      "matching_symptoms": [
+        "headache"
+      ],
+      "query_only_symptoms": [],
+      "differing_query_symptoms": [],
+      "reference_only_symptoms": [
+        "altered_sensorium",
+        "vomiting",
+        "weakness_of_one_body_side"
+      ],
+      "differing_reference_symptoms": [
+        "altered_sensorium",
+        "vomiting",
+        "weakness_of_one_body_side"
+      ],
+      "reference_total_symptoms": 4
+    },
+    "matches": [
+      {
+        "disease": "Paralysis (brain hemorrhage)",
+        "jaccard_similarity": 0.25,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.5,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "headache"
+        ],
+        "matching_symptoms": [
+          "headache"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "altered_sensorium",
+          "vomiting",
+          "weakness_of_one_body_side"
+        ],
+        "differing_reference_symptoms": [
+          "altered_sensorium",
+          "vomiting",
+          "weakness_of_one_body_side"
+        ],
+        "reference_total_symptoms": 4
+      },
+      {
+        "disease": "Hypertension",
+        "jaccard_similarity": 0.2,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.4472,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "headache"
+        ],
+        "matching_symptoms": [
+          "headache"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "chest_pain",
+          "dizziness",
+          "lack_of_concentration",
+          "loss_of_balance"
+        ],
+        "differing_reference_symptoms": [
+          "chest_pain",
+          "dizziness",
+          "lack_of_concentration",
+          "loss_of_balance"
+        ],
+        "reference_total_symptoms": 5
+      },
+      {
+        "disease": "Vertigo",
+        "jaccard_similarity": 0.1667,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.4082,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "headache"
+        ],
+        "matching_symptoms": [
+          "headache"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "loss_of_balance",
+          "nausea",
+          "spinning_movements",
+          "unsteadiness",
+          "vomiting"
+        ],
+        "differing_reference_symptoms": [
+          "loss_of_balance",
+          "nausea",
+          "spinning_movements",
+          "unsteadiness",
+          "vomiting"
+        ],
+        "reference_total_symptoms": 6
+      }
+    ]
+  },
+  "supplementary_classifier_signal": {
+    "status": "SUCCESS",
+    "predicted_disease": "Paralysis (brain hemorrhage)",
+    "confidence_score": 0.1245,
+    "confidence_type": "Model Softmax Score (Uncalibrated)",
+    "top_candidates": [
+      {
+        "disease": "Paralysis (brain hemorrhage)",
+        "confidence_score": 0.1245
+      },
+      {
+        "disease": "Hypertension ",
+        "confidence_score": 0.0692
+      },
+      {
+        "disease": "Vertigo",
+        "confidence_score": 0.0457
+      }
+    ],
+    "matched_symptoms": [
+      "headache"
+    ],
+    "unmatched_symptoms": [
+      "crystallized_skin",
+      "purple_aura"
+    ],
+    "active_symptom_count": 1,
+    "disclaimer": "RESEARCH DEMONSTRATION ONLY: This output is produced by an academic machine learning model as part of the TheraLens research project. It does NOT constitute clinical diagnosis, medical guidance, or healthcare advice. Consult licensed healthcare professionals for medical diagnosis and care."
+  },
+  "therapeutic_evidence": [
+    {
+      "similarity_context": {
+        "disease": "Paralysis (brain hemorrhage)",
+        "jaccard_similarity": 0.25,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.5,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "headache"
+        ],
+        "matching_symptoms": [
+          "headache"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "altered_sensorium",
+          "vomiting",
+          "weakness_of_one_body_side"
+        ],
+        "differing_reference_symptoms": [
+          "altered_sensorium",
+          "vomiting",
+          "weakness_of_one_body_side"
+        ],
+        "reference_total_symptoms": 4
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Paralysis (brain hemorrhage)",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Successfully retrieved 5 targets and 3 candidates.",
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "COL4A1",
+            "target_name": "collagen type IV alpha 1 chain",
+            "target_id": "ENSG00000187498",
+            "association_score": 0.8414,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "COL4A2",
+            "target_name": "collagen type IV alpha 2 chain",
+            "target_id": "ENSG00000134871",
+            "association_score": 0.5386,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "KAT6B",
+            "target_name": "lysine acetyltransferase 6B",
+            "target_id": "ENSG00000156650",
+            "association_score": 0.3495,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "FOXE3",
+            "target_name": "forkhead box E3",
+            "target_id": "ENSG00000186790",
+            "association_score": 0.0739,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "PAX6",
+            "target_name": "paired box 6",
+            "target_id": "ENSG00000007372",
+            "association_score": 0.0715,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "rank": 1,
+            "compound_name": "CHEMBL5928174",
+            "chembl_id": "CHEMBL5928174",
+            "target_symbol": "KAT6B",
+            "composite_priority_score": 0.6134,
+            "clinical_phase": 0.0,
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "median_pchembl": 9.59,
+            "molecular_weight": 444.5,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.1223,
+              "potency_contrib": 0.3261,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            }
+          },
+          {
+            "rank": 2,
+            "compound_name": "CHEMBL6063716",
+            "chembl_id": "CHEMBL6063716",
+            "target_symbol": "KAT6B",
+            "composite_priority_score": 0.6047,
+            "clinical_phase": 0.0,
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "median_pchembl": 9.44,
+            "molecular_weight": 480.4,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.1223,
+              "potency_contrib": 0.3173,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            }
+          },
+          {
+            "rank": 3,
+            "compound_name": "CHEMBL5815468",
+            "chembl_id": "CHEMBL5815468",
+            "target_symbol": "KAT6B",
+            "composite_priority_score": 0.5977,
+            "clinical_phase": 0.0,
+            "evidence_category": "Preclinical / In-Vitro Screened Lead",
+            "median_pchembl": 9.32,
+            "molecular_weight": 470.5,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.1223,
+              "potency_contrib": 0.3103,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.015
+            }
+          }
+        ],
+        "max_clinical_phase": 0.0,
+        "regulatory_maturity": "Preclinical / In-Vitro Discovery Stage (No Clinical-Stage Compounds)"
+      }
+    },
+    {
+      "similarity_context": {
+        "disease": "Hypertension",
+        "jaccard_similarity": 0.2,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.4472,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "headache"
+        ],
+        "matching_symptoms": [
+          "headache"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "chest_pain",
+          "dizziness",
+          "lack_of_concentration",
+          "loss_of_balance"
+        ],
+        "differing_reference_symptoms": [
+          "chest_pain",
+          "dizziness",
+          "lack_of_concentration",
+          "loss_of_balance"
+        ],
+        "reference_total_symptoms": 5
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Hypertension",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Successfully retrieved 5 targets and 3 candidates.",
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "AGTR1",
+            "target_name": "angiotensin II receptor type 1",
+            "target_id": "ENSG00000144891",
+            "association_score": 0.6297,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "ACE",
+            "target_name": "angiotensin I converting enzyme",
+            "target_id": "ENSG00000159640",
+            "association_score": 0.6231,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "REN",
+            "target_name": "renin",
+            "target_id": "ENSG00000143839",
+            "association_score": 0.6196,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "CACNA1C",
+            "target_name": "calcium voltage-gated channel subunit alpha1 C",
+            "target_id": "ENSG00000151067",
+            "association_score": 0.6184,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "SLC12A3",
+            "target_name": "solute carrier family 12 member 3",
+            "target_id": "ENSG00000070915",
+            "association_score": 0.6149,
+            "rank_within_disease": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "rank": 1,
+            "compound_name": "DEXMEDETOMIDINE",
+            "chembl_id": "CHEMBL778",
+            "target_symbol": "ADRA1D",
+            "composite_priority_score": 0.8556,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 10.82,
+            "molecular_weight": 200.3,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.2056,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            }
+          },
+          {
+            "rank": 2,
+            "compound_name": "TAMSULOSIN",
+            "chembl_id": "CHEMBL836",
+            "target_symbol": "ADRA1D",
+            "composite_priority_score": 0.8422,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 9.77,
+            "molecular_weight": 408.5,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.2056,
+              "potency_contrib": 0.3366,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            }
+          },
+          {
+            "rank": 3,
+            "compound_name": "CERIVASTATIN",
+            "chembl_id": "CHEMBL1477",
+            "target_symbol": "HMGCR",
+            "composite_priority_score": 0.8416,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 10.07,
+            "molecular_weight": 459.6,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.1916,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            }
+          }
+        ],
+        "max_clinical_phase": 4.0,
+        "regulatory_maturity": "Established Approved Therapies Exist (High Repurposing Potential)"
+      }
+    },
+    {
+      "similarity_context": {
+        "disease": "Vertigo",
+        "jaccard_similarity": 0.1667,
+        "overlap_coefficient": 1.0,
+        "cosine_similarity": 0.4082,
+        "shared_symptom_count": 1,
+        "shared_symptoms": [
+          "headache"
+        ],
+        "matching_symptoms": [
+          "headache"
+        ],
+        "query_only_symptoms": [],
+        "differing_query_symptoms": [],
+        "reference_only_symptoms": [
+          "loss_of_balance",
+          "nausea",
+          "spinning_movements",
+          "unsteadiness",
+          "vomiting"
+        ],
+        "differing_reference_symptoms": [
+          "loss_of_balance",
+          "nausea",
+          "spinning_movements",
+          "unsteadiness",
+          "vomiting"
+        ],
+        "reference_total_symptoms": 6
+      },
+      "therapeutic_evidence": {
+        "disease_name": "Vertigo",
+        "status": "EVIDENCE_RETRIEVED",
+        "message": "Successfully retrieved 5 targets and 3 candidates.",
+        "target_count": 5,
+        "candidate_count": 3,
+        "top_targets": [
+          {
+            "target_symbol": "HRH1",
+            "target_name": "histamine receptor H1",
+            "target_id": "ENSG00000196639",
+            "association_score": 0.5676,
+            "rank_within_disease": 1
+          },
+          {
+            "target_symbol": "CACNA1D",
+            "target_name": "calcium voltage-gated channel subunit alpha1 D",
+            "target_id": "ENSG00000157388",
+            "association_score": 0.4655,
+            "rank_within_disease": 2
+          },
+          {
+            "target_symbol": "CACNA1S",
+            "target_name": "calcium voltage-gated channel subunit alpha1 S",
+            "target_id": "ENSG00000081248",
+            "association_score": 0.4623,
+            "rank_within_disease": 3
+          },
+          {
+            "target_symbol": "CACNA1F",
+            "target_name": "calcium voltage-gated channel subunit alpha1 F",
+            "target_id": "ENSG00000102001",
+            "association_score": 0.462,
+            "rank_within_disease": 4
+          },
+          {
+            "target_symbol": "CACNA1C",
+            "target_name": "calcium voltage-gated channel subunit alpha1 C",
+            "target_id": "ENSG00000151067",
+            "association_score": 0.462,
+            "rank_within_disease": 4
+          }
+        ],
+        "top_candidates": [
+          {
+            "rank": 1,
+            "compound_name": "PYRILAMINE",
+            "chembl_id": "CHEMBL511",
+            "target_symbol": "HRH1",
+            "composite_priority_score": 0.8487,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 10.11,
+            "molecular_weight": 285.4,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.1987,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            }
+          },
+          {
+            "rank": 1,
+            "compound_name": "OLANZAPINE",
+            "chembl_id": "CHEMBL715",
+            "target_symbol": "HRH1",
+            "composite_priority_score": 0.8487,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 10.06,
+            "molecular_weight": 312.4,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.1987,
+              "potency_contrib": 0.35,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            }
+          },
+          {
+            "rank": 3,
+            "compound_name": "KETOTIFEN",
+            "chembl_id": "CHEMBL534",
+            "target_symbol": "HRH1",
+            "composite_priority_score": 0.8388,
+            "clinical_phase": 4.0,
+            "evidence_category": "Approved Drug (Repurposing Candidate)",
+            "median_pchembl": 9.83,
+            "molecular_weight": 309.4,
+            "drug_likeness_score": 1.0,
+            "is_negative_control_surrogate": false,
+            "score_breakdown": {
+              "target_association_contrib": 0.1987,
+              "potency_contrib": 0.3401,
+              "druglikeness_contrib": 0.15,
+              "clinical_evidence_contrib": 0.15
+            }
+          }
+        ],
+        "max_clinical_phase": 4.0,
+        "regulatory_maturity": "Established Approved Therapies Exist (High Repurposing Potential)"
+      }
+    }
+  ],
+  "development_forecast": {
+    "status": "FORECAST_GENERATED",
+    "can_forecast": true,
+    "emerging_disease": "Alien_Condition",
+    "reference_disease": "Paralysis (brain hemorrhage)",
+    "symptom_similarity": 0.25,
+    "lead_candidate": {
+      "compound_name": "CHEMBL5928174",
+      "target_symbol": "KAT6B",
+      "current_clinical_phase": 0.0,
+      "composite_priority_score": 0.6134
+    },
+    "pathway_type": "De Novo Discovery from Preclinical Lead",
+    "pathway_explanation": "Only in-vitro screened hits exist for target 'KAT6B'. Requires full de novo preclinical lead optimization before entering clinical trials.",
+    "phases_to_complete": [
+      "preclinical",
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "fda_review"
+    ],
+    "base_evaluation_year": 2026,
+    "baseline_duration_years": 15.1,
+    "estimated_availability_year": 2041,
+    "plausible_range": [
+      2034,
+      2050
+    ],
+    "cumulative_pipeline_success_rate_pct": 4.4,
+    "similarity_discounted_success_pct": 1.1,
+    "scenarios": {
+      "baseline": {
+        "scenario_name": "Historical Industry Baseline",
+        "speedup_pct": 0,
+        "projected_duration_years": 15.1,
+        "estimated_milestone_year": 2041,
+        "plausible_window": [
+          2034,
+          2050
+        ],
+        "scenario_description": "Conventional drug development adhering strictly to historical DiMasi / Hay median durations with traditional trial protocols."
+      },
+      "moderate": {
+        "scenario_name": "Moderate Technological Progress (Enhanced Screening & Biomarkers)",
+        "speedup_pct": 15,
+        "projected_duration_years": 12.8,
+        "estimated_milestone_year": 2039,
+        "plausible_window": [
+          2033,
+          2046
+        ],
+        "scenario_description": "15% duration reduction in discovery and Phase 1-2 via automated phenotypic screening and genomic biomarker patient stratification."
+      },
+      "aggressive": {
+        "scenario_name": "Aggressive AI & Adaptive Platform Acceleration (Breakthrough Paradigm)",
+        "speedup_pct": 30,
+        "projected_duration_years": 10.6,
+        "estimated_milestone_year": 2037,
+        "plausible_window": [
+          2032,
+          2043
+        ],
+        "scenario_description": "30% duration reduction via generative de novo molecular design, in-silico ADMET toxicity modeling, and multi-arm adaptive platform trial designs."
+      }
+    },
+    "data_limitations": [
+      "Projections assume candidate progresses through standard sequential clinical trials.",
+      "Efficacy against the emerging disease is an unverified computational hypothesis.",
+      "Clinical trial failure / safety attrition rates exceed 85% for early-stage candidates.",
+      "Actual approval timeline depends on regulatory emergency designations (EUA, Fast Track)."
+    ]
+  },
+  "future_year_forecast": {
+    "status": "FORECAST_GENERATED",
+    "can_forecast": true,
+    "emerging_disease": "Alien_Condition",
+    "reference_disease": "Paralysis (brain hemorrhage)",
+    "symptom_similarity": 0.25,
+    "lead_candidate": {
+      "compound_name": "CHEMBL5928174",
+      "target_symbol": "KAT6B",
+      "current_clinical_phase": 0.0,
+      "composite_priority_score": 0.6134
+    },
+    "pathway_type": "De Novo Discovery from Preclinical Lead",
+    "pathway_explanation": "Only in-vitro screened hits exist for target 'KAT6B'. Requires full de novo preclinical lead optimization before entering clinical trials.",
+    "phases_to_complete": [
+      "preclinical",
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "fda_review"
+    ],
+    "base_evaluation_year": 2026,
+    "baseline_duration_years": 15.1,
+    "estimated_availability_year": 2041,
+    "plausible_range": [
+      2034,
+      2050
+    ],
+    "cumulative_pipeline_success_rate_pct": 4.4,
+    "similarity_discounted_success_pct": 1.1,
+    "scenarios": {
+      "baseline": {
+        "scenario_name": "Historical Industry Baseline",
+        "speedup_pct": 0,
+        "projected_duration_years": 15.1,
+        "estimated_milestone_year": 2041,
+        "plausible_window": [
+          2034,
+          2050
+        ],
+        "scenario_description": "Conventional drug development adhering strictly to historical DiMasi / Hay median durations with traditional trial protocols."
+      },
+      "moderate": {
+        "scenario_name": "Moderate Technological Progress (Enhanced Screening & Biomarkers)",
+        "speedup_pct": 15,
+        "projected_duration_years": 12.8,
+        "estimated_milestone_year": 2039,
+        "plausible_window": [
+          2033,
+          2046
+        ],
+        "scenario_description": "15% duration reduction in discovery and Phase 1-2 via automated phenotypic screening and genomic biomarker patient stratification."
+      },
+      "aggressive": {
+        "scenario_name": "Aggressive AI & Adaptive Platform Acceleration (Breakthrough Paradigm)",
+        "speedup_pct": 30,
+        "projected_duration_years": 10.6,
+        "estimated_milestone_year": 2037,
+        "plausible_window": [
+          2032,
+          2043
+        ],
+        "scenario_description": "30% duration reduction via generative de novo molecular design, in-silico ADMET toxicity modeling, and multi-arm adaptive platform trial designs."
+      }
+    },
+    "data_limitations": [
+      "Projections assume candidate progresses through standard sequential clinical trials.",
+      "Efficacy against the emerging disease is an unverified computational hypothesis.",
+      "Clinical trial failure / safety attrition rates exceed 85% for early-stage candidates.",
+      "Actual approval timeline depends on regulatory emergency designations (EUA, Fast Track)."
+    ]
+  },
+  "research_conclusions": {
+    "strongest_matches": [
+      {
+        "disease": "Paralysis (brain hemorrhage)",
+        "jaccard": 0.25
+      },
+      {
+        "disease": "Hypertension",
+        "jaccard": 0.2
+      },
+      {
+        "disease": "Vertigo",
+        "jaccard": 0.1667
+      }
+    ],
+    "forecast_status": "FORECAST_GENERATED",
+    "estimated_year": 2041,
+    "plausible_range": [
+      2034,
+      2050
+    ]
+  },
+  "disclaimer": "RESEARCH DEMONSTRATION & TRANSLATIONAL EXPLORATION ONLY:\nTheraLens is an exploratory computational research-support tool developed for academic evaluation. Symptom similarity does NOT establish disease identity or shared etiology. Therapeutic target associations and candidate prioritization scores do NOT establish clinical efficacy, safety, or regulatory approval. Projected milestone decision windows are multi-scenario research estimates, NOT guaranteed drug approval dates. Output is NOT intended for clinical diagnosis, prescribing, or patient care."
+}

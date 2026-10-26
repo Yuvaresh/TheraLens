@@ -268,7 +268,9 @@ def plot_prioritization_visualizations(candidates_df: pd.DataFrame, targets_df: 
         data=top_per_disease,
         x="composite_priority_score",
         y="label",
+        hue="label",
         palette="viridis",
+        legend=False,
         ax=ax,
     )
     ax.set_title("Top-Ranked Therapeutic Candidate Molecules Across Representative Diseases", fontsize=13, weight="bold")
@@ -337,7 +339,9 @@ def plot_prioritization_visualizations(candidates_df: pd.DataFrame, targets_df: 
         data=top_target_per_disease,
         x="association_score",
         y="local_disease",
+        hue="local_disease",
         palette="crest",
+        legend=False,
         ax=ax,
     )
     ax.set_title("Strongest Biological Drug Target Association by Disease", fontsize=13, weight="bold")

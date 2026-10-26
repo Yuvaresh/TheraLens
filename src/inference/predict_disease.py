@@ -18,8 +18,10 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Union, Any
 
+import warnings
 import joblib
 import numpy as np
+import sklearn
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 MODEL_PATH = PROJECT_ROOT / "models" / "symptom_classifier.joblib"
@@ -56,7 +58,18 @@ class DiseasePredictor:
         if not feature_path.exists():
             raise FileNotFoundError(f"Feature names file not found at {feature_path}.")
             
+        # Transparently load model and check version alignment
         self.model = joblib.load(model_path)
+        model_version = getattr(self.model, "_sklearn_version", None)
+        current_version = getattr(sklearn, "__version__", "unknown")
+        if model_version and model_version != current_version:
+            logger.info(
+                "Environment notice: Model serialized with scikit-learn %s; current runtime is %s. "
+                "To regenerate native model artifacts under current runtime, run: python src/models/train_symptom_classifier.py",
+                model_version,
+                current_version,
+            )
+
         with open(feature_path, "r", encoding="utf-8") as f:
             self.feature_names = json.load(f)
             
@@ -186,11 +199,32 @@ def parse_args():
         default=3,
         help="Number of top candidate diagnoses to return",
     )
+    parser.add_argument(
+        "--forecast",
+        "--full",
+        dest="run_forecast",
+        action="store_true",
+        help="Run the complete end-to-end TheraLens pipeline (symptom similarity -> therapeutic evidence -> development forecast)",
+    )
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_args()
+
+    if args.run_forecast:
+        # Seamlessly hand off to the unified end-to-end pipeline
+        from src.inference.forecast_emerging_disease import TheraLensUnifiedOrchestrator
+        orchestrator = TheraLensUnifiedOrchestrator()
+        report = orchestrator.analyze_emerging_disease(
+            symptom_input=args.symptoms,
+            disease_name="Emerging_Clinical_Query",
+            top_k_diseases=args.top_k,
+        )
+        orchestrator.print_console_summary(report)
+        orchestrator.save_report(report)
+        sys.exit(0)
+
     predictor = DiseasePredictor()
     result = predictor.predict(args.symptoms, top_k=args.top_k)
     
@@ -207,6 +241,11 @@ if __name__ == "__main__":
     print("\nTop Candidate Differential Diagnoses:")
     for i, c in enumerate(result["top_candidates"], 1):
         print(f"  {i}. {c['disease']:<32} Score: {c['confidence_score']:.4f}")
+    print("-" * 65)
+    print("[NOTE] This is a closed-world classifier baseline. To run the full")
+    print("open-world emerging disease analysis with therapeutic evidence & timeline")
+    print("forecasting, rerun with: python src/inference/predict_disease.py --forecast")
+    print("or: python src/inference/forecast_emerging_disease.py --symptoms \"...\"")
     print("-" * 65)
     print(f"DISCLAIMER:\n{result['disclaimer']}")
     print("=" * 65 + "\n")

@@ -1,5 +1,5 @@
 {
-  "execution_timestamp": "2026-10-11T12:50:13Z",
+  "execution_timestamp": "2026-10-26T01:29:53Z",
   "modules_executed": {
     "symptom_classifier": {
       "status": "SUCCESS",
@@ -7,39 +7,39 @@
       "accuracy": 1.0,
       "macro_f1": 1.0,
       "reloaded_verified": true,
-      "elapsed_sec": 6.54
+      "elapsed_sec": 22.26
     },
     "therapeutic_prioritization": {
       "status": "SUCCESS",
       "ranked_targets_count": 3636,
       "ranked_candidates_count": 25650,
       "top_candidate": "AIDS -> MEDROXYPROGESTERONE ACETATE (CPS=0.7689)",
-      "elapsed_sec": 4.9
+      "elapsed_sec": 10.36
     },
     "epidemiological_analysis": {
       "status": "SUCCESS",
       "total_records": 5426,
       "surges_detected": 224,
       "forecasting_period": "2015 - 2024 (N=10 years)",
-      "elapsed_sec": 2.51
+      "elapsed_sec": 6.0
     },
     "timeline_validation": {
       "status": "SUCCESS",
       "total_timeline_rows": 555323,
       "unique_disease_molecule_milestones": 30430,
       "verified_phase4_milestones": 72277,
-      "elapsed_sec": 4.56
+      "elapsed_sec": 17.88
     },
     "experimental_forecast": {
       "status": "SUCCESS",
       "diseases_assessed": 37,
       "median_forecast_horizon_years": 2,
-      "elapsed_sec": 2.11
+      "elapsed_sec": 2.21
     },
     "explainability": {
       "status": "SUCCESS",
       "top_influential_symptom": "vomiting",
-      "elapsed_sec": 6.97
+      "elapsed_sec": 11.32
     }
   },
   "modules_skipped": {},
